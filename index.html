@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GROWTH ROOM - Kantor Agen (LIVE)</title>
+<style>
+:root{
+  --bg:#070a12; --bg2:#0d1424; --panel:#111a2e; --line:#22304d;
+  --neon:#39ff14; --cy:#00e5ff; --am:#ffb300; --pk:#ff2d95; --rd:#ff3b3b;
+  --txt:#cfe0ff; --dim:#6f83a8;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:
+    radial-gradient(1200px 600px at 50% -10%, #16224a 0%, transparent 60%),
+    linear-gradient(#070a12,#04060c 70%);
+  color:var(--txt);
+  font-family:"Consolas","Courier New",monospace;
+  min-height:100vh; padding:14px;
+}
+.crt{position:fixed;inset:0;pointer-events:none;z-index:99;
+  background:repeating-linear-gradient(0deg,rgba(0,0,0,.20) 0 1px,transparent 1px 3px);
+  mix-blend-mode:multiply;opacity:.5}
+.crt:after{content:"";position:absolute;inset:0;
+  background:radial-gradient(120% 90% at 50% 50%,transparent 55%,rgba(0,0,0,.65));}
+.wrap{max-width:1180px;margin:0 auto}
+.hud{display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  padding:10px 14px;background:linear-gradient(#101a30,#0b1322);
+  border:3px solid #0a0f1a;box-shadow:0 0 0 3px var(--line),0 6px 0 #060a12;border-radius:10px}
+.title{font-size:18px;font-weight:bold;letter-spacing:2px;color:var(--neon);
+  text-shadow:0 0 10px rgba(57,255,20,.55)}
+.sub{font-size:11px;color:var(--dim)}
+.led{width:12px;height:12px;border-radius:50%;background:var(--neon);
+  box-shadow:0 0 12px var(--neon);animation:pulse 1.6s infinite}
+.led.off{background:var(--rd);box-shadow:0 0 12px var(--rd);animation:none}
+.hud .spacer{flex:1}
+.chip{font-size:11px;padding:4px 9px;border:2px solid var(--line);border-radius:7px;background:#0a1220}
+.chip b{color:#fff}
+.chip.live{border-color:var(--neon);color:var(--neon)}
+.grid{display:grid;grid-template-columns:250px 1fr 290px;gap:14px;margin-top:14px}
+@media(max-width:980px){.grid{grid-template-columns:1fr}}
+.panel{background:linear-gradient(#0f1830,#0b1322);border:3px solid #0a0f1a;
+  box-shadow:0 0 0 3px var(--line);border-radius:10px;padding:12px}
+.ptitle{font-size:11px;letter-spacing:2px;color:var(--cy);margin-bottom:8px;
+  text-transform:uppercase;border-bottom:1px dashed var(--line);padding-bottom:6px}
+.room{position:relative;height:430px;overflow:hidden;border-radius:10px;
+  border:3px solid #0a0f1a;box-shadow:0 0 0 3px var(--line);
+  background:
+    linear-gradient(#0c1730 0%, #0a1123 55%, #060a14 55%, #04070e 100%);}
+.floor{position:absolute;left:0;right:0;bottom:0;height:45%;
+  background:repeating-linear-gradient(90deg,transparent 0 39px,rgba(0,229,255,.08) 39px 40px),
+             repeating-linear-gradient(0deg,transparent 0 30px,rgba(0,229,255,.08) 30px 31px);
+  transform:perspective(340px) rotateX(58deg);transform-origin:bottom center}
+.wall{position:absolute;inset:0}
+.screenwall{position:absolute;left:50%;top:26px;transform:translateX(-50%);
+  width:210px;height:110px;border:4px solid #0a0f1a;border-radius:8px;
+  background:linear-gradient(#052033,#021018);box-shadow:0 0 26px rgba(0,229,255,.35);
+  display:flex;align-items:center;justify-content:center;font-size:10px;color:#1de9b6;overflow:hidden}
+.scan{position:absolute;left:0;right:0;height:16px;background:linear-gradient(transparent,rgba(0,229,255,.25),transparent);
+  animation:scan 3.2s linear infinite}
+.bars{font-size:9px;line-height:1.35;color:#19c8a3;white-space:pre;opacity:.9}
+.npc{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);
+  width:130px;height:190px;animation:bob 2.6s ease-in-out infinite}
+.npc *{position:absolute}
+.ant{left:50%;top:0;transform:translateX(-50%);width:5px;height:22px;background:#8ea3c7}
+.ant i{left:50%;top:-9px;transform:translateX(-50%);width:14px;height:14px;border-radius:50%;
+  background:var(--cy);box-shadow:0 0 16px var(--cy);animation:pulse 1.3s infinite}
+.head{left:50%;top:20px;transform:translateX(-50%);width:100px;height:72px;
+  background:linear-gradient(#e7eeff,#aebcdd);border:4px solid #0a0f1a;border-radius:16px}
+.eye{top:24px;width:15px;height:15px;border-radius:50%;background:var(--cy);
+  box-shadow:0 0 14px var(--cy);animation:blink 4s infinite}
+.eye.l{left:18px}.eye.r{right:18px}
+.mouth{left:50%;bottom:12px;transform:translateX(-50%);width:34px;height:7px;background:#0a0f1a;border-radius:4px}
+.body{left:50%;top:96px;transform:translateX(-50%);width:104px;height:66px;
+  background:linear-gradient(#cdd9f2,#8fa1c8);border:4px solid #0a0f1a;border-radius:14px}
+.core{left:50%;top:50%;transform:translate(-50%,-50%);width:26px;height:26px;border-radius:50%;
+  background:var(--neon);box-shadow:0 0 18px var(--neon);animation:pulse 1.6s infinite}
+.arm{top:104px;width:20px;height:52px;background:#9fb0cf;border:4px solid #0a0f1a;border-radius:9px}
+.arm.l{left:2px;transform-origin:top center;animation:typeL .5s infinite}
+.arm.r{right:2px;transform-origin:top center;animation:typeR .5s infinite}
+.leg{top:160px;width:24px;height:30px;background:#8fa1c8;border:4px solid #0a0f1a;border-radius:7px}
+.leg.l{left:26px}.leg.r{right:26px}
+.bubble{position:absolute;left:50%;top:12px;transform:translateX(-50%);
+  background:#0a1220;border:3px solid var(--line);border-radius:12px;padding:8px 12px;
+  font-size:12px;max-width:340px;text-align:center;box-shadow:0 0 0 2px #060a12;
+  transition:border-color .3s}
+.bubble:after{content:"";position:absolute;bottom:-10px;left:50%;transform:translateX(-50%);
+  border:9px solid transparent;border-top-color:var(--line)}
+.badge{position:absolute;left:50%;bottom:6px;transform:translateX(-50%);
+  font-size:11px;letter-spacing:2px;padding:4px 12px;border-radius:20px;
+  border:2px solid var(--line);background:#0a1220}
+.fx{position:absolute;font-size:22px;opacity:0}
+.zzz{right:6px;top:34px}.qm{right:2px;top:30px}.em{left:2px;top:26px}
+.s-ISTIRAHAT .npc{animation:bobSlow 4s ease-in-out infinite}
+.s-ISTIRAHAT .eye{height:3px;border-radius:2px;animation:none;top:30px}
+.s-ISTIRAHAT .core{background:var(--am);box-shadow:0 0 14px var(--am)}
+.s-ISTIRAHAT .ant i{background:var(--am);box-shadow:0 0 14px var(--am)}
+.s-ISTIRAHAT .zzz{animation:floatUp 3.2s ease-in-out infinite}
+.s-ISTIRAHAT .arm{animation:none}
+.s-ISTIRAHAT .badge{color:var(--am);border-color:var(--am)}
+.s-ISTIRAHAT .bubble{border-color:var(--am)}
+.s-BEKERJA .badge{color:var(--neon);border-color:var(--neon)}
+.s-BEKERJA .bubble{border-color:var(--neon)}
+.s-BEKERJA .eye{animation:blink 4s infinite,glow 1.2s infinite}
+.s-SIBUK .npc{animation:shake .18s infinite}
+.s-SIBUK .core{background:var(--pk);box-shadow:0 0 22px var(--pk)}
+.s-SIBUK .ant i{background:var(--pk);box-shadow:0 0 20px var(--pk)}
+.s-SIBUK .em{animation:pop .7s infinite;color:var(--pk)}
+.s-SIBUK .badge{color:var(--pk);border-color:var(--pk)}
+.s-SIBUK .bubble{border-color:var(--pk)}
+.s-SIBUK .screenwall{box-shadow:0 0 40px rgba(255,45,149,.6);border-color:#1a0a12}
+.s-BINGUNG .npc{animation:wobble 1.4s ease-in-out infinite;transform:translateX(-50%)}
+.s-BINGUNG .eye{background:var(--rd);box-shadow:0 0 14px var(--rd)}
+.s-BINGUNG .core{background:var(--rd);box-shadow:0 0 18px var(--rd)}
+.s-BINGUNG .qm{animation:pop 1.1s infinite;color:var(--rd)}
+.s-BINGUNG .badge{color:var(--rd);border-color:var(--rd)}
+.s-BINGUNG .bubble{border-color:var(--rd)}
+@keyframes bob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-8px)}}
+@keyframes bobSlow{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-4px)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+@keyframes glow{0%,100%{filter:none}50%{filter:brightness(1.6)}}
+@keyframes shake{0%{transform:translateX(-50%) rotate(-1.5deg)}50%{transform:translateX(-52%) rotate(1.5deg)}100%{transform:translateX(-50%) rotate(-1.5deg)}}
+@keyframes wobble{0%,100%{transform:translateX(-50%) rotate(-7deg)}50%{transform:translateX(-50%) rotate(7deg)}}
+@keyframes typeL{0%,100%{transform:rotate(6deg)}50%{transform:rotate(-14deg)}}
+@keyframes typeR{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(14deg)}}
+@keyframes floatUp{0%{opacity:0;transform:translateY(6px)}30%{opacity:1}100%{opacity:0;transform:translateY(-26px)}}
+@keyframes pop{0%,100%{opacity:.2;transform:scale(.85)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes scan{0%{top:-16px}100%{top:110px}}
+.stat{display:flex;justify-content:space-between;font-size:12px;padding:6px 0;border-bottom:1px dashed #1b2740}
+.stat span:last-child{color:#fff}
+.big{font-size:22px;font-weight:bold;color:var(--neon);text-shadow:0 0 10px rgba(57,255,20,.4)}
+.trend{font-size:11.5px;padding:7px 8px;margin-bottom:6px;background:#0a1220;border-left:3px solid var(--cy);border-radius:5px;line-height:1.35}
+.trend a{color:var(--txt);text-decoration:none}
+.trend:hover{border-left-color:var(--neon)}
+.log{height:180px;overflow:auto;font-size:11px;line-height:1.7;background:#05080f;border:2px solid var(--line);border-radius:8px;padding:8px}
+.log div:before{content:"> ";color:var(--neon)}
+.log div.bad{color:#ffb3b3}.log div.bad:before{color:var(--rd)}
+.log div.ok:before{color:var(--neon)}
+.log div.warn:before{color:var(--am)}
+.foot{margin-top:14px;font-size:10.5px;color:var(--dim);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.kbd{color:var(--cy)}
+.hist{font-size:10.5px;color:var(--dim);max-height:96px;overflow:auto;margin-top:8px;border-top:1px dashed var(--line);padding-top:6px}
+.hist div{padding:2px 0}
+.newflash{animation:flash .9s}
+@keyframes flash{0%{background:#1b3a1b}100%{background:transparent}}
+</style>
+</head>
+<body>
+<div class="crt"></div>
+<div class="wrap">
+  <div class="hud">
+    <span class="led" id="live-led"></span>
+    <div>
+      <div class="title">GROWTH ROOM</div>
+      <div class="sub">Kantor Agen &middot; Sutradara Animasi &amp; Analis YouTube</div>
+    </div>
+    <span class="spacer"></span>
+    <span class="chip live" id="live-chip">&#9679; LIVE</span>
+    <span class="chip">Shift <b>12 jam</b></span>
+    <span class="chip">Status <b id="hud-status">Agen butuh bantuan</b></span>
+    <span class="chip">Jam <b id="clk">--:--</b></span>
+  </div>
+
+  <div class="grid">
+    <div class="panel">
+      <div class="ptitle">Metrik Channel</div>
+      <div class="stat"><span>Video terbaru</span></div>
+      <div style="font-size:11.5px;color:#fff;margin-bottom:6px" id="m-title">(belum ada data)</div>
+      <div class="stat"><span>Views terbaru</span><span class="big" id="m-views">-</span></div>
+      <div class="stat"><span>Rata-rata 7</span><span id="m-avg">-</span></div>
+      <div class="stat"><span>Perubahan</span><span id="m-delta">-</span></div>
+      <div class="ptitle" style="margin-top:14px">Kesehatan Sistem</div>
+      <div class="stat"><span>Kunci API</span><span id="k-key">VALID</span></div>
+      <div class="stat"><span>Channel ID</span><span id="k-ch">belum diisi</span></div>
+      <div class="stat"><span>Discord</span><span id="k-dc">#general | -</span></div>
+      <div class="stat"><span>Run terakhir</span><span style="font-size:11px" id="k-run">2026-10-09 20:47 UTC</span></div>
+    </div>
+
+    <div class="room s-BINGUNG" id="room">
+      <div class="wall"></div>
+      <div class="screenwall">
+        <div class="scan"></div>
+        <div class="bars" id="mon-bars">[ MENUNGGU ]
+[ CHANNEL ID ]
+
+  ISI SECRET</div>
+      </div>
+      <div class="floor"></div>
+      <div class="bubble" id="npc-bubble">Channel ID YouTube belum diisi. Aku belum bisa baca metrik channelmu.</div>
+      <div class="npc">
+        <div class="ant"><i></i></div>
+        <div class="head"><span class="eye l"></span><span class="eye r"></span><span class="mouth"></span></div>
+        <div class="body"><span class="core"></span></div>
+        <div class="arm l"></div><div class="arm r"></div>
+        <div class="leg l"></div><div class="leg r"></div>
+      </div>
+      <div class="fx zzz">z z Z</div>
+      <div class="fx qm">?</div>
+      <div class="fx em">!</div>
+      <div class="badge" id="npc-badge">BINGUNG &middot; TANYA</div>
+    </div>
+
+    <div class="panel">
+      <div class="ptitle">Peluang Tren (live)</div>
+      <div style="max-height:400px;overflow:auto" id="trends"><div class="trend"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9pQnVxd1RvalU4V3B1bmFfdUd0aFhkbE1rZGpfU3ZCdHo5Z0tscElKNTZBeF82azNaMU4wQjVoTWo1S0RYR0FsME1CN01WanZ6dkFHYzBtTERzWWpZUDZad1ZGQjF4MzRrbm8yN081ZV9XQQ?oc=5" target="_blank">roblox's animal hospital [A&amp;C] - Brown Daily Herald</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE80OWNYMkktckI1TFlwZHdtTXhLZWo4Uk1GOUtiR190NW42d3FuZFVxU3JxSnZHTHNHVVJUSE5tQll0bU1NSnB5N1VPRF9vU09OOTRGZWFlNnlyVXJ0aENXa0RzNDY?oc=5" target="_blank">How to Use Emotes in Roblox - Technobezz</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNMTFoX0VpNTJ3Mk1WQUM5bWdZSzVYWEwxUTUwXzk2V01YcTlIOGxERUNMT2U2SkU2aXpjOERLUEkwWndCSS1jcDJLWkRURmFNM1c1R2gtREJiWmlKNDZUTm9kQUsxa0o2YWZTX3RXb3pheXUyOG9Pa3RFWjY0dUpRdWtwRFlRLUxBaVJQeEFiRQ?oc=5" target="_blank">Growing in Limestone County Save a Seed, Grow a Garden - mexiadailynews.com</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5" target="_blank">Steal a Brainrot Plant Bros guide - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTkFRaU5RSUhNalBVR0VaYnZ4dC1vNktFdDhvTmdnWW1kRWdDMUR3anBQMVFMbzdYRkwxZVJNa1V1TjcyWWFEb3BXR3NiZk93cmtCbFZKekpTUENwNjBoVE1Mb1YtM2U3ZlVtQ3Rn?oc=5" target="_blank">Grow a Garden 2 codes (September 2026) - Dexerto</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5mc0tYLUVuQkNMamgydVpuU3RoV3lrNWVoT05JQUdpQy1JQmc1eWZDdlpLUlVUb1k2TUZnRTR4WEZhWXBVSDNWUjZDZzJuM01VTWxEX0JxZzlTUVAyQ0hTN3FsRHhxazBQS2sxblJjTDUtT0tOakRF?oc=5" target="_blank">Steal a Brainrot Phoenix guide - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5" target="_blank">How to find Steal a Brainrot 67 &amp; drop rate - Dexerto</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUnpjX0RmaURpOExCNGlQNEtzWEdVVklfWFpVNFdEQ19RdDV6ZGZqc3BQbEFFRC1WblN5akJtSVVROVRvblFXREFRb2xJbFNiR2FOM3FFM1I3bWlQbVU3UUNfUkI0R3NJcmdkWV9Gc0RoTFF1RlRaVUU0NVh2dUZSdjVISXNhRS1O?oc=5" target="_blank">Grow a Garden Everfallen Pet Mutation guide - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBJa0dHczhES1BEX0NaRWZNUlhHY1RLQzZqRzBCLXlhRGthQU1lZmJFRzctYVZPZlpYNktjWmRyc1o1RzFEOGJSR1p6Z05SNWlxdzJuVVgxRGtfa3NLbDBEMElTWHBNb1RUQU1vcEhpZkZHVXktdWhn?oc=5" target="_blank">Grow a Garden Maple Melt guide - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY0JPaF9PbDQ4RXRRZjB5WEdNdm9zRGdsRDNyd3gzUmR6R0ZONDNmOHNRN2tEQktUYUx5clEwam5rb1NNT1JJakl0ZGZxRjNDU2lYdS1BNkRDaEpjYXFsVEtiM3hESGtHS1QzYUNhcGtLemN4WXMycFBxdDNraFNHd2VPNDhUVlhtd3N3?oc=5" target="_blank">Taco Tuesday Steal a Brainrot time in India (October 7, 2026) - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBGa3ZsZ2s1MkpDUHAzbnAzUnVtVjJHcWlDX0ozRWtfOGpTaWpZUEhaWWJaeU1SZkN4emtHcWhHU2I4RzQyNGE4THdZc2U2RHg4eFhMeWRzenQwWGtqaGZxREFOVlNCdmV2UXJCd1Z2MGtuSmJqbGc?oc=5" target="_blank">Grow a Garden Scarecrow guide - Sportskeeda</a></div></div>
+      <div class="ptitle" style="margin-top:10px">Riwayat Pesan Agen</div>
+      <div class="hist" id="hist"><div>[10-09 20:47] Channel ID YouTube belum diisi. Aku belum bisa baca metrik channelmu.</div></div>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:14px">
+    <div class="ptitle">Log Aktivitas</div>
+    <div class="log" id="log"><div class="ok">10-09 20:37  Cek API key: VALID</div><div class="ok">10-09 20:37  Metrik dilewati (butuh API key valid + channel_id)</div><div class="warn">10-09 20:37  11 tren baru terdeteksi</div><div class="ok">10-09 20:37  Discord: terkirim</div><div class="ok">10-09 20:37  Cek API key: VALID</div><div class="ok">10-09 20:37  Metrik dilewati (butuh API key valid + channel_id)</div><div class="bad">10-09 20:37  OK: tidak ada sinyal (senyap)</div><div class="ok">10-09 20:47  Cek API key: VALID</div><div class="ok">10-09 20:47  Metrik dilewati (butuh API key valid + channel_id)</div><div class="bad">10-09 20:47  OK: tidak ada sinyal (senyap)</div></div>
+  </div>
+
+  <div class="foot">
+    <span>Live feed: <span class="kbd">feed.json</span> &middot; auto-refresh 8s &middot; cron <span class="kbd">0 */12 * * *</span></span>
+    <span>Render: <span id="rendered">2026-10-10 03:47</span> &middot; <span id="feed-src">-</span></span>
+  </div>
+</div>
+
+<script>
+function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+function p2(x){return String(x).padStart(2,"0");}
+function tick(){var n=new Date();document.getElementById("clk").textContent=p2(n.getHours())+":"+p2(n.getMinutes())+":"+p2(n.getSeconds());}
+setInterval(tick,1000);tick();
+
+var lastTs=0;
+function apply(d){
+  if(!d||!d.state) return;
+  if(d.ts && d.ts<lastTs) return;
+  if(d.ts) lastTs=d.ts;
+  var room=document.getElementById("room");
+  room.className="room s-"+d.state;
+  document.getElementById("npc-bubble").innerHTML=esc(d.task||"");
+  var badge=document.getElementById("npc-badge");
+  badge.innerHTML=esc(d.state)+" \u00b7 "+esc(d.stateid||"ID-01");
+  document.getElementById("mon-bars").textContent=d.screen_text||"";
+  if(d.status_text) document.getElementById("hud-status").textContent=d.status_text;
+  var m=d.metrics||{};
+  document.getElementById("m-title").textContent=m.last_title||"(belum ada data)";
+  document.getElementById("m-views").textContent=m.last_views!=null?m.last_views:"-";
+  document.getElementById("m-avg").textContent=m.avg7!=null?m.avg7:"-";
+  document.getElementById("m-delta").textContent=m.delta_pct||"-";
+  document.getElementById("k-key").textContent=d.api_key_ok?"VALID":"TIDAK VALID";
+  document.getElementById("k-ch").textContent=d.channel_id||"belum diisi";
+  var dc=d.discord||{};
+  document.getElementById("k-dc").textContent=(dc.channel||"-")+(dc.detail?(" | "+dc.detail):"");
+  document.getElementById("k-run").textContent=d.last_run||"-";
+  document.getElementById("rendered").textContent=d.rendered||"-";
+  document.getElementById("feed-src").textContent=d.source?("sumber: "+d.source):"-";
+  if(d.trends&&d.trends.length){
+    var h="";for(var i=0;i<d.trends.length;i++){var t=d.trends[i];
+      h+='<div class="trend"><a href="'+esc(t.link||"#")+'" target="_blank">'+esc(t.title||"")+'</a></div>';}
+    document.getElementById("trends").innerHTML=h;
+  }
+  if(d.events&&d.events.length){
+    var g="";var ev=d.events.slice(-22);
+    for(var j=0;j<ev.length;j++){var msg=esc(ev[j].msg||"");var low=msg.toLowerCase();
+      var cls=("gagal"in low||"tidak"in low)?"bad":(("terkirim"in low||"valid"in low)?"ok":"warn");
+      g+='<div class="'+cls+'">'+esc(ev[j].t||"")+"  "+msg+"</div>";}
+    document.getElementById("log").innerHTML=g;
+  }
+  if(d.messages&&d.messages.length){
+    var hh="";var ms=d.messages.slice(-8);
+    for(var k=0;k<ms.length;k++){hh+='<div>['+esc(ms[k].t||"")+"] "+esc(ms[k].text||"")+"</div>";}
+    document.getElementById("hist").innerHTML=hh;
+  }
+  var led=document.getElementById("live-led");
+  led.className="led"+(d.state==="BINGUNG"?" off":"");
+}
+function poll(){
+  var url="feed.json?t="+Date.now();
+  fetch(url,{cache:"no-store"}).then(function(r){return r.json();}).then(apply).catch(function(){});
+  fetch("push.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(apply).catch(function(){});
+}
+poll();setInterval(poll,8000);
+</script>
+</body>
+</html>
