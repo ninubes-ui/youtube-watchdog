@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+secrets.txt
+KUNCI_UNTUK_GITHUB.txt
