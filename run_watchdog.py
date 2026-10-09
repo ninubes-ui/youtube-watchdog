@@ -668,7 +668,8 @@ def main():
           "discord": {"ok": sent_ok, "channel": d_name, "detail": sent_detail},
           "alert": {"metric": bool(metric_alert), "trend": bool(trend_alert)},
           "screen_text": screen}
-    build_dashboard(st, DASH_PATH)
+    # index.html DIKELOLA MANUAL (UI chat) — jangan ditimpa oleh watchdog.
+    # build_dashboard(st, DASH_PATH)  # <- dimatikan sengaja
     build_feed(st, FEED_PATH, "github-actions")
 
     st_file.update({"events": events[-40:], "trends": trends_prev,
