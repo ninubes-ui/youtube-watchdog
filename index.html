@@ -39,7 +39,17 @@ body{
 .chip{font-size:11px;padding:4px 9px;border:2px solid var(--line);border-radius:7px;background:#0a1220}
 .chip b{color:#fff}
 .chip.live{border-color:var(--neon);color:var(--neon)}
-.grid{display:grid;grid-template-columns:250px 1fr 290px;gap:14px;margin-top:14px}
+
+/* ---- TAB NAV ---- */
+.tabs{display:flex;gap:8px;margin:14px 0 0;flex-wrap:wrap}
+.tab{padding:9px 16px;border:2px solid var(--line);background:#0a1220;color:var(--dim);
+  border-radius:9px;cursor:pointer;font-family:inherit;font-size:12px;letter-spacing:.5px}
+.tab:hover{color:var(--txt);border-color:var(--cy)}
+.tab.on{color:var(--neon);border-color:var(--neon);box-shadow:0 0 14px rgba(57,255,20,.28)}
+.page{display:none;margin-top:12px}
+.page.on{display:block}
+
+.grid{display:grid;grid-template-columns:250px 1fr 290px;gap:14px}
 @media(max-width:980px){.grid{grid-template-columns:1fr}}
 .panel{background:linear-gradient(#0f1830,#0b1322);border:3px solid #0a0f1a;
   box-shadow:0 0 0 3px var(--line);border-radius:10px;padding:12px}
@@ -144,11 +154,104 @@ body{
 .kbd{color:var(--cy)}
 .hist{font-size:10.5px;color:var(--dim);max-height:96px;overflow:auto;margin-top:8px;border-top:1px dashed var(--line);padding-top:6px}
 .hist div{padding:2px 0}
+.chip.hot{color:var(--neon);border-color:var(--neon)}
+h2{font:600 15px Consolas,monospace;color:#eaf3ff;margin:0 0 8px}
+
+/* ================= CHAT ALA WHATSAPP ================= */
+.wa{max-width:780px;margin:0 auto;height:calc(100vh - 210px);min-height:480px;
+  display:flex;flex-direction:column;overflow:hidden;border-radius:14px;
+  border:3px solid #0a0f1a;box-shadow:0 0 0 3px var(--line);
+  background:#0b141a;font-family:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif}
+.wa-head{display:flex;align-items:center;gap:11px;padding:10px 14px;background:#111b21;
+  border-bottom:1px solid #202c33}
+.wa-ava{width:42px;height:42px;border-radius:50%;flex:0 0 auto;
+  background:linear-gradient(135deg,#0b3d2e,#12b886);display:flex;align-items:center;
+  justify-content:center;font-size:20px;box-shadow:0 0 0 2px #0a0f1a}
+.wa-name{color:#e9edef;font-size:14.5px;font-weight:600;line-height:1.2}
+.wa-sub{color:#8696a0;font-size:11px;display:flex;align-items:center;gap:6px;margin-top:2px}
+.wa-dot{width:7px;height:7px;border-radius:50%;background:var(--neon);box-shadow:0 0 8px var(--neon)}
+.wa-dot.off{background:var(--am);box-shadow:0 0 8px var(--am)}
+.wa-sp{flex:1}
+.wa-clr{background:transparent;border:1px solid #2a3942;color:#8696a0;border-radius:16px;
+  font-size:10.5px;padding:6px 12px;cursor:pointer;font-family:inherit}
+.wa-clr:hover{color:#e9edef;border-color:#8696a0}
+.wa-body{flex:1;overflow-y:auto;padding:16px 14px;display:flex;flex-direction:column;gap:8px;
+  background:
+    radial-gradient(circle at 12% 18%,rgba(255,255,255,.02),transparent 40%),
+    radial-gradient(circle at 82% 68%,rgba(255,255,255,.02),transparent 40%),
+    #0b141a;scroll-behavior:smooth}
+.wa-body::-webkit-scrollbar{width:8px}
+.wa-body::-webkit-scrollbar-thumb{background:#2a3942;border-radius:8px}
+.wa-row{display:flex}
+.wa-row.me{justify-content:flex-end}
+.wa-row.bot{justify-content:flex-start}
+.wa-bub{max-width:80%;padding:8px 11px 5px;border-radius:9px;font-size:13px;line-height:1.5;
+  color:#e9edef;white-space:pre-wrap;word-wrap:break-word;
+  box-shadow:0 1px 2px rgba(0,0,0,.35)}
+.wa-row.bot .wa-bub{background:#202c33;border-top-left-radius:2px}
+.wa-row.me  .wa-bub{background:#005c4b;border-top-right-radius:2px}
+.wa-row.err .wa-bub{background:#3a1d1d;border:1px solid #7f2b2b}
+.wa-meta{display:block;text-align:right;font-size:10px;color:#8696a0;margin-top:4px;line-height:1}
+.wa-row.me .wa-meta{color:#9fe8cf}
+.wa-day{align-self:center;background:#182229;color:#8696a0;font-size:10.5px;
+  padding:4px 12px;border-radius:8px;margin:6px 0 2px}
+.wa-typing{display:flex;gap:4px;padding:13px 15px;background:#202c33;border-radius:9px;
+  border-top-left-radius:2px;width:fit-content}
+.wa-typing i{width:6px;height:6px;border-radius:50%;background:#8696a0;animation:tdot 1.1s infinite}
+.wa-typing i:nth-child(2){animation-delay:.18s}
+.wa-typing i:nth-child(3){animation-delay:.36s}
+@keyframes tdot{0%,60%,100%{opacity:.3;transform:translateY(0)}30%{opacity:1;transform:translateY(-4px)}}
+.wa-inbar{display:flex;gap:9px;align-items:center;padding:10px 12px;background:#111b21;
+  border-top:1px solid #202c33}
+.wa-inbar textarea{flex:1;resize:none;height:42px;max-height:120px;background:#2a3942;border:none;
+  color:#e9edef;padding:11px 14px;border-radius:21px;font-family:inherit;font-size:13px;
+  outline:none;line-height:1.35}
+.wa-inbar textarea::placeholder{color:#8696a0}
+.wa-send{width:46px;height:42px;flex:0 0 auto;border-radius:50%;border:none;background:#00a884;
+  color:#fff;font-size:17px;cursor:pointer;transition:filter .15s}
+.wa-send:hover{filter:brightness(1.12)}
+.wa-send:disabled{opacity:.45;cursor:default}
+.wa-hint{font-size:10px;color:#5c6f7a;text-align:center;padding:0 0 8px;background:#0b141a}
+
+/* ================= REKOMENDASI ================= */
+.recwrap{max-width:900px;margin:0 auto}
+.rec{position:relative;background:linear-gradient(#0f1830,#0b1322);border:2px solid var(--line);
+  border-left:5px solid var(--cy);border-radius:10px;padding:13px 14px;margin-bottom:11px}
+.rec.r1{border-left-color:var(--neon);box-shadow:0 0 18px rgba(57,255,20,.12)}
+.rec h3{margin:0 22px 3px 0;font-size:14.5px;color:#eaf3ff;font-family:inherit}
+.rec .sc{position:absolute;top:12px;right:12px;background:#0a1220;border:2px solid var(--cy);
+  color:var(--cy);border-radius:8px;padding:2px 10px;font-size:12px}
+.rec.r1 .sc{border-color:var(--neon);color:var(--neon)}
+.rec .meta{font-size:11px;color:var(--dim);margin:3px 0 7px}
+.rec p{font-size:12.5px;line-height:1.55;margin:5px 0;font-family:"Segoe UI",system-ui,sans-serif}
+.rec .risk{color:#ffcf9e}
+.rec a{color:var(--cy);font-size:12px;text-decoration:none;word-break:break-all}
+.rec a:hover{text-decoration:underline}
+.tag{display:inline-block;font-size:10px;padding:2px 8px;border-radius:10px;
+  border:1px solid var(--dim);color:var(--dim);margin-left:6px}
+.tag.g{border-color:var(--neon);color:var(--neon)}
+.tag.y{border-color:var(--am);color:var(--am)}
+.tag.r{border-color:var(--rd);color:var(--rd)}
+.recnote{font-size:11px;color:var(--dim);text-align:center;margin:2px 0 12px}
 .newflash{animation:flash .9s}
 @keyframes flash{0%{background:#1b3a1b}100%{background:transparent}}
 </style>
 </head>
 <body>
+<script>
+function isLocal(){ var h=location.hostname; return h==="localhost"||h==="127.0.0.1"||h==="0.0.0.0"; }
+var _LOCAL = isLocal();
+(function(){
+  if(!_LOCAL){
+    var bar=document.createElement("div");
+    bar.style="position:fixed;top:0;left:0;right:0;background:#7a2a2a;color:#ffd5d5;padding:8px 12px;font:11px/1.4 monospace;z-index:9999;text-align:center;box-shadow:0 2px 6px #00000080";
+    bar.innerHTML="Chat hanya aktif di DASHBOARD LOKAL (buka_dashboard.bat di laptop) — GitHub Pages hanya menampilkan Rekomendasi/Kantor (feed dari Actions)";
+    document.body.prepend(bar);
+    document.body.style.paddingTop="38px";
+  }
+})();
+</script>
+
 <div class="crt"></div>
 <div class="wrap">
   <div class="hud">
@@ -160,65 +263,104 @@ body{
     <span class="spacer"></span>
     <span class="chip live" id="live-chip">&#9679; LIVE</span>
     <span class="chip">Shift <b>12 jam</b></span>
-    <span class="chip">Status <b id="hud-status">Agen sedang bekerja</b></span>
+    <span class="chip">Status <b id="hud-status">Agen sedang istirahat</b></span>
     <span class="chip">Jam <b id="clk">--:--</b></span>
   </div>
 
-  <div class="grid">
-    <div class="panel">
-      <div class="ptitle">Metrik Channel</div>
-      <div class="stat"><span>Video terbaru</span></div>
-      <div style="font-size:11.5px;color:#fff;margin-bottom:6px" id="m-title">Tukang azan</div>
-      <div class="stat"><span>Views terbaru</span><span class="big" id="m-views">753</span></div>
-      <div class="stat"><span>Rata-rata 7</span><span id="m-avg">900</span></div>
-      <div class="stat"><span>Perubahan</span><span id="m-delta">-</span></div>
-      <div class="ptitle" style="margin-top:14px">Kesehatan Sistem</div>
-      <div class="stat"><span>Kunci API</span><span id="k-key">VALID</span></div>
-      <div class="stat"><span>Channel ID</span><span id="k-ch">UCTo4AAkP9bPT9ux40oWmqvg</span></div>
-      <div class="stat"><span>Discord</span><span id="k-dc">#general | HTTP 200</span></div>
-      <div class="stat"><span>Run terakhir</span><span style="font-size:11px" id="k-run">2026-10-09 21:31 UTC</span></div>
-    </div>
+  <div class="tabs">
+    <button class="tab on" id="tab-chat" onclick="showPage('chat')">&#128172; Chat Agen</button>
+    <button class="tab" id="tab-kantor" onclick="showPage('kantor')">&#127916; Kantor Agen</button>
+    <button class="tab" id="tab-reko" onclick="showPage('reko')">&#127871; Rekomendasi Konten</button>
+  </div>
 
-    <div class="room s-BEKERJA" id="room">
-      <div class="wall"></div>
-      <div class="screenwall">
-        <div class="scan"></div>
-        <div class="bars" id="mon-bars">[ 1 TREN BARU ]
-[ RISET &amp; IDE ]
-
-  STATUS: ANALISIS</div>
+  <!-- ============ HALAMAN: CHAT ============ -->
+  <div class="page on" id="page-chat">
+    <div class="wa">
+      <div class="wa-head">
+        <div class="wa-ava">&#129302;</div>
+        <div>
+          <div class="wa-name">Agen Ninu</div>
+          <div class="wa-sub"><span class="wa-dot" id="wa-dot"></span><span id="wa-status">online &middot; siap bantu</span></div>
+        </div>
+        <span class="wa-sp"></span>
+        <button class="wa-clr" onclick="waReload()">muat ulang</button>
       </div>
-      <div class="floor"></div>
-      <div class="bubble" id="npc-bubble">Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.</div>
-      <div class="npc">
-        <div class="ant"><i></i></div>
-        <div class="head"><span class="eye l"></span><span class="eye r"></span><span class="mouth"></span></div>
-        <div class="body"><span class="core"></span></div>
-        <div class="arm l"></div><div class="arm r"></div>
-        <div class="leg l"></div><div class="leg r"></div>
+      <div class="wa-body" id="wa-body"></div>
+      <div class="wa-hint">Enter = kirim &middot; Shift+Enter = baris baru</div>
+      <div class="wa-inbar">
+        <textarea id="wa-in" rows="1" placeholder="Tulis pesan ke agen..."></textarea>
+        <button class="wa-send" id="wa-send" onclick="waSend()">&#10148;</button>
       </div>
-      <div class="fx zzz">z z Z</div>
-      <div class="fx qm">?</div>
-      <div class="fx em">!</div>
-      <div class="badge" id="npc-badge">BEKERJA &middot; KERJA</div>
-    </div>
-
-    <div class="panel">
-      <div class="ptitle">Peluang Tren (live)</div>
-      <div style="max-height:400px;overflow:auto" id="trends"><div class="trend"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9pQnVxd1RvalU4V3B1bmFfdUd0aFhkbE1rZGpfU3ZCdHo5Z0tscElKNTZBeF82azNaMU4wQjVoTWo1S0RYR0FsME1CN01WanZ6dkFHYzBtTERzWWpZUDZad1ZGQjF4MzRrbm8yN081ZV9XQQ?oc=5" target="_blank">roblox's animal hospital [A&amp;C] - Brown Daily Herald</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE80OWNYMkktckI1TFlwZHdtTXhLZWo4Uk1GOUtiR190NW42d3FuZFVxU3JxSnZHTHNHVVJUSE5tQll0bU1NSnB5N1VPRF9vU09OOTRGZWFlNnlyVXJ0aENXa0RzNDY?oc=5" target="_blank">How to Use Emotes in Roblox - Technobezz</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNMTFoX0VpNTJ3Mk1WQUM5bWdZSzVYWEwxUTUwXzk2V01YcTlIOGxERUNMT2U2SkU2aXpjOERLUEkwWndCSS1jcDJLWkRURmFNM1c1R2gtREJiWmlKNDZUTm9kQUsxa0o2YWZTX3RXb3pheXUyOG9Pa3RFWjY0dUpRdWtwRFlRLUxBaVJQeEFiRQ?oc=5" target="_blank">Growing in Limestone County Save a Seed, Grow a Garden - mexiadailynews.com</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5" target="_blank">Steal a Brainrot Plant Bros guide - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxONjVxN2RjcW9BLUoxM0U4ZkVLR3pBQXJfeUhJbXlPT0NlS0pSVkcxdFl6enhGR3RmUWNId0t0VE9mV3pka3Y1aElLNmtybVhyb2dpcWtoRTBtb3pBdjBkS2t6b2Q2SUdyVnpGZFBGX2NsQVVGY0hQc1Z6aUVzVzIxN2dEcw?oc=5" target="_blank">Steal a Brainrot Sammyni Spookyni guide - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTkFRaU5RSUhNalBVR0VaYnZ4dC1vNktFdDhvTmdnWW1kRWdDMUR3anBQMVFMbzdYRkwxZVJNa1V1TjcyWWFEb3BXR3NiZk93cmtCbFZKekpTUENwNjBoVE1Mb1YtM2U3ZlVtQ3Rn?oc=5" target="_blank">Grow a Garden 2 codes (September 2026) - Dexerto</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5" target="_blank">How to find Steal a Brainrot 67 &amp; drop rate - Dexerto</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5mc0tYLUVuQkNMamgydVpuU3RoV3lrNWVoT05JQUdpQy1JQmc1eWZDdlpLUlVUb1k2TUZnRTR4WEZhWXBVSDNWUjZDZzJuM01VTWxEX0JxZzlTUVAyQ0hTN3FsRHhxazBQS2sxblJjTDUtT0tOakRF?oc=5" target="_blank">Steal a Brainrot Phoenix guide - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUnpjX0RmaURpOExCNGlQNEtzWEdVVklfWFpVNFdEQ19RdDV6ZGZqc3BQbEFFRC1WblN5akJtSVVROVRvblFXREFRb2xJbFNiR2FOM3FFM1I3bWlQbVU3UUNfUkI0R3NJcmdkWV9Gc0RoTFF1RlRaVUU0NVh2dUZSdjVISXNhRS1O?oc=5" target="_blank">Grow a Garden Everfallen Pet Mutation guide - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBJa0dHczhES1BEX0NaRWZNUlhHY1RLQzZqRzBCLXlhRGthQU1lZmJFRzctYVZPZlpYNktjWmRyc1o1RzFEOGJSR1p6Z05SNWlxdzJuVVgxRGtfa3NLbDBEMElTWHBNb1RUQU1vcEhpZkZHVXktdWhn?oc=5" target="_blank">Grow a Garden Maple Melt guide - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY0JPaF9PbDQ4RXRRZjB5WEdNdm9zRGdsRDNyd3gzUmR6R0ZONDNmOHNRN2tEQktUYUx5clEwam5rb1NNT1JJakl0ZGZxRjNDU2lYdS1BNkRDaEpjYXFsVEtiM3hESGtHS1QzYUNhcGtLemN4WXMycFBxdDNraFNHd2VPNDhUVlhtd3N3?oc=5" target="_blank">Taco Tuesday Steal a Brainrot time in India (October 7, 2026) - Sportskeeda</a></div><div class="trend"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBGa3ZsZ2s1MkpDUHAzbnAzUnVtVjJHcWlDX0ozRWtfOGpTaWpZUEhaWWJaeU1SZkN4emtHcWhHU2I4RzQyNGE4THdZc2U2RHg4eFhMeWRzenQwWGtqaGZxREFOVlNCdmV2UXJCd1Z2MGtuSmJqbGc?oc=5" target="_blank">Grow a Garden Scarecrow guide - Sportskeeda</a></div></div>
-      <div class="ptitle" style="margin-top:10px">Riwayat Pesan Agen</div>
-      <div class="hist" id="hist"><div>[10-09 20:47] Channel ID YouTube belum diisi. Aku belum bisa baca metrik channelmu.</div><div>[10-09 21:31] Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.</div></div>
     </div>
   </div>
 
-  <div class="panel" style="margin-top:14px">
-    <div class="ptitle">Log Aktivitas</div>
-    <div class="log" id="log"><div class="ok">10-09 20:37  Cek API key: VALID</div><div class="ok">10-09 20:37  Metrik dilewati (butuh API key valid + channel_id)</div><div class="warn">10-09 20:37  11 tren baru terdeteksi</div><div class="ok">10-09 20:37  Discord: terkirim</div><div class="ok">10-09 20:37  Cek API key: VALID</div><div class="ok">10-09 20:37  Metrik dilewati (butuh API key valid + channel_id)</div><div class="bad">10-09 20:37  OK: tidak ada sinyal (senyap)</div><div class="ok">10-09 20:47  Cek API key: VALID</div><div class="ok">10-09 20:47  Metrik dilewati (butuh API key valid + channel_id)</div><div class="bad">10-09 20:47  OK: tidak ada sinyal (senyap)</div><div class="ok">10-09 21:31  Cek API key: VALID</div><div class="warn">10-09 21:31  Metrik diperbarui: views=753 avg7=900</div><div class="warn">10-09 21:31  1 tren baru terdeteksi</div><div class="ok">10-09 21:31  Discord: terkirim</div></div>
+  <!-- ============ HALAMAN: KANTOR ============ -->
+  <div class="page" id="page-kantor">
+    <div class="grid">
+      <div class="panel">
+        <div class="ptitle">Metrik Channel</div>
+        <div class="stat"><span>Video terbaru</span></div>
+        <div style="font-size:11.5px;color:#fff;margin-bottom:6px" id="m-title">Tukang azan</div>
+        <div class="stat"><span>Views terbaru</span><span class="big" id="m-views">414</span></div>
+        <div class="stat"><span>Rata-rata 7</span><span id="m-avg">826</span></div>
+        <div class="stat"><span>Perubahan</span><span id="m-delta">-</span></div>
+        <div class="ptitle" style="margin-top:14px">Kesehatan Sistem</div>
+        <div class="stat"><span>Kunci API</span><span id="k-key">VALID</span></div>
+        <div class="stat"><span>Channel ID</span><span id="k-ch">UCTo4AAkP9bPT9ux40oWmqvg</span></div>
+        <div class="stat"><span>Discord</span><span id="k-dc">#general | -</span></div>
+        <div class="stat"><span>Run terakhir</span><span style="font-size:11px" id="k-run">-</span></div>
+      </div>
+
+      <div class="room s-ISTIRAHAT" id="room">
+        <div class="wall"></div>
+        <div class="screenwall">
+          <div class="scan"></div>
+          <div class="bars" id="mon-bars">[ MONITORING TREN ]
+[ MENUNGGU SINYAL ]
+
+  STATUS: OK</div>
+        </div>
+        <div class="floor"></div>
+        <div class="bubble" id="npc-bubble">Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.</div>
+        <div class="npc">
+          <div class="ant"><i></i></div>
+          <div class="head"><span class="eye l"></span><span class="eye r"></span><span class="mouth"></span></div>
+          <div class="body"><span class="core"></span></div>
+          <div class="arm l"></div><div class="arm r"></div>
+          <div class="leg l"></div><div class="leg r"></div>
+        </div>
+        <div class="fx zzz">z z Z</div>
+        <div class="fx qm">?</div>
+        <div class="fx em">!</div>
+        <div class="badge" id="npc-badge">ISTIRAHAT &middot; AMAN</div>
+      </div>
+
+      <div class="panel">
+        <div class="ptitle">Peluang Tren (live)</div>
+        <div style="max-height:400px;overflow:auto" id="trends"></div>
+        <div class="ptitle" style="margin-top:10px">Riwayat Pesan Agen</div>
+        <div class="hist" id="hist"></div>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:14px">
+      <div class="ptitle">Log Aktivitas</div>
+      <div class="log" id="log"></div>
+    </div>
+  </div>
+
+  <!-- ============ HALAMAN: REKOMENDASI ============ -->
+  <div class="page" id="page-reko">
+    <div class="recwrap">
+      <div class="ptitle" style="border:none;margin-bottom:4px">Rekomendasi Konten Komedi</div>
+      <div class="recnote" id="rec-note">Memuat daftar...</div>
+      <div id="rec-list"></div>
+    </div>
   </div>
 
   <div class="foot">
     <span>Live feed: <span class="kbd">feed.json</span> &middot; auto-refresh 8s &middot; cron <span class="kbd">0 */12 * * *</span></span>
-    <span>Render: <span id="rendered">2026-10-09 21:31</span> &middot; <span id="feed-src">-</span></span>
+    <span>Render: <span id="rendered">-</span> &middot; <span id="feed-src">-</span></span>
   </div>
 </div>
 
@@ -228,6 +370,16 @@ function p2(x){return String(x).padStart(2,"0");}
 function tick(){var n=new Date();document.getElementById("clk").textContent=p2(n.getHours())+":"+p2(n.getMinutes())+":"+p2(n.getSeconds());}
 setInterval(tick,1000);tick();
 
+function showPage(name){
+  ["chat","kantor","reko"].forEach(function(n){
+    document.getElementById("page-"+n).classList.toggle("on", n===name);
+    document.getElementById("tab-"+n).classList.toggle("on", n===name);
+  });
+  if(name==="chat") waScroll();
+  if(name==="reko") loadReko();
+}
+
+/* ================= FEED (KANTOR) ================= */
 var lastTs=0;
 function apply(d){
   if(!d||!d.state) return;
@@ -260,7 +412,7 @@ function apply(d){
   if(d.events&&d.events.length){
     var g="";var ev=d.events.slice(-22);
     for(var j=0;j<ev.length;j++){var msg=esc(ev[j].msg||"");var low=msg.toLowerCase();
-      var cls=("gagal"in low||"tidak"in low)?"bad":(("terkirim"in low||"valid"in low)?"ok":"warn");
+      var cls=(low.indexOf("gagal")>-1||low.indexOf("tidak")>-1)?"bad":((low.indexOf("terkirim")>-1||low.indexOf("valid")>-1)?"ok":"warn");
       g+='<div class="'+cls+'">'+esc(ev[j].t||"")+"  "+msg+"</div>";}
     document.getElementById("log").innerHTML=g;
   }
@@ -273,11 +425,153 @@ function apply(d){
   led.className="led"+(d.state==="BINGUNG"?" off":"");
 }
 function poll(){
-  var url="feed.json?t="+Date.now();
-  fetch(url,{cache:"no-store"}).then(function(r){return r.json();}).then(apply).catch(function(){});
-  fetch("push.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(apply).catch(function(){});
+  fetch("http://localhost:8765/feed.json?t="+Date.now(),{cache:"no-store"})
+    .then(function(r){return r.json();}).then(apply)
+    .catch(function(){
+      fetch("feed.json?t="+Date.now(),{cache:"no-store"})
+        .then(function(r){return r.json();}).then(apply).catch(function(){});
+    });
 }
 poll();setInterval(poll,8000);
+
+/* ================= CHAT ALA WHATSAPP ================= */
+function hhmm(ts){var d=new Date((ts||Date.now()/1000)*1000);return p2(d.getHours())+":"+p2(d.getMinutes());}
+function dayLabel(ts){
+  var d=new Date(ts*1000), n=new Date();
+  var d0=new Date(d.getFullYear(),d.getMonth(),d.getDate());
+  var n0=new Date(n.getFullYear(),n.getMonth(),n.getDate());
+  var diff=Math.round((n0-d0)/86400000);
+  if(diff===0)return "Hari ini";
+  if(diff===1)return "Kemarin";
+  return p2(d.getDate())+"-"+p2(d.getMonth()+1)+"-"+d.getFullYear();
+}
+var waBusy=false, waLastCount=-1, waLastDay="";
+var waBody=document.getElementById("wa-body");
+
+function waScroll(){ waBody.scrollTop=waBody.scrollHeight; }
+function waRow(role,text,ts){
+  var me=(role==="user");
+  var cls = me?"me":(role==="err"?"err":"bot");
+  return '<div class="wa-row '+cls+'"><div class="wa-bub">'+esc(text)+
+         '<span class="wa-meta">'+hhmm(ts)+'</span></div></div>';
+}
+function waRender(h){
+  var out="", day="";
+  for(var i=0;i<h.length;i++){
+    var m=h[i]; var t=m.ts||Math.floor(Date.now()/1000);
+    var dl=dayLabel(t);
+    if(dl!==day){ out+='<div class="wa-day">'+dl+'</div>'; day=dl; }
+    out+=waRow(m.role,m.text,t);
+  }
+  waBody.innerHTML=out;
+  waScroll();
+}
+function waReload(){ waLastCount=-1; waLastDay=""; waLoad(); }
+function waLoad(){
+  if(!_LOCAL){ document.getElementById("wa-dot").className="wa-dot off"; document.getElementById("wa-status").textContent="chat dinonaktifkan (online)"; if(waLastCount<0){ try{ fetch("chat_history.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>{var h=d.history||[]; waLastCount=h.length; waRender(h);}).catch(function(){});}catch(e){} } return; }
+  if(waBusy) return;
+  fetch("http://localhost:8765/chat_history.json?t="+Date.now(),{cache:"no-store"})
+    .then(function(r){return r.json();})
+    .then(function(d){
+      var h=(d&&d.history)||[];
+      if(h.length!==waLastCount){ waLastCount=h.length; waRender(h);
+        document.getElementById("wa-dot").className="wa-dot";
+        document.getElementById("wa-status").textContent="online \u00b7 tersimpan";
+      }
+    })
+    .catch(function(){
+      document.getElementById("wa-dot").className="wa-dot off";
+      document.getElementById("wa-status").textContent="offline \u00b7 pakai buka_dashboard.bat";
+    });
+}
+function waTyping(on){
+  var t=document.getElementById("wa-typing");
+  if(on){ if(t)return;
+    var d=document.createElement("div"); d.id="wa-typing"; d.className="wa-row bot";
+    d.innerHTML='<div class="wa-typing"><i></i><i></i><i></i></div>';
+    waBody.appendChild(d); waScroll();
+  } else if(t){ t.remove(); }
+}
+function waSend(){
+  if(!_LOCAL){
+    waBody.insertAdjacentHTML("beforeend", waRow("err","Chat hanya aktif di dashboard lokal (buka_dashboard.bat). Di GitHub Pages chat dimatikan.", Math.floor(Date.now()/1000)));
+    waScroll(); return;
+  }
+  if(waBusy) return;
+  var inp=document.getElementById("wa-in");
+  var t=(inp.value||"").trim(); if(!t) return;
+  inp.value=""; inp.style.height="42px";
+  waBusy=true;
+  document.getElementById("wa-send").disabled=true;
+  document.getElementById("wa-status").textContent="agen mengetik...";
+  waBody.insertAdjacentHTML("beforeend", waRow("user",t,Math.floor(Date.now()/1000)));
+  waScroll(); waTyping(true);
+  fetch("http://localhost:8765/api/chat",{method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({message:t})})
+   .then(function(r){return r.json();})
+   .then(function(d){
+      waBusy=false; document.getElementById("wa-send").disabled=false;
+      waTyping(false);
+      document.getElementById("wa-status").textContent="online \u00b7 tersimpan";
+      waBody.insertAdjacentHTML("beforeend", waRow(d.ok?"bot":"err", (d.reply||d.error||"?"), Math.floor(Date.now()/1000)));
+      waScroll(); waLastCount++;
+   })
+   .catch(function(){
+      waBusy=false; document.getElementById("wa-send").disabled=false;
+      waTyping(false);
+      document.getElementById("wa-status").textContent="offline";
+      waBody.insertAdjacentHTML("beforeend", waRow("err","Chat cuma jalan di laptop. Buka lewat buka_dashboard.bat lalu http://localhost:8765/index.html", Math.floor(Date.now()/1000)));
+      waScroll();
+   });
+}
+var waIn=document.getElementById("wa-in");
+waIn.addEventListener("keydown",function(e){
+  if(!_LOCAL) return;
+  if(e.key==="Enter" && !e.shiftKey){ e.preventDefault(); waSend(); }
+});
+waIn.addEventListener("input",function(){
+  if(!_LOCAL) return;
+  this.style.height="42px"; this.style.height=Math.min(this.scrollHeight,120)+"px";
+});
+if(!_LOCAL){
+  waIn.disabled=true; waIn.placeholder="Chat nonaktif di mode online (buka dashboard lokal)";
+  document.getElementById("wa-send").disabled=true;
+}
+waLoad(); setInterval(waLoad,5000);
+
+/* ================= REKOMENDASI ================= */
+var rekoLoaded=false;
+function tagFor(st){
+  if(!st) return "";
+  var c = st==="TERKUAT"?"g":(st==="SIAP"?"g":(st==="HATI-HATI"?"y":(st==="IDE SAJA"?"r":"")));
+  return '<span class="tag '+c+'">'+esc(st)+'</span>';
+}
+function loadReko(){
+  if(rekoLoaded) return;
+  fetch("http://localhost:8765/rekomendasi.json?t="+Date.now(),{cache:"no-store"})
+    .then(function(r){return r.json();})
+    .catch(function(){ return fetch("rekomendasi.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}); })
+    .then(function(d){
+      rekoLoaded=true;
+      document.getElementById("rec-note").textContent=(d.note||"")+"  |  update: "+(d.updated||"-");
+      var h="";
+      (d.items||[]).forEach(function(it){
+        h+='<div class="rec '+(it.rank===1?'r1':'')+'">'
+          +'<span class="sc">'+esc(it.skor)+'/30</span>'
+          +'<h3>'+esc(it.rank)+'. '+esc(it.judul)+tagFor(it.status)+'</h3>'
+          +'<div class="meta">'+esc(it.platform||"")+' &middot; pemeran: '+esc(it.pemeran||"-")+' &middot; lokasi: '+esc(it.lokasi||"-")+'</div>'
+          +'<p>'+esc(it.ringkasan||"")+'</p>'
+          +'<p class="risk">&#9888; '+esc(it.risiko||"")+'</p>'
+          +'<a href="'+esc(it.link||"#")+'" target="_blank">'+esc(it.link||"")+'</a>'
+          +'</div>';
+      });
+      document.getElementById("rec-list").innerHTML=h||'<div class="recnote">Belum ada rekomendasi.</div>';
+    })
+    .catch(function(){
+      document.getElementById("rec-note").textContent="Gagal memuat rekomendasi.json (server lokal belum jalan?).";
+    });
+}
 </script>
 </body>
 </html>
