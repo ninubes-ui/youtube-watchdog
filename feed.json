@@ -1,20 +1,25 @@
 {
- "ts": 1791578842,
- "rendered": "2026-10-10 03:47:22",
+ "ts": 1791585111,
+ "rendered": "2026-10-09 22:31:51",
  "source": "github-actions",
- "state": "BINGUNG",
- "stateid": "TANYA",
- "status_text": "Agen butuh bantuan",
- "task": "Channel ID YouTube belum diisi. Aku belum bisa baca metrik channelmu.",
- "screen_text": "[ MENUNGGU ]\n[ CHANNEL ID ]\n\n  ISI SECRET",
+ "state": "BEKERJA",
+ "stateid": "KERJA",
+ "status_text": "Agen sedang bekerja",
+ "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
- "channel_id": "",
- "last_run": "2026-10-09 20:47 UTC",
- "metrics": {},
+ "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
+ "last_run": "2026-10-09 22:31 UTC",
+ "metrics": {
+  "last_title": "Tukang azan",
+  "last_views": 753,
+  "avg7": 900,
+  "delta_pct": "-"
+ },
  "discord": {
-  "ok": null,
+  "ok": true,
   "channel": "#general",
-  "detail": "-"
+  "detail": "HTTP 200"
  },
  "trends": [
   {
@@ -34,16 +39,20 @@
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5"
   },
   {
+   "title": "Steal a Brainrot Sammyni Spookyni guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONjVxN2RjcW9BLUoxM0U4ZkVLR3pBQXJfeUhJbXlPT0NlS0pSVkcxdFl6enhGR3RmUWNId0t0VE9mV3pka3Y1aElLNmtybVhyb2dpcWtoRTBtb3pBdjBkS2t6b2Q2SUdyVnpGZFBGX2NsQVVGY0hQc1Z6aUVzVzIxN2dEcw?oc=5"
+  },
+  {
    "title": "Grow a Garden 2 codes (September 2026) - Dexerto",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTkFRaU5RSUhNalBVR0VaYnZ4dC1vNktFdDhvTmdnWW1kRWdDMUR3anBQMVFMbzdYRkwxZVJNa1V1TjcyWWFEb3BXR3NiZk93cmtCbFZKekpTUENwNjBoVE1Mb1YtM2U3ZlVtQ3Rn?oc=5"
   },
   {
-   "title": "Steal a Brainrot Phoenix guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mc0tYLUVuQkNMamgydVpuU3RoV3lrNWVoT05JQUdpQy1JQmc1eWZDdlpLUlVUb1k2TUZnRTR4WEZhWXBVSDNWUjZDZzJuM01VTWxEX0JxZzlTUVAyQ0hTN3FsRHhxazBQS2sxblJjTDUtT0tOakRF?oc=5"
-  },
-  {
    "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
+  },
+  {
+   "title": "Steal a Brainrot Phoenix guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mc0tYLUVuQkNMamgydVpuU3RoV3lrNWVoT05JQUdpQy1JQmc1eWZDdlpLUlVUb1k2TUZnRTR4WEZhWXBVSDNWUjZDZzJuM01VTWxEX0JxZzlTUVAyQ0hTN3FsRHhxazBQS2sxblJjTDUtT0tOakRF?oc=5"
   },
   {
    "title": "Grow a Garden Everfallen Pet Mutation guide - Sportskeeda",
@@ -102,6 +111,22 @@
   {
    "t": "10-09 20:47",
    "msg": "OK: tidak ada sinyal (senyap)"
+  },
+  {
+   "t": "10-09 22:31",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-09 22:31",
+   "msg": "Metrik diperbarui: views=753 avg7=900"
+  },
+  {
+   "t": "10-09 22:31",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "10-09 22:31",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
@@ -109,10 +134,15 @@
    "t": "10-09 20:47",
    "text": "Channel ID YouTube belum diisi. Aku belum bisa baca metrik channelmu.",
    "kind": "tanya"
+  },
+  {
+   "t": "10-09 22:31",
+   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": false
+  "trend": true
  }
 }
