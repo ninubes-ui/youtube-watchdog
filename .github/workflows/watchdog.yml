@@ -1,0 +1,45 @@
+name: YouTube Growth Watchdog
+
+# Kapan dijalankan
+on:
+  schedule:
+    - cron: '0 */12 * * *'      # tiap 12 jam (00:00 & 12:00 UTC)
+  workflow_dispatch: {}          # tombol "Run workflow" manual
+
+# Izin supaya bot bisa commit dashboard kembali ke repo
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil kode repo
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Jalankan watchdog
+        env:
+          YT_API_KEY:         ${{ secrets.YT_API_KEY }}
+          YT_CHANNEL_ID:      ${{ secrets.YT_CHANNEL_ID }}
+          DISCORD_BOT_TOKEN:  ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+        run: python run_watchdog.py
+
+      - name: Simpan dashboard ke repo
+        run: |
+          git config user.name  "watchdog-bot"
+          git config user.email "watchdog-bot@users.noreply.github.com"
+          git add index.html feed.json config_state.json
+          git commit -m "chore: update dashboard [skip ci]" || echo "tidak ada perubahan"
+          git push
