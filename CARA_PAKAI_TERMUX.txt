@@ -1,0 +1,70 @@
+==============================================================
+ CARA PAKAI: HP ANDROID JADI "SERVER 24 JAM" (TANPA VPS)
+ YouTube Growth Watchdog + Dashboard  —  untuk BOS NINU
+==============================================================
+
+IDE DASAR
+  Laptopmu boleh dimatikan. Yang "selalu nyala" pindah ke HP Android
+  (yang biasanya memang nyala terus & sedang di-charge). Di HP kita pasang
+  aplikasi Termux (terminal Linux kecil, gratis, tanpa root, tanpa kartu kredit),
+  lalu jalankan dashboard + watchdog dari sana.
+
+APA YANG DIBUTUHKAN
+  1. HP Android (arm64 / 64-bit — hampir semua HP modern).
+  2. Aplikasi Termux  ->  ambil dari F-Droid (JANGAN dari Play Store; yang itu usang).
+     Link: https://f-droid.org/packages/com.termux/
+  3. Koneksi internet + HP ter-colok charger.
+
+LANGKAH
+  1. Instal Termux dari F-Droid, buka.
+  2. Jalankan unduhan+pemasang otomatis (satu baris):
+         pkg install -y curl
+         curl -fsSL https://raw.githubusercontent.com/ninubes-ui/youtube-watchdog/main/SETUP_TERMUX.sh -o setup.sh
+         bash setup.sh
+  3. Setelah selesai, server dijalankan dengan:
+         cd ~/youtube-watchdog
+         termux-wake-lock
+         nohup python dashboard_server.py > server.log 2>&1 &
+  4. Buka browser HP:  http://localhost:8765/index.html
+     -> Tab Rekomendasi & Kantor langsung jalan.
+     -> Tab Chat jalan HANYA kalau `hermes` berhasil dipasang (langkah 4 setup).
+
+BAGAIMANA DENGAN LAPTOP & GITHUB PAGES?
+  - Laptop: boleh dimatikan. Dashboard online tetap hidup di
+        https://ninubes-ui.github.io/youtube-watchdog/
+    (di-update otomatis oleh GitHub Actions tiap 12 jam; chat TIDAK ada di sini,
+     hanya Rekomendasi + Kantor/feed. Itu memang by design — tetap ada bannernya.)
+  - HP Termux = tempat CHAT + dashboard lokal.
+
+JUJUR: BATASANNYA
+  1. Paket `hermes-agent` untuk Termux saat ini di dokumentasi resmi masih
+     ditandai "does not work right now" (sedang diperbaiki). Kalau gagal:
+     - Watchdog + dashboard TETAP jalan (murni Python).
+     - Yang mati cuma fitur CHAT ke agen.
+     Cek lagi beberapa waktu; perbaikannya menyusul.
+  2. Android suka mematikan proses latar. `termux-wake-lock` + matikan
+     "optimasi baterai" untuk Termux membantu, TAPI tidak 100% dijamin.
+  3. HP tetap harus hidup. Jadi ini bukan "tanpa perangkat nyala" — ini
+     memindahkan beban dari laptop ke HP (lebih hemat listrik, HP biasanya nganggur).
+
+ALTERNATIF LAIN (jujur, plus-minusnya)
+  A. Biarkan laptop nyala 24 jam
+     + paling simpel, chat pasti jalan.   - listrik & laptop cepat panas.
+  B. HP + Termux  (REKOMENDASI TERBAIK, gratis, tanpa kartu kredit)
+     + gratis total, HP memang nyala terus.  - paket hermes Termux masih rapuh,
+       Android bisa bunuh proses.
+  C. VPS gratis selamanya (Oracle Cloud Free / ARM 4 core 24GB)
+     + benar-benar online 24 jam, tak tergantung perangkatmu.
+     - verifikasi biasanya WAJIB kartu kredit (tak ditagih). Kamu pernah
+       menolak kartu kredit -> ini agaknya bukan pilihanmu.
+  D. GitHub Actions (yang sekarang dipakai)
+     + gratis, tak butuh perangkatmu nyala. - HANYA jalan saat cron (12 jam sekali),
+       bukan realtime -> tak bisa untuk chat.
+  E. Codespaces 60 jam/bulan, Render/Fly/Railway free tier
+     - sama-sama butuh kartu, atau tak 24/7.
+
+KESIMPULAN SAYA
+  Pakai HP + Termux (opsi B). Gratis, tanpa kartu kredit, dan paling cocok
+  dengan gayamu. Kalau nanti paket hermes Termux sudah stabil, chat pun ikut
+  hidup di HP. Untuk sementara, watchdog & dashboard sudah aman dijalankan di HP.
+==============================================================
