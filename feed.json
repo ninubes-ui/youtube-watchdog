@@ -1,25 +1,25 @@
 {
- "ts": 1791585299,
- "rendered": "2026-10-09 22:34:59",
+ "ts": 1791604763,
+ "rendered": "2026-10-10 03:59:23",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "ISTIRAHAT",
+ "stateid": "AMAN",
+ "status_text": "Agen sedang istirahat",
+ "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+ "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-09 22:34 UTC",
+ "last_run": "2026-10-10 03:59 UTC",
  "metrics": {
   "last_title": "Tukang azan",
-  "last_views": 753,
-  "avg7": 900,
-  "delta_pct": "-"
+  "last_views": 1802,
+  "avg7": 1069,
+  "delta_pct": "+100.2%"
  },
  "discord": {
-  "ok": true,
+  "ok": null,
   "channel": "#general",
-  "detail": "HTTP 200"
+  "detail": "-"
  },
  "trends": [
   {
@@ -35,12 +35,12 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMTFoX0VpNTJ3Mk1WQUM5bWdZSzVYWEwxUTUwXzk2V01YcTlIOGxERUNMT2U2SkU2aXpjOERLUEkwWndCSS1jcDJLWkRURmFNM1c1R2gtREJiWmlKNDZUTm9kQUsxa0o2YWZTX3RXb3pheXUyOG9Pa3RFWjY0dUpRdWtwRFlRLUxBaVJQeEFiRQ?oc=5"
   },
   {
-   "title": "Steal a Brainrot Plant Bros guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5"
-  },
-  {
    "title": "Steal a Brainrot Sammyni Spookyni guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONjVxN2RjcW9BLUoxM0U4ZkVLR3pBQXJfeUhJbXlPT0NlS0pSVkcxdFl6enhGR3RmUWNId0t0VE9mV3pka3Y1aElLNmtybVhyb2dpcWtoRTBtb3pBdjBkS2t6b2Q2SUdyVnpGZFBGX2NsQVVGY0hQc1Z6aUVzVzIxN2dEcw?oc=5"
+  },
+  {
+   "title": "Steal a Brainrot Plant Bros guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5"
   },
   {
    "title": "Grow a Garden 2 codes (September 2026) - Dexerto",
@@ -63,12 +63,12 @@
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBJa0dHczhES1BEX0NaRWZNUlhHY1RLQzZqRzBCLXlhRGthQU1lZmJFRzctYVZPZlpYNktjWmRyc1o1RzFEOGJSR1p6Z05SNWlxdzJuVVgxRGtfa3NLbDBEMElTWHBNb1RUQU1vcEhpZkZHVXktdWhn?oc=5"
   },
   {
-   "title": "Taco Tuesday Steal a Brainrot time in India (October 7, 2026) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY0JPaF9PbDQ4RXRRZjB5WEdNdm9zRGdsRDNyd3gzUmR6R0ZONDNmOHNRN2tEQktUYUx5clEwam5rb1NNT1JJakl0ZGZxRjNDU2lYdS1BNkRDaEpjYXFsVEtiM3hESGtHS1QzYUNhcGtLemN4WXMycFBxdDNraFNHd2VPNDhUVlhtd3N3?oc=5"
-  },
-  {
    "title": "Grow a Garden Scarecrow guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGa3ZsZ2s1MkpDUHAzbnAzUnVtVjJHcWlDX0ozRWtfOGpTaWpZUEhaWWJaeU1SZkN4emtHcWhHU2I4RzQyNGE4THdZc2U2RHg4eFhMeWRzenQwWGtqaGZxREFOVlNCdmV2UXJCd1Z2MGtuSmJqbGc?oc=5"
+  },
+  {
+   "title": "Taco Tuesday Steal a Brainrot time in India (October 7, 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY0JPaF9PbDQ4RXRRZjB5WEdNdm9zRGdsRDNyd3gzUmR6R0ZONDNmOHNRN2tEQktUYUx5clEwam5rb1NNT1JJakl0ZGZxRjNDU2lYdS1BNkRDaEpjYXFsVEtiM3hESGtHS1QzYUNhcGtLemN4WXMycFBxdDNraFNHd2VPNDhUVlhtd3N3?oc=5"
   }
  ],
  "events": [
@@ -127,6 +127,18 @@
   {
    "t": "10-09 22:34",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-10 03:59",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-10 03:59",
+   "msg": "Metrik diperbarui: views=1802 avg7=1069"
+  },
+  {
+   "t": "10-10 03:59",
+   "msg": "OK: tidak ada sinyal (senyap)"
   }
  ],
  "messages": [
@@ -139,10 +151,15 @@
    "t": "10-09 22:34",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "10-10 03:59",
+   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+   "kind": "aman"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": true
+  "trend": false
  }
 }
