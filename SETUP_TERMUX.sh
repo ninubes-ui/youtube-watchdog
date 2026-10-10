@@ -16,8 +16,8 @@ ok "arsitektur: $(uname -m)"
 say "1/6 Perbarui indeks paket (tidak wajib sukses)"
 if pkg update -y >/dev/null 2>&1; then ok "pkg update selesai"; else warn "pkg update gagal/dilewati (tidak fatal)"; fi
 
-say "2/6 Pasang alat dasar: python git curl gnupg"
-for p in python git curl gnupg; do
+say "2/6 Pasang alat dasar: python git curl gnupg termux-api"
+for p in python git curl gnupg termux-api; do
   if pkg install -y "$p" >/dev/null 2>&1; then ok "$p terpasang"
   else warn "$p GAGAL dipasang"; fi
 done
@@ -58,7 +58,7 @@ else
 fi
 
 say "5/6 Cegah Android mematikan proses"
-if termux-wake-lock 2>/dev/null; then ok "wake-lock aktif"; else warn "termux-wake-lock tak tersedia"; fi
+if termux-wake-lock 2>/dev/null; then ok "wake-lock aktif"; else warn "termux-wake-lock tak tersedia (pasang app Termux:API dari F-Droid)"; fi
 warn "Matikan juga 'Optimasi baterai' untuk Termux di Setelan Android."
 
 say "6/6 SELESAI. Cara menjalankan:"
