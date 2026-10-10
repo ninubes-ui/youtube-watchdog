@@ -1,222 +1,148 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # ==========================================================================
-#  MULAI_DI_TERMUX.sh   --   SATU FILE, SEKALI JALAN, LANGSUNG HIDUP
-#  YouTube Growth Room (BOS NINU)  +  Hermes Agent
-#  Dibuat 10-10-2026. Tahan-gagal: satu langkah gagal tidak menghentikan
-#  sisanya. Setiap masalah dicatat di baris RINGKASAN paling bawah.
+#  MULAI_DI_TERMUX.sh  --  SEKALI JALAN  (v3)
+#  YouTube Growth Room milik BOS NINU
 #
-#  CARA PAKAI (di Termux, copy-paste 3 baris ini):
+#  v3 TIDAK memakai paket hermes (itu penyebab gagal berulang).
+#  Sekarang pakai agent_termux.py: dashboard + chat + kendali jarak jauh.
+#  Unduhannya KECIL (ratusan KB), bukan 171 MB.
+#
+#  CARA PAKAI (di Termux):
 #     pkg install -y curl
-#     curl -fsSL https://raw.githubusercontent.com/ninubes-ui/youtube-watchdog/main/MULAI_DI_TERMUX.sh -o mulai.sh
-#     bash mulai.sh
+#     curl -fsSL https://raw.githubusercontent.com/ninubes-ui/youtube-watchdog/main/MULAI_DI_TERMUX.sh -o mulai.sh && bash mulai.sh
+#     bash pasang_kunci.sh <KUNCI_AI> <TOKEN_GITHUB>      <- kunci dari BOS NINU
 # ==========================================================================
 set -u
 umask 022
 
 REPO_RAW="https://raw.githubusercontent.com/ninubes-ui/youtube-watchdog/main"
-REPO_SAFE="https://github.com/ninubes-ui/youtube-watchdog.git"
-KEYFP="C572B5FDD1A29CCFA9A912B6840B0848E139156D"
 PROJDIR="$HOME/youtube-watchdog"
 LOGDIR="$HOME/.watchdog"
-mkdir -p "$LOGDIR"
+mkdir -p "$LOGDIR" "$PROJDIR"
 LOG="$LOGDIR/mulai.log"; : > "$LOG"
 
-WARN=0; FAIL=0; ARCH_OK=1
-say()  { printf '\n\033[1m== %s ==\033[0m\n' "$1" | tee -a "$LOG"; }
+WARN=0; FAIL=0
+say()  { printf '\n\033[1m== %s ==\033[0m\n' "$1" 2>/dev/null | tee -a "$LOG"; }
 ok()   { printf '   [OK] %s\n' "$1" | tee -a "$LOG"; }
 warn() { printf '   [!!] %s\n' "$1" | tee -a "$LOG"; WARN=$((WARN+1)); }
 bad()  { printf '   [XX] %s\n' "$1" | tee -a "$LOG"; FAIL=$((FAIL+1)); }
 
 echo "==============================================" | tee -a "$LOG"
-echo "  YOUTUBE GROWTH ROOM  --  PASANG DI HP"        | tee -a "$LOG"
-echo "  (butuh internet; paket Hermes ~171 MB)"        | tee -a "$LOG"
+echo "  YOUTUBE GROWTH ROOM  --  PASANG DI HP (v3)"    | tee -a "$LOG"
+echo "  tanpa paket hermes; unduhan kecil"            | tee -a "$LOG"
 echo "==============================================" | tee -a "$LOG"
 echo "log: $LOG"
 date | tee -a "$LOG"
 
-# ---------------------------------------------------------------- 1/8
-say "1/8 Cek ini benar Termux?"
+# ---------------------------------------------------------------- 1/7
+say "1/7 Cek ini benar Termux?"
 if [ -n "${PREFIX:-}" ] && [ -d "${PREFIX:-/nonexistent}" ]; then
-  ok "Termux terdeteksi (PREFIX=$PREFIX)"
+  ok "Termux terdeteksi"
 else
-  bad "Bukan Termux (PREFIX kosong). Skrip ini KHUSUS Termux di Android."
-  echo "   -> berhenti. Kalau di laptop, pakai buka_dashboard.bat."
+  bad "Bukan Termux. Skrip ini KHUSUS Termux di Android."
   exit 1
 fi
-ARCH=$(uname -m 2>/dev/null || echo "tidak-diketahui")
-echo "   arsitektur: $ARCH"
-case "$ARCH" in
-  aarch64|arm64) ok "arsitektur didukung (paket tersedia)" ;;
-  *) ARCH_OK=0; warn "arsitektur '$ARCH' tanpa paket Hermes; dashboard tetap bisa jalan" ;;
-esac
+echo "   arsitektur: $(uname -m 2>/dev/null)"
 
-# ---------------------------------------------------------------- 2/8
-say "2/8 Alat dasar: python git curl gnupg termux-api"
-if pkg update -y >/dev/null 2>&1; then ok "indeks paket diperbarui"; else warn "pkg update dilewati/gagal (tidak fatal)"; fi
-for p in python git curl gnupg termux-api; do
+# ---------------------------------------------------------------- 2/7
+say "2/7 Alat dasar: python curl (cepat, tidak ada unduhan besar)"
+if pkg update -y >/dev/null 2>&1; then ok "indeks paket diperbarui"; else warn "pkg update dilewati (tidak fatal)"; fi
+for p in python curl; do
   if command -v "$p" >/dev/null 2>&1; then ok "$p sudah ada"
   elif pkg install -y "$p" >/dev/null 2>&1; then ok "$p terpasang"
-  else warn "$p gagal dipasang"; fi
+  else warn "$p gagal dipasang"
+  fi
 done
-if ! command -v python >/dev/null 2>&1; then bad "python TIDAK ada -> dashboard tidak bisa jalan!"; fi
+if ! command -v python >/dev/null 2>&1; then bad "python TIDAK ada -> dashboard tidak bisa jalan"; fi
 
-# ---------------------------------------------------------------- 3/8
-say "3/8 Ambil folder proyek"
-if [ -f "$PROJDIR/dashboard_server.py" ]; then
-  cd "$PROJDIR" || bad "tidak bisa masuk $PROJDIR"
-  if command -v git >/dev/null 2>&1 && [ -d .git ] && git pull --ff-only >/dev/null 2>&1; then
-    ok "proyek di-update ke versi terbaru"
-  else
-    ok "proyek sudah ada (pakai versi lokal)"
+# ---------------------------------------------------------------- 3/7
+say "3/7 Ambil berkas proyek dari GitHub"
+cd "$PROJDIR" || exit 1
+GOT=0
+if command -v git >/dev/null 2>&1; then
+  if [ -d .git ]; then
+    if git pull --ff-only >/dev/null 2>&1; then ok "proyek di-update (git pull)"; GOT=1
+    else ok "proyek sudah ada (versi lokal)"; GOT=1; fi
+  elif git clone --depth 1 "https://github.com/ninubes-ui/youtube-watchdog.git" . >/dev/null 2>&1; then
+    ok "proyek di-clone (git)"; GOT=1
   fi
-else
-  mkdir -p "$PROJDIR"
-  GOT=0
-  if command -v git >/dev/null 2>&1; then
-    for BR in main master; do
-      if git clone --depth 1 -b "$BR" "$REPO_SAFE" "$PROJDIR" >/dev/null 2>&1; then
-        ok "proyek di-clone (git, cabang $BR)"; GOT=1; break
-      fi
-      rm -rf "$PROJDIR"; mkdir -p "$PROJDIR"
-    done
-  fi
-  if [ "$GOT" -eq 0 ]; then
-    warn "git clone gagal -> unduh berkas satu per satu (mode langsung)"
-    cd "$PROJDIR" || exit 1
-    for f in dashboard_server.py index.html run_termux.sh CARA_PAKAI_TERMUX.txt; do
-      if curl -fsSL "$REPO_RAW/$f" -o "$f" 2>/dev/null && [ -s "$f" ]; then
-        echo "   [OK] $f"
-      else
-        warn "gagal unduh $f"
-      fi
-    done
-  fi
-  cd "$PROJDIR" 2>/dev/null || true
 fi
-if [ -f "$PROJDIR/dashboard_server.py" ]; then
-  ok "dashboard_server.py siap"
-else
-  bad "dashboard_server.py TIDAK ada -> dashboard tidak bisa jalan"
-fi
-
-# ---------------------------------------------------------------- 4/8
-say "4/8 Hermes Agent (untuk tab CHAT)"
-if command -v hermes >/dev/null 2>&1; then
-  ok "hermes sudah terpasang"
-elif [ "$ARCH_OK" -eq 0 ]; then
-  bad "hermes dilewati: arsitektur $ARCH tidak didukung paket resmi"
-else
-  KEYRING="$PREFIX/etc/apt/keyrings/hermes-agent.asc"
-  SRCLIST="$PREFIX/etc/apt/sources.list.d/hermes-agent.list"
-  mkdir -p "$PREFIX/etc/apt/keyrings"
-  if curl -fsSL --retry 3 -o "$KEYRING" "https://hermes-assets.nousresearch.com/releases/termux/canary/key.asc"; then
-    echo "   sidik jari kunci yang diharapkan: $KEYFP"
-    FPGOT=$(gpg --show-keys --with-fingerprint "$KEYRING" 2>/dev/null | tr -d ' ' | grep -o -i -E "$KEYFP" | head -n 1)
-    if [ -n "$FPGOT" ]; then
-      ok "kunci repo resmi terverifikasi (sidik jari COCOK)"
+if [ "$GOT" -eq 0 ]; then
+  warn "git tidak ada/gagal -> unduh berkas satu per satu"
+  for f in agent_termux.py index.html run_termux.sh pasang_kunci.sh penjaga.sh; do
+    if curl -fsSL "$REPO_RAW/$f" -o "$f" 2>/dev/null && [ -s "$f" ]; then
+      echo "   [OK] $f"
     else
-      warn "sidik jari kunci tidak terbaca (gpg bermasalah) - lanjut hati-hati"
+      warn "gagal unduh $f"
     fi
-    printf 'deb [signed-by=%s] https://hermes-assets.nousresearch.com/releases/termux/canary hermes-canary main\n' "$KEYRING" > "$SRCLIST"
-    ok "sumber paket resmi (channel canary) ditambahkan"
-    pkg update -y >/dev/null 2>&1 || true
-    echo "   mengunduh paket ~171 MB, mohon sabar (bisa 5-15 menit)..."
-    if pkg install -y hermes-agent; then
-      ok "hermes-agent TERPASANG (tab Chat hidup)"
-    else
-      bad "hermes-agent gagal dipasang -> tab Chat mati. Tab Kantor & Rekomendasi tetap jalan."
-    fi
-  else
-    bad "gagal unduh kunci repo -> tab Chat mati. Tab Kantor & Rekomendasi tetap jalan."
-  fi
+  done
+fi
+if [ -s "$PROJDIR/agent_termux.py" ]; then ok "agent_termux.py siap ($(wc -c < "$PROJDIR/agent_termux.py") byte)"
+else bad "agent_termux.py TIDAK ada -> server tidak bisa jalan"; fi
+if [ -s "$PROJDIR/index.html" ]; then ok "index.html siap"
+else bad "index.html TIDAK ada -> halaman dashboard kosong"; fi
+
+# ---------------------------------------------------------------- 4/7
+say "4/7 Kunci (untuk tab Chat + kendali jarak jauh)"
+if [ -s "$LOGDIR/rahasia" ]; then
+  grep -q '^AI_KEY=.\+' "$LOGDIR/rahasia" && ok "kunci AI TERBACA" || bad "kunci AI kosong -> tab Chat mati"
+  grep -q '^GH_TOKEN=.\+' "$LOGDIR/rahasia" && ok "token GitHub TERBACA (kendali jarak jauh hidup)" || warn "token GitHub kosong (kendali jarak jauh mati)"
+else
+  warn "kunci belum dipasang. Jalankan sekali:"
+  echo "        bash ~/youtube-watchdog/pasang_kunci.sh <KUNCI_AI> <TOKEN_GITHUB>"
+  echo "        (kuncinya dikirim BOS NINU lewat chat, JANGAN dibagikan)"
 fi
 
-# ---------------------------------------------------------------- 5/8
-say "5/8 Izinkan Termux tetap hidup di latar"
+# ---------------------------------------------------------------- 5/7
+say "5/7 Biarkan Termux hidup di latar"
 if command -v termux-wake-lock >/dev/null 2>&1; then
-  if termux-wake-lock 2>/dev/null; then
-    ok "wake-lock aktif"
-  else
-    warn "termux-wake-lock gagal (pasang+ buka app 'Termux:API' dari F-Droid)"
-  fi
+  termux-wake-lock 2>/dev/null && ok "wake-lock aktif" || warn "wake-lock gagal (pkg install termux-api + buka app Termux:API)"
 else
-  warn "termux-wake-lock tidak ada (pasang+ buka app 'Termux:API' dari F-Droid)"
+  warn "termux-wake-lock tidak ada (pkg install termux-api + buka app Termux:API)"
 fi
-echo "   Setelan Android: matikan 'Optimasi baterai' untuk Termux"
-echo "   Setelan Android: izinkan notifikasi Termux"
 
-# ---------------------------------------------------------------- 6/8
-say "6/8 Nyalakan server dashboard"
-mkdir -p "$PROJDIR"
-RUNNER="$PROJDIR/run_termux.sh"
-if [ ! -f "$RUNNER" ]; then
-  cat > "$RUNNER" <<'EORUN'
-#!/data/data/com.termux/files/usr/bin/bash
-cd "$(dirname "$0")" || exit 1
-termux-wake-lock 2>/dev/null
-pkill -f dashboard_server.py 2>/dev/null
-sleep 1
-nohup python dashboard_server.py > server.log 2>&1 &
-sleep 3
-curl -s -o /dev/null -w "HTTP: %{http_code}\n" http://localhost:8765/index.html
-tail -n 12 server.log
-EORUN
-  chmod +x "$RUNNER" 2>/dev/null || true
-fi
-if command -v python >/dev/null 2>&1; then
-  cd "$PROJDIR" || exit 1
-  pkill -f dashboard_server.py 2>/dev/null || true
-  sleep 1
-  nohup python dashboard_server.py > server.log 2>&1 &
-  sleep 4
-  CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://localhost:8765/index.html" 2>/dev/null)
-  if [ "$CODE" = "200" ]; then
-    ok "SERVER HIDUP  ->  http://localhost:8765/index.html"
-    if termux-open-url "http://localhost:8765/index.html" >/dev/null 2>&1; then
-      ok "browser dibuka otomatis"
-    else
-      echo "   buka manual di browser HP: http://localhost:8765/index.html"
-    fi
-  else
-    bad "server belum menjawab (kode HTTP '${CODE:-000}'). 12 baris log terakhir:"
-    tail -n 12 "$PROJDIR/server.log" 2>/dev/null | sed 's/^/       /'
-    echo "   uji manual:  cd ~/youtube-watchdog && python dashboard_server.py"
-  fi
-else
+# ---------------------------------------------------------------- 6/7
+say "6/7 Nyalakan server + penjaga otomatis"
+if ! command -v python >/dev/null 2>&1; then
   bad "python tidak ada -> server tidak dinyalakan"
+else
+  pkill -f agent_termux.py 2>/dev/null || true
+  sleep 1
+  nohup python agent_termux.py >> "$LOGDIR/agent.log" 2>&1 &
+  sleep 4
+  CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 8 http://localhost:8765/index.html 2>/dev/null)
+  if [ "$CODE" = "200" ]; then
+    ok "SERVER HIDUP -> http://localhost:8765/index.html"
+    termux-open-url "http://localhost:8765/index.html" >/dev/null 2>&1 && ok "browser dibuka otomatis" || echo "   buka manual: http://localhost:8765/index.html"
+  else
+    bad "server belum menjawab (HTTP ${CODE:-000}). Baris log terakhir:"
+    tail -n 12 "$LOGDIR/agent.log" 2>/dev/null | sed 's/^/       /'
+  fi
+  pkill -f penjaga.sh 2>/dev/null || true
+  nohup bash penjaga.sh >/dev/null 2>&1 &
+  ok "penjaga aktif (menyalakan ulang otomatis, cek tiap 45 detik)"
 fi
 
-# ---------------------------------------------------------------- 7/8
-say "7/8 Auto-jalan saat HP reboot (opsional)"
-if command -v termux-boot >/dev/null 2>&1 || pkg install -y termux-boot >/dev/null 2>&1; then
-  mkdir -p "$HOME/.termux/boot"
-  cat > "$HOME/.termux/boot/start-watchdog.sh" <<'EOBOOT'
+# ---------------------------------------------------------------- 7/7
+say "7/7 Auto-jalan saat HP reboot + pintasan"
+mkdir -p "$HOME/.termux/boot" 2>/dev/null
+cat > "$HOME/.termux/boot/start-growthroom.sh" <<'EOBOOT'
 #!/data/data/com.termux/files/usr/bin/sh
 termux-wake-lock
 cd $HOME/youtube-watchdog
-nohup python dashboard_server.py >> server.log 2>&1 &
+nohup python agent_termux.py >> $HOME/.watchdog/agent.log 2>&1 &
+nohup bash penjaga.sh >/dev/null 2>&1 &
 EOBOOT
-  chmod +x "$HOME/.termux/boot/start-watchdog.sh"
-  ok "disiapkan (butuh app 'Termux:Boot' dibuka sekali)"
-else
-  warn "termux-boot tidak tersedia (dilewati - tidak penting)"
-fi
+chmod +x "$HOME/.termux/boot/start-growthroom.sh" 2>/dev/null && ok "siap (butuh app Termux:Boot dibuka sekali)" || warn "boot script gagal dibuat"
 mkdir -p "$HOME/.shortcuts" 2>/dev/null
-if [ -d "$HOME/.shortcuts" ]; then
-  cat > "$HOME/.shortcuts/Nyalakan Dashboard.sh" <<'EOSHORTCUT'
-cd $HOME/youtube-watchdog && bash run_termux.sh
-EOSHORTCUT
-  chmod +x "$HOME/.shortcuts/Nyalakan Dashboard.sh" 2>/dev/null || true
-fi
+printf 'cd $HOME/youtube-watchdog && bash run_termux.sh\n' > "$HOME/.shortcuts/Nyalakan Growth Room.sh" 2>/dev/null
+chmod +x "$HOME/.shortcuts/Nyalakan Growth Room.sh" 2>/dev/null || true
 
-# ---------------------------------------------------------------- 8/8
-say "8/8 RINGKASAN"
+say "RINGKASAN"
 echo "   peringatan: $WARN   |   masalah: $FAIL" | tee -a "$LOG"
 if [ "$FAIL" -eq 0 ]; then
-  echo "   STATUS: BERHASIL - dashboard sudah hidup di HP ini." | tee -a "$LOG"
-  if [ "$WARN" -gt 0 ]; then
-    echo "   (ada $WARN peringatan kecil, lihat baris [!!] di atas)" | tee -a "$LOG"
-  fi
+  echo "   STATUS: BERHASIL - Growth Room sudah hidup di HP ini." | tee -a "$LOG"
+  [ "$WARN" -gt 0 ] && echo "   (ada $WARN peringatan kecil, lihat baris [!!] di atas)" | tee -a "$LOG"
 else
   echo "   STATUS: SEBAGIAN GAGAL - kirim isi log ini ke BOS NINU:" | tee -a "$LOG"
   echo "     $LOG" | tee -a "$LOG"
@@ -226,11 +152,11 @@ cat <<'EOF' | tee -a "$LOG"
    BUKA LAGI NANTI (setelah HP di-restart):
        cd ~/youtube-watchdog && bash run_termux.sh
 
-   MATIKAN SERVER:
-       pkill -f dashboard_server.py
+   MATIKAN:
+       pkill -f agent_termux.py ; pkill -f penjaga.sh
 
-   PASANG KUNCI CHAT (sekali saja, kalau hermes terpasang):
-       hermes setup
+   LIHAT CATATAN:
+       cat ~/.watchdog/agent.log
 EOF
 echo "=============================================="
 printf 'selesai pada %s\n' "$(date '+%H:%M:%S')"
