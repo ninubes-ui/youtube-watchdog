@@ -120,6 +120,14 @@ def _wg_log(q, a):
 class H(SimpleHTTPRequestHandler):
     def log_message(self, *a):
         pass
+    def end_headers(self):
+        # Paksa browser JANGAN cache index.html/dll -> tampilan selalu versi terbaru
+        buf = getattr(self, "_headers_buffer", None) or []
+        if not any(b"Cache-Control" in h for h in buf):
+            self.send_header("Cache-Control", "no-store, no-cache, must-revalidate")
+            self.send_header("Pragma", "no-cache")
+            self.send_header("Expires", "0")
+        super().end_headers()
     def _json(self, obj, code=200):
         body = json.dumps(obj, ensure_ascii=False).encode("utf-8")
         self.send_response(code)
