@@ -1,0 +1,56 @@
+==============================================================
+  MULAI_DI_TERMUX.sh  --  SATU FILE, SEKALI JALAN
+  YouTube Growth Room (BOS NINU)  |  10-10-2026
+==============================================================
+
+APA INI
+  Satu skrip yang mengerjakan SEMUA-nya sendiri di HP:
+   1) cek ini benar Termux / arsitektur HP didukung
+   2) pasang python, git, curl, gnupg, termux-api
+   3) ambil folder proyek dari GitHub (git clone; kalau gagal,
+      unduh berkasnya satu per satu -- otomatis)
+   4) pasang Hermes Agent (untuk tab Chat), kunci resminya
+      DIVERIFIKASI lewat sidik jari:
+          C572 B5FD D1A2 9CCF A9A9 12B6 840B 0848 E139 156D
+   5) aktifkan termux-wake-lock (HP tidak mematikan server)
+   6) Nyalakan server dashboard, lalu BUKA browser otomatis
+   7) siapkan auto-jalan saat HP reboot
+   8) tampilkan RINGKASAN: berapa peringatan, berapa masalah
+
+  Tahan-gagal: satu langkah gagal TIDAK menghentikan sisanya.
+  Semua catatan disimpan di:  ~/.watchdog/mulai.log
+
+CARA PAKAI (3 baris, copy-paste di Termux)
+--------------------------------------------------------------
+   pkg install -y curl
+   curl -fsSL https://raw.githubusercontent.com/ninubes-ui/youtube-watchdog/main/MULAI_DI_TERMUX.sh -o mulai.sh
+   bash mulai.sh
+
+  Hasil yang dicari di akhir:
+     "STATUS: BERHASIL - dashboard sudah hidup di HP ini."
+
+  Kalau muncul "STATUS: SEBAGIAN GAGAL", kirim ke BOS NINU isi:
+     ~/.watchdog/mulai.log
+
+JIKA TOMBOL COPY DI DISCORD TIDAK BISA (jarang):
+  Unduh berkas terlampir MULAI_DI_TERMUX.sh ke folder Download HP, lalu:
+     cd /sdcard/Download && bash MULAI_DI_TERMUX.sh
+
+PERINTAH SEHARI-HARI
+--------------------------------------------------------------
+  nyalakan :  cd ~/youtube-watchdog && bash run_termux.sh
+  matikan  :  pkill -f dashboard_server.py
+  buka     :  http://localhost:8765/index.html
+  kunci chat (sekali): hermes setup
+  lihat log:  cat ~/.watchdog/mulai.log
+
+YANG PASTI JALAN vs TIDAK
+--------------------------------------------------------------
+  PASTI (murni Python, tanpa Hermes):
+     - Tab Kantor (status), Tab Rekomendasi (ide konten dari riset tren)
+  TERGANTUNG PAKET HERMES (masih label percobaan di Termux):
+     - Tab Chat
+  TIDAK TERPENGARUH LAPTOP/HP MATI (sudah terbukti):
+     - dashboard online https://ninubes-ui.github.io/youtube-watchdog/
+     - watchdog tren tiap 12 jam -> lapor ke Discord #general
+==============================================================
