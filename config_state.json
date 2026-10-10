@@ -67,6 +67,18 @@
     {
       "t": "10-10 03:59",
       "msg": "OK: tidak ada sinyal (senyap)"
+    },
+    {
+      "t": "10-10 06:54",
+      "msg": "Cek API key: VALID"
+    },
+    {
+      "t": "10-10 06:54",
+      "msg": "Metrik diperbarui: views=26 avg7=1050"
+    },
+    {
+      "t": "10-10 06:54",
+      "msg": "Discord: terkirim"
     }
   ],
   "trends": [
@@ -89,10 +101,6 @@
     {
       "title": "Steal a Brainrot Plant Bros guide - Sportskeeda",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5"
-    },
-    {
-      "title": "Grow a Garden 2 codes (September 2026) - Dexerto",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTkFRaU5RSUhNalBVR0VaYnZ4dC1vNktFdDhvTmdnWW1kRWdDMUR3anBQMVFMbzdYRkwxZVJNa1V1TjcyWWFEb3BXR3NiZk93cmtCbFZKekpTUENwNjBoVE1Mb1YtM2U3ZlVtQ3Rn?oc=5"
     },
     {
       "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
@@ -120,24 +128,24 @@
     }
   ],
   "seen_trends": [
-    "steal a brainrot sammyni spookyni guide - sportskeeda",
-    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
-    "steal a brainrot plant bros guide - sportskeeda",
-    "how to use emotes in roblox - technobezz",
-    "grow a garden scarecrow guide - sportskeeda",
-    "steal a brainrot phoenix guide - sportskeeda",
-    "grow a garden everfallen pet mutation guide - sportskeeda",
-    "grow a garden maple melt guide - sportskeeda",
     "grow a garden 2 codes (september 2026) - dexerto",
-    "how to find steal a brainrot 67 & drop rate - dexerto",
     "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
-    "roblox's animal hospital [a&c] - brown daily herald"
+    "how to find steal a brainrot 67 & drop rate - dexerto",
+    "grow a garden everfallen pet mutation guide - sportskeeda",
+    "grow a garden scarecrow guide - sportskeeda",
+    "roblox's animal hospital [a&c] - brown daily herald",
+    "steal a brainrot sammyni spookyni guide - sportskeeda",
+    "grow a garden maple melt guide - sportskeeda",
+    "steal a brainrot plant bros guide - sportskeeda",
+    "steal a brainrot phoenix guide - sportskeeda",
+    "how to use emotes in roblox - technobezz",
+    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda"
   ],
   "baseline": {
-    "avg_views_last_7_videos": 1069,
-    "last_video_views": 1802,
-    "last_video_id": "q6D2dJKcli0",
-    "last_check_utc": "2026-10-10T03:59Z"
+    "avg_views_last_7_videos": 1050,
+    "last_video_views": 26,
+    "last_video_id": "6sw7IpI9GI8",
+    "last_check_utc": "2026-10-10T06:54Z"
   },
   "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
   "messages": [
@@ -155,6 +163,11 @@
       "t": "10-10 03:59",
       "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
       "kind": "aman"
+    },
+    {
+      "t": "10-10 06:54",
+      "text": "METRIK TURUN: Video 'Rumah hantu' hanya 26 views (baseline 1069). Turun -97.6%  Laporan sudah kukirim ke Discord.",
+      "kind": "alert"
     }
   ],
   "channel": {

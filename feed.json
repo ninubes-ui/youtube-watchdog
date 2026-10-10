@@ -1,25 +1,25 @@
 {
- "ts": 1791604763,
- "rendered": "2026-10-10 03:59:23",
+ "ts": 1791615291,
+ "rendered": "2026-10-10 06:54:51",
  "source": "github-actions",
- "state": "ISTIRAHAT",
- "stateid": "AMAN",
- "status_text": "Agen sedang istirahat",
- "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
- "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
+ "state": "SIBUK",
+ "stateid": "ALERT",
+ "status_text": "Agen sedang sibuk",
+ "task": "METRIK TURUN: Video 'Rumah hantu' hanya 26 views (baseline 1069). Turun -97.6%  Laporan sudah kukirim ke Discord.",
+ "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-10 03:59 UTC",
+ "last_run": "2026-10-10 06:54 UTC",
  "metrics": {
-  "last_title": "Tukang azan",
-  "last_views": 1802,
-  "avg7": 1069,
-  "delta_pct": "+100.2%"
+  "last_title": "Rumah hantu",
+  "last_views": 26,
+  "avg7": 1050,
+  "delta_pct": "-97.6%"
  },
  "discord": {
-  "ok": null,
+  "ok": true,
   "channel": "#general",
-  "detail": "-"
+  "detail": "HTTP 200"
  },
  "trends": [
   {
@@ -41,10 +41,6 @@
   {
    "title": "Steal a Brainrot Plant Bros guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5"
-  },
-  {
-   "title": "Grow a Garden 2 codes (September 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTkFRaU5RSUhNalBVR0VaYnZ4dC1vNktFdDhvTmdnWW1kRWdDMUR3anBQMVFMbzdYRkwxZVJNa1V1TjcyWWFEb3BXR3NiZk93cmtCbFZKekpTUENwNjBoVE1Mb1YtM2U3ZlVtQ3Rn?oc=5"
   },
   {
    "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
@@ -139,6 +135,18 @@
   {
    "t": "10-10 03:59",
    "msg": "OK: tidak ada sinyal (senyap)"
+  },
+  {
+   "t": "10-10 06:54",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-10 06:54",
+   "msg": "Metrik diperbarui: views=26 avg7=1050"
+  },
+  {
+   "t": "10-10 06:54",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
@@ -156,10 +164,15 @@
    "t": "10-10 03:59",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
    "kind": "aman"
+  },
+  {
+   "t": "10-10 06:54",
+   "text": "METRIK TURUN: Video 'Rumah hantu' hanya 26 views (baseline 1069). Turun -97.6%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
-  "metric": false,
+  "metric": true,
   "trend": false
  }
 }
