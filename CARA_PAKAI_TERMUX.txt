@@ -1,121 +1,109 @@
 ==============================================================
  CARA PAKAI: HP ANDROID JADI "SERVER 24 JAM" (TANPA VPS)
  YouTube Growth Room  --  untuk BOS NINU
- Versi 2 (diperbaiki 10-10-2026)
+ Versi 3 (satu file, 10-10-2026)
 ==============================================================
 
-IDE DASAR
-  Laptopmu boleh dimatikan. Yang "selalu nyala" pindah ke HP Android
-  (yang biasanya memang nyala terus dan sedang di-charge). Di HP kita
-  pasang aplikasi Termux (terminal Linux kecil, gratis, tanpa root,
-  tanpa kartu kredit), lalu jalankan dashboard + watchdog dari sana.
+RINGKASNYA: cukup SATU file -> MULAI_DI_TERMUX.sh
+  (panduan cepat ada di MULAI_DI_TERMUX.txt)
 
 --------------------------------------------------------------
-KENAPA KEMARIN GAGAL  (ini yang diperbaiki)
+KENAPA 2 PERCOBAAN SEBELUMNYA GAGAL  (semua sudah diperbaiki)
 --------------------------------------------------------------
-  1. Skrip setup lama pakai "set -e": begitu SATU langkah gagal,
-     SEMUA langkah berikutnya ikut berhenti. Jadi kalau istilah paket
-     berubah, atau internet tersendat, setup mati di tengah jalan.
-     -> SEKARANG: tiap langkah dicek sendiri. Gagal satu, lanjut terus.
-
-  2. Ada perintah "pkg update -y" DI DALAM pemasangan. Di Termux baru,
-     ini bisa memunculkan prompt ketik manual -> setup nyangkut diam.
-     -> SEKARANG: output prompt ditutup, dan kegagalan tidak fatal.
-
+  1. Skrip lama pakai "set -e" -> satu langkah gagal, SEMUA berhenti.
+     -> SEKARANG: tiap langkah dicek sendiri; gagal satu, lanjut saja.
+  2. "pkg update -y" di tengah pemasangan bisa memunculkan prompt
+     ketik manual -> setup diam/menggantung selamanya.
+     -> SEKARANG: output prompt ditutup, kegagalan tidak fatal.
   3. Kunci repo Hermes diambil dari channel "stable" yang SAAT INI
-     KOSONG (link-nya balas 404 / tidak ditemukan). Jadi pemasangan
-     Hermes selalu gagal di situ.
-     -> SEKARANG: pakai channel "canary" yang memang berisi paket
-        terbaru (versi 0.21.6, ter-update 10 Okt 2026).
-        Bukti terverifikasi: link canary balas HTTP 200.
-
-  4. Tidak ada file untuk MENJALANKAN server di HP. Di laptop ada
-     buka_dashboard.bat, tapi di HP tak ada padanannya.
-     -> SEKARANG: ada run_termux.sh (sekali ketik, langsung cek hidup).
+     KOSONG (link balas 404). Jadi pemasangan Hermes selalu mati di situ.
+     -> SEKARANG: channel "canary" yang memang berisi paket terbaru.
+        Terverifikasi: hermes-agent 0.21.6, 171 MB, tanggal 10-10-2026,
+        kunci resmi sidik jari C572B5FD...E139156D (dicocokkan skrip).
+  4. Tidak ada file untuk MENJALANKAN server di HP.
+     -> SEKARANG: run_termux.sh (dibuat otomatis kalau belum ada).
+  5. Tidak ada RINGKASAN hasil -> user tidak tahu mana yang gagal.
+     -> SEKARANG: baris terakhir selalu bilang berhasil / gagal, dan
+        semua tercatat di ~/.watchdog/mulai.log.
 
 --------------------------------------------------------------
-JANGAN JALANIN SETUP LAMA INI (sudah diganti):
-     "set -e" + "pkg update -y" yang lama
+YANG DIBUTUHKAN
 --------------------------------------------------------------
-
-APA YANG DIBUTUHKAN
   1. HP Android 64-bit (arm64) -- hampir semua HP modern.
-  2. Aplikasi Termux, ambil dari F-Droid (JANGAN dari Play Store; yang
-     di Play Store sudah usang dan paketnya sering gagal).
+  2. Termux dari F-Droid (JANGAN Play Store; versi di sana usang):
         https://f-droid.org/packages/com.termux/
-  3. Internet + HP ter-colok charger.
+  3. Termux:API dari F-Droid (supaya wake-lock + auto-buka browser):
+        https://f-droid.org/packages/com.termux.api/
+  4. Termux:Boot dari F-Droid (opsional, auto-jalan saat HP reboot).
+  5. Internet + HP ter-colok charger.
 
 --------------------------------------------------------------
-LANGKAH (copy-paste satu per satu)
+LANGKAH -- SATU JALAN, TIGA BARIS
 --------------------------------------------------------------
-  1. Instal Termux dari F-Droid, buka aplikasinya.
-     (Bonus, agar HP tak mematikan server: pasang juga app Termux:API
-      dari F-Droid -- dipakai untuk perintah termux-wake-lock.)
+  pkg install -y curl
+  curl -fsSL https://raw.githubusercontent.com/ninubes-ui/youtube-watchdog/main/MULAI_DI_TERMUX.sh -o mulai.sh
+  bash mulai.sh
 
-  2. Tempel ini (satu blok):
-         pkg install -y curl
-         curl -fsSL https://raw.githubusercontent.com/ninubes-ui/youtube-watchdog/main/SETUP_TERMUX.sh -o setup.sh
-         bash setup.sh
+  Di akhir cari:  "STATUS: BERHASIL - dashboard sudah hidup di HP ini."
+  Browser akan terbuka sendiri ke:  http://localhost:8765/index.html
 
-  3. Jalankan dashboard:
-         cd ~/youtube-watchdog
-         bash run_termux.sh
-
-     Kalau muncul "[OK] server hidup (HTTP 200)" -> berhasil.
-     Kalau muncul "[!!]" -> skrip otomatis menampilkan 12 baris log
-     terakhir, jadi ketahuan error-nya apa.
-
-  4. Buka browser HP:   http://localhost:8765/index.html
-       - Tab Kantor + Rekomendasi: langsung jalan (cuma butuh python).
-       - Tab Chat: jalan kalau langkah 4 setup berhasil (hermes ada).
-
-  5. Cek manual kapan saja:
-         curl -s http://localhost:8765/feed.json | head -c 200
-         pkill -f dashboard_server.py      # matikan server
+  Kalau "SEBAGIAN GAGAL": kirim isi ~/.watchdog/mulai.log ke BOS NINU.
+  Paling sering penyebabnya: internet putus di tengah unduhan 171 MB
+  (cukup jalankan ulang skrip yang sama; yang sudah terpasang dilewati).
 
 --------------------------------------------------------------
-AGAR JALAN SENDIRI SAAT HP REBOOT (opsional)
+SETELAN ANDROID YANG WAJIB (biar HP tidak mematikan server)
 --------------------------------------------------------------
-     pkg install -y termux-boot
-     mkdir -p ~/.termux/boot
-     printf '#!/data/data/com.termux/files/usr/bin/sh\ntermux-wake-lock\ncd $HOME/youtube-watchdog\nnohup python dashboard_server.py >> server.log 2>&1 &\n' > ~/.termux/boot/start-watchdog.sh
-     chmod +x ~/.termux/boot/start-watchdog.sh
-  Lalu buka app "Termux:Boot" sekali supaya izinnya aktif.
+  - Setelan > Aplikasi > Termux > Baterai -> pilih "Tidak dibatasi"
+    (matikan optimasi baterai).
+  - Izinkan notifikasi untuk Termux (kalau muncul "Termux berjalan",
+    itu tanda bagus; jangan di-swipe).
+  - Buka app Termux:API SEKALI supaya izinnya aktif.
+  - Buka app Termux:Boot SEKALI (kalau memasangnya).
 
 --------------------------------------------------------------
-JUJUR: BATASANNYA (biar tidak kaget)
+PERINTAH SEHARI-HARI
 --------------------------------------------------------------
-  1. Paket hermes-agent di Termux masih berstatus PERCOBAAN. Dokumentasi
-     resmi masih menulis "does not work right now / sedang diperbaiki".
-     Channel canary yang kita pakai memang sudah terisi, tapi belum
-     dijamin mulus. Kalau Chat mati:
-       - Watchdog + dashboard TETAP jalan (murni Python, tanpa hermes).
-       - Update paket nanti:  pkg update && pkg upgrade hermes-agent
-  2. Android suka mematikan proses latar. termux-wake-lock + matikan
-     "Optimasi baterai" untuk Termux membantu, TAPI tidak 100% dijamin.
-  3. HP tetap harus hidup. Ini BUKAN "tanpa perangkat nyala" -- ini
-     memindahkan beban dari laptop ke HP (lebih hemat listrik).
-  4. Chat di dashboard butuh perintah "hermes" di HP. Jalankan
-     "hermes setup" sekali untuk memasang kunci API.
+  nyalakan :  cd ~/youtube-watchdog && bash run_termux.sh
+  matikan  :  pkill -f dashboard_server.py
+  buka     :  http://localhost:8765/index.html
+  kunci chat (sekali saja): hermes setup
+  lihat log:  cat ~/.watchdog/mulai.log
+  update paket hermes:  pkg update && pkg upgrade hermes-agent
+
+--------------------------------------------------------------
+JUJUR: BATASANNYA
+--------------------------------------------------------------
+  1. Paket hermes-agent di Termux masih status PERCOBAAN. Dokumentasi
+     resmi masih menulis "belum jalan saat ini / sedang diperbaiki".
+     Channel canary sudah terisi (terverifikasi hari ini), tapi belum
+     dijamin mulus. Kalau Chat mati -> tab Kantor & Rekomendasi TETAP
+     jalan (keduanya murni Python, tanpa hermes).
+  2. Unduhan paket 171 MB, siapkan ~500 MB ruang bebas.
+  3. Android tetap bisa mematikan proses latar. Wake-lock + setelan
+     baterai membantu, tapi tidak 100% dijamin.
+  4. HP harus tetap hidup + ter-charge. Ini bukan "tanpa perangkat",
+     ini memindahkan beban dari laptop ke HP (lebih hemat listrik).
+  5. Chat butuh kunci penyedia AI: jalankan "hermes setup" sekali.
 
 --------------------------------------------------------------
 ALTERNATIF (jujur, plus-minusnya)
 --------------------------------------------------------------
   A. Laptop nyala 24 jam
-     + paling simpel, chat pasti jalan.  - listrik, laptop panas.
-  B. HP + Termux  <-- REKOMENDASI
+     + paling simpel, chat pasti jalan.   - listrik, laptop panas.
+  B. HP + Termux   <-- PILIHAN KITA
      + gratis, tanpa kartu kredit, HP memang nyala terus.
-     - paket hermes masih rapuh, Android bisa bunuh proses.
+     - paket hermes rapuh, Android bisa membunuh proses.
   C. VPS gratis (Oracle Cloud Free ARM)
-     + 24 jam tanpa perangkatmu.  - verifikasi biasanya wajib kartu.
+     + 24 jam tanpa perangkatmu.          - verifikasi perlu kartu.
   D. GitHub Actions (yang sekarang jalan)
-     + gratis, tanpa perangkatmu nyala.  - hanya saat cron 12 jam,
-       tidak realtime -> untuk chat tidak bisa.
+     + gratis, tanpa perangkat nyala.     - hanya saat cron 12 jam,
+       tidak realtime, chat tidak bisa.
 
 --------------------------------------------------------------
-YANG TETAP JALAN WALAU LAPTOP & HP MATI (sudah terbukti)
+TETAP JALAN WALAU LAPTOP & HP MATI (sudah terbukti)
 --------------------------------------------------------------
-  - Dashboard online:  https://ninubes-ui.github.io/youtube-watchdog/
+  - Dashboard online: https://ninubes-ui.github.io/youtube-watchdog/
   - Watchdog tren tiap 12 jam (GitHub Actions) -> lapor Discord #general
-  - Bukti run terakhir: 2026-10-10 06:54 UTC, status "success".
+  - Run terakhir: 2026-10-10 06:54 UTC, status "success".
 ==============================================================
