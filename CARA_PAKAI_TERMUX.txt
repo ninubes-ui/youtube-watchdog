@@ -49,6 +49,8 @@ APA YANG DIBUTUHKAN
 LANGKAH (copy-paste satu per satu)
 --------------------------------------------------------------
   1. Instal Termux dari F-Droid, buka aplikasinya.
+     (Bonus, agar HP tak mematikan server: pasang juga app Termux:API
+      dari F-Droid -- dipakai untuk perintah termux-wake-lock.)
 
   2. Tempel ini (satu blok):
          pkg install -y curl
