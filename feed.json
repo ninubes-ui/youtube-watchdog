@@ -1,20 +1,20 @@
 {
- "ts": 1791615291,
- "rendered": "2026-10-10 06:54:51",
+ "ts": 1791651009,
+ "rendered": "2026-10-10 16:50:09",
  "source": "github-actions",
- "state": "SIBUK",
- "stateid": "ALERT",
- "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Rumah hantu' hanya 26 views (baseline 1069). Turun -97.6%  Laporan sudah kukirim ke Discord.",
- "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
+ "state": "BEKERJA",
+ "stateid": "KERJA",
+ "status_text": "Agen sedang bekerja",
+ "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-10 06:54 UTC",
+ "last_run": "2026-10-10 16:50 UTC",
  "metrics": {
-  "last_title": "Rumah hantu",
-  "last_views": 26,
-  "avg7": 1050,
-  "delta_pct": "-97.6%"
+  "last_title": "Koe lanang sul",
+  "last_views": 1418,
+  "avg7": 1536,
+  "delta_pct": "+35.0%"
  },
  "discord": {
   "ok": true,
@@ -23,16 +23,16 @@
  },
  "trends": [
   {
-   "title": "roblox's animal hospital [A&C] - Brown Daily Herald",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pQnVxd1RvalU4V3B1bmFfdUd0aFhkbE1rZGpfU3ZCdHo5Z0tscElKNTZBeF82azNaMU4wQjVoTWo1S0RYR0FsME1CN01WanZ6dkFHYzBtTERzWWpZUDZad1ZGQjF4MzRrbm8yN081ZV9XQQ?oc=5"
-  },
-  {
    "title": "How to Use Emotes in Roblox - Technobezz",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80OWNYMkktckI1TFlwZHdtTXhLZWo4Uk1GOUtiR190NW42d3FuZFVxU3JxSnZHTHNHVVJUSE5tQll0bU1NSnB5N1VPRF9vU09OOTRGZWFlNnlyVXJ0aENXa0RzNDY?oc=5"
   },
   {
    "title": "Growing in Limestone County Save a Seed, Grow a Garden - mexiadailynews.com",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMTFoX0VpNTJ3Mk1WQUM5bWdZSzVYWEwxUTUwXzk2V01YcTlIOGxERUNMT2U2SkU2aXpjOERLUEkwWndCSS1jcDJLWkRURmFNM1c1R2gtREJiWmlKNDZUTm9kQUsxa0o2YWZTX3RXb3pheXUyOG9Pa3RFWjY0dUpRdWtwRFlRLUxBaVJQeEFiRQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden 2 codes (October 2026) - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTkFRaU5RSUhNalBVR0VaYnZ4dC1vNktFdDhvTmdnWW1kRWdDMUR3anBQMVFMbzdYRkwxZVJNa1V1TjcyWWFEb3BXR3NiZk93cmtCbFZKekpTUENwNjBoVE1Mb1YtM2U3ZlVtQ3Rn?oc=5"
   },
   {
    "title": "Steal a Brainrot Sammyni Spookyni guide - Sportskeeda",
@@ -49,33 +49,9 @@
   {
    "title": "Steal a Brainrot Phoenix guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mc0tYLUVuQkNMamgydVpuU3RoV3lrNWVoT05JQUdpQy1JQmc1eWZDdlpLUlVUb1k2TUZnRTR4WEZhWXBVSDNWUjZDZzJuM01VTWxEX0JxZzlTUVAyQ0hTN3FsRHhxazBQS2sxblJjTDUtT0tOakRF?oc=5"
-  },
-  {
-   "title": "Grow a Garden Everfallen Pet Mutation guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUnpjX0RmaURpOExCNGlQNEtzWEdVVklfWFpVNFdEQ19RdDV6ZGZqc3BQbEFFRC1WblN5akJtSVVROVRvblFXREFRb2xJbFNiR2FOM3FFM1I3bWlQbVU3UUNfUkI0R3NJcmdkWV9Gc0RoTFF1RlRaVUU0NVh2dUZSdjVISXNhRS1O?oc=5"
-  },
-  {
-   "title": "Grow a Garden Maple Melt guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBJa0dHczhES1BEX0NaRWZNUlhHY1RLQzZqRzBCLXlhRGthQU1lZmJFRzctYVZPZlpYNktjWmRyc1o1RzFEOGJSR1p6Z05SNWlxdzJuVVgxRGtfa3NLbDBEMElTWHBNb1RUQU1vcEhpZkZHVXktdWhn?oc=5"
-  },
-  {
-   "title": "Grow a Garden Scarecrow guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGa3ZsZ2s1MkpDUHAzbnAzUnVtVjJHcWlDX0ozRWtfOGpTaWpZUEhaWWJaeU1SZkN4emtHcWhHU2I4RzQyNGE4THdZc2U2RHg4eFhMeWRzenQwWGtqaGZxREFOVlNCdmV2UXJCd1Z2MGtuSmJqbGc?oc=5"
-  },
-  {
-   "title": "Taco Tuesday Steal a Brainrot time in India (October 7, 2026) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY0JPaF9PbDQ4RXRRZjB5WEdNdm9zRGdsRDNyd3gzUmR6R0ZONDNmOHNRN2tEQktUYUx5clEwam5rb1NNT1JJakl0ZGZxRjNDU2lYdS1BNkRDaEpjYXFsVEtiM3hESGtHS1QzYUNhcGtLemN4WXMycFBxdDNraFNHd2VPNDhUVlhtd3N3?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-09 20:37",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-09 20:37",
-   "msg": "Metrik dilewati (butuh API key valid + channel_id)"
-  },
   {
    "t": "10-09 20:37",
    "msg": "11 tren baru terdeteksi"
@@ -147,6 +123,22 @@
   {
    "t": "10-10 06:54",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-10 16:50",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-10 16:50",
+   "msg": "Metrik diperbarui: views=1418 avg7=1536"
+  },
+  {
+   "t": "10-10 16:50",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "10-10 16:50",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
@@ -169,10 +161,15 @@
    "t": "10-10 06:54",
    "text": "METRIK TURUN: Video 'Rumah hantu' hanya 26 views (baseline 1069). Turun -97.6%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-10 16:50",
+   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
   }
  ],
  "alert": {
-  "metric": true,
-  "trend": false
+  "metric": false,
+  "trend": true
  }
 }
