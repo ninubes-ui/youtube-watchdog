@@ -1,73 +1,83 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # ============================================================
-#  SETUP TERMUX - YouTube Growth Watchdog + Dashboard (HP Android)
-#  Menjadikan HP Android sebagai "server mini" 24 jam (tanpa VPS).
-#  Pakai:  bash SETUP_TERMUX.sh
+#  SETUP TERMUX v2 - YouTube Growth Watchdog + Dashboard (HP Android)
+#  TAHAN-GAGAL: tiap langkah dicek sendiri. Satu langkah gagal
+#  TIDAK menghentikan sisanya (ini penyebab error "mentok" sebelumnya).
+#  Pakai:   bash setup.sh
 # ============================================================
-set -e
-echo "== 1/6  Perbarui paket Termux =="
-pkg update -y && pkg upgrade -y
+say()  { printf '\n== %s ==\n' "$1"; }
+ok()   { printf '   [OK] %s\n' "$1"; }
+warn() { printf '   [!!] %s\n' "$1"; }
 
-echo "== 2/6  Pasang alat dasar (python, git, curl) =="
-pkg install -y python git curl
+say "0/6 Cek lingkungan"
+if [ -z "${PREFIX:-}" ]; then warn "PREFIX kosong -> ini bukan Termux standar"; else ok "PREFIX=$PREFIX"; fi
+ok "arsitektur: $(uname -m)"
 
-echo "== 3/6  Ambil proyek dari GitHub =="
-cd "$HOME"
-if [ -d youtube-watchdog ]; then
-  cd youtube-watchdog && git pull --ff-only || true
+say "1/6 Perbarui indeks paket (tidak wajib sukses)"
+if pkg update -y >/dev/null 2>&1; then ok "pkg update selesai"; else warn "pkg update gagal/dilewati (tidak fatal)"; fi
+
+say "2/6 Pasang alat dasar: python git curl gnupg"
+for p in python git curl gnupg; do
+  if pkg install -y "$p" >/dev/null 2>&1; then ok "$p terpasang"
+  else warn "$p GAGAL dipasang"; fi
+done
+
+say "3/6 Ambil proyek dari GitHub"
+cd "$HOME" || exit 1
+if [ -d "$HOME/youtube-watchdog/.git" ]; then
+  cd "$HOME/youtube-watchdog" || exit 1
+  if git pull --ff-only >/dev/null 2>&1; then ok "repo di-update"; else warn "git pull gagal (lanjut versi lama)"; fi
+elif [ -d "$HOME/youtube-watchdog" ]; then
+  cd "$HOME/youtube-watchdog" || exit 1; ok "folder sudah ada"
 else
-  git clone https://github.com/ninubes-ui/youtube-watchdog.git
-  cd youtube-watchdog
+  if git clone --depth 1 https://github.com/ninubes-ui/youtube-watchdog.git "$HOME/youtube-watchdog" >/dev/null 2>&1; then
+    cd "$HOME/youtube-watchdog" || exit 1; ok "repo di-clone"
+  else
+    warn "git clone GAGAL (cek internet / 'pkg install git')"
+  fi
 fi
+if [ -f "$HOME/youtube-watchdog/dashboard_server.py" ]; then ok "dashboard_server.py ADA"; else warn "dashboard_server.py TIDAK ada"; fi
 
-echo "== 4/6  Coba pasang Hermes Agent (agar fitur CHAT hidup) =="
-echo "   (kalau gagal, lewati saja: watchdog + dashboard tetap jalan, chat saja yang mati)"
+say "4/6 Hermes Agent (fitur CHAT) -> pakai channel CANARY"
+# Catatan: channel 'stable' saat ini KOSONG (404). Canary tersedia & ter-update.
 if command -v hermes >/dev/null 2>&1; then
-  echo "   hermes sudah terpasang."
+  ok "hermes sudah terpasang"
 else
   mkdir -p "$PREFIX/etc/apt/keyrings"
-  curl -fsSL https://hermes-assets.nousresearch.com/releases/termux/stable/key.asc \
-       -o "$PREFIX/etc/apt/keyrings/hermes-agent.asc" || echo "   (gagal unduh kunci)"
-  printf '%s\n' "deb [signed-by=$PREFIX/etc/apt/keyrings/hermes-agent.asc] https://hermes-assets.nousresearch.com/releases/termux/stable hermes-stable main" \
-       > "$PREFIX/etc/apt/sources.list.d/hermes-agent.list"
-  pkg update -y || true
-  pkg install -y hermes-agent || echo "   >>> Paket hermes-agent GAGAL. Tidak masalah, lanjut."
+  if curl -fsSL https://hermes-assets.nousresearch.com/releases/termux/canary/key.asc -o "$PREFIX/etc/apt/keyrings/hermes-agent.asc"; then
+    ok "kunci repo diunduh"
+    FP=$(gpg --show-keys --with-fingerprint "$PREFIX/etc/apt/keyrings/hermes-agent.asc" 2>/dev/null | grep -oE '([0-9A-F]{4} ){9}[0-9A-F]{4}' | head -1)
+    if [ -n "$FP" ]; then ok "fingerprint: $FP"; else warn "fingerprint tak terbaca"; fi
+    printf '%s\n' "deb [signed-by=$PREFIX/etc/apt/keyrings/hermes-agent.asc] https://hermes-assets.nousresearch.com/releases/termux/canary hermes-canary main" > "$PREFIX/etc/apt/sources.list.d/hermes-agent.list"
+    ok "repo hermes (canary) ditambahkan"
+    pkg update -y >/dev/null 2>&1
+    if pkg install -y hermes-agent; then ok "hermes-agent TERPASANG (chat hidup)"; else warn "hermes-agent GAGAL -> chat mati, watchdog & dashboard tetap jalan"; fi
+  else
+    warn "gagal unduh kunci repo -> lewati Hermes (chat mati, sisanya jalan)"
+  fi
 fi
 
-echo "== 5/6  Cegah Android mematikan proses (baterai) =="
-termux-wake-lock 2>/dev/null || echo "   (termux-wake-lock tak tersedia; matikan optimasi baterai manual)"
+say "5/6 Cegah Android mematikan proses"
+if termux-wake-lock 2>/dev/null; then ok "wake-lock aktif"; else warn "termux-wake-lock tak tersedia"; fi
+warn "Matikan juga 'Optimasi baterai' untuk Termux di Setelan Android."
 
-echo "== 6/6  Selesai. Cara menjalankan: =="
+say "6/6 SELESAI. Cara menjalankan:"
 cat <<'EOF'
 
---------------------------------------------------------------
-  MENJALANKAN  (tiap kali HP/node baru dibuka):
+  cd ~/youtube-watchdog
+  bash run_termux.sh
 
-    cd ~/youtube-watchdog
-    termux-wake-lock
-    nohup python dashboard_server.py > server.log 2>&1 &
+  lalu buka di browser HP:   http://localhost:8765/index.html
 
-  Lalu buka di browser HP:  http://localhost:8765/index.html
-
-  CHAT: butuh perintah `hermes`. Set provider dulu sekali:
+  Kalau tab Chat perlu provider (sekali saja):
       hermes setup
-  (kalau langkah 4 gagal, tab Chat tak bisa dipakai; sisanya jalan)
 
-  AGAR JALAN SENDIRI SAAT HP REBOOT:
-    pkg install -y termux-boot        # lalu aktifkan Termux:Boot di app
-    mkdir -p ~/.termux/boot
-    cat > ~/.termux/boot/start-watchdog.sh <<'SH'
-    #!/data/data/com.termux/files/usr/bin/sh
-    termux-wake-lock
-    cd $HOME/youtube-watchdog
-    nohup python dashboard_server.py >> server.log 2>&1 &
-    SH
-    chmod +x ~/.termux/boot/start-watchdog.sh
+  AUTO-JALAN saat HP reboot (opsional):
+      pkg install -y termux-boot
+      mkdir -p ~/.termux/boot
+      printf '#!/data/data/com.termux/files/usr/bin/sh\ntermux-wake-lock\ncd $HOME/youtube-watchdog\nnohup python dashboard_server.py >> server.log 2>&1 &\n' > ~/.termux/boot/start-watchdog.sh
+      chmod +x ~/.termux/boot/start-watchdog.sh
 
-  Cek jalan?:
-    curl -s http://localhost:8765/feed.json | head -c 200
-
-  Hentikan:
-    pkill -f dashboard_server.py
---------------------------------------------------------------
+  MATIKAN server:
+      pkill -f dashboard_server.py
 EOF
