@@ -1,0 +1,12 @@
+{
+ "perintah": [
+  {
+   "id": "uji-1791648270",
+   "cmd": "uname -a; echo '---'; echo halo-dari-BOS"
+  },
+  {
+   "id": "uji-1791648270-v",
+   "cmd": "__versi__"
+  }
+ ]
+}
