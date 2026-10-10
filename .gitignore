@@ -3,3 +3,5 @@ __pycache__/
 .env
 secrets.txt
 KUNCI_UNTUK_GITHUB.txt
+GITHUB_TOKEN.txt
+rahasia.txt
