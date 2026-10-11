@@ -1,20 +1,20 @@
 {
- "ts": 1791651009,
- "rendered": "2026-10-10 16:50:09",
+ "ts": 1791689653,
+ "rendered": "2026-10-11 03:34:13",
  "source": "github-actions",
  "state": "BEKERJA",
  "stateid": "KERJA",
  "status_text": "Agen sedang bekerja",
- "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "task": "Ada 3 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 3 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-10 16:50 UTC",
+ "last_run": "2026-10-11 03:34 UTC",
  "metrics": {
-  "last_title": "Koe lanang sul",
-  "last_views": 1418,
-  "avg7": 1536,
-  "delta_pct": "+35.0%"
+  "last_title": "Gorengan Terakhir",
+  "last_views": 1435,
+  "avg7": 1903,
+  "delta_pct": "-6.6%"
  },
  "discord": {
   "ok": true,
@@ -22,6 +22,10 @@
   "detail": "HTTP 200"
  },
  "trends": [
+  {
+   "title": "Capcom taps Roblox hit Untitled Boxing Game for Street Fighter crossover | exclusive - GamesBeat",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYVQ4Q0g5U1JYbmNDUkNfblRQYThSVWlmajUtXzJmQUw0UHJyM1BJVlBHYWd5OEQ0WDUyRlk2ZElSR2lsTnZJMDdCR1VjendtM0hta1V1V3NLT2Y2blU5RW5iZ1ZTakhkV3Q1X1REeS1HZExLNHgycDR4eFI5M3ZBTFk2N1djaEZ5dnZkS3EyTHM1eTRFWFVZRkprUEJaUXVnNk5vZllWb2w?oc=5"
+  },
   {
    "title": "How to Use Emotes in Roblox - Technobezz",
    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80OWNYMkktckI1TFlwZHdtTXhLZWo4Uk1GOUtiR190NW42d3FuZFVxU3JxSnZHTHNHVVJUSE5tQll0bU1NSnB5N1VPRF9vU09OOTRGZWFlNnlyVXJ0aENXa0RzNDY?oc=5"
@@ -39,35 +43,23 @@
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONjVxN2RjcW9BLUoxM0U4ZkVLR3pBQXJfeUhJbXlPT0NlS0pSVkcxdFl6enhGR3RmUWNId0t0VE9mV3pka3Y1aElLNmtybVhyb2dpcWtoRTBtb3pBdjBkS2t6b2Q2SUdyVnpGZFBGX2NsQVVGY0hQc1Z6aUVzVzIxN2dEcw?oc=5"
   },
   {
+   "title": "Grow a Garden 2 codes October 2026 - Pocket Tactics",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XYmMtYnZMbi1SemJaX3ZkNFNZSjdNUk1hY2VHczdKU1oxd29FeE1zbl83VWJ0X0pWdFFQTEVhUUFMaE5xUmo3ekZsWDBtZFJHN3pfNzQ5NjRaa1U1OVZYZg?oc=5"
+  },
+  {
    "title": "Steal a Brainrot Plant Bros guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5"
   },
   {
-   "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
-  },
-  {
    "title": "Steal a Brainrot Phoenix guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mc0tYLUVuQkNMamgydVpuU3RoV3lrNWVoT05JQUdpQy1JQmc1eWZDdlpLUlVUb1k2TUZnRTR4WEZhWXBVSDNWUjZDZzJuM01VTWxEX0JxZzlTUVAyQ0hTN3FsRHhxazBQS2sxblJjTDUtT0tOakRF?oc=5"
+  },
+  {
+   "title": "Grow a Garden Fruit tier list (October 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QZDJNaVUyOEttcmtWWHJ6c0FrNEtybFRyQ0dMeTUyeDF5cTZaa0l6VlVjcExIM1dKOFc5aVpEamJEZTFEVzdkNkxiTFFyRmQyZER2WG5kUjlQMTlCOXNiX050ZUFuM0Zqekw5LS1TZ0F6bzYtS2c?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-09 20:37",
-   "msg": "11 tren baru terdeteksi"
-  },
-  {
-   "t": "10-09 20:37",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "10-09 20:37",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-09 20:37",
-   "msg": "Metrik dilewati (butuh API key valid + channel_id)"
-  },
   {
    "t": "10-09 20:37",
    "msg": "OK: tidak ada sinyal (senyap)"
@@ -139,6 +131,22 @@
   {
    "t": "10-10 16:50",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-11 03:34",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-11 03:34",
+   "msg": "Metrik diperbarui: views=1435 avg7=1903"
+  },
+  {
+   "t": "10-11 03:34",
+   "msg": "3 tren baru terdeteksi"
+  },
+  {
+   "t": "10-11 03:34",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
@@ -165,6 +173,11 @@
   {
    "t": "10-10 16:50",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
+  },
+  {
+   "t": "10-11 03:34",
+   "text": "Ada 3 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
   }
  ],
