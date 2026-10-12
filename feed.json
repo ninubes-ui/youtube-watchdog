@@ -1,20 +1,20 @@
 {
- "ts": 1791738841,
- "rendered": "2026-10-11 17:14:01",
+ "ts": 1791777497,
+ "rendered": "2026-10-12 03:58:17",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Siapa yang Bayar? 😂💸🤔' hanya 1346 views (baseline 1903). Turun -29.3%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Siapa yang Bayar? 😂💸🤔' hanya 1349 views (baseline 2179). Turun -38.1%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-11 17:14 UTC",
+ "last_run": "2026-10-12 03:58 UTC",
  "metrics": {
   "last_title": "Siapa yang Bayar? 😂💸🤔",
-  "last_views": 1346,
-  "avg7": 2179,
-  "delta_pct": "-29.3%"
+  "last_views": 1349,
+  "avg7": 2196,
+  "delta_pct": "-38.1%"
  },
  "discord": {
   "ok": true,
@@ -31,55 +31,39 @@
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GVFZIdFJmNWJpeThxUTNlNWlNSUhTbzlvQ053MnFWQzBqdk5WQTBpd3dLVUxKcXg4d0VaUnk4Q3R6eFowRGNQQU10WF9lT04wY280RG92bXg3cDE5dDZmV2ZmelpVS2VzWjBuQ3NwWXllTjA?oc=5"
   },
   {
-   "title": "Grow a Garden Fairy Event update patch notes - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUWRYeDZpZ2JySVZNQVhjb3E0bFVSZERVR3VwVGxtV2FmaWk5QjNYWDN2cTRrOUpGZExCbXBHTjliVUlTV0t0MC1ZaWV6WDIxYXV1eC1kQ3N4RTJiVFZTUFg4MFJGN2VMSDgwbWVOeHdxdmlIYWdIZE4wWEpnZzV5Q3JIMFFUdFNTX2c?oc=5"
-  },
-  {
-   "title": "Grow a Garden 2 codes (October 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTkFRaU5RSUhNalBVR0VaYnZ4dC1vNktFdDhvTmdnWW1kRWdDMUR3anBQMVFMbzdYRkwxZVJNa1V1TjcyWWFEb3BXR3NiZk93cmtCbFZKekpTUENwNjBoVE1Mb1YtM2U3ZlVtQ3Rn?oc=5"
+   "title": "Grow a Garden Prism Plume guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJWnN4SnhycWM5ckZsdjhQT3NxRk9mVUN1eFJfXzV2NGZPV2VCNUZNRVBlSHNTSUlvcHh3WWxRaVUzTkYxNnBHdG9tSHBCbGZJSU5NQnljdFdib2NwT1VLTGU2VkJOeE0xUEZVSGRFVDRMaEFPY292ZQ?oc=5"
   },
   {
    "title": "Grow a Garden 2 codes October 2026 - Pocket Tactics",
    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XYmMtYnZMbi1SemJaX3ZkNFNZSjdNUk1hY2VHczdKU1oxd29FeE1zbl83VWJ0X0pWdFFQTEVhUUFMaE5xUmo3ekZsWDBtZFJHN3pfNzQ5NjRaa1U1OVZYZg?oc=5"
   },
   {
-   "title": "Steal a Brainrot codes (October 2026) - PCGamesN",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XaXZaS1JkQ0xsOVlkVHBsU2JhZ3VaUkh3dXhOVnZjTDFGX1g5OTF6RFU4ZDVva2tYS2pmaHBlZjVqZzk4amZ0eF8xYWpYUm1YZHhHcEwzdm9UMms?oc=5"
+   "title": "Grow a Garden 2 codes (October 2026) - PCGamesN",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNQzNNUDhncTBBYm5Xb1owamhPUF9ZMS1VYlltV3lhbWVhLUpRc2NHOG1OYVpjV3Z2X1RLY3lXakNpOGlqZEdhM2t1TFF0Mm9EdDRVdVhTbXV5Zw?oc=5"
   },
   {
-   "title": "Steal a Brainrot Sammyni Spookyni guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONjVxN2RjcW9BLUoxM0U4ZkVLR3pBQXJfeUhJbXlPT0NlS0pSVkcxdFl6enhGR3RmUWNId0t0VE9mV3pka3Y1aElLNmtybVhyb2dpcWtoRTBtb3pBdjBkS2t6b2Q2SUdyVnpGZFBGX2NsQVVGY0hQc1Z6aUVzVzIxN2dEcw?oc=5"
+   "title": "Grow a Garden Fairy Event update patch notes - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUWRYeDZpZ2JySVZNQVhjb3E0bFVSZERVR3VwVGxtV2FmaWk5QjNYWDN2cTRrOUpGZExCbXBHTjliVUlTV0t0MC1ZaWV6WDIxYXV1eC1kQ3N4RTJiVFZTUFg4MFJGN2VMSDgwbWVOeHdxdmlIYWdIZE4wWEpnZzV5Q3JIMFFUdFNTX2c?oc=5"
+  },
+  {
+   "title": "Steal a Brainrot codes (October 2026) - PCGamesN",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XaXZaS1JkQ0xsOVlkVHBsU2JhZ3VaUkh3dXhOVnZjTDFGX1g5OTF6RFU4ZDVva2tYS2pmaHBlZjVqZzk4amZ0eF8xYWpYUm1YZHhHcEwzdm9UMms?oc=5"
   },
   {
    "title": "Steal A Brainrot Private Server Links (October 2026) - Pro Game Guides",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53U1I5UGN1V0ZfeFlpREVEV1JaNklvUzJLa0ZqZWxULS1DcEpEZVR0VWhtY01Jejc2S0NIeGVvZklKMkdsU2RLSFgtWlo5SWZ5V0EwTWY0NGV5eUFka25XcHV4U1N1VDlvOUQyeFFtd1lDWWhRbWt0aC1lNA?oc=5"
   },
   {
-   "title": "Steal a Brainrot Plant Bros guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5"
+   "title": "Steal a Brainrot Sammyni Spookyni guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONjVxN2RjcW9BLUoxM0U4ZkVLR3pBQXJfeUhJbXlPT0NlS0pSVkcxdFl6enhGR3RmUWNId0t0VE9mV3pka3Y1aElLNmtybVhyb2dpcWtoRTBtb3pBdjBkS2t6b2Q2SUdyVnpGZFBGX2NsQVVGY0hQc1Z6aUVzVzIxN2dEcw?oc=5"
   },
   {
-   "title": "Steal a Brainrot Phoenix guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mc0tYLUVuQkNMamgydVpuU3RoV3lrNWVoT05JQUdpQy1JQmc1eWZDdlpLUlVUb1k2TUZnRTR4WEZhWXBVSDNWUjZDZzJuM01VTWxEX0JxZzlTUVAyQ0hTN3FsRHhxazBQS2sxblJjTDUtT0tOakRF?oc=5"
+   "title": "Steal a Brainrot Plant Bros guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SX0JoRERBQ3FOYTNWQ29LZjgzcDFNZDVJS1dOMTluY2xIaXZPSWFzVnE3ZVBLVDZjTWY1YlhUOTFHNmg0cEQ1eXZKd1F5VTE3OXhfSWFucHdaeUlySWtSRGV0c0RMWEtFcmNLZ0dOU1pHa3VYVWpjWnlvYw?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-09 22:34",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-09 22:34",
-   "msg": "Metrik diperbarui: views=753 avg7=900"
-  },
-  {
-   "t": "10-09 22:34",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "10-09 22:34",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-10 03:59",
    "msg": "Cek API key: VALID"
@@ -151,6 +135,22 @@
   {
    "t": "10-11 17:14",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-12 03:58",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-12 03:58",
+   "msg": "Metrik diperbarui: views=1349 avg7=2196"
+  },
+  {
+   "t": "10-12 03:58",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "10-12 03:58",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
@@ -187,6 +187,11 @@
   {
    "t": "10-11 17:14",
    "text": "METRIK TURUN: Video 'Siapa yang Bayar? 😂💸🤔' hanya 1346 views (baseline 1903). Turun -29.3%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "10-12 03:58",
+   "text": "METRIK TURUN: Video 'Siapa yang Bayar? 😂💸🤔' hanya 1349 views (baseline 2179). Turun -38.1%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
