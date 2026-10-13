@@ -1,38 +1,38 @@
 {
- "ts": 1791868067,
- "rendered": "2026-10-13 05:07:47",
+ "ts": 1791917242,
+ "rendered": "2026-10-13 18:47:22",
  "source": "github-actions",
- "state": "ISTIRAHAT",
- "stateid": "AMAN",
- "status_text": "Agen sedang istirahat",
- "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
- "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
+ "state": "SIBUK",
+ "stateid": "ALERT",
+ "status_text": "Agen sedang sibuk",
+ "task": "METRIK TURUN: Video 'Comment if you have experienced something like thi' hanya 309 views (baseline 1191). Turun -74.1%  Laporan sudah kukirim ke Discord.",
+ "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-13 05:07 UTC",
+ "last_run": "2026-10-13 18:47 UTC",
  "metrics": {
-  "last_title": "please comment",
-  "last_views": 1332,
-  "avg7": 1191,
-  "delta_pct": "+22.2%"
+  "last_title": "Comment if you have experienced something like this😁",
+  "last_views": 309,
+  "avg7": 872,
+  "delta_pct": "-74.1%"
  },
  "discord": {
-  "ok": null,
+  "ok": true,
   "channel": "#general",
-  "detail": "-"
+  "detail": "HTTP 200"
  },
  "trends": [
   {
-   "title": "Grow a Garden Flutter Freesia guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iVWcybFNaa25IWnA0aGlVVEpkaTAtNERfWHZoQUZaWFpLWW5yRmR3N3hKNVpjZDJ0aG01eTI0bU9BUVpKTFJDOHZpZTFtaVhKYVJ0NkpWM1dwODU1RTB4a00wTlYtcFNUaTJ6SU4zUjBZSjNqdUQzV1hGU283UQ?oc=5"
+   "title": "Steal a Brainrot Halloween Update: New Skull Lucky Blocks, Reaper Base, and Phoenix Fusion - MMOEXP",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWVVlNldFQXljRmpjeTJ4emhEV3lycUpWUXFnYkYwM3Raek5PaHVUYkhOazhpLWllVFQ2Nl8tYy1zdVNDa2h0VmdNWU1tc3g1anBiQ3BneFdpOHRWcExPQlZ2RjR6MWJ0b25Dc3JObkV6bFAxclp3aEVocm5LcnVRTS1ZNmtpSjV3MlNtVHpvcDUwNTJBX2pIM0FRNHhQaFk1TU1zdDlpb2NYNTh1SXFuN2pWR3QyTmUweExOSQ?oc=5"
   },
   {
-   "title": "Grow a Garden 2 codes (October 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTkFRaU5RSUhNalBVR0VaYnZ4dC1vNktFdDhvTmdnWW1kRWdDMUR3anBQMVFMbzdYRkwxZVJNa1V1TjcyWWFEb3BXR3NiZk93cmtCbFZKekpTUENwNjBoVE1Mb1YtM2U3ZlVtQ3Rn?oc=5"
+   "title": "Grow a Garden Manticore guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ncE52eU14eFRIUTVzaFdYb2NFaS1KTFhfOFRrZEM3cjZ5aklEbG9XbkpCb0JLYVFlYzZIX3RjZmNuVF9lQ1hvaEFEODBnV0VNRDcyVEFOM3lfdmNON3hhZjk5RXpUR1VJVEdxWXJWS0o3OXpINFE?oc=5"
   },
   {
-   "title": "Grow a Garden Royal Jelly Cup guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE83aXNsXzNzbDZsX3hmckJJTXJaOXVBVnJFLXpqbGFXVG5MWXhCLXhha19pUjRkR0U3eUd6NnpQM2g4Y21lcWFSR19ESFQtM3JpX3BSSV9ScmxhcllfeVN2T1FfUTREa1ZUWndKLTJkbHU4TEJZVW0tWG9QYUVNZw?oc=5"
+   "title": "Grow a Garden Redcap guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVWDc3TU5yV1lnZmY5RmxfdXl0dDlBbnNoSUFsd0F2TjBTOUZWT2ZtOVlEWDhfa3lQY0hGQTlreHNTSmJNb3o0b1cyYjlTbUNmcXEwQlFVUW5nb0Z1a21IOUFjZkJPQktkZ1E4NVF2TGVXUQ?oc=5"
   },
   {
    "title": "Roblox Steal an Egg hands on - Tips, codes and more! - Pocket Gamer",
@@ -43,27 +43,19 @@
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUWRYeDZpZ2JySVZNQVhjb3E0bFVSZERVR3VwVGxtV2FmaWk5QjNYWDN2cTRrOUpGZExCbXBHTjliVUlTV0t0MC1ZaWV6WDIxYXV1eC1kQ3N4RTJiVFZTUFg4MFJGN2VMSDgwbWVOeHdxdmlIYWdIZE4wWEpnZzV5Q3JIMFFUdFNTX2c?oc=5"
   },
   {
+   "title": "Grow a Garden Flutter Freesia guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iVWcybFNaa25IWnA0aGlVVEpkaTAtNERfWHZoQUZaWFpLWW5yRmR3N3hKNVpjZDJ0aG01eTI0bU9BUVpKTFJDOHZpZTFtaVhKYVJ0NkpWM1dwODU1RTB4a00wTlYtcFNUaTJ6SU4zUjBZSjNqdUQzV1hGU283UQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Royal Jelly Cup guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE83aXNsXzNzbDZsX3hmckJJTXJaOXVBVnJFLXpqbGFXVG5MWXhCLXhha19pUjRkR0U3eUd6NnpQM2g4Y21lcWFSR19ESFQtM3JpX3BSSV9ScmxhcllfeVN2T1FfUTREa1ZUWndKLTJkbHU4TEJZVW0tWG9QYUVNZw?oc=5"
+  },
+  {
    "title": "Grow a Garden Prism Plume guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJWnN4SnhycWM5ckZsdjhQT3NxRk9mVUN1eFJfXzV2NGZPV2VCNUZNRVBlSHNTSUlvcHh3WWxRaVUzTkYxNnBHdG9tSHBCbGZJSU5NQnljdFdib2NwT1VLTGU2VkJOeE0xUEZVSGRFVDRMaEFPY292ZQ?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-10 16:50",
-   "msg": "Metrik diperbarui: views=1418 avg7=1536"
-  },
-  {
-   "t": "10-10 16:50",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "10-10 16:50",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "10-11 03:34",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "10-11 03:34",
    "msg": "Metrik diperbarui: views=1435 avg7=1903"
@@ -135,6 +127,22 @@
   {
    "t": "10-13 05:07",
    "msg": "OK: tidak ada sinyal (senyap)"
+  },
+  {
+   "t": "10-13 18:47",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-13 18:47",
+   "msg": "Metrik diperbarui: views=309 avg7=872"
+  },
+  {
+   "t": "10-13 18:47",
+   "msg": "3 tren baru terdeteksi"
+  },
+  {
+   "t": "10-13 18:47",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
@@ -187,10 +195,15 @@
    "t": "10-13 05:07",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
    "kind": "aman"
+  },
+  {
+   "t": "10-13 18:47",
+   "text": "METRIK TURUN: Video 'Comment if you have experienced something like thi' hanya 309 views (baseline 1191). Turun -74.1%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
-  "metric": false,
-  "trend": false
+  "metric": true,
+  "trend": true
  }
 }
