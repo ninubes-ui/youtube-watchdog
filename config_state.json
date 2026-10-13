@@ -2,18 +2,6 @@
   "events": [
     {
       "t": "10-09 20:37",
-      "msg": "Cek API key: VALID"
-    },
-    {
-      "t": "10-09 20:37",
-      "msg": "Metrik dilewati (butuh API key valid + channel_id)"
-    },
-    {
-      "t": "10-09 20:37",
-      "msg": "11 tren baru terdeteksi"
-    },
-    {
-      "t": "10-09 20:37",
       "msg": "Discord: terkirim"
     },
     {
@@ -159,71 +147,79 @@
     {
       "t": "10-12 20:48",
       "msg": "Discord: terkirim"
+    },
+    {
+      "t": "10-13 05:07",
+      "msg": "Cek API key: VALID"
+    },
+    {
+      "t": "10-13 05:07",
+      "msg": "Metrik diperbarui: views=1332 avg7=1191"
+    },
+    {
+      "t": "10-13 05:07",
+      "msg": "OK: tidak ada sinyal (senyap)"
     }
   ],
   "trends": [
     {
-      "title": "Steal A Brainrot codes (October 2026) - Dexerto",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hbTF4cTRZbGtaZ1Bud3J1TmhzLUhyMEMwa1NxTFh3XzY4Rk1QSXl4d3ExS18xejhaUVpZc0NkNlhVSmdiX3o5bi1mOFkzMERDYUExaTdxMC1samxuanhEM1FuczJEY2dnVER0QURBaw?oc=5"
-    },
-    {
       "title": "Grow a Garden Flutter Freesia guide - Sportskeeda",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iVWcybFNaa25IWnA0aGlVVEpkaTAtNERfWHZoQUZaWFpLWW5yRmR3N3hKNVpjZDJ0aG01eTI0bU9BUVpKTFJDOHZpZTFtaVhKYVJ0NkpWM1dwODU1RTB4a00wTlYtcFNUaTJ6SU4zUjBZSjNqdUQzV1hGU283UQ?oc=5"
-    },
-    {
-      "title": "Grow a Garden Royal Jelly Cup guide - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE83aXNsXzNzbDZsX3hmckJJTXJaOXVBVnJFLXpqbGFXVG5MWXhCLXhha19pUjRkR0U3eUd6NnpQM2g4Y21lcWFSR19ESFQtM3JpX3BSSV9ScmxhcllfeVN2T1FfUTREa1ZUWndKLTJkbHU4TEJZVW0tWG9QYUVNZw?oc=5"
     },
     {
       "title": "Grow a Garden 2 codes (October 2026) - Dexerto",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTkFRaU5RSUhNalBVR0VaYnZ4dC1vNktFdDhvTmdnWW1kRWdDMUR3anBQMVFMbzdYRkwxZVJNa1V1TjcyWWFEb3BXR3NiZk93cmtCbFZKekpTUENwNjBoVE1Mb1YtM2U3ZlVtQ3Rn?oc=5"
     },
     {
-      "title": "Grow a Garden Prism Plume guide - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJWnN4SnhycWM5ckZsdjhQT3NxRk9mVUN1eFJfXzV2NGZPV2VCNUZNRVBlSHNTSUlvcHh3WWxRaVUzTkYxNnBHdG9tSHBCbGZJSU5NQnljdFdib2NwT1VLTGU2VkJOeE0xUEZVSGRFVDRMaEFPY292ZQ?oc=5"
+      "title": "Grow a Garden Royal Jelly Cup guide - Sportskeeda",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE83aXNsXzNzbDZsX3hmckJJTXJaOXVBVnJFLXpqbGFXVG5MWXhCLXhha19pUjRkR0U3eUd6NnpQM2g4Y21lcWFSR19ESFQtM3JpX3BSSV9ScmxhcllfeVN2T1FfUTREa1ZUWndKLTJkbHU4TEJZVW0tWG9QYUVNZw?oc=5"
+    },
+    {
+      "title": "Roblox Steal an Egg hands on - Tips, codes and more! - Pocket Gamer",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52dmJIcXpCUDBxSGZ6ZTh5a25ZbThhRVVab2JaTlBTSXdQWENwaS0wUC1BajB2TkYxVXpPT3RsQzM0MW9yOWV0V0todlBMYVg4NDFkbTFRcE1zdVRCOE0zb3J6WFBrenZvNFUxWGR0Nkc?oc=5"
     },
     {
       "title": "Grow a Garden Fairy Event update patch notes - Sportskeeda",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUWRYeDZpZ2JySVZNQVhjb3E0bFVSZERVR3VwVGxtV2FmaWk5QjNYWDN2cTRrOUpGZExCbXBHTjliVUlTV0t0MC1ZaWV6WDIxYXV1eC1kQ3N4RTJiVFZTUFg4MFJGN2VMSDgwbWVOeHdxdmlIYWdIZE4wWEpnZzV5Q3JIMFFUdFNTX2c?oc=5"
     },
     {
-      "title": "Roblox Steal an Egg hands on - Tips, codes and more! - Pocket Gamer",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52dmJIcXpCUDBxSGZ6ZTh5a25ZbThhRVVab2JaTlBTSXdQWENwaS0wUC1BajB2TkYxVXpPT3RsQzM0MW9yOWV0V0todlBMYVg4NDFkbTFRcE1zdVRCOE0zb3J6WFBrenZvNFUxWGR0Nkc?oc=5"
+      "title": "Grow a Garden Prism Plume guide - Sportskeeda",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJWnN4SnhycWM5ckZsdjhQT3NxRk9mVUN1eFJfXzV2NGZPV2VCNUZNRVBlSHNTSUlvcHh3WWxRaVUzTkYxNnBHdG9tSHBCbGZJSU5NQnljdFdib2NwT1VLTGU2VkJOeE0xUEZVSGRFVDRMaEFPY292ZQ?oc=5"
     }
   ],
   "seen_trends": [
-    "grow a garden maple melt guide - sportskeeda",
-    "roblox's animal hospital [a&c] - brown daily herald",
+    "grow a garden 2 codes (october 2026) - dexerto",
     "grow a garden 2 codes october 2026 - pocket tactics",
-    "steal a brainrot phoenix guide - sportskeeda",
-    "grow a garden flutter freesia guide - sportskeeda",
-    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
-    "grow a garden fruit tier list (october 2026) - sportskeeda",
-    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
     "grow a garden scarecrow guide - sportskeeda",
-    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
-    "grow a garden royal jelly cup guide - sportskeeda",
-    "grow a garden 2 codes (october 2026) - pcgamesn",
-    "steal a brainrot plant bros guide - sportskeeda",
     "grow a garden 2 codes (september 2026) - dexerto",
-    "how to use emotes in roblox - technobezz",
-    "grow a garden fairy event update patch notes - sportskeeda",
+    "steal a brainrot sammyni spookyni guide - sportskeeda",
     "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
+    "grow a garden royal jelly cup guide - sportskeeda",
+    "grow a garden fairy event update patch notes - sportskeeda",
     "steal a brainrot codes (october 2026) - pcgamesn",
+    "grow a garden 2 codes (october 2026) - pcgamesn",
     "grow a garden everfallen pet mutation guide - sportskeeda",
     "steal a brainrot codes (october 2026) - dexerto",
-    "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
-    "steal a brainrot private server links (october 2026) - pro game guides",
-    "steal a brainrot sammyni spookyni guide - sportskeeda",
+    "steal a brainrot phoenix guide - sportskeeda",
+    "steal a brainrot plant bros guide - sportskeeda",
+    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
     "how to find steal a brainrot 67 & drop rate - dexerto",
+    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
+    "grow a garden maple melt guide - sportskeeda",
+    "grow a garden flutter freesia guide - sportskeeda",
+    "grow a garden fruit tier list (october 2026) - sportskeeda",
+    "steal a brainrot private server links (october 2026) - pro game guides",
+    "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
     "grow a garden prism plume guide - sportskeeda",
-    "grow a garden 2 codes (october 2026) - dexerto"
+    "roblox's animal hospital [a&c] - brown daily herald",
+    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
+    "how to use emotes in roblox - technobezz"
   ],
   "baseline": {
-    "avg_views_last_7_videos": 1090,
-    "last_video_views": 609,
-    "last_video_id": "DhwB5ASMQ6w",
-    "last_check_utc": "2026-10-12T20:48Z"
+    "avg_views_last_7_videos": 1191,
+    "last_video_views": 1332,
+    "last_video_id": "pPvKybM0bUg",
+    "last_check_utc": "2026-10-13T05:07Z"
   },
   "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
   "messages": [
@@ -271,6 +267,11 @@
       "t": "10-12 20:48",
       "text": "METRIK TURUN: Video 'POV: temen lu percaya larangan mistis 😭' hanya 609 views (baseline 2196). Turun -72.3%  Laporan sudah kukirim ke Discord.",
       "kind": "alert"
+    },
+    {
+      "t": "10-13 05:07",
+      "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+      "kind": "aman"
     }
   ],
   "channel": {
