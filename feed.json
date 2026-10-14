@@ -1,30 +1,38 @@
 {
- "ts": 1791947661,
- "rendered": "2026-10-14 03:14:21",
+ "ts": 1791994942,
+ "rendered": "2026-10-14 16:22:22",
  "source": "github-actions",
- "state": "ISTIRAHAT",
- "stateid": "AMAN",
- "status_text": "Agen sedang istirahat",
- "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
- "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
+ "state": "BEKERJA",
+ "stateid": "KERJA",
+ "status_text": "Agen sedang bekerja",
+ "task": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 2 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-14 03:14 UTC",
+ "last_run": "2026-10-14 16:22 UTC",
  "metrics": {
-  "last_title": "Every small YouTuber's dream be like 💀",
-  "last_views": 1386,
-  "avg7": 1024,
-  "delta_pct": "+58.9%"
+  "last_title": "5 more minutes... 😴⏰ #shorts",
+  "last_views": 1661,
+  "avg7": 1183,
+  "delta_pct": "+62.2%"
  },
  "discord": {
-  "ok": null,
+  "ok": true,
   "channel": "#general",
-  "detail": "-"
+  "detail": "HTTP 200"
  },
  "trends": [
   {
    "title": "Steal a Brainrot Halloween Update: New Skull Lucky Blocks, Reaper Base, and Phoenix Fusion - MMOEXP",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWVVlNldFQXljRmpjeTJ4emhEV3lycUpWUXFnYkYwM3Raek5PaHVUYkhOazhpLWllVFQ2Nl8tYy1zdVNDa2h0VmdNWU1tc3g1anBiQ3BneFdpOHRWcExPQlZ2RjR6MWJ0b25Dc3JObkV6bFAxclp3aEVocm5LcnVRTS1ZNmtpSjV3MlNtVHpvcDUwNTJBX2pIM0FRNHhQaFk1TU1zdDlpb2NYNTh1SXFuN2pWR3QyTmUweExOSQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden 2 codes (October 2026) - Destructoid",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91YjlLcXNPOGZCd0R2RmVySEtvbTNDeGZyelk4el8xR0ZyQzNocDhOV09xT2xOQUpMZVRZQW1wcFFvUjBSZldxeElBUGhOaU16NE5hZzFMaEJUb0lDbG0w?oc=5"
+  },
+  {
+   "title": "Grow a Garden 2 Codes (August 2026) - Beebom",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80Q1U0UHVHb2hOQXdtWWFGeFdiX2IyR1B2cUhjUlhxQnExeU1Dc1AzUk1NTGM2azBGWF9QbWVjbUNERDFjNjQ5NF9CdWdTU09uci1N0gFYQVVfeXFMTjFETEhocHhLdm51cVBFblQ3cTN2RjRmQTFKY3pvUmVWQkxCNXRSb1VBRXpqS2JEbW5janFfUFdJemowOXQzQWFTYWRFZ2dRYTVyeDZ4dksySg?oc=5"
   },
   {
    "title": "Grow a Garden Manticore guide - Sportskeeda",
@@ -37,10 +45,6 @@
   {
    "title": "Roblox Steal an Egg hands on - Tips, codes and more! - Pocket Gamer",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52dmJIcXpCUDBxSGZ6ZTh5a25ZbThhRVVab2JaTlBTSXdQWENwaS0wUC1BajB2TkYxVXpPT3RsQzM0MW9yOWV0V0todlBMYVg4NDFkbTFRcE1zdVRCOE0zb3J6WFBrenZvNFUxWGR0Nkc?oc=5"
-  },
-  {
-   "title": "Grow a Garden Fairy Event update patch notes - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUWRYeDZpZ2JySVZNQVhjb3E0bFVSZERVR3VwVGxtV2FmaWk5QjNYWDN2cTRrOUpGZExCbXBHTjliVUlTV0t0MC1ZaWV6WDIxYXV1eC1kQ3N4RTJiVFZTUFg4MFJGN2VMSDgwbWVOeHdxdmlIYWdIZE4wWEpnZzV5Q3JIMFFUdFNTX2c?oc=5"
   },
   {
    "title": "Grow a Garden Flutter Freesia guide - Sportskeeda",
@@ -56,22 +60,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-11 17:14",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-11 17:14",
-   "msg": "Metrik diperbarui: views=1346 avg7=2179"
-  },
-  {
-   "t": "10-11 17:14",
-   "msg": "4 tren baru terdeteksi"
-  },
-  {
-   "t": "10-11 17:14",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-12 03:58",
    "msg": "Cek API key: VALID"
@@ -143,14 +131,25 @@
   {
    "t": "10-14 03:14",
    "msg": "OK: tidak ada sinyal (senyap)"
+  },
+  {
+   "t": "10-14 16:22",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-14 16:22",
+   "msg": "Metrik diperbarui: views=1661 avg7=1183"
+  },
+  {
+   "t": "10-14 16:22",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "10-14 16:22",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-09 20:47",
-   "text": "Channel ID YouTube belum diisi. Aku belum bisa baca metrik channelmu.",
-   "kind": "tanya"
-  },
   {
    "t": "10-09 22:34",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -205,10 +204,15 @@
    "t": "10-14 03:14",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
    "kind": "aman"
+  },
+  {
+   "t": "10-14 16:22",
+   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": false
+  "trend": true
  }
 }

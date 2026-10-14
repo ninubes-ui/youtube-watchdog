@@ -1,22 +1,6 @@
 {
   "events": [
     {
-      "t": "10-09 22:34",
-      "msg": "Cek API key: VALID"
-    },
-    {
-      "t": "10-09 22:34",
-      "msg": "Metrik diperbarui: views=753 avg7=900"
-    },
-    {
-      "t": "10-09 22:34",
-      "msg": "1 tren baru terdeteksi"
-    },
-    {
-      "t": "10-09 22:34",
-      "msg": "Discord: terkirim"
-    },
-    {
       "t": "10-10 03:59",
       "msg": "Cek API key: VALID"
     },
@@ -159,12 +143,36 @@
     {
       "t": "10-14 03:14",
       "msg": "OK: tidak ada sinyal (senyap)"
+    },
+    {
+      "t": "10-14 16:22",
+      "msg": "Cek API key: VALID"
+    },
+    {
+      "t": "10-14 16:22",
+      "msg": "Metrik diperbarui: views=1661 avg7=1183"
+    },
+    {
+      "t": "10-14 16:22",
+      "msg": "2 tren baru terdeteksi"
+    },
+    {
+      "t": "10-14 16:22",
+      "msg": "Discord: terkirim"
     }
   ],
   "trends": [
     {
       "title": "Steal a Brainrot Halloween Update: New Skull Lucky Blocks, Reaper Base, and Phoenix Fusion - MMOEXP",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWVVlNldFQXljRmpjeTJ4emhEV3lycUpWUXFnYkYwM3Raek5PaHVUYkhOazhpLWllVFQ2Nl8tYy1zdVNDa2h0VmdNWU1tc3g1anBiQ3BneFdpOHRWcExPQlZ2RjR6MWJ0b25Dc3JObkV6bFAxclp3aEVocm5LcnVRTS1ZNmtpSjV3MlNtVHpvcDUwNTJBX2pIM0FRNHhQaFk1TU1zdDlpb2NYNTh1SXFuN2pWR3QyTmUweExOSQ?oc=5"
+    },
+    {
+      "title": "Grow a Garden 2 codes (October 2026) - Destructoid",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91YjlLcXNPOGZCd0R2RmVySEtvbTNDeGZyelk4el8xR0ZyQzNocDhOV09xT2xOQUpMZVRZQW1wcFFvUjBSZldxeElBUGhOaU16NE5hZzFMaEJUb0lDbG0w?oc=5"
+    },
+    {
+      "title": "Grow a Garden 2 Codes (August 2026) - Beebom",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80Q1U0UHVHb2hOQXdtWWFGeFdiX2IyR1B2cUhjUlhxQnExeU1Dc1AzUk1NTGM2azBGWF9QbWVjbUNERDFjNjQ5NF9CdWdTU09uci1N0gFYQVVfeXFMTjFETEhocHhLdm51cVBFblQ3cTN2RjRmQTFKY3pvUmVWQkxCNXRSb1VBRXpqS2JEbW5janFfUFdJemowOXQzQWFTYWRFZ2dRYTVyeDZ4dksySg?oc=5"
     },
     {
       "title": "Grow a Garden Manticore guide - Sportskeeda",
@@ -177,10 +185,6 @@
     {
       "title": "Roblox Steal an Egg hands on - Tips, codes and more! - Pocket Gamer",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52dmJIcXpCUDBxSGZ6ZTh5a25ZbThhRVVab2JaTlBTSXdQWENwaS0wUC1BajB2TkYxVXpPT3RsQzM0MW9yOWV0V0todlBMYVg4NDFkbTFRcE1zdVRCOE0zb3J6WFBrenZvNFUxWGR0Nkc?oc=5"
-    },
-    {
-      "title": "Grow a Garden Fairy Event update patch notes - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUWRYeDZpZ2JySVZNQVhjb3E0bFVSZERVR3VwVGxtV2FmaWk5QjNYWDN2cTRrOUpGZExCbXBHTjliVUlTV0t0MC1ZaWV6WDIxYXV1eC1kQ3N4RTJiVFZTUFg4MFJGN2VMSDgwbWVOeHdxdmlIYWdIZE4wWEpnZzV5Q3JIMFFUdFNTX2c?oc=5"
     },
     {
       "title": "Grow a Garden Flutter Freesia guide - Sportskeeda",
@@ -196,41 +200,43 @@
     }
   ],
   "seen_trends": [
-    "grow a garden royal jelly cup guide - sportskeeda",
-    "steal a brainrot codes (october 2026) - pcgamesn",
-    "steal a brainrot plant bros guide - sportskeeda",
-    "grow a garden manticore guide - sportskeeda",
-    "how to use emotes in roblox - technobezz",
-    "grow a garden prism plume guide - sportskeeda",
-    "grow a garden redcap guide - sportskeeda",
-    "grow a garden fairy event update patch notes - sportskeeda",
-    "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
-    "grow a garden 2 codes (september 2026) - dexerto",
-    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
-    "grow a garden 2 codes (october 2026) - dexerto",
-    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
-    "roblox's animal hospital [a&c] - brown daily herald",
-    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
     "grow a garden everfallen pet mutation guide - sportskeeda",
+    "roblox's animal hospital [a&c] - brown daily herald",
+    "grow a garden 2 codes (october 2026) - destructoid",
     "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
-    "grow a garden 2 codes (october 2026) - pcgamesn",
-    "grow a garden scarecrow guide - sportskeeda",
-    "grow a garden flutter freesia guide - sportskeeda",
-    "grow a garden 2 codes october 2026 - pocket tactics",
-    "how to find steal a brainrot 67 & drop rate - dexerto",
-    "steal a brainrot private server links (october 2026) - pro game guides",
-    "steal a brainrot codes (october 2026) - dexerto",
-    "steal a brainrot phoenix guide - sportskeeda",
-    "grow a garden maple melt guide - sportskeeda",
     "grow a garden fruit tier list (october 2026) - sportskeeda",
+    "steal a brainrot plant bros guide - sportskeeda",
+    "steal a brainrot codes (october 2026) - pcgamesn",
+    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
+    "grow a garden scarecrow guide - sportskeeda",
+    "grow a garden royal jelly cup guide - sportskeeda",
+    "grow a garden redcap guide - sportskeeda",
+    "how to find steal a brainrot 67 & drop rate - dexerto",
+    "grow a garden fairy event update patch notes - sportskeeda",
+    "grow a garden 2 codes (september 2026) - dexerto",
+    "steal a brainrot phoenix guide - sportskeeda",
+    "grow a garden 2 codes (october 2026) - pcgamesn",
+    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
+    "grow a garden 2 codes october 2026 - pocket tactics",
+    "grow a garden maple melt guide - sportskeeda",
+    "grow a garden prism plume guide - sportskeeda",
+    "steal a brainrot private server links (october 2026) - pro game guides",
+    "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
+    "steal a brainrot codes (october 2026) - dexerto",
+    "grow a garden manticore guide - sportskeeda",
+    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
+    "grow a garden flutter freesia guide - sportskeeda",
+    "grow a garden 2 codes (october 2026) - dexerto",
     "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
-    "steal a brainrot sammyni spookyni guide - sportskeeda"
+    "grow a garden 2 codes (august 2026) - beebom",
+    "steal a brainrot sammyni spookyni guide - sportskeeda",
+    "how to use emotes in roblox - technobezz"
   ],
   "baseline": {
-    "avg_views_last_7_videos": 1024,
-    "last_video_views": 1386,
-    "last_video_id": "3_KPb1wVc3w",
-    "last_check_utc": "2026-10-14T03:14Z"
+    "avg_views_last_7_videos": 1183,
+    "last_video_views": 1661,
+    "last_video_id": "jm5BtTDKFDM",
+    "last_check_utc": "2026-10-14T16:22Z"
   },
   "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
   "messages": [
@@ -293,6 +299,11 @@
       "t": "10-14 03:14",
       "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
       "kind": "aman"
+    },
+    {
+      "t": "10-14 16:22",
+      "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+      "kind": "kerja"
     }
   ],
   "channel": {
