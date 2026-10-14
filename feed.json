@@ -1,25 +1,25 @@
 {
- "ts": 1791917242,
- "rendered": "2026-10-13 18:47:22",
+ "ts": 1791947661,
+ "rendered": "2026-10-14 03:14:21",
  "source": "github-actions",
- "state": "SIBUK",
- "stateid": "ALERT",
- "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Comment if you have experienced something like thi' hanya 309 views (baseline 1191). Turun -74.1%  Laporan sudah kukirim ke Discord.",
- "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
+ "state": "ISTIRAHAT",
+ "stateid": "AMAN",
+ "status_text": "Agen sedang istirahat",
+ "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+ "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-13 18:47 UTC",
+ "last_run": "2026-10-14 03:14 UTC",
  "metrics": {
-  "last_title": "Comment if you have experienced something like this😁",
-  "last_views": 309,
-  "avg7": 872,
-  "delta_pct": "-74.1%"
+  "last_title": "Every small YouTuber's dream be like 💀",
+  "last_views": 1386,
+  "avg7": 1024,
+  "delta_pct": "+58.9%"
  },
  "discord": {
-  "ok": true,
+  "ok": null,
   "channel": "#general",
-  "detail": "HTTP 200"
+  "detail": "-"
  },
  "trends": [
   {
@@ -56,18 +56,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-11 03:34",
-   "msg": "Metrik diperbarui: views=1435 avg7=1903"
-  },
-  {
-   "t": "10-11 03:34",
-   "msg": "3 tren baru terdeteksi"
-  },
-  {
-   "t": "10-11 03:34",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-11 17:14",
    "msg": "Cek API key: VALID"
@@ -143,6 +131,18 @@
   {
    "t": "10-13 18:47",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-14 03:14",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-14 03:14",
+   "msg": "Metrik diperbarui: views=1386 avg7=1024"
+  },
+  {
+   "t": "10-14 03:14",
+   "msg": "OK: tidak ada sinyal (senyap)"
   }
  ],
  "messages": [
@@ -200,10 +200,15 @@
    "t": "10-13 18:47",
    "text": "METRIK TURUN: Video 'Comment if you have experienced something like thi' hanya 309 views (baseline 1191). Turun -74.1%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-14 03:14",
+   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+   "kind": "aman"
   }
  ],
  "alert": {
-  "metric": true,
-  "trend": true
+  "metric": false,
+  "trend": false
  }
 }

@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "t": "10-09 20:47",
-      "msg": "Cek API key: VALID"
-    },
-    {
-      "t": "10-09 20:47",
-      "msg": "Metrik dilewati (butuh API key valid + channel_id)"
-    },
-    {
-      "t": "10-09 20:47",
-      "msg": "OK: tidak ada sinyal (senyap)"
-    },
-    {
       "t": "10-09 22:34",
       "msg": "Cek API key: VALID"
     },
@@ -159,6 +147,18 @@
     {
       "t": "10-13 18:47",
       "msg": "Discord: terkirim"
+    },
+    {
+      "t": "10-14 03:14",
+      "msg": "Cek API key: VALID"
+    },
+    {
+      "t": "10-14 03:14",
+      "msg": "Metrik diperbarui: views=1386 avg7=1024"
+    },
+    {
+      "t": "10-14 03:14",
+      "msg": "OK: tidak ada sinyal (senyap)"
     }
   ],
   "trends": [
@@ -196,41 +196,41 @@
     }
   ],
   "seen_trends": [
-    "steal a brainrot private server links (october 2026) - pro game guides",
     "grow a garden royal jelly cup guide - sportskeeda",
-    "grow a garden flutter freesia guide - sportskeeda",
-    "steal a brainrot codes (october 2026) - dexerto",
-    "grow a garden redcap guide - sportskeeda",
-    "how to find steal a brainrot 67 & drop rate - dexerto",
-    "grow a garden scarecrow guide - sportskeeda",
-    "steal a brainrot sammyni spookyni guide - sportskeeda",
-    "grow a garden everfallen pet mutation guide - sportskeeda",
-    "grow a garden fairy event update patch notes - sportskeeda",
-    "steal a brainrot plant bros guide - sportskeeda",
-    "how to use emotes in roblox - technobezz",
-    "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
-    "grow a garden manticore guide - sportskeeda",
-    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
-    "grow a garden 2 codes october 2026 - pocket tactics",
-    "grow a garden 2 codes (october 2026) - dexerto",
-    "grow a garden prism plume guide - sportskeeda",
-    "roblox's animal hospital [a&c] - brown daily herald",
-    "grow a garden 2 codes (september 2026) - dexerto",
-    "steal a brainrot phoenix guide - sportskeeda",
-    "grow a garden 2 codes (october 2026) - pcgamesn",
-    "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
-    "grow a garden maple melt guide - sportskeeda",
-    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
-    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
-    "grow a garden fruit tier list (october 2026) - sportskeeda",
     "steal a brainrot codes (october 2026) - pcgamesn",
-    "roblox steal an egg hands on - tips, codes and more! - pocket gamer"
+    "steal a brainrot plant bros guide - sportskeeda",
+    "grow a garden manticore guide - sportskeeda",
+    "how to use emotes in roblox - technobezz",
+    "grow a garden prism plume guide - sportskeeda",
+    "grow a garden redcap guide - sportskeeda",
+    "grow a garden fairy event update patch notes - sportskeeda",
+    "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
+    "grow a garden 2 codes (september 2026) - dexerto",
+    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
+    "grow a garden 2 codes (october 2026) - dexerto",
+    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
+    "roblox's animal hospital [a&c] - brown daily herald",
+    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
+    "grow a garden everfallen pet mutation guide - sportskeeda",
+    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
+    "grow a garden 2 codes (october 2026) - pcgamesn",
+    "grow a garden scarecrow guide - sportskeeda",
+    "grow a garden flutter freesia guide - sportskeeda",
+    "grow a garden 2 codes october 2026 - pocket tactics",
+    "how to find steal a brainrot 67 & drop rate - dexerto",
+    "steal a brainrot private server links (october 2026) - pro game guides",
+    "steal a brainrot codes (october 2026) - dexerto",
+    "steal a brainrot phoenix guide - sportskeeda",
+    "grow a garden maple melt guide - sportskeeda",
+    "grow a garden fruit tier list (october 2026) - sportskeeda",
+    "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
+    "steal a brainrot sammyni spookyni guide - sportskeeda"
   ],
   "baseline": {
-    "avg_views_last_7_videos": 872,
-    "last_video_views": 309,
-    "last_video_id": "3fpIcaMuRPY",
-    "last_check_utc": "2026-10-13T18:47Z"
+    "avg_views_last_7_videos": 1024,
+    "last_video_views": 1386,
+    "last_video_id": "3_KPb1wVc3w",
+    "last_check_utc": "2026-10-14T03:14Z"
   },
   "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
   "messages": [
@@ -288,6 +288,11 @@
       "t": "10-13 18:47",
       "text": "METRIK TURUN: Video 'Comment if you have experienced something like thi' hanya 309 views (baseline 1191). Turun -74.1%  Laporan sudah kukirim ke Discord.",
       "kind": "alert"
+    },
+    {
+      "t": "10-14 03:14",
+      "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+      "kind": "aman"
     }
   ],
   "channel": {
