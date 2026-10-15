@@ -1,20 +1,20 @@
 {
- "ts": 1792032784,
- "rendered": "2026-10-15 02:53:04",
+ "ts": 1792080639,
+ "rendered": "2026-10-15 16:10:39",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Roblox live | Pagi pagi live roblox gabut' hanya 9 views (baseline 1183). Turun -99.2%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Bayanganku Keluar Jadi Kembaran?! 😱 NINU Part 1 #a' hanya 1213 views (baseline 1637). Turun -25.9%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-15 02:53 UTC",
+ "last_run": "2026-10-15 16:10 UTC",
  "metrics": {
-  "last_title": "Roblox live | Pagi pagi live roblox gabut",
-  "last_views": 9,
-  "avg7": 1637,
-  "delta_pct": "-99.2%"
+  "last_title": "Bayanganku Keluar Jadi Kembaran?! 😱 NINU Part 1 #animasi #drama",
+  "last_views": 1213,
+  "avg7": 1689,
+  "delta_pct": "-25.9%"
  },
  "discord": {
   "ok": true,
@@ -23,20 +23,40 @@
  },
  "trends": [
   {
+   "title": "MrBeast Lab’s toy mutants break into Roblox ahead of the holidays - GamesBeat",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFdIbEI4eVZiM2ZzOW0tUUQ0eWJRV1JraTlhd0JXU1dJcl9TaUZEaklmblV2TlY1M0U2dXdsR0o5MTZLQXJGT3E2RVFlTU94UG5FTGtNM1R2RHRaMWlYejhQOEJPVVA3VFNmX2J1dVYtVlZJQVBNMVBiSm01aTVtOXV5MTNhdU50dl9NTHp6ek4?oc=5"
+  },
+  {
+   "title": "Steal a Brainrot Halloween 2026 Guide: Haunted Fuse, All 11 New Brainrots & Eclipse Phoenix - MMOEXP",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk82ZjlpS3h0ZzBONVIxQ21EbDdHUjloeXpSRU8zZ0R2dGttVU1zLXF2Yks2YmV2cFZ6ekNoWl9OMjloUUhIeDlVcV96RUJ1WS05U2dMSU52Yno0N3pEQjVhYkg4Q1NBYUlINVVocW5Da3dIYXlXWmFMOVJydGRCdWpuRTV6Q0RXdzlVbHA4OTBnUXI2NzFnZzlsTVpOZ0M1OF9HN09rLW5EeC0tWk43UlU1cHJyRVhZS2NtZQ?oc=5"
+  },
+  {
    "title": "Logging Back Into Steal a Brainrot After 1 YEAR… 😱 - YouTube",
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1LVh1dzZNQVQ3WmpkbTRZZTZOUmZ2cy1URUFlbk9uZGhnSHFXaF8yUW0xanE4b0MzYkRLemNWZW12ZWczdDhScV9GWWVCOVZWdVRVLUhMS1dWcmhT?oc=5"
+  },
+  {
+   "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN1E3VFp4TkNSMG1qWjlvS3djcUt3NFpBM05BenVyWVV5WVh6TXV5WERkY1FPdzBBbWlqZ3Q2cDJScVZXcUpIX1hzVEFJM1REVFRZQUMzY2NRdGkzN2hUYkZ3SDlfNUxrYzFSangxUzVwZURHdlR2MHN3UDRPWDlsaTZBeWU?oc=5"
+  },
+  {
+   "title": "Steal a Brainrot Dragon Skeletonini guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPODBUWjdWN2pZUE1kdkN3OUxOeUw2MnJ1UUZBenE1WExvenl5LUJJZk5udjdjZGVEYVFpTWQ5OGV0UEw0TXBXS1FkZkd5QkNVSHVsMmNsV0ttbHJVMkJ3eXpsSTZIQng2TU5aa0ktU2lqdTQ1a1FyMEFoV3Qwd0xpUndXd0V3dw?oc=5"
+  },
+  {
+   "title": "Grow a Garden 2 Codes (October 2026) - Beebom",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80Q1U0UHVHb2hOQXdtWWFGeFdiX2IyR1B2cUhjUlhxQnExeU1Dc1AzUk1NTGM2azBGWF9QbWVjbUNERDFjNjQ5NF9CdWdTU09uci1N0gFYQVVfeXFMTjFETEhocHhLdm51cVBFblQ3cTN2RjRmQTFKY3pvUmVWQkxCNXRSb1VBRXpqS2JEbW5janFfUFdJemowOXQzQWFTYWRFZ2dRYTVyeDZ4dksySg?oc=5"
+  },
+  {
+   "title": "Steal A Brainrot codes (October 2026) - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hbTF4cTRZbGtaZ1Bud3J1TmhzLUhyMEMwa1NxTFh3XzY4Rk1QSXl4d3ExS18xejhaUVpZc0NkNlhVSmdiX3o5bi1mOFkzMERDYUExaTdxMC1samxuanhEM1FuczJEY2dnVER0QURBaw?oc=5"
   },
   {
    "title": "Grow a Garden 2 codes (October 2026) - Destructoid",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91YjlLcXNPOGZCd0R2RmVySEtvbTNDeGZyelk4el8xR0ZyQzNocDhOV09xT2xOQUpMZVRZQW1wcFFvUjBSZldxeElBUGhOaU16NE5hZzFMaEJUb0lDbG0w?oc=5"
   },
   {
-   "title": "Grow a Garden 2 Codes (August 2026) - Beebom",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80Q1U0UHVHb2hOQXdtWWFGeFdiX2IyR1B2cUhjUlhxQnExeU1Dc1AzUk1NTGM2azBGWF9QbWVjbUNERDFjNjQ5NF9CdWdTU09uci1N0gFYQVVfeXFMTjFETEhocHhLdm51cVBFblQ3cTN2RjRmQTFKY3pvUmVWQkxCNXRSb1VBRXpqS2JEbW5janFfUFdJemowOXQzQWFTYWRFZ2dRYTVyeDZ4dksySg?oc=5"
-  },
-  {
-   "title": "Steal A Brainrot codes (October 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hbTF4cTRZbGtaZ1Bud3J1TmhzLUhyMEMwa1NxTFh3XzY4Rk1QSXl4d3ExS18xejhaUVpZc0NkNlhVSmdiX3o5bi1mOFkzMERDYUExaTdxMC1samxuanhEM1FuczJEY2dnVER0QURBaw?oc=5"
+   "title": "Steal a Brainrot Skull Lucky Block guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWTdDWTl6aUV4Q3NLWjZRTDBpZ2x5TThjZUl5VXo5OGNDZnV3SXB4cS1vYmFRZ1VacUdnNmxBLWEyWkJFQXFjbU90d01hUEc1dlg2a2tYLVZiVFBmSy1TTjRvWk1JWUY2R1BVSi1hZnRlRWxqbm5RNmRIMnhwcjBNWFlUdVQ?oc=5"
   },
   {
    "title": "Grow a Garden Manticore guide - Sportskeeda",
@@ -45,37 +65,9 @@
   {
    "title": "Grow a Garden Redcap guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVWDc3TU5yV1lnZmY5RmxfdXl0dDlBbnNoSUFsd0F2TjBTOUZWT2ZtOVlEWDhfa3lQY0hGQTlreHNTSmJNb3o0b1cyYjlTbUNmcXEwQlFVUW5nb0Z1a21IOUFjZkJPQktkZ1E4NVF2TGVXUQ?oc=5"
-  },
-  {
-   "title": "Grow a Garden Flutter Freesia guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iVWcybFNaa25IWnA0aGlVVEpkaTAtNERfWHZoQUZaWFpLWW5yRmR3N3hKNVpjZDJ0aG01eTI0bU9BUVpKTFJDOHZpZTFtaVhKYVJ0NkpWM1dwODU1RTB4a00wTlYtcFNUaTJ6SU4zUjBZSjNqdUQzV1hGU283UQ?oc=5"
-  },
-  {
-   "title": "Grow a Garden Royal Jelly Cup guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE83aXNsXzNzbDZsX3hmckJJTXJaOXVBVnJFLXpqbGFXVG5MWXhCLXhha19pUjRkR0U3eUd6NnpQM2g4Y21lcWFSR19ESFQtM3JpX3BSSV9ScmxhcllfeVN2T1FfUTREa1ZUWndKLTJkbHU4TEJZVW0tWG9QYUVNZw?oc=5"
-  },
-  {
-   "title": "Grow a Garden Prism Plume guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJWnN4SnhycWM5ckZsdjhQT3NxRk9mVUN1eFJfXzV2NGZPV2VCNUZNRVBlSHNTSUlvcHh3WWxRaVUzTkYxNnBHdG9tSHBCbGZJSU5NQnljdFdib2NwT1VLTGU2VkJOeE0xUEZVSGRFVDRMaEFPY292ZQ?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-12 20:48",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-12 20:48",
-   "msg": "Metrik diperbarui: views=609 avg7=1090"
-  },
-  {
-   "t": "10-12 20:48",
-   "msg": "4 tren baru terdeteksi"
-  },
-  {
-   "t": "10-12 20:48",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-13 05:07",
    "msg": "Cek API key: VALID"
@@ -147,14 +139,25 @@
   {
    "t": "10-15 02:53",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-15 16:10",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-15 16:10",
+   "msg": "Metrik diperbarui: views=1213 avg7=1689"
+  },
+  {
+   "t": "10-15 16:10",
+   "msg": "6 tren baru terdeteksi"
+  },
+  {
+   "t": "10-15 16:10",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-10 03:59",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "10-10 06:54",
    "text": "METRIK TURUN: Video 'Rumah hantu' hanya 26 views (baseline 1069). Turun -97.6%  Laporan sudah kukirim ke Discord.",
@@ -208,6 +211,11 @@
   {
    "t": "10-15 02:53",
    "text": "METRIK TURUN: Video 'Roblox live | Pagi pagi live roblox gabut' hanya 9 views (baseline 1183). Turun -99.2%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "10-15 16:10",
+   "text": "METRIK TURUN: Video 'Bayanganku Keluar Jadi Kembaran?! 😱 NINU Part 1 #a' hanya 1213 views (baseline 1637). Turun -25.9%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
