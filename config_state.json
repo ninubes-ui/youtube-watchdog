@@ -1,22 +1,6 @@
 {
   "events": [
     {
-      "t": "10-11 03:34",
-      "msg": "3 tren baru terdeteksi"
-    },
-    {
-      "t": "10-11 03:34",
-      "msg": "Discord: terkirim"
-    },
-    {
-      "t": "10-11 17:14",
-      "msg": "Cek API key: VALID"
-    },
-    {
-      "t": "10-11 17:14",
-      "msg": "Metrik diperbarui: views=1346 avg7=2179"
-    },
-    {
       "t": "10-11 17:14",
       "msg": "4 tren baru terdeteksi"
     },
@@ -159,101 +143,126 @@
     {
       "t": "10-16 02:50",
       "msg": "Discord: terkirim"
+    },
+    {
+      "t": "10-16 15:57",
+      "msg": "Cek API key: VALID"
+    },
+    {
+      "t": "10-16 15:57",
+      "msg": "Metrik diperbarui: views=1378 avg7=1923"
+    },
+    {
+      "t": "10-16 15:57",
+      "msg": "5 tren baru terdeteksi"
+    },
+    {
+      "t": "10-16 15:57",
+      "msg": "Discord: terkirim"
     }
   ],
   "trends": [
+    {
+      "title": "MrBeast Lab Is Turning Roblox Into Its Holiday Toy Shelf - WeRSM",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKZTdBdUU1RG9jb1JNUVpoNUFEWG9FQzdsLWxERkpicFFPbno0MU9kc3JlNm42SDlVV0h3TXY3UzNwMWc2Znh6dUhKc2xxd19iY2xfS3hwRGlNSXN4SzNHek16QzVFcTdJanVaQ2FOM2oyMS1M?oc=5"
+    },
     {
       "title": "MrBeast’s toy line is crossing over into the Roblox universe - Tubefilter",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU0ppbzJyR1lzTDFmcldUTS1GNGVOS0VQQXBYUmdyR2lmTWQ2T0RtMklmRDRMd0NVWDU5U0lERzhISXBOcU4yTEFYRjJNX1BlcFIzeHY4WTRIRS1IeDFTblN5SjFRRU5CX082S0tlWVhmaTZrSTVjcWhXeEZOckVhWVBfSURVOWFCOGZLeWFQem7SAZABQVVfeXFMTVNKaW8yckdZc0wxZnJXVE0tRjRlTktFUEFwWFJnckdpZk1kNk9EbTJJZkQ0THdDVVg1OVNJREc4SElwTnFOMkxBWEYyTV9QZXBSM3h2OFk0SEUtSHgxU25TeUoxUUVOQl9PNktLZVlYZmk2a0k1Y3FoV3hGTnJFYVlQX0lEVTlhQjhmS3lhUHpu?oc=5"
     },
     {
-      "title": "MrBeast Lab Brings Its Toy Line Into Roblox - WeRSM",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKZTdBdUU1RG9jb1JNUVpoNUFEWG9FQzdsLWxERkpicFFPbno0MU9kc3JlNm42SDlVV0h3TXY3UzNwMWc2Znh6dUhKc2xxd19iY2xfS3hwRGlNSXN4SzNHek16QzVFcTdJanVaQ2FOM2oyMS1M?oc=5"
+      "title": "MrBeast Lab makes Roblox debut with Moose Toys and Gamefam - Toy World Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjFMbHdUQU1yeUx4Y2pmVC10dlFMWWhIUGczYmVBQ2duSkNncDdQeVFkNmZmU1R5YVBTSENtYlVjZnc5T2pTTGlWck9QbnBWNXZPbzZ6blAtbktSWGJvcTg1cjZISTAtcFdaZFhiMVViY3VhcF8tM2VUODhBMkRBMUlJaHRNeHZUNVFCVzFR?oc=5"
     },
     {
       "title": "MrBeast Lab’s toy mutants break into Roblox ahead of the holidays - GamesBeat",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFdIbEI4eVZiM2ZzOW0tUUQ0eWJRV1JraTlhd0JXU1dJcl9TaUZEaklmblV2TlY1M0U2dXdsR0o5MTZLQXJGT3E2RVFlTU94UG5FTGtNM1R2RHRaMWlYejhQOEJPVVA3VFNmX2J1dVYtVlZJQVBNMVBiSm01aTVtOXV5MTNhdU50dl9NTHp6ek4?oc=5"
     },
     {
+      "title": "🎮 My First Video... | Roblox - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtbXd1LVh5aGhCWkNNRTMtUVZRVzMyTzJfS1RQZGRFOFhhbEVROVFvX0h2Y0RtLXQ5MDFjYjliUEhrZVlvSmd2WVJycTFfa3otUVNDMjdOSW5TZHpT?oc=5"
+    },
+    {
+      "title": "What does AFK mean in Roblox? - Dexerto",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FRzhJMENVeG51REJoTkptS01nMXZmMkY3QmYtVDVmaThtbmgxOG44OGpXcjl5OG1rMTN5VVlZZlZSa3dPamYyN2tiNnduYlpFMlF0bkdna3M4cVYwZjFjZmJNU3hVcVBaN1FGQzY1OWtSRVdoajZB?oc=5"
+    },
+    {
       "title": "Steal a Brainrot Halloween 2026 Guide: Haunted Fuse, All 11 New Brainrots & Eclipse Phoenix - MMOEXP",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk82ZjlpS3h0ZzBONVIxQ21EbDdHUjloeXpSRU8zZ0R2dGttVU1zLXF2Yks2YmV2cFZ6ekNoWl9OMjloUUhIeDlVcV96RUJ1WS05U2dMSU52Yno0N3pEQjVhYkg4Q1NBYUlINVVocW5Da3dIYXlXWmFMOVJydGRCdWpuRTV6Q0RXdzlVbHA4OTBnUXI2NzFnZzlsTVpOZ0M1OF9HN09rLW5EeC0tWk43UlU1cHJyRVhZS2NtZQ?oc=5"
-    },
-    {
-      "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN1E3VFp4TkNSMG1qWjlvS3djcUt3NFpBM05BenVyWVV5WVh6TXV5WERkY1FPdzBBbWlqZ3Q2cDJScVZXcUpIX1hzVEFJM1REVFRZQUMzY2NRdGkzN2hUYkZ3SDlfNUxrYzFSangxUzVwZURHdlR2MHN3UDRPWDlsaTZBeWU?oc=5"
-    },
-    {
-      "title": "Grow a Garden 2 Codes (October 2026) - Beebom",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80Q1U0UHVHb2hOQXdtWWFGeFdiX2IyR1B2cUhjUlhxQnExeU1Dc1AzUk1NTGM2azBGWF9QbWVjbUNERDFjNjQ5NF9CdWdTU09uci1N0gFYQVVfeXFMTjFETEhocHhLdm51cVBFblQ3cTN2RjRmQTFKY3pvUmVWQkxCNXRSb1VBRXpqS2JEbW5janFfUFdJemowOXQzQWFTYWRFZ2dRYTVyeDZ4dksySg?oc=5"
     },
     {
       "title": "Steal a Brainrot Dragon Skeletonini guide - Sportskeeda",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPODBUWjdWN2pZUE1kdkN3OUxOeUw2MnJ1UUZBenE1WExvenl5LUJJZk5udjdjZGVEYVFpTWQ5OGV0UEw0TXBXS1FkZkd5QkNVSHVsMmNsV0ttbHJVMkJ3eXpsSTZIQng2TU5aa0ktU2lqdTQ1a1FyMEFoV3Qwd0xpUndXd0V3dw?oc=5"
     },
     {
+      "title": "Grow a Garden 2 Codes (October 2026) — Free Cosmetics! - Pro Game Guides",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mVlZGYVliWksydnNyYlRGNTdlSDRSLVNiQkdTNFdGSVRBcmhIc1lhTV9JeVVsd0QwaU5HT0UwVnk3RFhRMjhNTEdDMF9vWFQ0VGUzNVdWTXBCUHMxazRjS25XWVhTdw?oc=5"
+    },
+    {
+      "title": "Grow a Garden 2 Codes (October 2026) - Beebom",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80Q1U0UHVHb2hOQXdtWWFGeFdiX2IyR1B2cUhjUlhxQnExeU1Dc1AzUk1NTGM2azBGWF9QbWVjbUNERDFjNjQ5NF9CdWdTU09uci1N0gFYQVVfeXFMTjFETEhocHhLdm51cVBFblQ3cTN2RjRmQTFKY3pvUmVWQkxCNXRSb1VBRXpqS2JEbW5janFfUFdJemowOXQzQWFTYWRFZ2dRYTVyeDZ4dksySg?oc=5"
+    },
+    {
       "title": "Grow a Garden 2 codes (October 2026) - Destructoid",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91YjlLcXNPOGZCd0R2RmVySEtvbTNDeGZyelk4el8xR0ZyQzNocDhOV09xT2xOQUpMZVRZQW1wcFFvUjBSZldxeElBUGhOaU16NE5hZzFMaEJUb0lDbG0w?oc=5"
     },
     {
-      "title": "Steal a Brainrot Skull Lucky Block guide - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWTdDWTl6aUV4Q3NLWjZRTDBpZ2x5TThjZUl5VXo5OGNDZnV3SXB4cS1vYmFRZ1VacUdnNmxBLWEyWkJFQXFjbU90d01hUEc1dlg2a2tYLVZiVFBmSy1TTjRvWk1JWUY2R1BVSi1hZnRlRWxqbm5RNmRIMnhwcjBNWFlUdVQ?oc=5"
-    },
-    {
-      "title": "Grow a Garden Manticore guide - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ncE52eU14eFRIUTVzaFdYb2NFaS1KTFhfOFRrZEM3cjZ5aklEbG9XbkpCb0JLYVFlYzZIX3RjZmNuVF9lQ1hvaEFEODBnV0VNRDcyVEFOM3lfdmNON3hhZjk5RXpUR1VJVEdxWXJWS0o3OXpINFE?oc=5"
-    },
-    {
-      "title": "Grow a Garden Redcap guide - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVWDc3TU5yV1lnZmY5RmxfdXl0dDlBbnNoSUFsd0F2TjBTOUZWT2ZtOVlEWDhfa3lQY0hGQTlreHNTSmJNb3o0b1cyYjlTbUNmcXEwQlFVUW5nb0Z1a21IOUFjZkJPQktkZ1E4NVF2TGVXUQ?oc=5"
+      "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN1E3VFp4TkNSMG1qWjlvS3djcUt3NFpBM05BenVyWVV5WVh6TXV5WERkY1FPdzBBbWlqZ3Q2cDJScVZXcUpIX1hzVEFJM1REVFRZQUMzY2NRdGkzN2hUYkZ3SDlfNUxrYzFSangxUzVwZURHdlR2MHN3UDRPWDlsaTZBeWU?oc=5"
     }
   ],
   "seen_trends": [
-    "roblox's animal hospital [a&c] - brown daily herald",
-    "grow a garden redcap guide - sportskeeda",
-    "grow a garden 2 codes (october 2026) - pcgamesn",
-    "steal a brainrot skull lucky block guide - sportskeeda",
-    "grow a garden fairy event update patch notes - sportskeeda",
-    "grow a garden manticore guide - sportskeeda",
-    "steal a brainrot codes (october 2026) - pcgamesn",
     "grow a garden flutter freesia guide - sportskeeda",
-    "grow a garden prism plume guide - sportskeeda",
-    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
-    "grow a garden 2 codes october 2026 - pocket tactics",
-    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
-    "grow a garden 2 codes (august 2026) - beebom",
     "grow a garden royal jelly cup guide - sportskeeda",
-    "steal a brainrot private server links (october 2026) - pro game guides",
-    "how to use emotes in roblox - technobezz",
-    "mrbeast lab brings its toy line into roblox - wersm",
+    "grow a garden manticore guide - sportskeeda",
     "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
-    "mrbeast’s toy line is crossing over into the roblox universe - tubefilter",
-    "steal a brainrot halloween 2026 guide: haunted fuse, all 11 new brainrots & ecli",
-    "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
-    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
-    "steal a brainrot plant bros guide - sportskeeda",
-    "grow a garden 2 codes (october 2026) - dexerto",
-    "steal a brainrot phoenix guide - sportskeeda",
-    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
+    "🎮 my first video... | roblox - youtube",
+    "grow a garden 2 codes (october 2026) - destructoid",
+    "grow a garden scarecrow guide - sportskeeda",
     "grow a garden everfallen pet mutation guide - sportskeeda",
-    "logging back into steal a brainrot after 1 year… 😱 - youtube",
-    "how to get flying dutchman in steal a brainrot - sportskeeda",
-    "steal a brainrot dragon skeletonini guide - sportskeeda",
+    "grow a garden prism plume guide - sportskeeda",
+    "grow a garden fairy event update patch notes - sportskeeda",
+    "steal a brainrot skull lucky block guide - sportskeeda",
+    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
+    "mrbeast’s toy line is crossing over into the roblox universe - tubefilter",
+    "grow a garden 2 codes (october 2026) - pcgamesn",
+    "steal a brainrot phoenix guide - sportskeeda",
     "grow a garden maple melt guide - sportskeeda",
     "mrbeast lab’s toy mutants break into roblox ahead of the holidays - gamesbeat",
-    "grow a garden 2 codes (october 2026) - beebom",
-    "grow a garden scarecrow guide - sportskeeda",
-    "steal a brainrot codes (october 2026) - dexerto",
-    "steal a brainrot sammyni spookyni guide - sportskeeda",
     "grow a garden fruit tier list (october 2026) - sportskeeda",
-    "grow a garden 2 codes (october 2026) - destructoid",
+    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
+    "how to get flying dutchman in steal a brainrot - sportskeeda",
+    "steal a brainrot private server links (october 2026) - pro game guides",
+    "steal a brainrot plant bros guide - sportskeeda",
+    "steal a brainrot dragon skeletonini guide - sportskeeda",
+    "logging back into steal a brainrot after 1 year… 😱 - youtube",
+    "grow a garden 2 codes (september 2026) - dexerto",
+    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
     "how to find steal a brainrot 67 & drop rate - dexerto",
-    "grow a garden 2 codes (september 2026) - dexerto"
+    "steal a brainrot codes (october 2026) - pcgamesn",
+    "grow a garden 2 codes (august 2026) - beebom",
+    "steal a brainrot sammyni spookyni guide - sportskeeda",
+    "mrbeast lab brings its toy line into roblox - wersm",
+    "mrbeast lab is turning roblox into its holiday toy shelf - wersm",
+    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
+    "grow a garden 2 codes (october 2026) - dexerto",
+    "grow a garden 2 codes (october 2026) — free cosmetics! - pro game guides",
+    "grow a garden redcap guide - sportskeeda",
+    "what does afk mean in roblox? - dexerto",
+    "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
+    "grow a garden 2 codes (october 2026) - beebom",
+    "grow a garden 2 codes october 2026 - pocket tactics",
+    "how to use emotes in roblox - technobezz",
+    "roblox's animal hospital [a&c] - brown daily herald",
+    "steal a brainrot halloween 2026 guide: haunted fuse, all 11 new brainrots & ecli",
+    "mrbeast lab makes roblox debut with moose toys and gamefam - toy world magazine",
+    "steal a brainrot codes (october 2026) - dexerto"
   ],
   "baseline": {
-    "avg_views_last_7_videos": 1794,
-    "last_video_views": 1275,
+    "avg_views_last_7_videos": 1923,
+    "last_video_views": 1378,
     "last_video_id": "5oXJeZDQDjM",
-    "last_check_utc": "2026-10-16T02:50Z"
+    "last_check_utc": "2026-10-16T15:57Z"
   },
   "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
   "messages": [
@@ -335,6 +344,11 @@
     {
       "t": "10-16 02:50",
       "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+      "kind": "kerja"
+    },
+    {
+      "t": "10-16 15:57",
+      "text": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
       "kind": "kerja"
     }
   ],
