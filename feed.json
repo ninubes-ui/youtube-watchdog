@@ -1,20 +1,20 @@
 {
- "ts": 1792080639,
- "rendered": "2026-10-15 16:10:39",
+ "ts": 1792119032,
+ "rendered": "2026-10-16 02:50:32",
  "source": "github-actions",
- "state": "SIBUK",
- "stateid": "ALERT",
- "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Bayanganku Keluar Jadi Kembaran?! 😱 NINU Part 1 #a' hanya 1213 views (baseline 1637). Turun -25.9%  Laporan sudah kukirim ke Discord.",
- "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
+ "state": "BEKERJA",
+ "stateid": "KERJA",
+ "status_text": "Agen sedang bekerja",
+ "task": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 2 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-15 16:10 UTC",
+ "last_run": "2026-10-16 02:50 UTC",
  "metrics": {
-  "last_title": "Bayanganku Keluar Jadi Kembaran?! 😱 NINU Part 1 #animasi #drama",
-  "last_views": 1213,
-  "avg7": 1689,
-  "delta_pct": "-25.9%"
+  "last_title": "Part2, Dia siapa? Tonton sampai habis #animasi #roblox #animation",
+  "last_views": 1275,
+  "avg7": 1794,
+  "delta_pct": "-24.5%"
  },
  "discord": {
   "ok": true,
@@ -22,6 +22,14 @@
   "detail": "HTTP 200"
  },
  "trends": [
+  {
+   "title": "MrBeast’s toy line is crossing over into the Roblox universe - Tubefilter",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU0ppbzJyR1lzTDFmcldUTS1GNGVOS0VQQXBYUmdyR2lmTWQ2T0RtMklmRDRMd0NVWDU5U0lERzhISXBOcU4yTEFYRjJNX1BlcFIzeHY4WTRIRS1IeDFTblN5SjFRRU5CX082S0tlWVhmaTZrSTVjcWhXeEZOckVhWVBfSURVOWFCOGZLeWFQem7SAZABQVVfeXFMTVNKaW8yckdZc0wxZnJXVE0tRjRlTktFUEFwWFJnckdpZk1kNk9EbTJJZkQ0THdDVVg1OVNJREc4SElwTnFOMkxBWEYyTV9QZXBSM3h2OFk0SEUtSHgxU25TeUoxUUVOQl9PNktLZVlYZmk2a0k1Y3FoV3hGTnJFYVlQX0lEVTlhQjhmS3lhUHpu?oc=5"
+  },
+  {
+   "title": "MrBeast Lab Brings Its Toy Line Into Roblox - WeRSM",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKZTdBdUU1RG9jb1JNUVpoNUFEWG9FQzdsLWxERkpicFFPbno0MU9kc3JlNm42SDlVV0h3TXY3UzNwMWc2Znh6dUhKc2xxd19iY2xfS3hwRGlNSXN4SzNHek16QzVFcTdJanVaQ2FOM2oyMS1M?oc=5"
+  },
   {
    "title": "MrBeast Lab’s toy mutants break into Roblox ahead of the holidays - GamesBeat",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFdIbEI4eVZiM2ZzOW0tUUQ0eWJRV1JraTlhd0JXU1dJcl9TaUZEaklmblV2TlY1M0U2dXdsR0o5MTZLQXJGT3E2RVFlTU94UG5FTGtNM1R2RHRaMWlYejhQOEJPVVA3VFNmX2J1dVYtVlZJQVBNMVBiSm01aTVtOXV5MTNhdU50dl9NTHp6ek4?oc=5"
@@ -31,24 +39,16 @@
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk82ZjlpS3h0ZzBONVIxQ21EbDdHUjloeXpSRU8zZ0R2dGttVU1zLXF2Yks2YmV2cFZ6ekNoWl9OMjloUUhIeDlVcV96RUJ1WS05U2dMSU52Yno0N3pEQjVhYkg4Q1NBYUlINVVocW5Da3dIYXlXWmFMOVJydGRCdWpuRTV6Q0RXdzlVbHA4OTBnUXI2NzFnZzlsTVpOZ0M1OF9HN09rLW5EeC0tWk43UlU1cHJyRVhZS2NtZQ?oc=5"
   },
   {
-   "title": "Logging Back Into Steal a Brainrot After 1 YEAR… 😱 - YouTube",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1LVh1dzZNQVQ3WmpkbTRZZTZOUmZ2cy1URUFlbk9uZGhnSHFXaF8yUW0xanE4b0MzYkRLemNWZW12ZWczdDhScV9GWWVCOVZWdVRVLUhMS1dWcmhT?oc=5"
-  },
-  {
    "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN1E3VFp4TkNSMG1qWjlvS3djcUt3NFpBM05BenVyWVV5WVh6TXV5WERkY1FPdzBBbWlqZ3Q2cDJScVZXcUpIX1hzVEFJM1REVFRZQUMzY2NRdGkzN2hUYkZ3SDlfNUxrYzFSangxUzVwZURHdlR2MHN3UDRPWDlsaTZBeWU?oc=5"
-  },
-  {
-   "title": "Steal a Brainrot Dragon Skeletonini guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPODBUWjdWN2pZUE1kdkN3OUxOeUw2MnJ1UUZBenE1WExvenl5LUJJZk5udjdjZGVEYVFpTWQ5OGV0UEw0TXBXS1FkZkd5QkNVSHVsMmNsV0ttbHJVMkJ3eXpsSTZIQng2TU5aa0ktU2lqdTQ1a1FyMEFoV3Qwd0xpUndXd0V3dw?oc=5"
   },
   {
    "title": "Grow a Garden 2 Codes (October 2026) - Beebom",
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80Q1U0UHVHb2hOQXdtWWFGeFdiX2IyR1B2cUhjUlhxQnExeU1Dc1AzUk1NTGM2azBGWF9QbWVjbUNERDFjNjQ5NF9CdWdTU09uci1N0gFYQVVfeXFMTjFETEhocHhLdm51cVBFblQ3cTN2RjRmQTFKY3pvUmVWQkxCNXRSb1VBRXpqS2JEbW5janFfUFdJemowOXQzQWFTYWRFZ2dRYTVyeDZ4dksySg?oc=5"
   },
   {
-   "title": "Steal A Brainrot codes (October 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hbTF4cTRZbGtaZ1Bud3J1TmhzLUhyMEMwa1NxTFh3XzY4Rk1QSXl4d3ExS18xejhaUVpZc0NkNlhVSmdiX3o5bi1mOFkzMERDYUExaTdxMC1samxuanhEM1FuczJEY2dnVER0QURBaw?oc=5"
+   "title": "Steal a Brainrot Dragon Skeletonini guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPODBUWjdWN2pZUE1kdkN3OUxOeUw2MnJ1UUZBenE1WExvenl5LUJJZk5udjdjZGVEYVFpTWQ5OGV0UEw0TXBXS1FkZkd5QkNVSHVsMmNsV0ttbHJVMkJ3eXpsSTZIQng2TU5aa0ktU2lqdTQ1a1FyMEFoV3Qwd0xpUndXd0V3dw?oc=5"
   },
   {
    "title": "Grow a Garden 2 codes (October 2026) - Destructoid",
@@ -68,22 +68,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-13 05:07",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-13 05:07",
-   "msg": "Metrik diperbarui: views=1332 avg7=1191"
-  },
-  {
-   "t": "10-13 05:07",
-   "msg": "OK: tidak ada sinyal (senyap)"
-  },
-  {
-   "t": "10-13 18:47",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "10-13 18:47",
    "msg": "Metrik diperbarui: views=309 avg7=872"
@@ -155,14 +139,25 @@
   {
    "t": "10-15 16:10",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-16 02:50",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-16 02:50",
+   "msg": "Metrik diperbarui: views=1275 avg7=1794"
+  },
+  {
+   "t": "10-16 02:50",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "10-16 02:50",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-10 06:54",
-   "text": "METRIK TURUN: Video 'Rumah hantu' hanya 26 views (baseline 1069). Turun -97.6%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-10 16:50",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -217,10 +212,15 @@
    "t": "10-15 16:10",
    "text": "METRIK TURUN: Video 'Bayanganku Keluar Jadi Kembaran?! 😱 NINU Part 1 #a' hanya 1213 views (baseline 1637). Turun -25.9%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-16 02:50",
+   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
   }
  ],
  "alert": {
-  "metric": true,
+  "metric": false,
   "trend": true
  }
 }
