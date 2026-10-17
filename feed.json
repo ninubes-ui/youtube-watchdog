@@ -1,20 +1,20 @@
 {
- "ts": 1792166256,
- "rendered": "2026-10-16 15:57:36",
+ "ts": 1792204935,
+ "rendered": "2026-10-17 02:42:15",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 5 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "SIBUK",
+ "stateid": "ALERT",
+ "status_text": "Agen sedang sibuk",
+ "task": "METRIK TURUN: Video 'PART 3: Pasukan NNO BERSATU Jadi RAKSASA! 🔥 #short' hanya 1161 views (baseline 1923). Turun -39.6%  Laporan sudah kukirim ke Discord.",
+ "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-16 15:57 UTC",
+ "last_run": "2026-10-17 02:42 UTC",
  "metrics": {
-  "last_title": "Part2, Dia siapa? Tonton sampai habis #animasi #roblox #animation",
-  "last_views": 1378,
-  "avg7": 1923,
-  "delta_pct": "-23.2%"
+  "last_title": "PART 3: Pasukan NNO BERSATU Jadi RAKSASA! 🔥 #shorts",
+  "last_views": 1161,
+  "avg7": 1537,
+  "delta_pct": "-39.6%"
  },
  "discord": {
   "ok": true,
@@ -23,28 +23,28 @@
  },
  "trends": [
   {
-   "title": "MrBeast Lab Is Turning Roblox Into Its Holiday Toy Shelf - WeRSM",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKZTdBdUU1RG9jb1JNUVpoNUFEWG9FQzdsLWxERkpicFFPbno0MU9kc3JlNm42SDlVV0h3TXY3UzNwMWc2Znh6dUhKc2xxd19iY2xfS3hwRGlNSXN4SzNHek16QzVFcTdJanVaQ2FOM2oyMS1M?oc=5"
+   "title": "Roblox creators level up India’s economy with Rs 123.9 crore GDP boost - Animation Xpress",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMndJNWJJWjh2WVRyUHdhVFVKMUpWa0dLbmhJZTg1RmI5amhiTXZ2ckRGa2dtQmhrTFQ3bXFMclZkUnQ3ci1DdE1vY2ZTeUxBR0xuMmhnS2lZX2JqeDluVll1WVBaeHA5bG9iWHlmaFk1Z0xnVGE3RTYwUHV4VDZ1UmszZUV6Yms5YlBsUFpROFhvbUJkaFJabEdRZHRxbmloX3djQTZUNllyS3ZBR1Aw0gG3AUFVX3lxTFBrWXcxY0cwcDhib0FPQjJyRXp4MDAwOTNRZlZiRWpzY1VpSFJwNndwbmtlT0dFdFgtaVhrVDBLUl9fRmx5NTZhYVlDZFNKYXBUemdzcU5hZXR1X3JEakJLcHZGUTM2WWNKTHdDOEFhMXhHY2g3ekhOaHQtay16Z1VObWNTVkNkN1NMeDNiSnZiQlNaMGlEU1dnTTg3eHVZY0V0OWUwV245SXgtTUZQOFdOckw0Qi1lYw?oc=5"
   },
   {
    "title": "MrBeast’s toy line is crossing over into the Roblox universe - Tubefilter",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU0ppbzJyR1lzTDFmcldUTS1GNGVOS0VQQXBYUmdyR2lmTWQ2T0RtMklmRDRMd0NVWDU5U0lERzhISXBOcU4yTEFYRjJNX1BlcFIzeHY4WTRIRS1IeDFTblN5SjFRRU5CX082S0tlWVhmaTZrSTVjcWhXeEZOckVhWVBfSURVOWFCOGZLeWFQem7SAZABQVVfeXFMTVNKaW8yckdZc0wxZnJXVE0tRjRlTktFUEFwWFJnckdpZk1kNk9EbTJJZkQ0THdDVVg1OVNJREc4SElwTnFOMkxBWEYyTV9QZXBSM3h2OFk0SEUtSHgxU25TeUoxUUVOQl9PNktLZVlYZmk2a0k1Y3FoV3hGTnJFYVlQX0lEVTlhQjhmS3lhUHpu?oc=5"
   },
   {
-   "title": "MrBeast Lab makes Roblox debut with Moose Toys and Gamefam - Toy World Magazine",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjFMbHdUQU1yeUx4Y2pmVC10dlFMWWhIUGczYmVBQ2duSkNncDdQeVFkNmZmU1R5YVBTSENtYlVjZnc5T2pTTGlWck9QbnBWNXZPbzZ6blAtbktSWGJvcTg1cjZISTAtcFdaZFhiMVViY3VhcF8tM2VUODhBMkRBMUlJaHRNeHZUNVFCVzFR?oc=5"
+   "title": "MrBeast Lab Is Turning Roblox Into Its Holiday Toy Shelf - WeRSM",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKZTdBdUU1RG9jb1JNUVpoNUFEWG9FQzdsLWxERkpicFFPbno0MU9kc3JlNm42SDlVV0h3TXY3UzNwMWc2Znh6dUhKc2xxd19iY2xfS3hwRGlNSXN4SzNHek16QzVFcTdJanVaQ2FOM2oyMS1M?oc=5"
   },
   {
    "title": "MrBeast Lab’s toy mutants break into Roblox ahead of the holidays - GamesBeat",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFdIbEI4eVZiM2ZzOW0tUUQ0eWJRV1JraTlhd0JXU1dJcl9TaUZEaklmblV2TlY1M0U2dXdsR0o5MTZLQXJGT3E2RVFlTU94UG5FTGtNM1R2RHRaMWlYejhQOEJPVVA3VFNmX2J1dVYtVlZJQVBNMVBiSm01aTVtOXV5MTNhdU50dl9NTHp6ek4?oc=5"
   },
   {
-   "title": "🎮 My First Video... | Roblox - YouTube",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtbXd1LVh5aGhCWkNNRTMtUVZRVzMyTzJfS1RQZGRFOFhhbEVROVFvX0h2Y0RtLXQ5MDFjYjliUEhrZVlvSmd2WVJycTFfa3otUVNDMjdOSW5TZHpT?oc=5"
+   "title": "MrBeast Lab makes Roblox debut with Moose Toys and Gamefam - Toy World Magazine",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjFMbHdUQU1yeUx4Y2pmVC10dlFMWWhIUGczYmVBQ2duSkNncDdQeVFkNmZmU1R5YVBTSENtYlVjZnc5T2pTTGlWck9QbnBWNXZPbzZ6blAtbktSWGJvcTg1cjZISTAtcFdaZFhiMVViY3VhcF8tM2VUODhBMkRBMUlJaHRNeHZUNVFCVzFR?oc=5"
   },
   {
-   "title": "What does AFK mean in Roblox? - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FRzhJMENVeG51REJoTkptS01nMXZmMkY3QmYtVDVmaThtbmgxOG44OGpXcjl5OG1rMTN5VVlZZlZSa3dPamYyN2tiNnduYlpFMlF0bkdna3M4cVYwZjFjZmJNU3hVcVBaN1FGQzY1OWtSRVdoajZB?oc=5"
+   "title": "🎮 My First Video... | Roblox - YouTube",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtbXd1LVh5aGhCWkNNRTMtUVZRVzMyTzJfS1RQZGRFOFhhbEVROVFvX0h2Y0RtLXQ5MDFjYjliUEhrZVlvSmd2WVJycTFfa3otUVNDMjdOSW5TZHpT?oc=5"
   },
   {
    "title": "Steal a Brainrot Halloween 2026 Guide: Haunted Fuse, All 11 New Brainrots & Eclipse Phoenix - MMOEXP",
@@ -55,6 +55,10 @@
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPODBUWjdWN2pZUE1kdkN3OUxOeUw2MnJ1UUZBenE1WExvenl5LUJJZk5udjdjZGVEYVFpTWQ5OGV0UEw0TXBXS1FkZkd5QkNVSHVsMmNsV0ttbHJVMkJ3eXpsSTZIQng2TU5aa0ktU2lqdTQ1a1FyMEFoV3Qwd0xpUndXd0V3dw?oc=5"
   },
   {
+   "title": "Grow a Garden 2 codes (October 2026) - Destructoid",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91YjlLcXNPOGZCd0R2RmVySEtvbTNDeGZyelk4el8xR0ZyQzNocDhOV09xT2xOQUpMZVRZQW1wcFFvUjBSZldxeElBUGhOaU16NE5hZzFMaEJUb0lDbG0w?oc=5"
+  },
+  {
    "title": "Grow a Garden 2 Codes (October 2026) — Free Cosmetics! - Pro Game Guides",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mVlZGYVliWksydnNyYlRGNTdlSDRSLVNiQkdTNFdGSVRBcmhIc1lhTV9JeVVsd0QwaU5HT0UwVnk3RFhRMjhNTEdDMF9vWFQ0VGUzNVdWTXBCUHMxazRjS25XWVhTdw?oc=5"
   },
@@ -63,31 +67,11 @@
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80Q1U0UHVHb2hOQXdtWWFGeFdiX2IyR1B2cUhjUlhxQnExeU1Dc1AzUk1NTGM2azBGWF9QbWVjbUNERDFjNjQ5NF9CdWdTU09uci1N0gFYQVVfeXFMTjFETEhocHhLdm51cVBFblQ3cTN2RjRmQTFKY3pvUmVWQkxCNXRSb1VBRXpqS2JEbW5janFfUFdJemowOXQzQWFTYWRFZ2dRYTVyeDZ4dksySg?oc=5"
   },
   {
-   "title": "Grow a Garden 2 codes (October 2026) - Destructoid",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91YjlLcXNPOGZCd0R2RmVySEtvbTNDeGZyelk4el8xR0ZyQzNocDhOV09xT2xOQUpMZVRZQW1wcFFvUjBSZldxeElBUGhOaU16NE5hZzFMaEJUb0lDbG0w?oc=5"
-  },
-  {
    "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN1E3VFp4TkNSMG1qWjlvS3djcUt3NFpBM05BenVyWVV5WVh6TXV5WERkY1FPdzBBbWlqZ3Q2cDJScVZXcUpIX1hzVEFJM1REVFRZQUMzY2NRdGkzN2hUYkZ3SDlfNUxrYzFSangxUzVwZURHdlR2MHN3UDRPWDlsaTZBeWU?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-14 03:14",
-   "msg": "Metrik diperbarui: views=1386 avg7=1024"
-  },
-  {
-   "t": "10-14 03:14",
-   "msg": "OK: tidak ada sinyal (senyap)"
-  },
-  {
-   "t": "10-14 16:22",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-14 16:22",
-   "msg": "Metrik diperbarui: views=1661 avg7=1183"
-  },
   {
    "t": "10-14 16:22",
    "msg": "2 tren baru terdeteksi"
@@ -159,14 +143,25 @@
   {
    "t": "10-16 15:57",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-17 02:42",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-17 02:42",
+   "msg": "Metrik diperbarui: views=1161 avg7=1537"
+  },
+  {
+   "t": "10-17 02:42",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "10-17 02:42",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-11 03:34",
-   "text": "Ada 3 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "10-11 17:14",
    "text": "METRIK TURUN: Video 'Siapa yang Bayar? 😂💸🤔' hanya 1346 views (baseline 1903). Turun -29.3%  Laporan sudah kukirim ke Discord.",
@@ -221,10 +216,15 @@
    "t": "10-16 15:57",
    "text": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "10-17 02:42",
+   "text": "METRIK TURUN: Video 'PART 3: Pasukan NNO BERSATU Jadi RAKSASA! 🔥 #short' hanya 1161 views (baseline 1923). Turun -39.6%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
-  "metric": false,
+  "metric": true,
   "trend": true
  }
 }
