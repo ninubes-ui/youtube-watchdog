@@ -1,38 +1,30 @@
 {
- "ts": 1792248647,
- "rendered": "2026-10-17 14:50:47",
+ "ts": 1792291400,
+ "rendered": "2026-10-18 02:43:20",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 4 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "ISTIRAHAT",
+ "stateid": "AMAN",
+ "status_text": "Agen sedang istirahat",
+ "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+ "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-17 14:50 UTC",
+ "last_run": "2026-10-18 02:43 UTC",
  "metrics": {
   "last_title": "PART 3: Pasukan NNO BERSATU Jadi RAKSASA! 🔥 #shorts",
-  "last_views": 1285,
-  "avg7": 1721,
-  "delta_pct": "-16.4%"
+  "last_views": 1303,
+  "avg7": 1797,
+  "delta_pct": "-24.3%"
  },
  "discord": {
-  "ok": true,
+  "ok": null,
   "channel": "#general",
-  "detail": "HTTP 200"
+  "detail": "-"
  },
  "trends": [
   {
-   "title": "MrBeast’s toy line is crossing over into the Roblox universe - Tubefilter",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeXVNZzVMamtpLWp5b01mZExBVDUyMHVrbU1DRFV0d1Utd0lVclgyYXlXbGRoelZ4WUZDQkpVN1dPNFNWN0JGa0FCcWhWR0ZfRFY0RzhCeFB2eGFVdHNhcGZVNU5OZFdQRHhLTzUxU01wTHgxVm1YM2t6NUZZVHgyel9xOWVUeEVQS2ZJ0gGQAUFVX3lxTE1TSmlvMnJHWXNMMWZyV1RNLUY0ZU5LRVBBcFhSZ3JHaWZNZDZPRG0ySWZENEx3Q1VYNTlTSURHOEhJcE5xTjJMQVhGMk1fUGVwUjN4djhZNEhFLUh4MVNuU3lKMVFFTkJfTzZLS2VZWGZpNmtJNWNxaFd4Rk5yRWFZUF9JRFU5YUI4Zkt5YVB6bg?oc=5"
-  },
-  {
    "title": "Roblox creators level up India’s economy with Rs 123.9 crore GDP boost - Animation Xpress",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSy1KTVlFLTV5WFdsQW9FbHg4ajhkTHNZQ282Q2t2ZW4zNHlXNWFPMGs2TTJxQ3ltYmtUY1lURnlKSlhSRmI4WjRrcjM5YjVsNGlYMHVheHRZUEFBdmdHdHhzejFWYjhuT2wzeWNjSU5Wb2tkc20yV2ZpVklEdWR6dkNHWXd0ci1YeTRpMUFpMklrcXBSNnhFeHFGWWNNM01qVnRvZEd3UWVvQUlMX3JqbWRHNXjSAbcBQVVfeXFMUGtZdzFjRzBwOGJvQU9CMnJFengwMDA5M1FmVmJFanNjVWlIUnA2d3Bua2VPR0V0WC1pWGtUMEtSX19GbHk1NmFhWUNkU0phcFR6Z3NxTmFldHVfckRqQktwdkZRMzZZY0pMd0M4QWExeEdjaDd6SE5odC1rLXpnVU5tY1NWQ2Q3U0x4M2JKdmJCU1owaURTV2dNODd4dVljRXQ5ZTBXbjlJeC1NRlA4V05yTDRCLWVj?oc=5"
-  },
-  {
-   "title": "MrBeast Lab Is Turning Roblox Into Its Holiday Toy Shelf - WeRSM",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKZTdBdUU1RG9jb1JNUVpoNUFEWG9FQzdsLWxERkpicFFPbno0MU9kc3JlNm42SDlVV0h3TXY3UzNwMWc2Znh6dUhKc2xxd19iY2xfS3hwRGlNSXN4SzNHek16QzVFcTdJanVaQ2FOM2oyMS1M?oc=5"
   },
   {
    "title": "MrBeast Lab makes Roblox debut with Moose Toys and Gamefam - Toy World Magazine",
@@ -41,10 +33,6 @@
   {
    "title": "MrBeast Lab Debuts in Roblox’s Untitled Fling Game with Mega-Tech Mutators! - Droid Gamers",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCWGd3cFhHSXFEX2RxMUJwUk9wVTM1dVJDYXdyakluazdCc1QzNnJSYzhoMG1ibE9mZWVhelVnZm1hQndtOTE4ckUtdDRVLVBIbGNzYWNUT1hUTEtfNHpYU1hR?oc=5"
-  },
-  {
-   "title": "Steal a Brainrot Halloween 2026 Guide: Haunted Fuse, All 11 New Brainrots & Eclipse Phoenix - MMOEXP",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk82ZjlpS3h0ZzBONVIxQ21EbDdHUjloeXpSRU8zZ0R2dGttVU1zLXF2Yks2YmV2cFZ6ekNoWl9OMjloUUhIeDlVcV96RUJ1WS05U2dMSU52Yno0N3pEQjVhYkg4Q1NBYUlINVVocW5Da3dIYXlXWmFMOVJydGRCdWpuRTV6Q0RXdzlVbHA4OTBnUXI2NzFnZzlsTVpOZ0M1OF9HN09rLW5EeC0tWk43UlU1cHJyRVhZS2NtZQ?oc=5"
   },
   {
    "title": "Steal a Brainrot Dragon Skeletonini guide - Sportskeeda",
@@ -72,18 +60,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-15 02:53",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "10-15 02:53",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "10-15 16:10",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "10-15 16:10",
    "msg": "Metrik diperbarui: views=1213 avg7=1689"
@@ -159,14 +135,21 @@
   {
    "t": "10-17 14:50",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-18 02:43",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-18 02:43",
+   "msg": "Metrik diperbarui: views=1303 avg7=1797"
+  },
+  {
+   "t": "10-18 02:43",
+   "msg": "OK: tidak ada sinyal (senyap)"
   }
  ],
  "messages": [
-  {
-   "t": "10-12 03:58",
-   "text": "METRIK TURUN: Video 'Siapa yang Bayar? 😂💸🤔' hanya 1349 views (baseline 2179). Turun -38.1%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-12 20:48",
    "text": "METRIK TURUN: Video 'POV: temen lu percaya larangan mistis 😭' hanya 609 views (baseline 2196). Turun -72.3%  Laporan sudah kukirim ke Discord.",
@@ -221,10 +204,15 @@
    "t": "10-17 14:50",
    "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "10-18 02:43",
+   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+   "kind": "aman"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": true
+  "trend": false
  }
 }

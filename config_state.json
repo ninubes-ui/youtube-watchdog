@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "t": "10-12 20:48",
-      "msg": "4 tren baru terdeteksi"
-    },
-    {
-      "t": "10-12 20:48",
-      "msg": "Discord: terkirim"
-    },
-    {
-      "t": "10-13 05:07",
-      "msg": "Cek API key: VALID"
-    },
-    {
       "t": "10-13 05:07",
       "msg": "Metrik diperbarui: views=1332 avg7=1191"
     },
@@ -159,20 +147,24 @@
     {
       "t": "10-17 14:50",
       "msg": "Discord: terkirim"
+    },
+    {
+      "t": "10-18 02:43",
+      "msg": "Cek API key: VALID"
+    },
+    {
+      "t": "10-18 02:43",
+      "msg": "Metrik diperbarui: views=1303 avg7=1797"
+    },
+    {
+      "t": "10-18 02:43",
+      "msg": "OK: tidak ada sinyal (senyap)"
     }
   ],
   "trends": [
     {
-      "title": "MrBeast’s toy line is crossing over into the Roblox universe - Tubefilter",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeXVNZzVMamtpLWp5b01mZExBVDUyMHVrbU1DRFV0d1Utd0lVclgyYXlXbGRoelZ4WUZDQkpVN1dPNFNWN0JGa0FCcWhWR0ZfRFY0RzhCeFB2eGFVdHNhcGZVNU5OZFdQRHhLTzUxU01wTHgxVm1YM2t6NUZZVHgyel9xOWVUeEVQS2ZJ0gGQAUFVX3lxTE1TSmlvMnJHWXNMMWZyV1RNLUY0ZU5LRVBBcFhSZ3JHaWZNZDZPRG0ySWZENEx3Q1VYNTlTSURHOEhJcE5xTjJMQVhGMk1fUGVwUjN4djhZNEhFLUh4MVNuU3lKMVFFTkJfTzZLS2VZWGZpNmtJNWNxaFd4Rk5yRWFZUF9JRFU5YUI4Zkt5YVB6bg?oc=5"
-    },
-    {
       "title": "Roblox creators level up India’s economy with Rs 123.9 crore GDP boost - Animation Xpress",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSy1KTVlFLTV5WFdsQW9FbHg4ajhkTHNZQ282Q2t2ZW4zNHlXNWFPMGs2TTJxQ3ltYmtUY1lURnlKSlhSRmI4WjRrcjM5YjVsNGlYMHVheHRZUEFBdmdHdHhzejFWYjhuT2wzeWNjSU5Wb2tkc20yV2ZpVklEdWR6dkNHWXd0ci1YeTRpMUFpMklrcXBSNnhFeHFGWWNNM01qVnRvZEd3UWVvQUlMX3JqbWRHNXjSAbcBQVVfeXFMUGtZdzFjRzBwOGJvQU9CMnJFengwMDA5M1FmVmJFanNjVWlIUnA2d3Bua2VPR0V0WC1pWGtUMEtSX19GbHk1NmFhWUNkU0phcFR6Z3NxTmFldHVfckRqQktwdkZRMzZZY0pMd0M4QWExeEdjaDd6SE5odC1rLXpnVU5tY1NWQ2Q3U0x4M2JKdmJCU1owaURTV2dNODd4dVljRXQ5ZTBXbjlJeC1NRlA4V05yTDRCLWVj?oc=5"
-    },
-    {
-      "title": "MrBeast Lab Is Turning Roblox Into Its Holiday Toy Shelf - WeRSM",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKZTdBdUU1RG9jb1JNUVpoNUFEWG9FQzdsLWxERkpicFFPbno0MU9kc3JlNm42SDlVV0h3TXY3UzNwMWc2Znh6dUhKc2xxd19iY2xfS3hwRGlNSXN4SzNHek16QzVFcTdJanVaQ2FOM2oyMS1M?oc=5"
     },
     {
       "title": "MrBeast Lab makes Roblox debut with Moose Toys and Gamefam - Toy World Magazine",
@@ -181,10 +173,6 @@
     {
       "title": "MrBeast Lab Debuts in Roblox’s Untitled Fling Game with Mega-Tech Mutators! - Droid Gamers",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCWGd3cFhHSXFEX2RxMUJwUk9wVTM1dVJDYXdyakluazdCc1QzNnJSYzhoMG1ibE9mZWVhelVnZm1hQndtOTE4ckUtdDRVLVBIbGNzYWNUT1hUTEtfNHpYU1hR?oc=5"
-    },
-    {
-      "title": "Steal a Brainrot Halloween 2026 Guide: Haunted Fuse, All 11 New Brainrots & Eclipse Phoenix - MMOEXP",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk82ZjlpS3h0ZzBONVIxQ21EbDdHUjloeXpSRU8zZ0R2dGttVU1zLXF2Yks2YmV2cFZ6ekNoWl9OMjloUUhIeDlVcV96RUJ1WS05U2dMSU52Yno0N3pEQjVhYkg4Q1NBYUlINVVocW5Da3dIYXlXWmFMOVJydGRCdWpuRTV6Q0RXdzlVbHA4OTBnUXI2NzFnZzlsTVpOZ0M1OF9HN09rLW5EeC0tWk43UlU1cHJyRVhZS2NtZQ?oc=5"
     },
     {
       "title": "Steal a Brainrot Dragon Skeletonini guide - Sportskeeda",
@@ -212,62 +200,62 @@
     }
   ],
   "seen_trends": [
-    "grow a garden fruit tier list (october 2026) - sportskeeda",
     "how to get flying dutchman in steal a brainrot - sportskeeda",
-    "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
-    "grow a garden 2 codes (october 2026) - beebom",
-    "grow a garden royal jelly cup guide - sportskeeda",
-    "steal a brainrot dragon skeletonini guide - sportskeeda",
-    "grow a garden 2 codes october 2026 - pocket tactics",
-    "logging back into steal a brainrot after 1 year… 😱 - youtube",
-    "steal a brainrot plant bros guide - sportskeeda",
-    "grow a garden fairy event update patch notes - sportskeeda",
-    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
-    "🎮 my first video... | roblox - youtube",
-    "grow a garden codes (october 2026) - dexerto",
-    "grow a garden redcap guide - sportskeeda",
-    "grow a garden 2 codes (october 2026) - dexerto",
-    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
-    "steal a brainrot codes (october 2026) - pcgamesn",
-    "mrbeast lab brings its toy line into roblox - wersm",
-    "grow a garden flutter freesia guide - sportskeeda",
-    "mrbeast lab is turning roblox into its holiday toy shelf - wersm",
-    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
-    "grow a garden 2 codes (october 2026) - pcgamesn",
-    "steal a brainrot sammyni spookyni guide - sportskeeda",
-    "grow a garden prism plume guide - sportskeeda",
-    "steal a brainrot halloween 2026 guide: haunted fuse, all 11 new brainrots & ecli",
-    "mrbeast lab makes roblox debut with moose toys and gamefam - toy world magazine",
-    "grow a garden manticore guide - sportskeeda",
-    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
-    "mrbeast lab’s toy mutants break into roblox ahead of the holidays - gamesbeat",
-    "grow a garden 2 codes (september 2026) - dexerto",
-    "grow a garden 2 codes (august 2026) - beebom",
-    "steal a brainrot codes (october 2026) - dexerto",
-    "how to find steal a brainrot 67 & drop rate - dexerto",
-    "grow a garden scarecrow guide - sportskeeda",
-    "roblox’s steal an egg reaches 6 billion visits and 14.2 million peak concurrent ",
-    "roblox creators level up india’s economy with rs 123.9 crore gdp boost - animati",
     "steal a brainrot skull lucky block guide - sportskeeda",
-    "mrbeast’s toy line is crossing over into the roblox universe - tubefilter",
-    "mrbeast lab debuts in roblox’s untitled fling game with mega-tech mutators! - dr",
-    "grow a garden maple melt guide - sportskeeda",
+    "grow a garden 2 codes (september 2026) - dexerto",
+    "grow a garden flutter freesia guide - sportskeeda",
+    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
+    "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
+    "steal a brainrot plant bros guide - sportskeeda",
+    "mrbeast lab brings its toy line into roblox - wersm",
+    "grow a garden royal jelly cup guide - sportskeeda",
+    "grow a garden 2 codes october 2026 - pocket tactics",
+    "mrbeast lab’s toy mutants break into roblox ahead of the holidays - gamesbeat",
     "steal a brainrot private server links (october 2026) - pro game guides",
-    "grow a garden 2 codes (october 2026) - destructoid",
+    "grow a garden scarecrow guide - sportskeeda",
+    "steal a brainrot sammyni spookyni guide - sportskeeda",
     "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
-    "roblox's animal hospital [a&c] - brown daily herald",
-    "what does afk mean in roblox? - dexerto",
-    "what time is taco tuesday in steal a brainrot? - dexerto",
+    "grow a garden 2 codes (october 2026) - dexerto",
     "steal a brainrot phoenix guide - sportskeeda",
+    "grow a garden fairy event update patch notes - sportskeeda",
+    "grow a garden 2 codes (august 2026) - beebom",
+    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
+    "what does afk mean in roblox? - dexerto",
+    "grow a garden prism plume guide - sportskeeda",
+    "mrbeast lab debuts in roblox’s untitled fling game with mega-tech mutators! - dr",
+    "what time is taco tuesday in steal a brainrot? - dexerto",
+    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
+    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
+    "grow a garden 2 codes (october 2026) - destructoid",
+    "mrbeast’s toy line is crossing over into the roblox universe - tubefilter",
     "grow a garden 2 codes (october 2026) — free cosmetics! - pro game guides",
+    "logging back into steal a brainrot after 1 year… 😱 - youtube",
+    "grow a garden maple melt guide - sportskeeda",
+    "roblox’s steal an egg reaches 6 billion visits and 14.2 million peak concurrent ",
     "how to use emotes in roblox - technobezz",
-    "grow a garden everfallen pet mutation guide - sportskeeda"
+    "grow a garden everfallen pet mutation guide - sportskeeda",
+    "roblox creators level up india’s economy with rs 123.9 crore gdp boost - animati",
+    "mrbeast lab makes roblox debut with moose toys and gamefam - toy world magazine",
+    "grow a garden fruit tier list (october 2026) - sportskeeda",
+    "🎮 my first video... | roblox - youtube",
+    "grow a garden 2 codes (october 2026) - beebom",
+    "grow a garden redcap guide - sportskeeda",
+    "grow a garden manticore guide - sportskeeda",
+    "steal a brainrot halloween 2026 guide: haunted fuse, all 11 new brainrots & ecli",
+    "steal a brainrot codes (october 2026) - pcgamesn",
+    "roblox's animal hospital [a&c] - brown daily herald",
+    "steal a brainrot dragon skeletonini guide - sportskeeda",
+    "grow a garden codes (october 2026) - dexerto",
+    "steal a brainrot codes (october 2026) - dexerto",
+    "mrbeast lab is turning roblox into its holiday toy shelf - wersm",
+    "grow a garden 2 codes (october 2026) - pcgamesn",
+    "how to find steal a brainrot 67 & drop rate - dexerto"
   ],
   "baseline": {
-    "avg_views_last_7_videos": 1721,
-    "last_video_views": 1285,
+    "avg_views_last_7_videos": 1797,
+    "last_video_views": 1303,
     "last_video_id": "T1Z54qNdr7s",
-    "last_check_utc": "2026-10-17T14:50Z"
+    "last_check_utc": "2026-10-18T02:43Z"
   },
   "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
   "messages": [
@@ -365,6 +353,11 @@
       "t": "10-17 14:50",
       "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
       "kind": "kerja"
+    },
+    {
+      "t": "10-18 02:43",
+      "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+      "kind": "aman"
     }
   ],
   "channel": {
