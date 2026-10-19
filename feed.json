@@ -1,20 +1,20 @@
 {
- "ts": 1792378597,
- "rendered": "2026-10-19 02:56:37",
+ "ts": 1792433655,
+ "rendered": "2026-10-19 18:14:15",
  "source": "github-actions",
- "state": "SIBUK",
- "stateid": "ALERT",
- "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 33 views (baseline 1363). Turun -97.6%  Laporan sudah kukirim ke Discord.",
- "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
+ "state": "BEKERJA",
+ "stateid": "KERJA",
+ "status_text": "Agen sedang bekerja",
+ "task": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 5 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-19 02:56 UTC",
+ "last_run": "2026-10-19 18:14 UTC",
  "metrics": {
-  "last_title": "TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast Kocak",
-  "last_views": 33,
-  "avg7": 1384,
-  "delta_pct": "-97.6%"
+  "last_title": "This Ending Is BRUTAL 💀 #shorts",
+  "last_views": 1179,
+  "avg7": 763,
+  "delta_pct": "-14.8%"
  },
  "discord": {
   "ok": true,
@@ -23,39 +23,39 @@
  },
  "trends": [
   {
-   "title": "MrBeast Lab Debuts in Roblox’s Untitled Fling Game with Mega-Tech Mutators! - Droid Gamers",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCWGd3cFhHSXFEX2RxMUJwUk9wVTM1dVJDYXdyakluazdCc1QzNnJSYzhoMG1ibE9mZWVhelVnZm1hQndtOTE4ckUtdDRVLVBIbGNzYWNUT1hUTEtfNHpYU1hR?oc=5"
+   "title": "The In-App Purchase Trap: How Smart Parents Manage Their Kid’s Roblox Spending - Comic Basics",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRHF2VG5HOWxlVlhwUndGTmNrbzFoS0UtcDdjSk1aR2RQMzhLQnpmMjhnN0YyRy0xb25paG9KYi1PcktFM01QOUdtRFZ6QTZISXhXTk4yN29kbnZ1dWhyX09FSTgyTElsa2R5WDlYU2Zmd1dLRWRvV0pUYjA2TURkdGRXcDJSczlTa3d0Z3NRVUpsVFdmZE1FbGMxX1RKZ3B3dHFuV0p5Nlk?oc=5"
   },
   {
-   "title": "Grow a Garden Ghoul Garden Event patch notes - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMUdrN3Z6cDJwVGdXcmVNRno4YTlyclVZTmZDQl9FNVk3SDBaV3BCZXpFUGRlRGZ3dGVXckhxQmk2V1RmLXBGdkxQZW1GMmxackdsRWZvN0VDNk5OMkFTOUZZcDZ6OGxfYTU2ZmVtS1NCdWlUNXZlV2dGRnlQSHV5M0YyeU1VZlVKNkE?oc=5"
+   "title": "Grow a Garden Eyeball Monster guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xN1BLb0wtdFI3YkRkRnlhVTdSTTFHYVJaN0JkQzRlVS1LZFc5aldzZm5wZndfRlJ6cHlRLXc1ZV9wNFQ0U3JtcDZmVjZBZXJxa3Ewd3dtWmlidE9takc4NGIwSVM1QUthRWFZNFZmR2ZVNWdtRElkbk1mX2V6UQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Gargoyle guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jY0M3TzJOSkZxYlpaSTVtb0VudlQtMUhRbVJXdW5XNk9kblEtUEJhdkw4c253bFpqR2VQcTdNTVp6Uk9PcXFDTmhZUWJ0M0N5eWJIZFF5Wm5HU1hZSi1nR2R1S3JsaEYyUmlXMC1paC1oR2l4?oc=5"
   },
   {
    "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
   },
   {
-   "title": "Roblox’s Steal an Egg Reaches 6 Billion Visits and 14.2 Million Peak Concurrent Players - OtakuKart",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUzlkaEdUSk1lVDM1YlpuOGVFQmRWaVpYS3poanlxaTA3Q1huQW1uaFY4OHY0cll4QXp5cEF0TzIxT0s4ekNoLXlhaUN1Sjc4ZkZjYnFzZW1ncHEwZzBqVG5UQnpGYVFrWk5ybHN0X0RRRHBFUUZMWWVZWnM3cms5c0NKT1Rvd3ZjUklPeWJzNFdPeHZvQ1dsQTJyVE5Gc1JhYWhyYktjNE50dUtBYUE?oc=5"
+   "title": "Grow a Garden Fang Root guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYWFdFeThmZDBpUm5TWXdLODVIWVlxV1lnbFI2V29vY1BkVXJHeUlGdDRvVVJYTVh4T1hPZUNfVlk5QjgtUWlhZkdZcmJKcEhzUHNyVmZWWjlESjJXa1VOSW9yaTR0cFp0dkFfM2tiRzJJNzJTMGc?oc=5"
+  },
+  {
+   "title": "Grow a Garden Pet tier list (October 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WQ05ENlg3US15VmhPcXR4Um9TTTBQRnh1NjZJTnNMLTk0R295SEI5U2cwVVJ2dDlWbHByUVNTeXM5OHVzbFNTbkFpb3BPX3ROSGlaUUhfSXNwZlZPRERRaUlYRXZLRGxLZTQ1dDloMEpsS0k?oc=5"
+  },
+  {
+   "title": "Grow a Garden Fruit tier list (October 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QZDJNaVUyOEttcmtWWHJ6c0FrNEtybFRyQ0dMeTUyeDF5cTZaa0l6VlVjcExIM1dKOFc5aVpEamJEZTFEVzdkNkxiTFFyRmQyZER2WG5kUjlQMTlCOXNiX050ZUFuM0Zqekw5LS1TZ0F6bzYtS2c?oc=5"
+  },
+  {
+   "title": "Grow a Garden Ghoul Garden Event patch notes - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMUdrN3Z6cDJwVGdXcmVNRno4YTlyclVZTmZDQl9FNVk3SDBaV3BCZXpFUGRlRGZ3dGVXckhxQmk2V1RmLXBGdkxQZW1GMmxackdsRWZvN0VDNk5OMkFTOUZZcDZ6OGxfYTU2ZmVtS1NCdWlUNXZlV2dGRnlQSHV5M0YyeU1VZlVKNkE?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-16 15:57",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-16 15:57",
-   "msg": "Metrik diperbarui: views=1378 avg7=1923"
-  },
-  {
-   "t": "10-16 15:57",
-   "msg": "5 tren baru terdeteksi"
-  },
-  {
-   "t": "10-16 15:57",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-17 02:42",
    "msg": "Cek API key: VALID"
@@ -127,14 +127,25 @@
   {
    "t": "10-19 02:56",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-19 18:14",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-19 18:14",
+   "msg": "Metrik diperbarui: views=1179 avg7=763"
+  },
+  {
+   "t": "10-19 18:14",
+   "msg": "5 tren baru terdeteksi"
+  },
+  {
+   "t": "10-19 18:14",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-13 18:47",
-   "text": "METRIK TURUN: Video 'Comment if you have experienced something like thi' hanya 309 views (baseline 1191). Turun -74.1%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-14 03:14",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
@@ -189,10 +200,15 @@
    "t": "10-19 02:56",
    "text": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 33 views (baseline 1363). Turun -97.6%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-19 18:14",
+   "text": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
   }
  ],
  "alert": {
-  "metric": true,
-  "trend": false
+  "metric": false,
+  "trend": true
  }
 }
