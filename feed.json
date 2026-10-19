@@ -1,20 +1,20 @@
 {
- "ts": 1792336565,
- "rendered": "2026-10-18 15:16:05",
+ "ts": 1792378597,
+ "rendered": "2026-10-19 02:56:37",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 3 views (baseline 1797). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 33 views (baseline 1363). Turun -97.6%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-18 15:16 UTC",
+ "last_run": "2026-10-19 02:56 UTC",
  "metrics": {
   "last_title": "TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast Kocak",
-  "last_views": 3,
-  "avg7": 1363,
-  "delta_pct": "-99.8%"
+  "last_views": 33,
+  "avg7": 1384,
+  "delta_pct": "-97.6%"
  },
  "discord": {
   "ok": true,
@@ -22,14 +22,6 @@
   "detail": "HTTP 200"
  },
  "trends": [
-  {
-   "title": "MrBeast Lab Is Heading to Roblox! Moose Toys and Gamefam Bring the Mega-Tech Mutators to a New Gaming Adventure! - BSCkids",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZWtzTS1EYU9idlJJSE1QUFpFVm0ybG9OWHlPdHZYNDQzY0xpVV9JU3FwaGJQQTVmMUE5eTdSYnJFRDB3OW5wTG5VcERaVTdzdVdXbXRPTUptRzNCZEhFYlZyQUpVVlhPNDFBemtxV3hyTHVoOUp1VXE0U2FlSU04aEpaem5ObEpPSHBfLWMxNjI3bHRfaVhYY1Z6eVJxR3U4dUtPMGRCNl82N21DeFp1UDctTXEwQmlzcmJWZzRKdjlVek1SeUROVDJQY3VMZVdtQTBJU0NCQXNaR00?oc=5"
-  },
-  {
-   "title": "Roblox creators level up India’s economy with Rs 123.9 crore GDP boost - Animation Xpress",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSy1KTVlFLTV5WFdsQW9FbHg4ajhkTHNZQ282Q2t2ZW4zNHlXNWFPMGs2TTJxQ3ltYmtUY1lURnlKSlhSRmI4WjRrcjM5YjVsNGlYMHVheHRZUEFBdmdHdHhzejFWYjhuT2wzeWNjSU5Wb2tkc20yV2ZpVklEdWR6dkNHWXd0ci1YeTRpMUFpMklrcXBSNnhFeHFGWWNNM01qVnRvZEd3UWVvQUlMX3JqbWRHNXjSAbcBQVVfeXFMUGtZdzFjRzBwOGJvQU9CMnJFengwMDA5M1FmVmJFanNjVWlIUnA2d3Bua2VPR0V0WC1pWGtUMEtSX19GbHk1NmFhWUNkU0phcFR6Z3NxTmFldHVfckRqQktwdkZRMzZZY0pMd0M4QWExeEdjaDd6SE5odC1rLXpnVU5tY1NWQ2Q3U0x4M2JKdmJCU1owaURTV2dNODd4dVljRXQ5ZTBXbjlJeC1NRlA4V05yTDRCLWVj?oc=5"
-  },
   {
    "title": "MrBeast Lab Debuts in Roblox’s Untitled Fling Game with Mega-Tech Mutators! - Droid Gamers",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCWGd3cFhHSXFEX2RxMUJwUk9wVTM1dVJDYXdyakluazdCc1QzNnJSYzhoMG1ibE9mZWVhelVnZm1hQndtOTE4ckUtdDRVLVBIbGNzYWNUT1hUTEtfNHpYU1hR?oc=5"
@@ -39,12 +31,8 @@
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMUdrN3Z6cDJwVGdXcmVNRno4YTlyclVZTmZDQl9FNVk3SDBaV3BCZXpFUGRlRGZ3dGVXckhxQmk2V1RmLXBGdkxQZW1GMmxackdsRWZvN0VDNk5OMkFTOUZZcDZ6OGxfYTU2ZmVtS1NCdWlUNXZlV2dGRnlQSHV5M0YyeU1VZlVKNkE?oc=5"
   },
   {
-   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
-  },
-  {
-   "title": "Grow a Garden codes (October 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1RmprSXhfUVJVT19tVW44cWpiR2l6R3A1cGJwa3hqTHJHeU96QW5paVBBM0hTdGdCcG9XNDREMHhzT29EUEM3MWFMSHhDVUNjVnpmR2wwY0xXVW9ISlF3Wk0xaENJSE5hb2Y4?oc=5"
+   "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
   },
   {
    "title": "Roblox’s Steal an Egg Reaches 6 Billion Visits and 14.2 Million Peak Concurrent Players - OtakuKart",
@@ -52,18 +40,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-16 02:50",
-   "msg": "Metrik diperbarui: views=1275 avg7=1794"
-  },
-  {
-   "t": "10-16 02:50",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "10-16 02:50",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-16 15:57",
    "msg": "Cek API key: VALID"
@@ -139,14 +115,21 @@
   {
    "t": "10-18 15:16",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-19 02:56",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-19 02:56",
+   "msg": "Metrik diperbarui: views=33 avg7=1384"
+  },
+  {
+   "t": "10-19 02:56",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-13 05:07",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "10-13 18:47",
    "text": "METRIK TURUN: Video 'Comment if you have experienced something like thi' hanya 309 views (baseline 1191). Turun -74.1%  Laporan sudah kukirim ke Discord.",
@@ -201,10 +184,15 @@
    "t": "10-18 15:16",
    "text": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 3 views (baseline 1797). Turun -99.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-19 02:56",
+   "text": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 33 views (baseline 1363). Turun -97.6%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": true
+  "trend": false
  }
 }
