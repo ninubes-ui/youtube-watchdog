@@ -1,20 +1,20 @@
 {
- "ts": 1792433655,
- "rendered": "2026-10-19 18:14:15",
+ "ts": 1792465575,
+ "rendered": "2026-10-20 03:06:15",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 5 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "SIBUK",
+ "stateid": "ALERT",
+ "status_text": "Agen sedang sibuk",
+ "task": "METRIK TURUN: Video 'Live roblox animasi tanya jawab' hanya 23 views (baseline 763). Turun -97.0%  Laporan sudah kukirim ke Discord.",
+ "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-19 18:14 UTC",
+ "last_run": "2026-10-20 03:06 UTC",
  "metrics": {
-  "last_title": "This Ending Is BRUTAL 💀 #shorts",
-  "last_views": 1179,
-  "avg7": 763,
-  "delta_pct": "-14.8%"
+  "last_title": "Live roblox animasi tanya jawab",
+  "last_views": 23,
+  "avg7": 765,
+  "delta_pct": "-97.0%"
  },
  "discord": {
   "ok": true,
@@ -35,10 +35,6 @@
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jY0M3TzJOSkZxYlpaSTVtb0VudlQtMUhRbVJXdW5XNk9kblEtUEJhdkw4c253bFpqR2VQcTdNTVp6Uk9PcXFDTmhZUWJ0M0N5eWJIZFF5Wm5HU1hZSi1nR2R1S3JsaEYyUmlXMC1paC1oR2l4?oc=5"
   },
   {
-   "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
-  },
-  {
    "title": "Grow a Garden Fang Root guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYWFdFeThmZDBpUm5TWXdLODVIWVlxV1lnbFI2V29vY1BkVXJHeUlGdDRvVVJYTVh4T1hPZUNfVlk5QjgtUWlhZkdZcmJKcEhzUHNyVmZWWjlESjJXa1VOSW9yaTR0cFp0dkFfM2tiRzJJNzJTMGc?oc=5"
   },
@@ -56,18 +52,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-17 02:42",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-17 02:42",
-   "msg": "Metrik diperbarui: views=1161 avg7=1537"
-  },
-  {
-   "t": "10-17 02:42",
-   "msg": "1 tren baru terdeteksi"
-  },
   {
    "t": "10-17 02:42",
    "msg": "Discord: terkirim"
@@ -143,14 +127,21 @@
   {
    "t": "10-19 18:14",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-20 03:06",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-20 03:06",
+   "msg": "Metrik diperbarui: views=23 avg7=765"
+  },
+  {
+   "t": "10-20 03:06",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-14 03:14",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "10-14 16:22",
    "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -205,10 +196,15 @@
    "t": "10-19 18:14",
    "text": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "10-20 03:06",
+   "text": "METRIK TURUN: Video 'Live roblox animasi tanya jawab' hanya 23 views (baseline 763). Turun -97.0%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
-  "metric": false,
-  "trend": true
+  "metric": true,
+  "trend": false
  }
 }
