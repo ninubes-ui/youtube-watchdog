@@ -1,20 +1,20 @@
 {
- "ts": 1792465575,
- "rendered": "2026-10-20 03:06:15",
+ "ts": 1792512856,
+ "rendered": "2026-10-20 16:14:16",
  "source": "github-actions",
- "state": "SIBUK",
- "stateid": "ALERT",
- "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Live roblox animasi tanya jawab' hanya 23 views (baseline 763). Turun -97.0%  Laporan sudah kukirim ke Discord.",
- "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
+ "state": "BEKERJA",
+ "stateid": "KERJA",
+ "status_text": "Agen sedang bekerja",
+ "task": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 2 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-20 03:06 UTC",
+ "last_run": "2026-10-20 16:14 UTC",
  "metrics": {
-  "last_title": "Live roblox animasi tanya jawab",
-  "last_views": 23,
-  "avg7": 765,
-  "delta_pct": "-97.0%"
+  "last_title": "Yang Punya Naga Ini di Steal an Egg, Maaf Ya… 🐉💀",
+  "last_views": 1002,
+  "avg7": 706,
+  "delta_pct": "+31.0%"
  },
  "discord": {
   "ok": true,
@@ -27,8 +27,20 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRHF2VG5HOWxlVlhwUndGTmNrbzFoS0UtcDdjSk1aR2RQMzhLQnpmMjhnN0YyRy0xb25paG9KYi1PcktFM01QOUdtRFZ6QTZISXhXTk4yN29kbnZ1dWhyX09FSTgyTElsa2R5WDlYU2Zmd1dLRWRvV0pUYjA2TURkdGRXcDJSczlTa3d0Z3NRVUpsVFdmZE1FbGMxX1RKZ3B3dHFuV0p5Nlk?oc=5"
   },
   {
+   "title": "Steal a Brainrot Halloween Event 2026: Update 71 Guide - EGamersWorld",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTVIZU01QllaUlVtYWx1MXlEeU9MUDFKemJQZG15TG9SemJsVEFzMi1KQjRhQ3ZmRmo4T1F1M2kxNGxYdU1sTUpxYVk0RTV4VTA5TWl2enB4ZHJ2RnJvdW8tVFhfbTFKdFlaaVFnNGhpQWc2LU50b2dHM0ZaeVdzNUx1VlJXb1FhaHZ6MQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Pet Trading Guide: Values, Calculators, and How to Avoid Bad Trades - Comic Basics",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOalh5cWpRR2V5aVFINzhYNEt5NnhiakdoZUtrbi1MU2hrYVBKb0Vsc0Uwbi00VUNxa0lmYnVFa0ttS185Ul84OFVLTWJDRzhxdmxoSC1GaGVaNUctR2xIdXlDVGI5WmdLekgtRTllQkVITFpJQ2JCU1FNMHhkeEdrYnh1N3g1NHc5MWh0VjdxNU45Z2tqb0lmc1NlRG5adzVXTUJNRXlpRnZnTXM?oc=5"
+  },
+  {
    "title": "Grow a Garden Eyeball Monster guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xN1BLb0wtdFI3YkRkRnlhVTdSTTFHYVJaN0JkQzRlVS1LZFc5aldzZm5wZndfRlJ6cHlRLXc1ZV9wNFQ0U3JtcDZmVjZBZXJxa3Ewd3dtWmlidE9takc4NGIwSVM1QUthRWFZNFZmR2ZVNWdtRElkbk1mX2V6UQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Pet tier list (October 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WQ05ENlg3US15VmhPcXR4Um9TTTBQRnh1NjZJTnNMLTk0R295SEI5U2cwVVJ2dDlWbHByUVNTeXM5OHVzbFNTbkFpb3BPX3ROSGlaUUhfSXNwZlZPRERRaUlYRXZLRGxLZTQ1dDloMEpsS0k?oc=5"
   },
   {
    "title": "Grow a Garden Gargoyle guide - Sportskeeda",
@@ -37,10 +49,6 @@
   {
    "title": "Grow a Garden Fang Root guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYWFdFeThmZDBpUm5TWXdLODVIWVlxV1lnbFI2V29vY1BkVXJHeUlGdDRvVVJYTVh4T1hPZUNfVlk5QjgtUWlhZkdZcmJKcEhzUHNyVmZWWjlESjJXa1VOSW9yaTR0cFp0dkFfM2tiRzJJNzJTMGc?oc=5"
-  },
-  {
-   "title": "Grow a Garden Pet tier list (October 2026) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WQ05ENlg3US15VmhPcXR4Um9TTTBQRnh1NjZJTnNMLTk0R295SEI5U2cwVVJ2dDlWbHByUVNTeXM5OHVzbFNTbkFpb3BPX3ROSGlaUUhfSXNwZlZPRERRaUlYRXZLRGxLZTQ1dDloMEpsS0k?oc=5"
   },
   {
    "title": "Grow a Garden Fruit tier list (October 2026) - Sportskeeda",
@@ -52,22 +60,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-17 02:42",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "10-17 14:50",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-17 14:50",
-   "msg": "Metrik diperbarui: views=1285 avg7=1721"
-  },
-  {
-   "t": "10-17 14:50",
-   "msg": "4 tren baru terdeteksi"
-  },
   {
    "t": "10-17 14:50",
    "msg": "Discord: terkirim"
@@ -139,14 +131,25 @@
   {
    "t": "10-20 03:06",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-20 16:14",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-20 16:14",
+   "msg": "Metrik diperbarui: views=1002 avg7=706"
+  },
+  {
+   "t": "10-20 16:14",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "10-20 16:14",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-14 16:22",
-   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "10-15 02:53",
    "text": "METRIK TURUN: Video 'Roblox live | Pagi pagi live roblox gabut' hanya 9 views (baseline 1183). Turun -99.2%  Laporan sudah kukirim ke Discord.",
@@ -201,10 +204,15 @@
    "t": "10-20 03:06",
    "text": "METRIK TURUN: Video 'Live roblox animasi tanya jawab' hanya 23 views (baseline 763). Turun -97.0%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-20 16:14",
+   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
   }
  ],
  "alert": {
-  "metric": true,
-  "trend": false
+  "metric": false,
+  "trend": true
  }
 }
