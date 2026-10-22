@@ -1,25 +1,25 @@
 {
- "ts": 1792600162,
- "rendered": "2026-10-21 16:29:22",
+ "ts": 1792637985,
+ "rendered": "2026-10-22 02:59:45",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 4 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "ISTIRAHAT",
+ "stateid": "AMAN",
+ "status_text": "Agen sedang istirahat",
+ "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+ "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-21 16:29 UTC",
+ "last_run": "2026-10-22 02:59 UTC",
  "metrics": {
   "last_title": "Ada yang tau pet ini ga? Pemain steal an egg pasti tau 😄 #stealanegg",
-  "last_views": 1651,
-  "avg7": 830,
-  "delta_pct": "+108.7%"
+  "last_views": 1654,
+  "avg7": 835,
+  "delta_pct": "+99.3%"
  },
  "discord": {
-  "ok": true,
+  "ok": null,
   "channel": "#general",
-  "detail": "HTTP 200"
+  "detail": "-"
  },
  "trends": [
   {
@@ -27,7 +27,7 @@
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORmsxN2lwX1Z5ZUVWOGZpc0hsVnRFRmI4REV5OE9JT3hrb2VwdjNCZGJLUHFXem5VS29nRTJiaHlVR1AzR0RFNXZIWGFYZkpyY3N3YVdlT0JXck5qNGMzdkhTZl9SSS1aU0VlakFyQll5SWFlNktPVWJXcjlPU2RxTEowM3NLZlRoT3ZnVWVtNkktOHEwdDNTcnZhNWRtQ2JKaTRjTlFydUJFOUczMllvU1pLZjM0Tm91RVVQRDBLRQ?oc=5"
   },
   {
-   "title": "Steal a Brainrot Halloween Event 2026 Guide - EGamersWorld",
+   "title": "Steal a Brainrot Halloween Event 2026: Update 71 Guide - EGamersWorld",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTVIZU01QllaUlVtYWx1MXlEeU9MUDFKemJQZG15TG9SemJsVEFzMi1KQjRhQ3ZmRmo4T1F1M2kxNGxYdU1sTUpxYVk0RTV4VTA5TWl2enB4ZHJ2RnJvdW8tVFhfbTFKdFlaaVFnNGhpQWc2LU50b2dHM0ZaeVdzNUx1VlJXb1FhaHZ6MQ?oc=5"
   },
   {
@@ -35,28 +35,20 @@
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVGV3NXJNX1BBQTdCcXphVlUzVzhYRjJDRDJYZEFPZ2ZMeU95NFVqWS1XaXhvZWU5TndSb2RXUk1vaGM0cEJGX2daOGVTb0ZSMTVlZmNTODh4WVA0eGFvZF9wN1ZCbWd6dk1BSmtWSlpsUmhC?oc=5"
   },
   {
-   "title": "How to get Haunted Knight in Grow a Garden - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xWW1aOHQ0RnVmbklLdmEwa0NFS0hsdkN3aDJmUUgtdW1qdUVfSEgyVkZ6S2ZaVkFCSGlIN2Z3Z1o3VzVpTXdYTFdXYkJsamVGOEVQSW5CLTBPQ1pfdzNHUVBXRUVad1E0cVc3dER5MTdNYmYtVzBid1VmcFFFeWc?oc=5"
-  },
-  {
    "title": "Steal a Brainrot Beginner Guide: What Actually Works in 2026 - Anime Superhero News",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaER2NWl5eHFuUGlUdHVjYkdZWlhOY1dVam91ZUIzUXo1aHkyZFduTHNEMWJWMElrLVdPWmZJNURFcGpYQWlyM0dMNU42Z2hJQ05fRXVteTRxaDFpdHRCWG1yanpNV3h5YzlGSmZBMVVuQ0o5dlktRWhFa2V0bzN6MXZwN1lrYTNHQ2hvVjVlQi11YVVPdDQ3eFl3?oc=5"
-  },
-  {
-   "title": "Grow a Garden Pet Trading Guide: Values, Calculators, and How to Avoid Bad Trades - Comic Basics",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOalh5cWpRR2V5aVFINzhYNEt5NnhiakdoZUtrbi1MU2hrYVBKb0Vsc0Uwbi00VUNxa0lmYnVFa0ttS185Ul84OFVLTWJDRzhxdmxoSC1GaGVaNUctR2xIdXlDVGI5WmdLekgtRTllQkVITFpJQ2JCU1FNMHhkeEdrYnh1N3g1NHc5MWh0VjdxNU45Z2tqb0lmc1NlRG5adzVXTUJNRXlpRnZnTXM?oc=5"
-  },
-  {
-   "title": "How to make a cake in Grow a Garden: Birthday explained - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jN0h3TlVIVDB1bTlDZlkzNGdtVGFDWm9GUlBDMVFRR0xUc0ZhWXVYemxpVVM4YjYxQ0dBVmtoelUxRk1Pemdab0M5V1VqN1Q4dkQ4c0pLVW1JSy1PUERjQ2RDb2ZiOVA4NkF6R1J0NjFvMzhJZUFSdmRJSzM?oc=5"
   },
   {
    "title": "Grow a Garden Haunted Egg guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05cXNJMVVtSkxwOHNaTHFoV0wzMS1wQl9KWmtsUFV2NFVZUmJqMTFmenFOblFYV09pcm5Xcy1pTlNKOW1qX0FQM1pRVTgtdktITVVLR3V2cHkwVVQ4UmVtNGh0d3BVWHNjNTJyWkFMRzJmdTRzQ3NJWg?oc=5"
   },
   {
-   "title": "Fortnite Steal the Brainrot codes (October 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmJ6S1BDOU9SMHh1TS0tdHJZb3UyLU5ueHZjQlpXTFF6WmI3clRPT3F6d3VlbHJhWkota0VlTXRVSFdvYjlnNVNlbHpuTTZPWmxITV9jdnBheF9mNGhMeF9nRWN4RHJjS2psdXVFT2NDeFMzMlFJblNzQlR2MHVnLQ?oc=5"
+   "title": "Grow a Garden Pet Trading Guide: Values, Calculators, and How to Avoid Bad Trades - Comic Basics",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOalh5cWpRR2V5aVFINzhYNEt5NnhiakdoZUtrbi1MU2hrYVBKb0Vsc0Uwbi00VUNxa0lmYnVFa0ttS185Ul84OFVLTWJDRzhxdmxoSC1GaGVaNUctR2xIdXlDVGI5WmdLekgtRTllQkVITFpJQ2JCU1FNMHhkeEdrYnh1N3g1NHc5MWh0VjdxNU45Z2tqb0lmc1NlRG5adzVXTUJNRXlpRnZnTXM?oc=5"
+  },
+  {
+   "title": "How to get Haunted Knight in Grow a Garden - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xWW1aOHQ0RnVmbklLdmEwa0NFS0hsdkN3aDJmUUgtdW1qdUVfSEgyVkZ6S2ZaVkFCSGlIN2Z3Z1o3VzVpTXdYTFdXYkJsamVGOEVQSW5CLTBPQ1pfdzNHUVBXRUVad1E0cVc3dER5MTdNYmYtVzBid1VmcFFFeWc?oc=5"
   },
   {
    "title": "Grow a Garden Eyeball Monster guide - Sportskeeda",
@@ -69,21 +61,17 @@
   {
    "title": "Grow a Garden Gargoyle guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jY0M3TzJOSkZxYlpaSTVtb0VudlQtMUhRbVJXdW5XNk9kblEtUEJhdkw4c253bFpqR2VQcTdNTVp6Uk9PcXFDTmhZUWJ0M0N5eWJIZFF5Wm5HU1hZSi1nR2R1S3JsaEYyUmlXMC1paC1oR2l4?oc=5"
+  },
+  {
+   "title": "Grow a Garden Fang Root guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYWFdFeThmZDBpUm5TWXdLODVIWVlxV1lnbFI2V29vY1BkVXJHeUlGdDRvVVJYTVh4T1hPZUNfVlk5QjgtUWlhZkdZcmJKcEhzUHNyVmZWWjlESjJXa1VOSW9yaTR0cFp0dkFfM2tiRzJJNzJTMGc?oc=5"
+  },
+  {
+   "title": "Grow a Garden Fruit tier list (October 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QZDJNaVUyOEttcmtWWHJ6c0FrNEtybFRyQ0dMeTUyeDF5cTZaa0l6VlVjcExIM1dKOFc5aVpEamJEZTFEVzdkNkxiTFFyRmQyZER2WG5kUjlQMTlCOXNiX050ZUFuM0Zqekw5LS1TZ0F6bzYtS2c?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-19 02:56",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-19 02:56",
-   "msg": "Metrik diperbarui: views=33 avg7=1384"
-  },
-  {
-   "t": "10-19 02:56",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-19 18:14",
    "msg": "Cek API key: VALID"
@@ -159,14 +147,21 @@
   {
    "t": "10-21 16:29",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-22 02:59",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-22 02:59",
+   "msg": "Metrik diperbarui: views=1654 avg7=835"
+  },
+  {
+   "t": "10-22 02:59",
+   "msg": "OK: tidak ada sinyal (senyap)"
   }
  ],
  "messages": [
-  {
-   "t": "10-16 02:50",
-   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "10-16 15:57",
    "text": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -221,10 +216,15 @@
    "t": "10-21 16:29",
    "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "10-22 02:59",
+   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+   "kind": "aman"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": true
+  "trend": false
  }
 }
