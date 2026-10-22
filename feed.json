@@ -1,25 +1,25 @@
 {
- "ts": 1792637985,
- "rendered": "2026-10-22 02:59:45",
+ "ts": 1792686593,
+ "rendered": "2026-10-22 16:29:53",
  "source": "github-actions",
- "state": "ISTIRAHAT",
- "stateid": "AMAN",
- "status_text": "Agen sedang istirahat",
- "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
- "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
+ "state": "SIBUK",
+ "stateid": "ALERT",
+ "status_text": "Agen sedang sibuk",
+ "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 386 views (baseline 835). Turun -53.8%  Laporan sudah kukirim ke Discord.",
+ "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-22 02:59 UTC",
+ "last_run": "2026-10-22 16:29 UTC",
  "metrics": {
-  "last_title": "Ada yang tau pet ini ga? Pemain steal an egg pasti tau 😄 #stealanegg",
-  "last_views": 1654,
-  "avg7": 835,
-  "delta_pct": "+99.3%"
+  "last_title": "Ride A Dino - Live roblox map baru",
+  "last_views": 386,
+  "avg7": 784,
+  "delta_pct": "-53.8%"
  },
  "discord": {
-  "ok": null,
+  "ok": true,
   "channel": "#general",
-  "detail": "-"
+  "detail": "HTTP 200"
  },
  "trends": [
   {
@@ -35,59 +35,35 @@
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVGV3NXJNX1BBQTdCcXphVlUzVzhYRjJDRDJYZEFPZ2ZMeU95NFVqWS1XaXhvZWU5TndSb2RXUk1vaGM0cEJGX2daOGVTb0ZSMTVlZmNTODh4WVA0eGFvZF9wN1ZCbWd6dk1BSmtWSlpsUmhC?oc=5"
   },
   {
+   "title": "How to get Dracuvine in Grow a Garden - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50VkhUWkVUUnlpRExWUEEySkI2NlNSbXFjeVA1cGh2VlI4ai0zZWstZFpJOTRDaWNIc3BYY3piU2V5dG9RdHFnVHM2OVdVaFpMVmRSbFd2YzhrOU96MnBmYW1FTnB3ZGNjXzhfSWVkQVhFc0RxN1JMLQ?oc=5"
+  },
+  {
    "title": "Steal a Brainrot Beginner Guide: What Actually Works in 2026 - Anime Superhero News",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaER2NWl5eHFuUGlUdHVjYkdZWlhOY1dVam91ZUIzUXo1aHkyZFduTHNEMWJWMElrLVdPWmZJNURFcGpYQWlyM0dMNU42Z2hJQ05fRXVteTRxaDFpdHRCWG1yanpNV3h5YzlGSmZBMVVuQ0o5dlktRWhFa2V0bzN6MXZwN1lrYTNHQ2hvVjVlQi11YVVPdDQ3eFl3?oc=5"
   },
   {
-   "title": "Grow a Garden Haunted Egg guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05cXNJMVVtSkxwOHNaTHFoV0wzMS1wQl9KWmtsUFV2NFVZUmJqMTFmenFOblFYV09pcm5Xcy1pTlNKOW1qX0FQM1pRVTgtdktITVVLR3V2cHkwVVQ4UmVtNGh0d3BVWHNjNTJyWkFMRzJmdTRzQ3NJWg?oc=5"
+   "title": "When is the next Grow a Garden update? (Ghoul Garden 2 update) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TaHZpTmdLeTRDWHVwYWZFdnpIVjBwVkpRSlh5RVNxU2lmd3pFWVRnVmtSWXNkeFJvYkFuNHQ0eFhSNWl4UFhEQy1PRDd3Q18zQ19TWUVwamlVbmVtM3pFWFE3SXFiQWxTQUtQbWgwTzdPVTNLRDRJ?oc=5"
   },
   {
    "title": "Grow a Garden Pet Trading Guide: Values, Calculators, and How to Avoid Bad Trades - Comic Basics",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOalh5cWpRR2V5aVFINzhYNEt5NnhiakdoZUtrbi1MU2hrYVBKb0Vsc0Uwbi00VUNxa0lmYnVFa0ttS185Ul84OFVLTWJDRzhxdmxoSC1GaGVaNUctR2xIdXlDVGI5WmdLekgtRTllQkVITFpJQ2JCU1FNMHhkeEdrYnh1N3g1NHc5MWh0VjdxNU45Z2tqb0lmc1NlRG5adzVXTUJNRXlpRnZnTXM?oc=5"
   },
   {
+   "title": "Fortnite Steal the Brainrot codes (October 2026) - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmJ6S1BDOU9SMHh1TS0tdHJZb3UyLU5ueHZjQlpXTFF6WmI3clRPT3F6d3VlbHJhWkota0VlTXRVSFdvYjlnNVNlbHpuTTZPWmxITV9jdnBheF9mNGhMeF9nRWN4RHJjS2psdXVFT2NDeFMzMlFJblNzQlR2MHVnLQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Haunted Egg guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05cXNJMVVtSkxwOHNaTHFoV0wzMS1wQl9KWmtsUFV2NFVZUmJqMTFmenFOblFYV09pcm5Xcy1pTlNKOW1qX0FQM1pRVTgtdktITVVLR3V2cHkwVVQ4UmVtNGh0d3BVWHNjNTJyWkFMRzJmdTRzQ3NJWg?oc=5"
+  },
+  {
    "title": "How to get Haunted Knight in Grow a Garden - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xWW1aOHQ0RnVmbklLdmEwa0NFS0hsdkN3aDJmUUgtdW1qdUVfSEgyVkZ6S2ZaVkFCSGlIN2Z3Z1o3VzVpTXdYTFdXYkJsamVGOEVQSW5CLTBPQ1pfdzNHUVBXRUVad1E0cVc3dER5MTdNYmYtVzBid1VmcFFFeWc?oc=5"
-  },
-  {
-   "title": "Grow a Garden Eyeball Monster guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xN1BLb0wtdFI3YkRkRnlhVTdSTTFHYVJaN0JkQzRlVS1LZFc5aldzZm5wZndfRlJ6cHlRLXc1ZV9wNFQ0U3JtcDZmVjZBZXJxa3Ewd3dtWmlidE9takc4NGIwSVM1QUthRWFZNFZmR2ZVNWdtRElkbk1mX2V6UQ?oc=5"
-  },
-  {
-   "title": "Grow a Garden Pet tier list (October 2026) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WQ05ENlg3US15VmhPcXR4Um9TTTBQRnh1NjZJTnNMLTk0R295SEI5U2cwVVJ2dDlWbHByUVNTeXM5OHVzbFNTbkFpb3BPX3ROSGlaUUhfSXNwZlZPRERRaUlYRXZLRGxLZTQ1dDloMEpsS0k?oc=5"
-  },
-  {
-   "title": "Grow a Garden Gargoyle guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jY0M3TzJOSkZxYlpaSTVtb0VudlQtMUhRbVJXdW5XNk9kblEtUEJhdkw4c253bFpqR2VQcTdNTVp6Uk9PcXFDTmhZUWJ0M0N5eWJIZFF5Wm5HU1hZSi1nR2R1S3JsaEYyUmlXMC1paC1oR2l4?oc=5"
-  },
-  {
-   "title": "Grow a Garden Fang Root guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYWFdFeThmZDBpUm5TWXdLODVIWVlxV1lnbFI2V29vY1BkVXJHeUlGdDRvVVJYTVh4T1hPZUNfVlk5QjgtUWlhZkdZcmJKcEhzUHNyVmZWWjlESjJXa1VOSW9yaTR0cFp0dkFfM2tiRzJJNzJTMGc?oc=5"
-  },
-  {
-   "title": "Grow a Garden Fruit tier list (October 2026) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QZDJNaVUyOEttcmtWWHJ6c0FrNEtybFRyQ0dMeTUyeDF5cTZaa0l6VlVjcExIM1dKOFc5aVpEamJEZTFEVzdkNkxiTFFyRmQyZER2WG5kUjlQMTlCOXNiX050ZUFuM0Zqekw5LS1TZ0F6bzYtS2c?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-19 18:14",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-19 18:14",
-   "msg": "Metrik diperbarui: views=1179 avg7=763"
-  },
-  {
-   "t": "10-19 18:14",
-   "msg": "5 tren baru terdeteksi"
-  },
-  {
-   "t": "10-19 18:14",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-20 03:06",
    "msg": "Cek API key: VALID"
@@ -159,14 +135,25 @@
   {
    "t": "10-22 02:59",
    "msg": "OK: tidak ada sinyal (senyap)"
+  },
+  {
+   "t": "10-22 16:29",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-22 16:29",
+   "msg": "Metrik diperbarui: views=386 avg7=784"
+  },
+  {
+   "t": "10-22 16:29",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "10-22 16:29",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-16 15:57",
-   "text": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "10-17 02:42",
    "text": "METRIK TURUN: Video 'PART 3: Pasukan NNO BERSATU Jadi RAKSASA! 🔥 #short' hanya 1161 views (baseline 1923). Turun -39.6%  Laporan sudah kukirim ke Discord.",
@@ -221,10 +208,15 @@
    "t": "10-22 02:59",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
    "kind": "aman"
+  },
+  {
+   "t": "10-22 16:29",
+   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 386 views (baseline 835). Turun -53.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
-  "metric": false,
-  "trend": false
+  "metric": true,
+  "trend": true
  }
 }
