@@ -1,20 +1,20 @@
 {
- "ts": 1792724625,
- "rendered": "2026-10-23 03:03:45",
+ "ts": 1792772367,
+ "rendered": "2026-10-23 16:19:27",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Animasi Lucu: Alarm Diganti Suara Mama 😭 | Animasi' hanya 67 views (baseline 784). Turun -91.5%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 517 views (baseline 745). Turun -30.6%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-23 03:03 UTC",
+ "last_run": "2026-10-23 16:19 UTC",
  "metrics": {
-  "last_title": "Animasi Lucu: Alarm Diganti Suara Mama 😭 | Animasi Roblox Indonesia #a",
-  "last_views": 67,
-  "avg7": 745,
-  "delta_pct": "-91.5%"
+  "last_title": "Ride A Dino - Live roblox map baru",
+  "last_views": 517,
+  "avg7": 854,
+  "delta_pct": "-30.6%"
  },
  "discord": {
   "ok": true,
@@ -23,8 +23,20 @@
  },
  "trends": [
   {
-   "title": "Steal a Brainrot Halloween Event 2026: Update 71 Guide - EGamersWorld",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTVIZU01QllaUlVtYWx1MXlEeU9MUDFKemJQZG15TG9SemJsVEFzMi1KQjRhQ3ZmRmo4T1F1M2kxNGxYdU1sTUpxYVk0RTV4VTA5TWl2enB4ZHJ2RnJvdW8tVFhfbTFKdFlaaVFnNGhpQWc2LU50b2dHM0ZaeVdzNUx1VlJXb1FhaHZ6MQ?oc=5"
+   "title": "Warner Bros. stirs up ‘The Cat in the Hat’ mayhem on Roblox ahead of film - Marketing Dive",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ1FsbmxOdnU1Q01neUxSWDBVNkIwVzVHMjhKQVl3Mm4tR2lGWEtkVFRCRjV6SzBISUs5MkhXYURKWTVSSFR1QUhBWjN2OExEZUJsY2VPSTdTSGliZmhFNWlGTEVBVnVGaXdCd1JoWnJVaW9faTFTTTJMRHdpejc1SHk3T1dFSUtrOFpUSWxfSHA3aXdXNTA3Q2U1UVZpMEFXYy1NQ1hGSXZDMS1yZDlrdnhBVQ?oc=5"
+  },
+  {
+   "title": "Roblox Playtime Hours in H1 2026 and How to Check Yours - Beebom",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hZmpVd0w4VnRzOFExM0dsWHdlME45NGJ6QWhsRGlQR05EYzk2bXI5R2g5MGI3ODB5a2dqSTZocl9NTzNtb25iN0xweDZkZWgxNE5NOFZ0emlWRDFaajZpM1dB0gFnQVVfeXFMTmxNeFRFU2tEaDZHa0pmS0lWamxWTUtKYVRrNlo0RVY2NzNkQ19WOXlMR0xzUTE1b29zb1JlNXhzbVlZck5Db1B0dXBPeDJTWTk2YTdjYW5CYnc5b3ZFRUlJdTV4LU9Mcw?oc=5"
+  },
+  {
+   "title": "Steal a Brainrot Items Guide: How to Get Rare Brainrots and Build a Stronger Base - Goomba Stomp Magazine",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcmNvQ1ljZmFDQW5mRWxNTmxmc0FqbmluM3hNZ1cxc1NyTnZuUkVhMzY4bVF5S1UyT2w2a1RKSlZLdkI3WktuaFQybXZqQzVSWmdTUUVrSXgwWU03aXNmZW9zY0FRTVZUcUxXbXd6RC1GQURmdmZ6Q0lybFJTQ3lfNUNlVFJCQlYzV1N5czRnQkt5TXFUZS1DaHFjSWZQMU14YWZqMm0yQ0Q?oc=5"
+  },
+  {
+   "title": "Steal a Brainrot Halloween 2026 Guide: Haunted Fuse, All 11 New Brainrots & Eclipse Phoenix - MMOEXP",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk82ZjlpS3h0ZzBONVIxQ21EbDdHUjloeXpSRU8zZ0R2dGttVU1zLXF2Yks2YmV2cFZ6ekNoWl9OMjloUUhIeDlVcV96RUJ1WS05U2dMSU52Yno0N3pEQjVhYkg4Q1NBYUlINVVocW5Da3dIYXlXWmFMOVJydGRCdWpuRTV6Q0RXdzlVbHA4OTBnUXI2NzFnZzlsTVpOZ0M1OF9HN09rLW5EeC0tWk43UlU1cHJyRVhZS2NtZQ?oc=5"
   },
   {
    "title": "2026 Halloween Roblox Events - IGN",
@@ -33,18 +45,6 @@
   {
    "title": "How to get Dracuvine in Grow a Garden - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50VkhUWkVUUnlpRExWUEEySkI2NlNSbXFjeVA1cGh2VlI4ai0zZWstZFpJOTRDaWNIc3BYY3piU2V5dG9RdHFnVHM2OVdVaFpMVmRSbFd2YzhrOU96MnBmYW1FTnB3ZGNjXzhfSWVkQVhFc0RxN1JMLQ?oc=5"
-  },
-  {
-   "title": "Steal a Brainrot Beginner Guide: What Actually Works in 2026 - Anime Superhero News",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaER2NWl5eHFuUGlUdHVjYkdZWlhOY1dVam91ZUIzUXo1aHkyZFduTHNEMWJWMElrLVdPWmZJNURFcGpYQWlyM0dMNU42Z2hJQ05fRXVteTRxaDFpdHRCWG1yanpNV3h5YzlGSmZBMVVuQ0o5dlktRWhFa2V0bzN6MXZwN1lrYTNHQ2hvVjVlQi11YVVPdDQ3eFl3?oc=5"
-  },
-  {
-   "title": "Grow a Garden Pet Trading Guide: Values, Calculators, and How to Avoid Bad Trades - Comic Basics",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOalh5cWpRR2V5aVFINzhYNEt5NnhiakdoZUtrbi1MU2hrYVBKb0Vsc0Uwbi00VUNxa0lmYnVFa0ttS185Ul84OFVLTWJDRzhxdmxoSC1GaGVaNUctR2xIdXlDVGI5WmdLekgtRTllQkVITFpJQ2JCU1FNMHhkeEdrYnh1N3g1NHc5MWh0VjdxNU45Z2tqb0lmc1NlRG5adzVXTUJNRXlpRnZnTXM?oc=5"
-  },
-  {
-   "title": "Best Brainrots in Steal a Brainrot - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yVDRNUGhSYVpqZWxJSGZZMmhNVnNBa0VnbVE4RkZ5b1A1Y1NyRWZ3aU51THA1aVJud0taeWJqTUlyZ3VFenItazc4UDQyR09XRmY0dXM2c09aRmdURXo0YlV0djMwcjhLMmIwWEZRMDJkemktc0gtRjhZMA?oc=5"
   },
   {
    "title": "When is the next Grow a Garden update? (Ghoul Garden 2 update) - Sportskeeda",
@@ -64,22 +64,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-20 16:14",
-   "msg": "Metrik diperbarui: views=1002 avg7=706"
-  },
-  {
-   "t": "10-20 16:14",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "10-20 16:14",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "10-21 03:00",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "10-21 03:00",
    "msg": "Metrik diperbarui: views=1447 avg7=791"
@@ -151,14 +135,25 @@
   {
    "t": "10-23 03:03",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-23 16:19",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-23 16:19",
+   "msg": "Metrik diperbarui: views=517 avg7=854"
+  },
+  {
+   "t": "10-23 16:19",
+   "msg": "3 tren baru terdeteksi"
+  },
+  {
+   "t": "10-23 16:19",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-17 14:50",
-   "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "10-18 02:43",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
@@ -212,6 +207,11 @@
   {
    "t": "10-23 03:03",
    "text": "METRIK TURUN: Video 'Animasi Lucu: Alarm Diganti Suara Mama 😭 | Animasi' hanya 67 views (baseline 784). Turun -91.5%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "10-23 16:19",
+   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 517 views (baseline 745). Turun -30.6%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
