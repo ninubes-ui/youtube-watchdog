@@ -1,20 +1,20 @@
 {
- "ts": 1792810784,
- "rendered": "2026-10-24 02:59:44",
+ "ts": 1792854983,
+ "rendered": "2026-10-24 15:16:23",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 514 views (baseline 854). Turun -39.8%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 870). Turun -40.8%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-24 02:59 UTC",
+ "last_run": "2026-10-24 15:16 UTC",
  "metrics": {
   "last_title": "Ride A Dino - Live roblox map baru",
-  "last_views": 514,
-  "avg7": 870,
-  "delta_pct": "-39.8%"
+  "last_views": 515,
+  "avg7": 891,
+  "delta_pct": "-40.8%"
  },
  "discord": {
   "ok": true,
@@ -22,6 +22,10 @@
   "detail": "HTTP 200"
  },
  "trends": [
+  {
+   "title": "The Cat in the Hat takes over 3 Roblox games - ContentGrip",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KSlVJRTVLc3NyUEFkeV9DX2ZDUmR6UVRteFFRdU5MbXVQVWRMY0t3QzZnSUdzX3ZjZzBOZ3lkZGJUVHdELUg5SW5YTFJ1a2lXczlhSFhrNkZ3dy1wWVhR?oc=5"
+  },
   {
    "title": "Warner Bros. stirs up ‘The Cat in the Hat’ mayhem on Roblox ahead of film - Marketing Dive",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ1FsbmxOdnU1Q01neUxSWDBVNkIwVzVHMjhKQVl3Mm4tR2lGWEtkVFRCRjV6SzBISUs5MkhXYURKWTVSSFR1QUhBWjN2OExEZUJsY2VPSTdTSGliZmhFNWlGTEVBVnVGaXdCd1JoWnJVaW9faTFTTTJMRHdpejc1SHk3T1dFSUtrOFpUSWxfSHA3aXdXNTA3Q2U1UVZpMEFXYy1NQ1hGSXZDMS1yZDlrdnhBVQ?oc=5"
@@ -43,6 +47,18 @@
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVGV3NXJNX1BBQTdCcXphVlUzVzhYRjJDRDJYZEFPZ2ZMeU95NFVqWS1XaXhvZWU5TndSb2RXUk1vaGM0cEJGX2daOGVTb0ZSMTVlZmNTODh4WVA0eGFvZF9wN1ZCbWd6dk1BSmtWSlpsUmhC?oc=5"
   },
   {
+   "title": "How to get Medusini and Demonini in Steal a Brainrot - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTElzdlJvRlBHNnlrbnh3UmM2N1NxVWktMzFDUC1mVkRKV3pJQkVzWGFXRzh4X3NoNWVNV2NVM1RvUlBxNXNCNkdPQnRLOHBKUUR6bmNjUEZickQwN1BMdEJmSElSNXdQZDZCN1NiajdTVWNGbm5lbHhab1ZsdXZPOTdfd3ZaTzQ?oc=5"
+  },
+  {
+   "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM3hKemFUdWVjb2ZCQ0NTeFNHTjhIY0tHTkYzT1dFaHF6SXRHRlhmZkVlLVpKcS04RGtrbE5nTnp4dThCWk5aTGVnYlotYzZzWmxVaWxYOVAtSlpQRWNYVzhURm4xclRyVGlhTWZ2bExQWjY5eERPa1BKcDRwbG1va2VUSzFjLTQ?oc=5"
+  },
+  {
+   "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
+  },
+  {
    "title": "How to get Dracuvine in Grow a Garden - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50VkhUWkVUUnlpRExWUEEySkI2NlNSbXFjeVA1cGh2VlI4ai0zZWstZFpJOTRDaWNIc3BYY3piU2V5dG9RdHFnVHM2OVdVaFpMVmRSbFd2YzhrOU96MnBmYW1FTnB3ZGNjXzhfSWVkQVhFc0RxN1JMLQ?oc=5"
   },
@@ -52,22 +68,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-21 16:29",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-21 16:29",
-   "msg": "Metrik diperbarui: views=1651 avg7=830"
-  },
-  {
-   "t": "10-21 16:29",
-   "msg": "4 tren baru terdeteksi"
-  },
-  {
-   "t": "10-21 16:29",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-22 02:59",
    "msg": "Cek API key: VALID"
@@ -139,14 +139,25 @@
   {
    "t": "10-24 02:59",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-24 15:16",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-24 15:16",
+   "msg": "Metrik diperbarui: views=515 avg7=891"
+  },
+  {
+   "t": "10-24 15:16",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "10-24 15:16",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-18 15:16",
-   "text": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 3 views (baseline 1797). Turun -99.8%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-19 02:56",
    "text": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 33 views (baseline 1363). Turun -97.6%  Laporan sudah kukirim ke Discord.",
@@ -201,10 +212,15 @@
    "t": "10-24 02:59",
    "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 514 views (baseline 854). Turun -39.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-24 15:16",
+   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 870). Turun -40.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": false
+  "trend": true
  }
 }
