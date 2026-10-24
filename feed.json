@@ -1,20 +1,20 @@
 {
- "ts": 1792772367,
- "rendered": "2026-10-23 16:19:27",
+ "ts": 1792810784,
+ "rendered": "2026-10-24 02:59:44",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 517 views (baseline 745). Turun -30.6%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 514 views (baseline 854). Turun -39.8%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-23 16:19 UTC",
+ "last_run": "2026-10-24 02:59 UTC",
  "metrics": {
   "last_title": "Ride A Dino - Live roblox map baru",
-  "last_views": 517,
-  "avg7": 854,
-  "delta_pct": "-30.6%"
+  "last_views": 514,
+  "avg7": 870,
+  "delta_pct": "-39.8%"
  },
  "discord": {
   "ok": true,
@@ -49,33 +49,9 @@
   {
    "title": "When is the next Grow a Garden update? (Ghoul Garden 2 update) - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TaHZpTmdLeTRDWHVwYWZFdnpIVjBwVkpRSlh5RVNxU2lmd3pFWVRnVmtSWXNkeFJvYkFuNHQ0eFhSNWl4UFhEQy1PRDd3Q18zQ19TWUVwamlVbmVtM3pFWFE3SXFiQWxTQUtQbWgwTzdPVTNLRDRJ?oc=5"
-  },
-  {
-   "title": "Fortnite Steal the Brainrot codes (October 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmJ6S1BDOU9SMHh1TS0tdHJZb3UyLU5ueHZjQlpXTFF6WmI3clRPT3F6d3VlbHJhWkota0VlTXRVSFdvYjlnNVNlbHpuTTZPWmxITV9jdnBheF9mNGhMeF9nRWN4RHJjS2psdXVFT2NDeFMzMlFJblNzQlR2MHVnLQ?oc=5"
-  },
-  {
-   "title": "Grow a Garden Haunted Egg guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05cXNJMVVtSkxwOHNaTHFoV0wzMS1wQl9KWmtsUFV2NFVZUmJqMTFmenFOblFYV09pcm5Xcy1pTlNKOW1qX0FQM1pRVTgtdktITVVLR3V2cHkwVVQ4UmVtNGh0d3BVWHNjNTJyWkFMRzJmdTRzQ3NJWg?oc=5"
-  },
-  {
-   "title": "How to get Haunted Knight in Grow a Garden - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xWW1aOHQ0RnVmbklLdmEwa0NFS0hsdkN3aDJmUUgtdW1qdUVfSEgyVkZ6S2ZaVkFCSGlIN2Z3Z1o3VzVpTXdYTFdXYkJsamVGOEVQSW5CLTBPQ1pfdzNHUVBXRUVad1E0cVc3dER5MTdNYmYtVzBid1VmcFFFeWc?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-21 03:00",
-   "msg": "Metrik diperbarui: views=1447 avg7=791"
-  },
-  {
-   "t": "10-21 03:00",
-   "msg": "4 tren baru terdeteksi"
-  },
-  {
-   "t": "10-21 03:00",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-21 16:29",
    "msg": "Cek API key: VALID"
@@ -151,14 +127,21 @@
   {
    "t": "10-23 16:19",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-24 02:59",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-24 02:59",
+   "msg": "Metrik diperbarui: views=514 avg7=870"
+  },
+  {
+   "t": "10-24 02:59",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-18 02:43",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "10-18 15:16",
    "text": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 3 views (baseline 1797). Turun -99.8%  Laporan sudah kukirim ke Discord.",
@@ -213,10 +196,15 @@
    "t": "10-23 16:19",
    "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 517 views (baseline 745). Turun -30.6%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-24 02:59",
+   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 514 views (baseline 854). Turun -39.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": true
+  "trend": false
  }
 }
