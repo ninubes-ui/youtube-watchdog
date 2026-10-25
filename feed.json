@@ -1,20 +1,20 @@
 {
- "ts": 1792854983,
- "rendered": "2026-10-24 15:16:23",
+ "ts": 1792896802,
+ "rendered": "2026-10-25 02:53:22",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 870). Turun -40.8%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 891). Turun -42.2%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-24 15:16 UTC",
+ "last_run": "2026-10-25 02:53 UTC",
  "metrics": {
   "last_title": "Ride A Dino - Live roblox map baru",
   "last_views": 515,
-  "avg7": 891,
-  "delta_pct": "-40.8%"
+  "avg7": 907,
+  "delta_pct": "-42.2%"
  },
  "discord": {
   "ok": true,
@@ -27,12 +27,12 @@
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KSlVJRTVLc3NyUEFkeV9DX2ZDUmR6UVRteFFRdU5MbXVQVWRMY0t3QzZnSUdzX3ZjZzBOZ3lkZGJUVHdELUg5SW5YTFJ1a2lXczlhSFhrNkZ3dy1wWVhR?oc=5"
   },
   {
-   "title": "Warner Bros. stirs up ‘The Cat in the Hat’ mayhem on Roblox ahead of film - Marketing Dive",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ1FsbmxOdnU1Q01neUxSWDBVNkIwVzVHMjhKQVl3Mm4tR2lGWEtkVFRCRjV6SzBISUs5MkhXYURKWTVSSFR1QUhBWjN2OExEZUJsY2VPSTdTSGliZmhFNWlGTEVBVnVGaXdCd1JoWnJVaW9faTFTTTJMRHdpejc1SHk3T1dFSUtrOFpUSWxfSHA3aXdXNTA3Q2U1UVZpMEFXYy1NQ1hGSXZDMS1yZDlrdnhBVQ?oc=5"
-  },
-  {
    "title": "Roblox Playtime Hours in H1 2026 and How to Check Yours - Beebom",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hZmpVd0w4VnRzOFExM0dsWHdlME45NGJ6QWhsRGlQR05EYzk2bXI5R2g5MGI3ODB5a2dqSTZocl9NTzNtb25iN0xweDZkZWgxNE5NOFZ0emlWRDFaajZpM1dB0gFnQVVfeXFMTmxNeFRFU2tEaDZHa0pmS0lWamxWTUtKYVRrNlo0RVY2NzNkQ19WOXlMR0xzUTE1b29zb1JlNXhzbVlZck5Db1B0dXBPeDJTWTk2YTdjYW5CYnc5b3ZFRUlJdTV4LU9Mcw?oc=5"
+  },
+  {
+   "title": "What is 'Grow a Garden?' The Roblox farming simulator exploding in popularity - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3c1OHpaU0lGQ2VGRE9ENFdwNVVEdnBnOFUxem9ndkRRYjFqb1RyWF9aQWxfeDN6ajM1YnFPaWxRYUF4ME9JUndTVi1YekRSbUp5bkRSSFVLS3k3eGtCWXFPNEVod1M0TkNvcXpPYkNianNKWEVSZkYtQVFUUTBqMg?oc=5"
   },
   {
    "title": "Steal a Brainrot Items Guide: How to Get Rare Brainrots and Build a Stronger Base - Goomba Stomp Magazine",
@@ -68,22 +68,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-22 02:59",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-22 02:59",
-   "msg": "Metrik diperbarui: views=1654 avg7=835"
-  },
-  {
-   "t": "10-22 02:59",
-   "msg": "OK: tidak ada sinyal (senyap)"
-  },
-  {
-   "t": "10-22 16:29",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "10-22 16:29",
    "msg": "Metrik diperbarui: views=386 avg7=784"
@@ -155,14 +139,25 @@
   {
    "t": "10-24 15:16",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-25 02:53",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-25 02:53",
+   "msg": "Metrik diperbarui: views=515 avg7=907"
+  },
+  {
+   "t": "10-25 02:53",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "10-25 02:53",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-19 02:56",
-   "text": "METRIK TURUN: Video 'TANYA APA AJA DIJAWAB NINU & RAKA! 🔴 Live Podcast ' hanya 33 views (baseline 1363). Turun -97.6%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-19 18:14",
    "text": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -216,6 +211,11 @@
   {
    "t": "10-24 15:16",
    "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 870). Turun -40.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "10-25 02:53",
+   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 891). Turun -42.2%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
