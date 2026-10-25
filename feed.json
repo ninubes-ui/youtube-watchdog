@@ -1,20 +1,20 @@
 {
- "ts": 1792896802,
- "rendered": "2026-10-25 02:53:22",
+ "ts": 1792941993,
+ "rendered": "2026-10-25 15:26:33",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 891). Turun -42.2%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 516 views (baseline 907). Turun -43.1%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-25 02:53 UTC",
+ "last_run": "2026-10-25 15:26 UTC",
  "metrics": {
   "last_title": "Ride A Dino - Live roblox map baru",
-  "last_views": 515,
-  "avg7": 907,
-  "delta_pct": "-42.2%"
+  "last_views": 516,
+  "avg7": 908,
+  "delta_pct": "-43.1%"
  },
  "discord": {
   "ok": true,
@@ -27,63 +27,27 @@
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KSlVJRTVLc3NyUEFkeV9DX2ZDUmR6UVRteFFRdU5MbXVQVWRMY0t3QzZnSUdzX3ZjZzBOZ3lkZGJUVHdELUg5SW5YTFJ1a2lXczlhSFhrNkZ3dy1wWVhR?oc=5"
   },
   {
-   "title": "Roblox Playtime Hours in H1 2026 and How to Check Yours - Beebom",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hZmpVd0w4VnRzOFExM0dsWHdlME45NGJ6QWhsRGlQR05EYzk2bXI5R2g5MGI3ODB5a2dqSTZocl9NTzNtb25iN0xweDZkZWgxNE5NOFZ0emlWRDFaajZpM1dB0gFnQVVfeXFMTmxNeFRFU2tEaDZHa0pmS0lWamxWTUtKYVRrNlo0RVY2NzNkQ19WOXlMR0xzUTE1b29zb1JlNXhzbVlZck5Db1B0dXBPeDJTWTk2YTdjYW5CYnc5b3ZFRUlJdTV4LU9Mcw?oc=5"
-  },
-  {
-   "title": "What is 'Grow a Garden?' The Roblox farming simulator exploding in popularity - Mashable",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3c1OHpaU0lGQ2VGRE9ENFdwNVVEdnBnOFUxem9ndkRRYjFqb1RyWF9aQWxfeDN6ajM1YnFPaWxRYUF4ME9JUndTVi1YekRSbUp5bkRSSFVLS3k3eGtCWXFPNEVod1M0TkNvcXpPYkNianNKWEVSZkYtQVFUUTBqMg?oc=5"
-  },
-  {
    "title": "Steal a Brainrot Items Guide: How to Get Rare Brainrots and Build a Stronger Base - Goomba Stomp Magazine",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcmNvQ1ljZmFDQW5mRWxNTmxmc0FqbmluM3hNZ1cxc1NyTnZuUkVhMzY4bVF5S1UyT2w2a1RKSlZLdkI3WktuaFQybXZqQzVSWmdTUUVrSXgwWU03aXNmZW9zY0FRTVZUcUxXbXd6RC1GQURmdmZ6Q0lybFJTQ3lfNUNlVFJCQlYzV1N5czRnQkt5TXFUZS1DaHFjSWZQMU14YWZqMm0yQ0Q?oc=5"
-  },
-  {
-   "title": "Steal a Brainrot Halloween 2026 Guide: Haunted Fuse, All 11 New Brainrots & Eclipse Phoenix - MMOEXP",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk82ZjlpS3h0ZzBONVIxQ21EbDdHUjloeXpSRU8zZ0R2dGttVU1zLXF2Yks2YmV2cFZ6ekNoWl9OMjloUUhIeDlVcV96RUJ1WS05U2dMSU52Yno0N3pEQjVhYkg4Q1NBYUlINVVocW5Da3dIYXlXWmFMOVJydGRCdWpuRTV6Q0RXdzlVbHA4OTBnUXI2NzFnZzlsTVpOZ0M1OF9HN09rLW5EeC0tWk43UlU1cHJyRVhZS2NtZQ?oc=5"
   },
   {
    "title": "2026 Halloween Roblox Events - IGN",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVGV3NXJNX1BBQTdCcXphVlUzVzhYRjJDRDJYZEFPZ2ZMeU95NFVqWS1XaXhvZWU5TndSb2RXUk1vaGM0cEJGX2daOGVTb0ZSMTVlZmNTODh4WVA0eGFvZF9wN1ZCbWd6dk1BSmtWSlpsUmhC?oc=5"
   },
   {
-   "title": "How to get Medusini and Demonini in Steal a Brainrot - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTElzdlJvRlBHNnlrbnh3UmM2N1NxVWktMzFDUC1mVkRKV3pJQkVzWGFXRzh4X3NoNWVNV2NVM1RvUlBxNXNCNkdPQnRLOHBKUUR6bmNjUEZickQwN1BMdEJmSElSNXdQZDZCN1NiajdTVWNGbm5lbHhab1ZsdXZPOTdfd3ZaTzQ?oc=5"
+   "title": "Grow a Garden Ghoul Garden 2 update patch notes - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTFZjeXpob2h4eENZcWhDN2NKZGM2Q0hqS2l4R20zZklrZl9hUzY3aS13SC1NUzBGNkhHMmxJcUtNdjhRVUtoUkw3NkhsNzlJMEcwWjZwamVzTGJDSXpLeExKR0xacTRGNG5zYy1fS1Fua1JCeHl2Mk9uZ1NHR2Z4NHN0VHlkMUVTc0lWOTln?oc=5"
   },
   {
    "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM3hKemFUdWVjb2ZCQ0NTeFNHTjhIY0tHTkYzT1dFaHF6SXRHRlhmZkVlLVpKcS04RGtrbE5nTnp4dThCWk5aTGVnYlotYzZzWmxVaWxYOVAtSlpQRWNYVzhURm4xclRyVGlhTWZ2bExQWjY5eERPa1BKcDRwbG1va2VUSzFjLTQ?oc=5"
   },
   {
-   "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
-  },
-  {
-   "title": "How to get Dracuvine in Grow a Garden - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50VkhUWkVUUnlpRExWUEEySkI2NlNSbXFjeVA1cGh2VlI4ai0zZWstZFpJOTRDaWNIc3BYY3piU2V5dG9RdHFnVHM2OVdVaFpMVmRSbFd2YzhrOU96MnBmYW1FTnB3ZGNjXzhfSWVkQVhFc0RxN1JMLQ?oc=5"
-  },
-  {
-   "title": "When is the next Grow a Garden update? (Ghoul Garden 2 update) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TaHZpTmdLeTRDWHVwYWZFdnpIVjBwVkpRSlh5RVNxU2lmd3pFWVRnVmtSWXNkeFJvYkFuNHQ0eFhSNWl4UFhEQy1PRDd3Q18zQ19TWUVwamlVbmVtM3pFWFE3SXFiQWxTQUtQbWgwTzdPVTNLRDRJ?oc=5"
+   "title": "How to get Medusini and Demonini in Steal a Brainrot - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTElzdlJvRlBHNnlrbnh3UmM2N1NxVWktMzFDUC1mVkRKV3pJQkVzWGFXRzh4X3NoNWVNV2NVM1RvUlBxNXNCNkdPQnRLOHBKUUR6bmNjUEZickQwN1BMdEJmSElSNXdQZDZCN1NiajdTVWNGbm5lbHhab1ZsdXZPOTdfd3ZaTzQ?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-22 16:29",
-   "msg": "Metrik diperbarui: views=386 avg7=784"
-  },
-  {
-   "t": "10-22 16:29",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "10-22 16:29",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "10-23 03:03",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "10-23 03:03",
    "msg": "Metrik diperbarui: views=67 avg7=745"
@@ -155,14 +119,25 @@
   {
    "t": "10-25 02:53",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-25 15:26",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-25 15:26",
+   "msg": "Metrik diperbarui: views=516 avg7=908"
+  },
+  {
+   "t": "10-25 15:26",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "10-25 15:26",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-19 18:14",
-   "text": "Ada 5 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "10-20 03:06",
    "text": "METRIK TURUN: Video 'Live roblox animasi tanya jawab' hanya 23 views (baseline 763). Turun -97.0%  Laporan sudah kukirim ke Discord.",
@@ -216,6 +191,11 @@
   {
    "t": "10-25 02:53",
    "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 891). Turun -42.2%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "10-25 15:26",
+   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 516 views (baseline 907). Turun -43.1%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
