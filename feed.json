@@ -1,20 +1,20 @@
 {
- "ts": 1792983133,
- "rendered": "2026-10-26 02:52:13",
+ "ts": 1793038078,
+ "rendered": "2026-10-26 18:07:58",
  "source": "github-actions",
- "state": "SIBUK",
- "stateid": "ALERT",
- "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Rebutan Ayam Goreng Terakhir, Ujung-ujungnya Diamb' hanya 1 views (baseline 908). Turun -99.9%  Laporan sudah kukirim ke Discord.",
- "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
+ "state": "BEKERJA",
+ "stateid": "KERJA",
+ "status_text": "Agen sedang bekerja",
+ "task": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 4 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-26 02:52 UTC",
+ "last_run": "2026-10-26 18:07 UTC",
  "metrics": {
-  "last_title": "Rebutan Ayam Goreng Terakhir, Ujung-ujungnya Diambil Kucing 🐱🍗 | Sehar",
-  "last_views": 1,
-  "avg7": 786,
-  "delta_pct": "-99.9%"
+  "last_title": "Bocoran & Rahasia Steal An Egg 🔴 Live Podcast Ninu & Raka #shorts",
+  "last_views": 1512,
+  "avg7": 763,
+  "delta_pct": "+92.4%"
  },
  "discord": {
   "ok": true,
@@ -23,20 +23,28 @@
  },
  "trends": [
   {
-   "title": "Steal a Brainrot Items Guide: How to Get Rare Brainrots and Build a Stronger Base - Goomba Stomp Magazine",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcmNvQ1ljZmFDQW5mRWxNTmxmc0FqbmluM3hNZ1cxc1NyTnZuUkVhMzY4bVF5S1UyT2w2a1RKSlZLdkI3WktuaFQybXZqQzVSWmdTUUVrSXgwWU03aXNmZW9zY0FRTVZUcUxXbXd6RC1GQURmdmZ6Q0lybFJTQ3lfNUNlVFJCQlYzV1N5czRnQkt5TXFUZS1DaHFjSWZQMU14YWZqMm0yQ0Q?oc=5"
+   "title": "Newzoo & GEEIQ: The Roblox Audience in 2026 | GameDev Reports is powered by Mellow - Substack",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82RVZyeTNDaHVKTUQ5dmFVbmt2Y0lsbmU3SjhYSDFCcGVCd1M2V0ZMdzdrQThXV25kWlctSFhzQ1V5WHp4YThLV1BsMktFekM5ZGV1ZHMwQVZCYWsyM0RjUU1mU2tWNy0wd1hBYUVfTy1RNC1pd05LMUh5NDJDLUE?oc=5"
   },
   {
-   "title": "2026 Halloween Roblox Events - IGN",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVGV3NXJNX1BBQTdCcXphVlUzVzhYRjJDRDJYZEFPZ2ZMeU95NFVqWS1XaXhvZWU5TndSb2RXUk1vaGM0cEJGX2daOGVTb0ZSMTVlZmNTODh4WVA0eGFvZF9wN1ZCbWd6dk1BSmtWSlpsUmhC?oc=5"
+   "title": "Grow a Garden Evil Penguin guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5uWTdaY29ST1NpNEFFT1RWUVpZeGFMU1BWdkxScjg4SXJGLW5fOGlxYlBCTlZ0blNCYmtEN3BsUFVyeUd1b0I0anVoZmNZaXp1eGx5MG5YRlFBeDZ2b004RE5iejFQSUIyWU5uS1JHX0toQ3F0elVLVm9R?oc=5"
   },
   {
-   "title": "Grow a Garden Ghoul Garden 2 update patch notes - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTFZjeXpob2h4eENZcWhDN2NKZGM2Q0hqS2l4R20zZklrZl9hUzY3aS13SC1NUzBGNkhHMmxJcUtNdjhRVUtoUkw3NkhsNzlJMEcwWjZwamVzTGJDSXpLeExKR0xacTRGNG5zYy1fS1Fua1JCeHl2Mk9uZ1NHR2Z4NHN0VHlkMUVTc0lWOTln?oc=5"
+   "title": "Grow a Garden Witch Fingers guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjWjRobG5WOFozUUJLTHJPblNKOXljOWpGQkRpSzRobzY4MWRPYXVZWFNLY3RyUkdxMkFOLTAxZXhwSnlrNUZZSmdyQ1I0U1FnZDNIUzd3Yl9tMmY1d0lpVXljUlFKSHp0MlNWY1RFWjVEejJYdTJMUmVxRQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Gremlin guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94aVFRaHZnTUtRSWgxOFBnLVFfLV80YmE4ajVLajQtLXFQdVNEbnlQMkFFWVpEUUhaRDl5N2RrQ1NOTFdaMkUtdUw1QUNrbEtNR3QyLWRvTWQ0NzI0eG5NWW5JVXRVODRZNnhZaTBEYjl5SEk?oc=5"
   },
   {
    "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM3hKemFUdWVjb2ZCQ0NTeFNHTjhIY0tHTkYzT1dFaHF6SXRHRlhmZkVlLVpKcS04RGtrbE5nTnp4dThCWk5aTGVnYlotYzZzWmxVaWxYOVAtSlpQRWNYVzhURm4xclRyVGlhTWZ2bExQWjY5eERPa1BKcDRwbG1va2VUSzFjLTQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Ghoul Garden 2 update patch notes - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTFZjeXpob2h4eENZcWhDN2NKZGM2Q0hqS2l4R20zZklrZl9hUzY3aS13SC1NUzBGNkhHMmxJcUtNdjhRVUtoUkw3NkhsNzlJMEcwWjZwamVzTGJDSXpLeExKR0xacTRGNG5zYy1fS1Fua1JCeHl2Mk9uZ1NHR2Z4NHN0VHlkMUVTc0lWOTln?oc=5"
   },
   {
    "title": "How to get Medusini and Demonini in Steal a Brainrot - Sportskeeda",
@@ -44,22 +52,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-23 16:19",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-23 16:19",
-   "msg": "Metrik diperbarui: views=517 avg7=854"
-  },
-  {
-   "t": "10-23 16:19",
-   "msg": "3 tren baru terdeteksi"
-  },
-  {
-   "t": "10-23 16:19",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-24 02:59",
    "msg": "Cek API key: VALID"
@@ -131,14 +123,25 @@
   {
    "t": "10-26 02:52",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-26 18:07",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-26 18:07",
+   "msg": "Metrik diperbarui: views=1512 avg7=763"
+  },
+  {
+   "t": "10-26 18:07",
+   "msg": "4 tren baru terdeteksi"
+  },
+  {
+   "t": "10-26 18:07",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-20 16:14",
-   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "10-21 03:00",
    "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -193,10 +196,15 @@
    "t": "10-26 02:52",
    "text": "METRIK TURUN: Video 'Rebutan Ayam Goreng Terakhir, Ujung-ujungnya Diamb' hanya 1 views (baseline 908). Turun -99.9%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-26 18:07",
+   "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
   }
  ],
  "alert": {
-  "metric": true,
-  "trend": false
+  "metric": false,
+  "trend": true
  }
 }
