@@ -1,22 +1,6 @@
 {
   "events": [
     {
-      "t": "10-22 02:59",
-      "msg": "Metrik diperbarui: views=1654 avg7=835"
-    },
-    {
-      "t": "10-22 02:59",
-      "msg": "OK: tidak ada sinyal (senyap)"
-    },
-    {
-      "t": "10-22 16:29",
-      "msg": "Cek API key: VALID"
-    },
-    {
-      "t": "10-22 16:29",
-      "msg": "Metrik diperbarui: views=386 avg7=784"
-    },
-    {
       "t": "10-22 16:29",
       "msg": "2 tren baru terdeteksi"
     },
@@ -159,6 +143,22 @@
     {
       "t": "10-27 03:25",
       "msg": "Discord: terkirim"
+    },
+    {
+      "t": "10-27 17:18",
+      "msg": "Cek API key: VALID"
+    },
+    {
+      "t": "10-27 17:18",
+      "msg": "Metrik diperbarui: views=1702 avg7=1033"
+    },
+    {
+      "t": "10-27 17:18",
+      "msg": "3 tren baru terdeteksi"
+    },
+    {
+      "t": "10-27 17:18",
+      "msg": "Discord: terkirim"
     }
   ],
   "trends": [
@@ -171,123 +171,130 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82RVZyeTNDaHVKTUQ5dmFVbmt2Y0lsbmU3SjhYSDFCcGVCd1M2V0ZMdzdrQThXV25kWlctSFhzQ1V5WHp4YThLV1BsMktFekM5ZGV1ZHMwQVZCYWsyM0RjUU1mU2tWNy0wd1hBYUVfTy1RNC1pd05LMUh5NDJDLUE?oc=5"
     },
     {
+      "title": "All Grow a Garden 2 codes for October 2026: Earn sheckles with free seeds - PC Gamer",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RQVVxTlFsbElFaE1jSzM0N2t6aWcxZFZNSnlXRHVnSEM5Qm81UUZfdHhpSUlFNUxGZ1JFZ1ZQUzhCN3BEOEdrdmt1VWhpYXRjRTlKSm1nUjE0LW9EVzFteVhmTQ?oc=5"
+    },
+    {
+      "title": "Grow a Garden Pumpkin Ghoul guide - Sportskeeda",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02bWlmbjc0MHJadTZ5YXhGRDBMLUFRTXZIc1A5RjVEWUZWUF9naU9pcV9iOXdzMzZPNmFoc1RnZnhibVZUQ0Z0QzdHQ0YxcW1BQTNWQjVHRWVDenIza3ZOeXFzRllORzZGZjRJaXVaZE9HYXpVTmtCU1RrUQ?oc=5"
+    },
+    {
+      "title": "Grow a Garden Gaze Berry guide - Sportskeeda",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0OUFhTUNKWGs4dmJQZ2dZeHRUcEZsbEdzdm11c3g2dTdqVGEyekJYYnF1VmoxalpoNlZVbjdBYzNwSFNPVTRtY3lwY1o3WW1KMzdESlZvWU5lZ1BCU0lJdnFVaVE3S21mRlM1Sy1RaUFqVlVZX0pF?oc=5"
+    },
+    {
+      "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
+    },
+    {
       "title": "Grow a Garden Evil Penguin guide - Sportskeeda",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5uWTdaY29ST1NpNEFFT1RWUVpZeGFMU1BWdkxScjg4SXJGLW5fOGlxYlBCTlZ0blNCYmtEN3BsUFVyeUd1b0I0anVoZmNZaXp1eGx5MG5YRlFBeDZ2b004RE5iejFQSUIyWU5uS1JHX0toQ3F0elVLVm9R?oc=5"
-    },
-    {
-      "title": "Best Brainrots in Steal a Brainrot - Dexerto",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yVDRNUGhSYVpqZWxJSGZZMmhNVnNBa0VnbVE4RkZ5b1A1Y1NyRWZ3aU51THA1aVJud0taeWJqTUlyZ3VFenItazc4UDQyR09XRmY0dXM2c09aRmdURXo0YlV0djMwcjhLMmIwWEZRMDJkemktc0gtRjhZMA?oc=5"
-    },
-    {
-      "title": "Grow a Garden Gremlin guide - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94aVFRaHZnTUtRSWgxOFBnLVFfLV80YmE4ajVLajQtLXFQdVNEbnlQMkFFWVpEUUhaRDl5N2RrQ1NOTFdaMkUtdUw1QUNrbEtNR3QyLWRvTWQ0NzI0eG5NWW5JVXRVODRZNnhZaTBEYjl5SEk?oc=5"
     },
     {
       "title": "Grow a Garden Witch Fingers guide - Sportskeeda",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjWjRobG5WOFozUUJLTHJPblNKOXljOWpGQkRpSzRobzY4MWRPYXVZWFNLY3RyUkdxMkFOLTAxZXhwSnlrNUZZSmdyQ1I0U1FnZDNIUzd3Yl9tMmY1d0lpVXljUlFKSHp0MlNWY1RFWjVEejJYdTJMUmVxRQ?oc=5"
     },
     {
-      "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM3hKemFUdWVjb2ZCQ0NTeFNHTjhIY0tHTkYzT1dFaHF6SXRHRlhmZkVlLVpKcS04RGtrbE5nTnp4dThCWk5aTGVnYlotYzZzWmxVaWxYOVAtSlpQRWNYVzhURm4xclRyVGlhTWZ2bExQWjY5eERPa1BKcDRwbG1va2VUSzFjLTQ?oc=5"
+      "title": "Grow a Garden Gremlin guide - Sportskeeda",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94aVFRaHZnTUtRSWgxOFBnLVFfLV80YmE4ajVLajQtLXFQdVNEbnlQMkFFWVpEUUhaRDl5N2RrQ1NOTFdaMkUtdUw1QUNrbEtNR3QyLWRvTWQ0NzI0eG5NWW5JVXRVODRZNnhZaTBEYjl5SEk?oc=5"
     },
     {
       "title": "Grow a Garden Ghoul Garden 2 update patch notes - Sportskeeda",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTFZjeXpob2h4eENZcWhDN2NKZGM2Q0hqS2l4R20zZklrZl9hUzY3aS13SC1NUzBGNkhHMmxJcUtNdjhRVUtoUkw3NkhsNzlJMEcwWjZwamVzTGJDSXpLeExKR0xacTRGNG5zYy1fS1Fua1JCeHl2Mk9uZ1NHR2Z4NHN0VHlkMUVTc0lWOTln?oc=5"
-    },
-    {
-      "title": "How to get Medusini and Demonini in Steal a Brainrot - Sportskeeda",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTElzdlJvRlBHNnlrbnh3UmM2N1NxVWktMzFDUC1mVkRKV3pJQkVzWGFXRzh4X3NoNWVNV2NVM1RvUlBxNXNCNkdPQnRLOHBKUUR6bmNjUEZickQwN1BMdEJmSElSNXdQZDZCN1NiajdTVWNGbm5lbHhab1ZsdXZPOTdfd3ZaTzQ?oc=5"
     }
   ],
   "seen_trends": [
-    "grow a garden haunted egg guide - sportskeeda",
-    "grow a garden eyeball monster guide - sportskeeda",
-    "steal a brainrot phoenix guide - sportskeeda",
-    "steal a brainrot halloween 2026 guide: haunted fuse, all 11 new brainrots & ecli",
-    "how to use emotes in roblox - technobezz",
-    "grow a garden manticore guide - sportskeeda",
-    "grow a garden codes (october 2026) - dexerto",
-    "grow a garden fang root guide - sportskeeda",
-    "grow a garden pet trading guide: values, calculators, and how to avoid bad trade",
-    "grow a garden prism plume guide - sportskeeda",
-    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
-    "grow a garden royal jelly cup guide - sportskeeda",
-    "grow a garden ghoul garden 2 update patch notes - sportskeeda",
-    "logging back into steal a brainrot after 1 year… 😱 - youtube",
-    "warner bros. stirs up ‘the cat in the hat’ mayhem on roblox ahead of film - mark",
-    "steal a brainrot dragon skeletonini guide - sportskeeda",
-    "grow a garden 2 codes (august 2026) - beebom",
-    "steal a brainrot codes (october 2026) - pcgamesn",
-    "mrbeast lab debuts in roblox’s untitled fling game with mega-tech mutators! - dr",
-    "how to get medusini and demonini in steal a brainrot - sportskeeda",
-    "how to get flying dutchman in steal a brainrot - sportskeeda",
-    "mrbeast lab makes roblox debut with moose toys and gamefam - toy world magazine",
-    "best brainrots in steal a brainrot - dexerto",
-    "🎮 my first video... | roblox - youtube",
-    "grow a garden flutter freesia guide - sportskeeda",
-    "steal a brainrot plant bros guide - sportskeeda",
-    "grow a garden 2 codes october 2026 - pocket tactics",
-    "grow a garden 2 codes (october 2026) — free cosmetics! - pro game guides",
-    "roblox’s steal an egg reaches 6 billion visits and 14.2 million peak concurrent ",
-    "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
-    "grow a garden 2 codes (september 2026) - dexerto",
-    "how to make a cake in grow a garden: birthday explained - dexerto",
-    "roblox's animal hospital [a&c] - brown daily herald",
-    "how to find steal a brainrot 67 & drop rate - dexerto",
-    "steal a brainrot halloween event 2026: update 71 guide - egamersworld",
-    "roblox playtime hours in h1 2026 and how to check yours - beebom",
-    "the cat in the hat takes over 3 roblox games - contentgrip",
-    "grow a garden redcap guide - sportskeeda",
-    "people: roblox hires a new head of creator relations - kidscreen",
     "mrbeast lab is turning roblox into its holiday toy shelf - wersm",
-    "mrbeast lab is heading to roblox! moose toys and gamefam bring the mega-tech mut",
-    "grow a garden gremlin guide - sportskeeda",
-    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
-    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
-    "bungie cofounder alex seropian unveils early access for drifters in first game f",
-    "grow a garden 2 codes (october 2026) - pcgamesn",
-    "roblox creators level up india’s economy with rs 123.9 crore gdp boost - animati",
     "grow a garden fruit tier list (october 2026) - sportskeeda",
-    "grow a garden 2 codes (october 2026) - destructoid",
-    "grow a garden maple melt guide - sportskeeda",
-    "grow a garden scarecrow guide - sportskeeda",
-    "grow a garden 2 codes (october 2026) - dexerto",
-    "what time is taco tuesday in steal a brainrot? - dexerto",
-    "grow a garden evil penguin guide - sportskeeda",
-    "steal a brainrot beginner guide: what actually works in 2026 - anime superhero n",
-    "mrbeast’s toy line is crossing over into the roblox universe - tubefilter",
-    "grow a garden fairy event update patch notes - sportskeeda",
-    "what does afk mean in roblox? - dexerto",
-    "when is the next grow a garden update? (ghoul garden 2 update) - sportskeeda",
+    "grow a garden 2 codes (august 2026) - beebom",
+    "how to make a cake in grow a garden: birthday explained - dexerto",
+    "grow a garden prism plume guide - sportskeeda",
     "how to get haunted knight in grow a garden - sportskeeda",
     "grow a garden 2 codes (october 2026) - beebom",
     "grow a garden ghoul garden event patch notes - sportskeeda",
-    "how to get dracuvine in grow a garden - sportskeeda",
-    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
-    "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
-    "what is 'grow a garden?' the roblox farming simulator exploding in popularity - ",
-    "newzoo & geeiq: the roblox audience in 2026 | gamedev reports is powered by mell",
-    "mrbeast lab brings its toy line into roblox - wersm",
-    "steal a brainrot skull lucky block guide - sportskeeda",
-    "grow a garden witch fingers guide - sportskeeda",
-    "steal a brainrot private server links (october 2026) - pro game guides",
-    "the in-app purchase trap: how smart parents manage their kid’s roblox spending -",
-    "fortnite steal the brainrot codes (october 2026) - dexerto",
+    "all grow a garden 2 codes for october 2026: earn sheckles with free seeds - pc g",
+    "roblox steal an egg hands on - tips, codes and more! - pocket gamer",
+    "grow a garden manticore guide - sportskeeda",
     "grow a garden pet tier list (october 2026) - sportskeeda",
+    "grow a garden ghoul garden 2 update patch notes - sportskeeda",
+    "grow a garden gremlin guide - sportskeeda",
+    "the in-app purchase trap: how smart parents manage their kid’s roblox spending -",
+    "mrbeast lab debuts in roblox’s untitled fling game with mega-tech mutators! - dr",
+    "grow a garden redcap guide - sportskeeda",
+    "steal a brainrot halloween event 2026: update 71 guide - egamersworld",
+    "capcom taps roblox hit untitled boxing game for street fighter crossover | exclu",
+    "grow a garden haunted egg guide - sportskeeda",
+    "grow a garden eyeball monster guide - sportskeeda",
+    "grow a garden maple melt guide - sportskeeda",
+    "logging back into steal a brainrot after 1 year… 😱 - youtube",
+    "what is 'grow a garden?' the roblox farming simulator exploding in popularity - ",
+    "grow a garden 2 codes (october 2026) — free cosmetics! - pro game guides",
+    "mrbeast lab is heading to roblox! moose toys and gamefam bring the mega-tech mut",
+    "mrbeast’s toy line is crossing over into the roblox universe - tubefilter",
+    "steal a brainrot halloween update: new skull lucky blocks, reaper base, and phoe",
+    "grow a garden scarecrow guide - sportskeeda",
+    "mrbeast lab makes roblox debut with moose toys and gamefam - toy world magazine",
+    "grow a garden pumpkin ghoul guide - sportskeeda",
+    "what does afk mean in roblox? - dexerto",
+    "roblox creators level up india’s economy with rs 123.9 crore gdp boost - animati",
+    "steal a brainrot dragon skeletonini guide - sportskeeda",
+    "roblox playtime hours in h1 2026 and how to check yours - beebom",
+    "grow a garden witch fingers guide - sportskeeda",
+    "steal a brainrot phoenix guide - sportskeeda",
+    "grow a garden fairy event update patch notes - sportskeeda",
+    "how to find steal a brainrot 67 & drop rate - dexerto",
+    "best brainrots in steal a brainrot - dexerto",
+    "roblox’s steal an egg reaches 6 billion visits and 14.2 million peak concurrent ",
+    "steal a brainrot plant bros guide - sportskeeda",
+    "grow a garden 2 codes (october 2026) - dexerto",
+    "grow a garden everfallen pet mutation guide - sportskeeda",
+    "growing in limestone county save a seed, grow a garden - mexiadailynews.com",
+    "newzoo & geeiq: the roblox audience in 2026 | gamedev reports is powered by mell",
+    "grow a garden 2 codes (september 2026) - dexerto",
+    "fortnite steal the brainrot codes (october 2026) - dexerto",
+    "grow a garden gaze berry guide - sportskeeda",
+    "grow a garden royal jelly cup guide - sportskeeda",
+    "mrbeast lab’s toy mutants break into roblox ahead of the holidays - gamesbeat",
+    "how to use emotes in roblox - technobezz",
+    "grow a garden codes (october 2026) - dexerto",
+    "grow a garden 2 codes (october 2026) - pcgamesn",
+    "what time is taco tuesday in steal a brainrot? - dexerto",
+    "how to get dracuvine in grow a garden - sportskeeda",
+    "steal a brainrot private server links (october 2026) - pro game guides",
     "steal a brainrot items guide: how to get rare brainrots and build a stronger bas",
     "2026 halloween roblox events - ign",
+    "the cat in the hat takes over 3 roblox games - contentgrip",
     "steal a brainrot codes (october 2026) - dexerto",
+    "how to get medusini and demonini in steal a brainrot - sportskeeda",
+    "🎮 my first video... | roblox - youtube",
+    "mrbeast lab brings its toy line into roblox - wersm",
+    "steal a brainrot halloween 2026 guide: haunted fuse, all 11 new brainrots & ecli",
+    "grow a garden flutter freesia guide - sportskeeda",
+    "grow a garden evil penguin guide - sportskeeda",
+    "grow a garden 2 codes october 2026 - pocket tactics",
+    "steal a brainrot codes (october 2026) - pcgamesn",
     "grow a garden gargoyle guide - sportskeeda",
-    "grow a garden everfallen pet mutation guide - sportskeeda",
+    "grow a garden 2 codes (october 2026) - destructoid",
+    "bungie cofounder alex seropian unveils early access for drifters in first game f",
+    "taco tuesday steal a brainrot time in india (october 7, 2026) - sportskeeda",
+    "when is the next grow a garden update? (ghoul garden 2 update) - sportskeeda",
+    "people: roblox hires a new head of creator relations - kidscreen",
+    "steal a brainrot beginner guide: what actually works in 2026 - anime superhero n",
+    "grow a garden fang root guide - sportskeeda",
+    "warner bros. stirs up ‘the cat in the hat’ mayhem on roblox ahead of film - mark",
+    "grow a garden pet trading guide: values, calculators, and how to avoid bad trade",
+    "steal a brainrot skull lucky block guide - sportskeeda",
     "steal a brainrot sammyni spookyni guide - sportskeeda",
-    "mrbeast lab’s toy mutants break into roblox ahead of the holidays - gamesbeat",
-    "steal a brainrot halloween event 2026 guide - egamersworld"
+    "how to get flying dutchman in steal a brainrot - sportskeeda",
+    "roblox run a dance studio codes (october 2026) [upd] - pro game guides",
+    "steal a brainrot halloween event 2026 guide - egamersworld",
+    "roblox's animal hospital [a&c] - brown daily herald"
   ],
   "baseline": {
-    "avg_views_last_7_videos": 616,
-    "last_video_views": 941,
-    "last_video_id": "-LrJkbHMtrg",
-    "last_check_utc": "2026-10-27T03:25Z"
+    "avg_views_last_7_videos": 1033,
+    "last_video_views": 1702,
+    "last_video_id": "4d7z6jhtFBM",
+    "last_check_utc": "2026-10-27T17:18Z"
   },
   "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
   "messages": [
@@ -479,6 +486,11 @@
     {
       "t": "10-27 03:25",
       "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+      "kind": "kerja"
+    },
+    {
+      "t": "10-27 17:18",
+      "text": "Ada 3 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
       "kind": "kerja"
     }
   ],
