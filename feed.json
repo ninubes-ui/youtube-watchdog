@@ -1,20 +1,20 @@
 {
- "ts": 1793038078,
- "rendered": "2026-10-26 18:07:58",
+ "ts": 1793071529,
+ "rendered": "2026-10-27 03:25:29",
  "source": "github-actions",
  "state": "BEKERJA",
  "stateid": "KERJA",
  "status_text": "Agen sedang bekerja",
- "task": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 4 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-26 18:07 UTC",
+ "last_run": "2026-10-27 03:25 UTC",
  "metrics": {
-  "last_title": "Bocoran & Rahasia Steal An Egg 🔴 Live Podcast Ninu & Raka #shorts",
-  "last_views": 1512,
-  "avg7": 763,
-  "delta_pct": "+92.4%"
+  "last_title": "Steal An Egg - Live santai ngobrol bareng ninu part 2",
+  "last_views": 941,
+  "avg7": 616,
+  "delta_pct": "+23.3%"
  },
  "discord": {
   "ok": true,
@@ -22,6 +22,10 @@
   "detail": "HTTP 200"
  },
  "trends": [
+  {
+   "title": "PEOPLE: Roblox hires a new head of creator relations - Kidscreen",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcWdDNmpmMF81Wk1PdlhMQ2tiSGdndUd0WGQ3dWE2RFdxemxBZGdSVjVmQ2hKRzVKb3B4U1hCQWh2b29QakQ1Q2QwX2kwM3UxSERKVXp1WkZDLXkwcFFNeEprSTlpVHVrNk8tdWhZN3hhUkUwc1o4T1VBdFFTY1JyMVNseEJzT29BLWxsY0FR?oc=5"
+  },
   {
    "title": "Newzoo & GEEIQ: The Roblox Audience in 2026 | GameDev Reports is powered by Mellow - Substack",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82RVZyeTNDaHVKTUQ5dmFVbmt2Y0lsbmU3SjhYSDFCcGVCd1M2V0ZMdzdrQThXV25kWlctSFhzQ1V5WHp4YThLV1BsMktFekM5ZGV1ZHMwQVZCYWsyM0RjUU1mU2tWNy0wd1hBYUVfTy1RNC1pd05LMUh5NDJDLUE?oc=5"
@@ -31,12 +35,16 @@
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5uWTdaY29ST1NpNEFFT1RWUVpZeGFMU1BWdkxScjg4SXJGLW5fOGlxYlBCTlZ0blNCYmtEN3BsUFVyeUd1b0I0anVoZmNZaXp1eGx5MG5YRlFBeDZ2b004RE5iejFQSUIyWU5uS1JHX0toQ3F0elVLVm9R?oc=5"
   },
   {
-   "title": "Grow a Garden Witch Fingers guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjWjRobG5WOFozUUJLTHJPblNKOXljOWpGQkRpSzRobzY4MWRPYXVZWFNLY3RyUkdxMkFOLTAxZXhwSnlrNUZZSmdyQ1I0U1FnZDNIUzd3Yl9tMmY1d0lpVXljUlFKSHp0MlNWY1RFWjVEejJYdTJMUmVxRQ?oc=5"
+   "title": "Best Brainrots in Steal a Brainrot - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yVDRNUGhSYVpqZWxJSGZZMmhNVnNBa0VnbVE4RkZ5b1A1Y1NyRWZ3aU51THA1aVJud0taeWJqTUlyZ3VFenItazc4UDQyR09XRmY0dXM2c09aRmdURXo0YlV0djMwcjhLMmIwWEZRMDJkemktc0gtRjhZMA?oc=5"
   },
   {
    "title": "Grow a Garden Gremlin guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94aVFRaHZnTUtRSWgxOFBnLVFfLV80YmE4ajVLajQtLXFQdVNEbnlQMkFFWVpEUUhaRDl5N2RrQ1NOTFdaMkUtdUw1QUNrbEtNR3QyLWRvTWQ0NzI0eG5NWW5JVXRVODRZNnhZaTBEYjl5SEk?oc=5"
+  },
+  {
+   "title": "Grow a Garden Witch Fingers guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjWjRobG5WOFozUUJLTHJPblNKOXljOWpGQkRpSzRobzY4MWRPYXVZWFNLY3RyUkdxMkFOLTAxZXhwSnlrNUZZSmdyQ1I0U1FnZDNIUzd3Yl9tMmY1d0lpVXljUlFKSHp0MlNWY1RFWjVEejJYdTJMUmVxRQ?oc=5"
   },
   {
    "title": "How to get Flying Dutchman in Steal a Brainrot - Sportskeeda",
@@ -52,22 +60,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-24 02:59",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-24 02:59",
-   "msg": "Metrik diperbarui: views=514 avg7=870"
-  },
-  {
-   "t": "10-24 02:59",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "10-24 15:16",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "10-24 15:16",
    "msg": "Metrik diperbarui: views=515 avg7=891"
@@ -139,14 +131,25 @@
   {
    "t": "10-26 18:07",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-27 03:25",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-27 03:25",
+   "msg": "Metrik diperbarui: views=941 avg7=616"
+  },
+  {
+   "t": "10-27 03:25",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "10-27 03:25",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-21 03:00",
-   "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "10-21 16:29",
    "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -200,6 +203,11 @@
   {
    "t": "10-26 18:07",
    "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
+  },
+  {
+   "t": "10-27 03:25",
+   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
   }
  ],
