@@ -1,25 +1,25 @@
 {
- "ts": 1793121532,
- "rendered": "2026-10-27 17:18:52",
+ "ts": 1793158867,
+ "rendered": "2026-10-28 03:41:07",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 3 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 3 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "ISTIRAHAT",
+ "stateid": "AMAN",
+ "status_text": "Agen sedang istirahat",
+ "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+ "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-27 17:18 UTC",
+ "last_run": "2026-10-28 03:41 UTC",
  "metrics": {
   "last_title": "🔴 LIVE Animasi Roblox Podcast Ninu & Raka PART 3 | Bocoran Steal an Eg",
-  "last_views": 1702,
-  "avg7": 1033,
-  "delta_pct": "+176.3%"
+  "last_views": 1706,
+  "avg7": 1035,
+  "delta_pct": "+65.2%"
  },
  "discord": {
-  "ok": true,
+  "ok": null,
   "channel": "#general",
-  "detail": "HTTP 200"
+  "detail": "-"
  },
  "trends": [
   {
@@ -43,20 +43,16 @@
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0OUFhTUNKWGs4dmJQZ2dZeHRUcEZsbEdzdm11c3g2dTdqVGEyekJYYnF1VmoxalpoNlZVbjdBYzNwSFNPVTRtY3lwY1o3WW1KMzdESlZvWU5lZ1BCU0lJdnFVaVE3S21mRlM1Sy1RaUFqVlVZX0pF?oc=5"
   },
   {
-   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
-  },
-  {
    "title": "Grow a Garden Evil Penguin guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5uWTdaY29ST1NpNEFFT1RWUVpZeGFMU1BWdkxScjg4SXJGLW5fOGlxYlBCTlZ0blNCYmtEN3BsUFVyeUd1b0I0anVoZmNZaXp1eGx5MG5YRlFBeDZ2b004RE5iejFQSUIyWU5uS1JHX0toQ3F0elVLVm9R?oc=5"
   },
   {
-   "title": "Grow a Garden Witch Fingers guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjWjRobG5WOFozUUJLTHJPblNKOXljOWpGQkRpSzRobzY4MWRPYXVZWFNLY3RyUkdxMkFOLTAxZXhwSnlrNUZZSmdyQ1I0U1FnZDNIUzd3Yl9tMmY1d0lpVXljUlFKSHp0MlNWY1RFWjVEejJYdTJMUmVxRQ?oc=5"
-  },
-  {
    "title": "Grow a Garden Gremlin guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94aVFRaHZnTUtRSWgxOFBnLVFfLV80YmE4ajVLajQtLXFQdVNEbnlQMkFFWVpEUUhaRDl5N2RrQ1NOTFdaMkUtdUw1QUNrbEtNR3QyLWRvTWQ0NzI0eG5NWW5JVXRVODRZNnhZaTBEYjl5SEk?oc=5"
+  },
+  {
+   "title": "Grow a Garden Witch Fingers guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjWjRobG5WOFozUUJLTHJPblNKOXljOWpGQkRpSzRobzY4MWRPYXVZWFNLY3RyUkdxMkFOLTAxZXhwSnlrNUZZSmdyQ1I0U1FnZDNIUzd3Yl9tMmY1d0lpVXljUlFKSHp0MlNWY1RFWjVEejJYdTJMUmVxRQ?oc=5"
   },
   {
    "title": "Grow a Garden Ghoul Garden 2 update patch notes - Sportskeeda",
@@ -64,18 +60,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-25 02:53",
-   "msg": "Metrik diperbarui: views=515 avg7=907"
-  },
-  {
-   "t": "10-25 02:53",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "10-25 02:53",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-25 15:26",
    "msg": "Cek API key: VALID"
@@ -151,14 +135,21 @@
   {
    "t": "10-27 17:18",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-28 03:41",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-28 03:41",
+   "msg": "Metrik diperbarui: views=1706 avg7=1035"
+  },
+  {
+   "t": "10-28 03:41",
+   "msg": "OK: tidak ada sinyal (senyap)"
   }
  ],
  "messages": [
-  {
-   "t": "10-22 02:59",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "10-22 16:29",
    "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 386 views (baseline 835). Turun -53.8%  Laporan sudah kukirim ke Discord.",
@@ -213,10 +204,15 @@
    "t": "10-27 17:18",
    "text": "Ada 3 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "10-28 03:41",
+   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+   "kind": "aman"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": true
+  "trend": false
  }
 }
