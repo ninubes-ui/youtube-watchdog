@@ -1,20 +1,20 @@
 {
- "ts": 1793246506,
- "rendered": "2026-10-29 04:01:46",
+ "ts": 1793296583,
+ "rendered": "2026-10-29 17:56:23",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video '🔴 LIVE Ninu & Raka PART 4 | Prediksi Update Steal ' hanya 588 views (baseline 1080). Turun -45.6%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video '🔴 LIVE Ninu & Raka PART 4 | Prediksi Update Steal ' hanya 590 views (baseline 1081). Turun -45.4%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-29 04:01 UTC",
+ "last_run": "2026-10-29 17:56 UTC",
  "metrics": {
   "last_title": "🔴 LIVE Ninu & Raka PART 4 | Prediksi Update Steal an Egg + Request Lag",
-  "last_views": 588,
-  "avg7": 1081,
-  "delta_pct": "-45.6%"
+  "last_views": 590,
+  "avg7": 1082,
+  "delta_pct": "-45.4%"
  },
  "discord": {
   "ok": true,
@@ -22,10 +22,6 @@
   "detail": "HTTP 200"
  },
  "trends": [
-  {
-   "title": "Newzoo & GEEIQ: The Roblox Audience in 2026 | GameDev Reports is powered by Mellow - Substack",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82RVZyeTNDaHVKTUQ5dmFVbmt2Y0lsbmU3SjhYSDFCcGVCd1M2V0ZMdzdrQThXV25kWlctSFhzQ1V5WHp4YThLV1BsMktFekM5ZGV1ZHMwQVZCYWsyM0RjUU1mU2tWNy0wd1hBYUVfTy1RNC1pd05LMUh5NDJDLUE?oc=5"
-  },
   {
    "title": "2026 Halloween Roblox Events - IGN",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVGV3NXJNX1BBQTdCcXphVlUzVzhYRjJDRDJYZEFPZ2ZMeU95NFVqWS1XaXhvZWU5TndSb2RXUk1vaGM0cEJGX2daOGVTb0ZSMTVlZmNTODh4WVA0eGFvZF9wN1ZCbWd6dk1BSmtWSlpsUmhC?oc=5"
@@ -47,43 +43,15 @@
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmJ6S1BDOU9SMHh1TS0tdHJZb3UyLU5ueHZjQlpXTFF6WmI3clRPT3F6d3VlbHJhWkota0VlTXRVSFdvYjlnNVNlbHpuTTZPWmxITV9jdnBheF9mNGhMeF9nRWN4RHJjS2psdXVFT2NDeFMzMlFJblNzQlR2MHVnLQ?oc=5"
   },
   {
-   "title": "Steal the Brainrot Fortnite Codes (October 2026) - Beebom",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yb1E5REE1YlN1WHdPcTVFSjVCZHlUX2dGOVZPcmJSRDZsZThxLXRkbV8wUmZYLWR5cENBT1daOTVLbmVNckZfVkptR3R3emx5NVpRZEloNVRnOENucU5FZDc0ONIBaEFVX3lxTE02YVNtWi1ZcHhzMHpJNUw1bzFHSDkzcVN0RndEOE5VYXpNb2ZCM2R3aEROX3JqcGMxSjk5WEtfTkNnY2gwNGtIV3RHSXBWeE1KSW5tNW5Rb2xIQVA3VjNSYl9QbnFCWFZV?oc=5"
-  },
-  {
    "title": "Steal a Brainrot Discord Server (October 2026) Official Link - Propel RC",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10cElNU01LMmJ0ZGtBTXg4OE81RzEwc1hnalQwN0hVWHFKcXdOZDZlYS12OV90bkVZeDkwMndWc3RCaDNZTi1USnJSdnM5YzRMZFEwemI5QXVjME84Vjhqb2VrM2xYWmRE?oc=5"
   },
   {
    "title": "Grow a Garden Gaze Berry guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0OUFhTUNKWGs4dmJQZ2dZeHRUcEZsbEdzdm11c3g2dTdqVGEyekJYYnF1VmoxalpoNlZVbjdBYzNwSFNPVTRtY3lwY1o3WW1KMzdESlZvWU5lZ1BCU0lJdnFVaVE3S21mRlM1Sy1RaUFqVlVZX0pF?oc=5"
-  },
-  {
-   "title": "Grow a Garden Evil Penguin guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5uWTdaY29ST1NpNEFFT1RWUVpZeGFMU1BWdkxScjg4SXJGLW5fOGlxYlBCTlZ0blNCYmtEN3BsUFVyeUd1b0I0anVoZmNZaXp1eGx5MG5YRlFBeDZ2b004RE5iejFQSUIyWU5uS1JHX0toQ3F0elVLVm9R?oc=5"
-  },
-  {
-   "title": "Grow a Garden Gremlin guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94aVFRaHZnTUtRSWgxOFBnLVFfLV80YmE4ajVLajQtLXFQdVNEbnlQMkFFWVpEUUhaRDl5N2RrQ1NOTFdaMkUtdUw1QUNrbEtNR3QyLWRvTWQ0NzI0eG5NWW5JVXRVODRZNnhZaTBEYjl5SEk?oc=5"
-  },
-  {
-   "title": "Grow a Garden Witch Fingers guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjWjRobG5WOFozUUJLTHJPblNKOXljOWpGQkRpSzRobzY4MWRPYXVZWFNLY3RyUkdxMkFOLTAxZXhwSnlrNUZZSmdyQ1I0U1FnZDNIUzd3Yl9tMmY1d0lpVXljUlFKSHp0MlNWY1RFWjVEejJYdTJMUmVxRQ?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-26 18:07",
-   "msg": "Metrik diperbarui: views=1512 avg7=763"
-  },
-  {
-   "t": "10-26 18:07",
-   "msg": "4 tren baru terdeteksi"
-  },
-  {
-   "t": "10-26 18:07",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-27 03:25",
    "msg": "Cek API key: VALID"
@@ -159,14 +127,21 @@
   {
    "t": "10-29 04:01",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-29 17:56",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-29 17:56",
+   "msg": "Metrik diperbarui: views=590 avg7=1082"
+  },
+  {
+   "t": "10-29 17:56",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-23 16:19",
-   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 517 views (baseline 745). Turun -30.6%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-24 02:59",
    "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 514 views (baseline 854). Turun -39.8%  Laporan sudah kukirim ke Discord.",
@@ -221,10 +196,15 @@
    "t": "10-29 04:01",
    "text": "METRIK TURUN: Video '🔴 LIVE Ninu & Raka PART 4 | Prediksi Update Steal ' hanya 588 views (baseline 1080). Turun -45.6%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-29 17:56",
+   "text": "METRIK TURUN: Video '🔴 LIVE Ninu & Raka PART 4 | Prediksi Update Steal ' hanya 590 views (baseline 1081). Turun -45.4%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": true
+  "trend": false
  }
 }
