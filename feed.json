@@ -1,20 +1,20 @@
 {
- "ts": 1793332982,
- "rendered": "2026-10-30 04:03:02",
+ "ts": 1793381897,
+ "rendered": "2026-10-30 17:38:17",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "SIBUK",
+ "stateid": "ALERT",
+ "status_text": "Agen sedang sibuk",
+ "task": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 418 views (baseline 1038). Turun -59.7%  Laporan sudah kukirim ke Discord.",
+ "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-30 04:03 UTC",
+ "last_run": "2026-10-30 17:38 UTC",
  "metrics": {
-  "last_title": "🔴 LIVE KUIS ROBLOX: KOMEN = KARAKTERMU MUNCUL! Jawab Benar Dapat Piala",
-  "last_views": 1008,
-  "avg7": 1038,
-  "delta_pct": "-6.8%"
+  "last_title": "🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monster di Dunia Open Worl",
+  "last_views": 418,
+  "avg7": 1051,
+  "delta_pct": "-59.7%"
  },
  "discord": {
   "ok": true,
@@ -23,51 +23,39 @@
  },
  "trends": [
   {
-   "title": "2026 Halloween Roblox Events - IGN",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVGV3NXJNX1BBQTdCcXphVlUzVzhYRjJDRDJYZEFPZ2ZMeU95NFVqWS1XaXhvZWU5TndSb2RXUk1vaGM0cEJGX2daOGVTb0ZSMTVlZmNTODh4WVA0eGFvZF9wN1ZCbWd6dk1BSmtWSlpsUmhC?oc=5"
+   "title": "Roblox’s growth engine stalls as players leave and bookings fall 12 per cent - Animation Xpress",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdEdRSTNOdzRhbkdFcml6U1dQbmZjMzlKazllSWpoNnBtSEVEZDFoU242dFZEMkF2UUptS3VzcW5RRWt4cS10ZGV4RHh0MWwtQlI5TjhrWl9HVXBwckZVUDlsLVc4bHFCbWEyNlRDSXVQN1pHNm15S2RMM21TT25TaUd2SE5SUTZqaExvZG1QS2tPM2wxSTRXcTlRMTBtazRfRFRCSHpXbzNsODNXRGdrS3EtY2ZNTGtSSDd3NdIBxAFBVV95cUxNT0pkUzVaR2IwZ3VkNzh0SVc4X1U2a3BrdHBQUUROY0wzWWc2czIwWHJzTDE5VDdIRXpOcnhZTTlVNTFzRWE0SnFEdzBqd0l4ek9NSGx4NVd6V0t1d1ZCaDJITTVmUE8tRUh5YUExNmlKSnRGbDhOb1pWd0dyX1FSM3pORVE3SWwtaFU4eGVZS2NxeVJ1NGxsMS16cXRzZ09SeFdwUEV4ZXBsQlh1X2RuQWZBM21CWHI4VGl2Y09nX2FFTEM5?oc=5"
+  },
+  {
+   "title": "Roblox shares fall as it beats billings guidance but growth stalls - Mobilegamer.biz",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbmtOcWRYQUpJZXlxSWh1dmJNdkkyWi1PZ1lMZEdwRFd6Y2lVWVRwZE43eHZQOUNKQzJQOV9fWWs1a0lIbk9xYXZYVnFLY0ZMTDBjdTRzQ3NjQ1lTWTB4MzJLNXdmQjVjdGROU0NLSGVQUHpNY2JHZTNITEpsd3dfOXl2Ukl6UzQyRkFiekhxUkY4ZjdTY2c?oc=5"
   },
   {
    "title": "Roblox shares fall after company reports daily user decline - The Malaysian Reserve",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUw0bi1KQmt3ZC12dFktOVdxenFabjlfQ2ZTMlJKM1dGdXYtdzlnZnlyNnh0VG1WTmRVUk9XTGtKdThjeXh2MGxaemNINWxHTkU3ek5vajJQd0lBd1p4VzRiNksyLVJrNktfMHNIeFF3SGpJWGx6ZkV4R1ZDN1dlSU5LWTRJT3VaVlV6QklYczBsTllVYi11aW5fcUdpanBfMkJLNHlB?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdzhjWW5VeW9iTkd4dEdpcENKWktDWE05TDVoV2RHRnZWYmZpT2R0QXUtN1dfOUFDSXU5QXNnMmJQU2ViR1dwemNLUGRPS2dfbHVCRjJXNThJMURvR29uR3U3WWpZVHNIUlRWVW14WnRTTXR1eUFicW1qSXNzelhTNk9FYVBmTGpadjAzcjFNT1YyTjAtYTFVTm9Sb3dGLVdiVVFOaGZ6T0ZUUHc?oc=5"
+  },
+  {
+   "title": "2026 Halloween Roblox Events - IGN",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVGV3NXJNX1BBQTdCcXphVlUzVzhYRjJDRDJYZEFPZ2ZMeU95NFVqWS1XaXhvZWU5TndSb2RXUk1vaGM0cEJGX2daOGVTb0ZSMTVlZmNTODh4WVA0eGFvZF9wN1ZCbWd6dk1BSmtWSlpsUmhC?oc=5"
   },
   {
    "title": "Grow a Garden Haunted Seed Pack guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObm9KQlRoblVhbzRMbWdXeHRNdlFSVDlvekRLcTRRajdsQzVBM3ludUpVX1ZUMW03aEJ6OWpnWVVSTXJZMzdaai1iZF9xX1RnQzN2bFUwMVNyaVFqSnZxZlo0Q0laYThfTE9GMDFCUE1LS2RIcHBMWjdMWUFXbmJaQQ?oc=5"
   },
   {
+   "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
+  },
+  {
    "title": "All Mutations in Steal a Brainrot (October 2026) Rarity & Drops - Propel RC",
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3N2laRXM0MlowNUU3d28xQjJWenpMbURrQ05YR0p2ckZ4cUhXcG1MRTk2NHFVMlp1NkRyY05VUWNpdVdfZGd5dVdIXzdSS3AxaUdfLUc5NXlWUllCMXlmODRwRkh1Y18wRENJ?oc=5"
   },
   {
-   "title": "Grow a Garden Pumpkin Ghoul guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02bWlmbjc0MHJadTZ5YXhGRDBMLUFRTXZIc1A5RjVEWUZWUF9naU9pcV9iOXdzMzZPNmFoc1RnZnhibVZUQ0Z0QzdHQ0YxcW1BQTNWQjVHRWVDenIza3ZOeXFzRllORzZGZjRJaXVaZE9HYXpVTmtCU1RrUQ?oc=5"
-  },
-  {
    "title": "Steal a Brainrot Discord Server (October 2026) Official Link - Propel RC",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10cElNU01LMmJ0ZGtBTXg4OE81RzEwc1hnalQwN0hVWHFKcXdOZDZlYS12OV90bkVZeDkwMndWc3RCaDNZTi1USnJSdnM5YzRMZFEwemI5QXVjME84Vjhqb2VrM2xYWmRE?oc=5"
-  },
-  {
-   "title": "Grow a Garden Gaze Berry guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0OUFhTUNKWGs4dmJQZ2dZeHRUcEZsbEdzdm11c3g2dTdqVGEyekJYYnF1VmoxalpoNlZVbjdBYzNwSFNPVTRtY3lwY1o3WW1KMzdESlZvWU5lZ1BCU0lJdnFVaVE3S21mRlM1Sy1RaUFqVlVZX0pF?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-27 17:18",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-27 17:18",
-   "msg": "Metrik diperbarui: views=1702 avg7=1033"
-  },
-  {
-   "t": "10-27 17:18",
-   "msg": "3 tren baru terdeteksi"
-  },
-  {
-   "t": "10-27 17:18",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-28 03:41",
    "msg": "Cek API key: VALID"
@@ -139,14 +127,25 @@
   {
    "t": "10-30 04:03",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-30 17:38",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-30 17:38",
+   "msg": "Metrik diperbarui: views=418 avg7=1051"
+  },
+  {
+   "t": "10-30 17:38",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "10-30 17:38",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-24 15:16",
-   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 870). Turun -40.8%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-25 02:53",
    "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 891). Turun -42.2%  Laporan sudah kukirim ke Discord.",
@@ -201,10 +200,15 @@
    "t": "10-30 04:03",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "10-30 17:38",
+   "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 418 views (baseline 1038). Turun -59.7%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
-  "metric": false,
+  "metric": true,
   "trend": true
  }
 }
