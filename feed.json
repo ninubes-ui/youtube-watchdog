@@ -1,20 +1,20 @@
 {
- "ts": 1793418427,
- "rendered": "2026-10-31 03:47:07",
+ "ts": 1793464955,
+ "rendered": "2026-10-31 16:42:35",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1051). Turun -60.3%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1049). Turun -60.2%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-31 03:47 UTC",
+ "last_run": "2026-10-31 16:42 UTC",
  "metrics": {
   "last_title": "🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monster di Dunia Open Worl",
   "last_views": 417,
   "avg7": 1049,
-  "delta_pct": "-60.3%"
+  "delta_pct": "-60.2%"
  },
  "discord": {
   "ok": true,
@@ -23,8 +23,16 @@
  },
  "trends": [
   {
+   "title": "Roblox’s Q3 2026: 138m daily users who spent 34bn hours playing - Music Ally",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONHp2dGEwWVNVaXBEd3VrSjB0OEl0MTVHenVHMGVNajFWTllha1ozV1BWcXFHUS1SNmNMSV93V182T2txdkI4anM2SGl5N1Y5aDNLQ29yYWF1Q0JaX0txMWVZYy14U1dUNUxqcWxPS3plaTZDUjBFSGVmY1lrLVBvRnI3SnN6bmRIbTNwR1dBLVNjYmNqb2kxVUt0MA?oc=5"
+  },
+  {
    "title": "Roblox’s growth engine stalls as players leave and bookings fall 12 per cent - Animation Xpress",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdEdRSTNOdzRhbkdFcml6U1dQbmZjMzlKazllSWpoNnBtSEVEZDFoU242dFZEMkF2UUptS3VzcW5RRWt4cS10ZGV4RHh0MWwtQlI5TjhrWl9HVXBwckZVUDlsLVc4bHFCbWEyNlRDSXVQN1pHNm15S2RMM21TT25TaUd2SE5SUTZqaExvZG1QS2tPM2wxSTRXcTlRMTBtazRfRFRCSHpXbzNsODNXRGdrS3EtY2ZNTGtSSDd3NdIBxAFBVV95cUxNT0pkUzVaR2IwZ3VkNzh0SVc4X1U2a3BrdHBQUUROY0wzWWc2czIwWHJzTDE5VDdIRXpOcnhZTTlVNTFzRWE0SnFEdzBqd0l4ek9NSGx4NVd6V0t1d1ZCaDJITTVmUE8tRUh5YUExNmlKSnRGbDhOb1pWd0dyX1FSM3pORVE3SWwtaFU4eGVZS2NxeVJ1NGxsMS16cXRzZ09SeFdwUEV4ZXBsQlh1X2RuQWZBM21CWHI4VGl2Y09nX2FFTEM5?oc=5"
+  },
+  {
+   "title": "Steal a Brainrot Next Halloween Update Release Date - EGamersWorld",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVUsyd2NMdmR3dmxtaTNuSVpQT3Z0cXNVQmVLU0kySXl6cDBNRmRHcTVRYlluZUF4OFR3bUxPS2syNGJfc3NGS1NYTHg5U1dKRnZKNUs5Vlc4bE43RVVmZHlpY1BBZjBkdzhYYU45Wk51c1F0aGlOQnR5SWJZanZVa0xYejE2X2JaN2YxLTNaR1Zndw?oc=5"
   },
   {
    "title": "Roblox shares fall as it beats billings guidance but growth stalls - Mobilegamer.biz",
@@ -33,6 +41,10 @@
   {
    "title": "Roblox shares fall after company reports daily user decline - The Malaysian Reserve",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdzhjWW5VeW9iTkd4dEdpcENKWktDWE05TDVoV2RHRnZWYmZpT2R0QXUtN1dfOUFDSXU5QXNnMmJQU2ViR1dwemNLUGRPS2dfbHVCRjJXNThJMURvR29uR3U3WWpZVHNIUlRWVW14WnRTTXR1eUFicW1qSXNzelhTNk9FYVBmTGpadjAzcjFNT1YyTjAtYTFVTm9Sb3dGLVdiVVFOaGZ6T0ZUUHc?oc=5"
+  },
+  {
+   "title": "Best Brainrots in Steal a Brainrot - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yVDRNUGhSYVpqZWxJSGZZMmhNVnNBa0VnbVE4RkZ5b1A1Y1NyRWZ3aU51THA1aVJud0taeWJqTUlyZ3VFenItazc4UDQyR09XRmY0dXM2c09aRmdURXo0YlV0djMwcjhLMmIwWEZRMDJkemktc0gtRjhZMA?oc=5"
   },
   {
    "title": "Grow a Garden Haunted Seed Pack guide - Sportskeeda",
@@ -44,22 +56,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-28 17:48",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-28 17:48",
-   "msg": "Metrik diperbarui: views=586 avg7=1080"
-  },
-  {
-   "t": "10-28 17:48",
-   "msg": "3 tren baru terdeteksi"
-  },
-  {
-   "t": "10-28 17:48",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-29 04:01",
    "msg": "Cek API key: VALID"
@@ -131,14 +127,25 @@
   {
    "t": "10-31 03:47",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-31 16:42",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-31 16:42",
+   "msg": "Metrik diperbarui: views=417 avg7=1049"
+  },
+  {
+   "t": "10-31 16:42",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "10-31 16:42",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-25 15:26",
-   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 516 views (baseline 907). Turun -43.1%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-26 02:52",
    "text": "METRIK TURUN: Video 'Rebutan Ayam Goreng Terakhir, Ujung-ujungnya Diamb' hanya 1 views (baseline 908). Turun -99.9%  Laporan sudah kukirim ke Discord.",
@@ -193,10 +200,15 @@
    "t": "10-31 03:47",
    "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1051). Turun -60.3%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-31 16:42",
+   "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1049). Turun -60.2%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": false
+  "trend": true
  }
 }
