@@ -1,20 +1,20 @@
 {
- "ts": 1793381897,
- "rendered": "2026-10-30 17:38:17",
+ "ts": 1793418427,
+ "rendered": "2026-10-31 03:47:07",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 418 views (baseline 1038). Turun -59.7%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1051). Turun -60.3%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-30 17:38 UTC",
+ "last_run": "2026-10-31 03:47 UTC",
  "metrics": {
   "last_title": "🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monster di Dunia Open Worl",
-  "last_views": 418,
-  "avg7": 1051,
-  "delta_pct": "-59.7%"
+  "last_views": 417,
+  "avg7": 1049,
+  "delta_pct": "-60.3%"
  },
  "discord": {
   "ok": true,
@@ -35,39 +35,15 @@
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdzhjWW5VeW9iTkd4dEdpcENKWktDWE05TDVoV2RHRnZWYmZpT2R0QXUtN1dfOUFDSXU5QXNnMmJQU2ViR1dwemNLUGRPS2dfbHVCRjJXNThJMURvR29uR3U3WWpZVHNIUlRWVW14WnRTTXR1eUFicW1qSXNzelhTNk9FYVBmTGpadjAzcjFNT1YyTjAtYTFVTm9Sb3dGLVdiVVFOaGZ6T0ZUUHc?oc=5"
   },
   {
-   "title": "2026 Halloween Roblox Events - IGN",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVGV3NXJNX1BBQTdCcXphVlUzVzhYRjJDRDJYZEFPZ2ZMeU95NFVqWS1XaXhvZWU5TndSb2RXUk1vaGM0cEJGX2daOGVTb0ZSMTVlZmNTODh4WVA0eGFvZF9wN1ZCbWd6dk1BSmtWSlpsUmhC?oc=5"
-  },
-  {
    "title": "Grow a Garden Haunted Seed Pack guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObm9KQlRoblVhbzRMbWdXeHRNdlFSVDlvekRLcTRRajdsQzVBM3ludUpVX1ZUMW03aEJ6OWpnWVVSTXJZMzdaai1iZF9xX1RnQzN2bFUwMVNyaVFqSnZxZlo0Q0laYThfTE9GMDFCUE1LS2RIcHBMWjdMWUFXbmJaQQ?oc=5"
   },
   {
    "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
-  },
-  {
-   "title": "All Mutations in Steal a Brainrot (October 2026) Rarity & Drops - Propel RC",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3N2laRXM0MlowNUU3d28xQjJWenpMbURrQ05YR0p2ckZ4cUhXcG1MRTk2NHFVMlp1NkRyY05VUWNpdVdfZGd5dVdIXzdSS3AxaUdfLUc5NXlWUllCMXlmODRwRkh1Y18wRENJ?oc=5"
-  },
-  {
-   "title": "Steal a Brainrot Discord Server (October 2026) Official Link - Propel RC",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10cElNU01LMmJ0ZGtBTXg4OE81RzEwc1hnalQwN0hVWHFKcXdOZDZlYS12OV90bkVZeDkwMndWc3RCaDNZTi1USnJSdnM5YzRMZFEwemI5QXVjME84Vjhqb2VrM2xYWmRE?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-28 03:41",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-28 03:41",
-   "msg": "Metrik diperbarui: views=1706 avg7=1035"
-  },
-  {
-   "t": "10-28 03:41",
-   "msg": "OK: tidak ada sinyal (senyap)"
-  },
   {
    "t": "10-28 17:48",
    "msg": "Cek API key: VALID"
@@ -143,14 +119,21 @@
   {
    "t": "10-30 17:38",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "10-31 03:47",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "10-31 03:47",
+   "msg": "Metrik diperbarui: views=417 avg7=1049"
+  },
+  {
+   "t": "10-31 03:47",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-25 02:53",
-   "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 515 views (baseline 891). Turun -42.2%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-25 15:26",
    "text": "METRIK TURUN: Video 'Ride A Dino - Live roblox map baru' hanya 516 views (baseline 907). Turun -43.1%  Laporan sudah kukirim ke Discord.",
@@ -205,10 +188,15 @@
    "t": "10-30 17:38",
    "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 418 views (baseline 1038). Turun -59.7%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "10-31 03:47",
+   "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1051). Turun -60.3%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": true
+  "trend": false
  }
 }
