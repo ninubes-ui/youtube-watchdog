@@ -1,19 +1,19 @@
 {
- "ts": 1793464955,
- "rendered": "2026-10-31 16:42:35",
+ "ts": 1793505380,
+ "rendered": "2026-11-01 03:56:20",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1049). Turun -60.2%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 418 views (baseline 1049). Turun -60.2%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-10-31 16:42 UTC",
+ "last_run": "2026-11-01 03:56 UTC",
  "metrics": {
   "last_title": "🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monster di Dunia Open Worl",
-  "last_views": 417,
-  "avg7": 1049,
+  "last_views": 418,
+  "avg7": 1050,
   "delta_pct": "-60.2%"
  },
  "discord": {
@@ -31,6 +31,10 @@
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdEdRSTNOdzRhbkdFcml6U1dQbmZjMzlKazllSWpoNnBtSEVEZDFoU242dFZEMkF2UUptS3VzcW5RRWt4cS10ZGV4RHh0MWwtQlI5TjhrWl9HVXBwckZVUDlsLVc4bHFCbWEyNlRDSXVQN1pHNm15S2RMM21TT25TaUd2SE5SUTZqaExvZG1QS2tPM2wxSTRXcTlRMTBtazRfRFRCSHpXbzNsODNXRGdrS3EtY2ZNTGtSSDd3NdIBxAFBVV95cUxNT0pkUzVaR2IwZ3VkNzh0SVc4X1U2a3BrdHBQUUROY0wzWWc2czIwWHJzTDE5VDdIRXpOcnhZTTlVNTFzRWE0SnFEdzBqd0l4ek9NSGx4NVd6V0t1d1ZCaDJITTVmUE8tRUh5YUExNmlKSnRGbDhOb1pWd0dyX1FSM3pORVE3SWwtaFU4eGVZS2NxeVJ1NGxsMS16cXRzZ09SeFdwUEV4ZXBsQlh1X2RuQWZBM21CWHI4VGl2Y09nX2FFTEM5?oc=5"
   },
   {
+   "title": "What is 'Grow a Garden?' The Roblox farming simulator exploding in popularity - Mashable",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3c1OHpaU0lGQ2VGRE9ENFdwNVVEdnBnOFUxem9ndkRRYjFqb1RyWF9aQWxfeDN6ajM1YnFPaWxRYUF4ME9JUndTVi1YekRSbUp5bkRSSFVLS3k3eGtCWXFPNEVod1M0TkNvcXpPYkNianNKWEVSZkYtQVFUUTBqMg?oc=5"
+  },
+  {
    "title": "Steal a Brainrot Next Halloween Update Release Date - EGamersWorld",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVUsyd2NMdmR3dmxtaTNuSVpQT3Z0cXNVQmVLU0kySXl6cDBNRmRHcTVRYlluZUF4OFR3bUxPS2syNGJfc3NGS1NYTHg5U1dKRnZKNUs5Vlc4bE43RVVmZHlpY1BBZjBkdzhYYU45Wk51c1F0aGlOQnR5SWJZanZVa0xYejE2X2JaN2YxLTNaR1Zndw?oc=5"
   },
@@ -45,29 +49,9 @@
   {
    "title": "Best Brainrots in Steal a Brainrot - Dexerto",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yVDRNUGhSYVpqZWxJSGZZMmhNVnNBa0VnbVE4RkZ5b1A1Y1NyRWZ3aU51THA1aVJud0taeWJqTUlyZ3VFenItazc4UDQyR09XRmY0dXM2c09aRmdURXo0YlV0djMwcjhLMmIwWEZRMDJkemktc0gtRjhZMA?oc=5"
-  },
-  {
-   "title": "Grow a Garden Haunted Seed Pack guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObm9KQlRoblVhbzRMbWdXeHRNdlFSVDlvekRLcTRRajdsQzVBM3ludUpVX1ZUMW03aEJ6OWpnWVVSTXJZMzdaai1iZF9xX1RnQzN2bFUwMVNyaVFqSnZxZlo0Q0laYThfTE9GMDFCUE1LS2RIcHBMWjdMWUFXbmJaQQ?oc=5"
-  },
-  {
-   "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-29 04:01",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-29 04:01",
-   "msg": "Metrik diperbarui: views=588 avg7=1081"
-  },
-  {
-   "t": "10-29 04:01",
-   "msg": "1 tren baru terdeteksi"
-  },
   {
    "t": "10-29 04:01",
    "msg": "Discord: terkirim"
@@ -143,14 +127,21 @@
   {
    "t": "10-31 16:42",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-01 03:56",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-01 03:56",
+   "msg": "Metrik diperbarui: views=418 avg7=1050"
+  },
+  {
+   "t": "11-01 03:56",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-26 02:52",
-   "text": "METRIK TURUN: Video 'Rebutan Ayam Goreng Terakhir, Ujung-ujungnya Diamb' hanya 1 views (baseline 908). Turun -99.9%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-26 18:07",
    "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -205,10 +196,15 @@
    "t": "10-31 16:42",
    "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1049). Turun -60.2%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "11-01 03:56",
+   "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 418 views (baseline 1049). Turun -60.2%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": true
+  "trend": false
  }
 }
