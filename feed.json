@@ -1,20 +1,20 @@
 {
- "ts": 1793591990,
- "rendered": "2026-11-02 03:59:50",
+ "ts": 1793654317,
+ "rendered": "2026-11-02 21:18:37",
  "source": "github-actions",
  "state": "BEKERJA",
  "stateid": "KERJA",
  "status_text": "Agen sedang bekerja",
- "task": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 2 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "task": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 4 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-02 03:59 UTC",
+ "last_run": "2026-11-02 21:18 UTC",
  "metrics": {
   "last_title": "🔴 LIVE REVIEW AVATAR ROBLOX KAMU! Komen Username, Ninu Kasih Nilai Juj",
-  "last_views": 1107,
-  "avg7": 1011,
-  "delta_pct": "+5.4%"
+  "last_views": 1736,
+  "avg7": 1102,
+  "delta_pct": "+71.7%"
  },
  "discord": {
   "ok": true,
@@ -23,36 +23,40 @@
  },
  "trends": [
   {
+   "title": "Grow a Garden 2 codes (November 2026): Full list of GaG 2 codes and how to redeem - Radio Times",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54a0c3MzItTVB1Vmx2SnlOdXRJakg4NkdqNEM1UjNpMjFUdERUci1TNUpmMUphY3p2aFdabWpocHpyM0xhWk9ZX1gtYVd3OUVZREk2SGR5U29UM3UxTnZCaU5aUng2OWI3VmN2QnBnQVZ1YUtxc21La1BHam1vT1E?oc=5"
+  },
+  {
    "title": "Steal a Brainrot Next Halloween Update Release Date - EGamersWorld",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVUsyd2NMdmR3dmxtaTNuSVpQT3Z0cXNVQmVLU0kySXl6cDBNRmRHcTVRYlluZUF4OFR3bUxPS2syNGJfc3NGS1NYTHg5U1dKRnZKNUs5Vlc4bE43RVVmZHlpY1BBZjBkdzhYYU45Wk51c1F0aGlOQnR5SWJZanZVa0xYejE2X2JaN2YxLTNaR1Zndw?oc=5"
   },
   {
-   "title": "Roblox shares fall as it beats billings guidance but growth stalls - Mobilegamer.biz",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbmtOcWRYQUpJZXlxSWh1dmJNdkkyWi1PZ1lMZEdwRFd6Y2lVWVRwZE43eHZQOUNKQzJQOV9fWWs1a0lIbk9xYXZYVnFLY0ZMTDBjdTRzQ3NjQ1lTWTB4MzJLNXdmQjVjdGROU0NLSGVQUHpNY2JHZTNITEpsd3dfOXl2Ukl6UzQyRkFiekhxUkY4ZjdTY2c?oc=5"
+   "title": "What does Mothman do in Grow a Garden? - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iNkg1MjFzOFZxNHlvX2NZWld2Q3JPTGdYNW9tcDcyNmVyVURPN21IamRVNGRmSWJSbVJUZWlqRWpvTExMeWZKVTBmdUM1eHBMVGE3ZHpUY0YtZ0xweHlfNFZ3YWVuVzZmQlc0Zk5nWU93QQ?oc=5"
   },
   {
-   "title": "When is Taco Tuesday in Steal a Brainrot? (November 2, 2026) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbGpoQk41U09wUDVoNEtJMXZIUnVtOWFOWnpqVHVOTzF1R0kwZ2tDTVQ0X09nSkQ3UlBBOTFMWW5yb2RiRUEyMm1KQ2g3Q0p6VEZwZFNnS21MeU1RVXpuSjh6VHNJQ21uQWNkaG5FRmF6OVRTTk5oQTdUVGNDZm1HZkpKRQ?oc=5"
-  },
-  {
-   "title": "Complete Steal A Brainrot 2026 Halloween Event Guide - Pro Game Guides",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGYwRXZONXE0X00tTkdXbHA5N2lhN2V0VURDcGl6dEtDaVJ5M2VxdExJWW5sTmx2anZESTZueHVvR19WRV9LR3RyUWwxN2lqZzdSZUVQQ2xRWF8xb0JFTW96UUoyMHlzT2ZKUDJXSkg1T2hKejBHcklvYjloWU1hbTlWaFhabkxxckRfUVhTRQ?oc=5"
+   "title": "Steal a Brainrot Complete Halloween Event Guide - games.gg",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91NzVmVGFCZHBIbU40NUk1NjVBd1JxaDExSk1WWm42UHNjWkpDT0k3VlhVa3padm81XzVVWC1WTFl1dWdvYlBVdFQ0SEppQU9xODVPc2JJYTNEOWYwSThZYUNIYmZGQkZNdHhpeXZSWTFwV2tKUXl1V3NR?oc=5"
   },
   {
    "title": "Steal a Brainrot codes (November 2026) - Maximise your moneymaker brainrots - Pocket Gamer",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jOUtvWmQ3M0w4clIzU0l2dnJfTGQ2ZkRSTllUcHRCY2ZLTXBKZnMtb1hnT2FHMEpzWkZEWXVOY2FUOEttOE9IVFV0SVBKMWlzdmczNWJoSzVEZGx5YWtsTktwRHgwdm03Q2c?oc=5"
   },
   {
-   "title": "Grow a Garden 2 codes November 2026 - Pocket Tactics",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XYmMtYnZMbi1SemJaX3ZkNFNZSjdNUk1hY2VHczdKU1oxd29FeE1zbl83VWJ0X0pWdFFQTEVhUUFMaE5xUmo3ekZsWDBtZFJHN3pfNzQ5NjRaa1U1OVZYZg?oc=5"
+   "title": "Complete Steal A Brainrot 2026 Halloween Event Guide - Pro Game Guides",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGYwRXZONXE0X00tTkdXbHA5N2lhN2V0VURDcGl6dEtDaVJ5M2VxdExJWW5sTmx2anZESTZueHVvR19WRV9LR3RyUWwxN2lqZzdSZUVQQ2xRWF8xb0JFTW96UUoyMHlzT2ZKUDJXSkg1T2hKejBHcklvYjloWU1hbTlWaFhabkxxckRfUVhTRQ?oc=5"
   },
   {
-   "title": "Grow a Garden 2 codes (November 2026) - PCGamesN",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNQzNNUDhncTBBYm5Xb1owamhPUF9ZMS1VYlltV3lhbWVhLUpRc2NHOG1OYVpjV3Z2X1RLY3lXakNpOGlqZEdhM2t1TFF0Mm9EdDRVdVhTbXV5Zw?oc=5"
+   "title": "Grow a Garden Ghostwood guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HRHhYbjdwb1g5STZkNGFYNDJBVTJsZVEtWDZGQ053M25xc1QyMHFLbmgwMWFPMTBjU2ZzV01pT1BTSFgyTi0yNFM0VWhLb3l6cHFrVGdLTVQ1V0pRaldIcG9STmxyZGdFMUZLRVJPekpWRnA2NHc?oc=5"
   },
   {
    "title": "Split or Steal Brainrot Codes (November 2026) - Beebom",
    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vR21pYUtjZmg5RWJRNFFyNWFqNUVmaXhvZmo3YXU0dmVWcW1pMWpMYjRGN0FtMjF4U1VieERuZkhvcnlwYkNNcE5PMUFIMFBFMjFzOUQxUDJhMEM0QlHSAWNBVV95cUxQRGhjR1psTkJQVmNRQklCZ2NKVFBlOFdBejJuVjJNaFNjSUxBV1dKbzFVY3dOdDAwTF9sWWNFdS05elV2bVVMcW1fZjFLX3cxZXoxR3p3Z3BWQ09HTDZ1QkpuR0U?oc=5"
+  },
+  {
+   "title": "When is Taco Tuesday in Steal a Brainrot? (November 2, 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbGpoQk41U09wUDVoNEtJMXZIUnVtOWFOWnpqVHVOTzF1R0kwZ2tDTVQ0X09nSkQ3UlBBOTFMWW5yb2RiRUEyMm1KQ2g3Q0p6VEZwZFNnS21MeU1RVXpuSjh6VHNJQ21uQWNkaG5FRmF6OVRTTk5oQTdUVGNDZm1HZkpKRQ?oc=5"
   },
   {
    "title": "Be a Brainrot Codes (November 2026) - Beebom",
@@ -60,22 +64,6 @@
   }
  ],
  "events": [
-  {
-   "t": "10-30 17:38",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-30 17:38",
-   "msg": "Metrik diperbarui: views=418 avg7=1051"
-  },
-  {
-   "t": "10-30 17:38",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "10-30 17:38",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-31 03:47",
    "msg": "Cek API key: VALID"
@@ -147,14 +135,25 @@
   {
    "t": "11-02 03:59",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-02 21:18",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-02 21:18",
+   "msg": "Metrik diperbarui: views=1736 avg7=1102"
+  },
+  {
+   "t": "11-02 21:18",
+   "msg": "4 tren baru terdeteksi"
+  },
+  {
+   "t": "11-02 21:18",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-27 17:18",
-   "text": "Ada 3 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "10-28 03:41",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
@@ -208,6 +207,11 @@
   {
    "t": "11-02 03:59",
    "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
+  },
+  {
+   "t": "11-02 21:18",
+   "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
   }
  ],
