@@ -1,25 +1,25 @@
 {
- "ts": 1793654317,
- "rendered": "2026-11-02 21:18:37",
+ "ts": 1793682036,
+ "rendered": "2026-11-03 05:00:36",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 4 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "ISTIRAHAT",
+ "stateid": "AMAN",
+ "status_text": "Agen sedang istirahat",
+ "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+ "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-02 21:18 UTC",
+ "last_run": "2026-11-03 05:00 UTC",
  "metrics": {
   "last_title": "🔴 LIVE REVIEW AVATAR ROBLOX KAMU! Komen Username, Ninu Kasih Nilai Juj",
-  "last_views": 1736,
-  "avg7": 1102,
-  "delta_pct": "+71.7%"
+  "last_views": 1703,
+  "avg7": 1097,
+  "delta_pct": "+54.5%"
  },
  "discord": {
-  "ok": true,
+  "ok": null,
   "channel": "#general",
-  "detail": "HTTP 200"
+  "detail": "-"
  },
  "trends": [
   {
@@ -31,8 +31,8 @@
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVUsyd2NMdmR3dmxtaTNuSVpQT3Z0cXNVQmVLU0kySXl6cDBNRmRHcTVRYlluZUF4OFR3bUxPS2syNGJfc3NGS1NYTHg5U1dKRnZKNUs5Vlc4bE43RVVmZHlpY1BBZjBkdzhYYU45Wk51c1F0aGlOQnR5SWJZanZVa0xYejE2X2JaN2YxLTNaR1Zndw?oc=5"
   },
   {
-   "title": "What does Mothman do in Grow a Garden? - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iNkg1MjFzOFZxNHlvX2NZWld2Q3JPTGdYNW9tcDcyNmVyVURPN21IamRVNGRmSWJSbVJUZWlqRWpvTExMeWZKVTBmdUM1eHBMVGE3ZHpUY0YtZ0xweHlfNFZ3YWVuVzZmQlc0Zk5nWU93QQ?oc=5"
+   "title": "When is Taco Tuesday in Steal a Brainrot? (November 2, 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbGpoQk41U09wUDVoNEtJMXZIUnVtOWFOWnpqVHVOTzF1R0kwZ2tDTVQ0X09nSkQ3UlBBOTFMWW5yb2RiRUEyMm1KQ2g3Q0p6VEZwZFNnS21MeU1RVXpuSjh6VHNJQ21uQWNkaG5FRmF6OVRTTk5oQTdUVGNDZm1HZkpKRQ?oc=5"
   },
   {
    "title": "Steal a Brainrot Complete Halloween Event Guide - games.gg",
@@ -43,8 +43,8 @@
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jOUtvWmQ3M0w4clIzU0l2dnJfTGQ2ZkRSTllUcHRCY2ZLTXBKZnMtb1hnT2FHMEpzWkZEWXVOY2FUOEttOE9IVFV0SVBKMWlzdmczNWJoSzVEZGx5YWtsTktwRHgwdm03Q2c?oc=5"
   },
   {
-   "title": "Complete Steal A Brainrot 2026 Halloween Event Guide - Pro Game Guides",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGYwRXZONXE0X00tTkdXbHA5N2lhN2V0VURDcGl6dEtDaVJ5M2VxdExJWW5sTmx2anZESTZueHVvR19WRV9LR3RyUWwxN2lqZzdSZUVQQ2xRWF8xb0JFTW96UUoyMHlzT2ZKUDJXSkg1T2hKejBHcklvYjloWU1hbTlWaFhabkxxckRfUVhTRQ?oc=5"
+   "title": "What does Mothman do in Grow a Garden? - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iNkg1MjFzOFZxNHlvX2NZWld2Q3JPTGdYNW9tcDcyNmVyVURPN21IamRVNGRmSWJSbVJUZWlqRWpvTExMeWZKVTBmdUM1eHBMVGE3ZHpUY0YtZ0xweHlfNFZ3YWVuVzZmQlc0Zk5nWU93QQ?oc=5"
   },
   {
    "title": "Grow a Garden Ghostwood guide - Sportskeeda",
@@ -55,27 +55,11 @@
    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vR21pYUtjZmg5RWJRNFFyNWFqNUVmaXhvZmo3YXU0dmVWcW1pMWpMYjRGN0FtMjF4U1VieERuZkhvcnlwYkNNcE5PMUFIMFBFMjFzOUQxUDJhMEM0QlHSAWNBVV95cUxQRGhjR1psTkJQVmNRQklCZ2NKVFBlOFdBejJuVjJNaFNjSUxBV1dKbzFVY3dOdDAwTF9sWWNFdS05elV2bVVMcW1fZjFLX3cxZXoxR3p3Z3BWQ09HTDZ1QkpuR0U?oc=5"
   },
   {
-   "title": "When is Taco Tuesday in Steal a Brainrot? (November 2, 2026) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbGpoQk41U09wUDVoNEtJMXZIUnVtOWFOWnpqVHVOTzF1R0kwZ2tDTVQ0X09nSkQ3UlBBOTFMWW5yb2RiRUEyMm1KQ2g3Q0p6VEZwZFNnS21MeU1RVXpuSjh6VHNJQ21uQWNkaG5FRmF6OVRTTk5oQTdUVGNDZm1HZkpKRQ?oc=5"
-  },
-  {
    "title": "Be a Brainrot Codes (November 2026) - Beebom",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9zY2FRVzJnRWk4ME9fUTBMOUFhZDhmS2hsbFNrYm9oRThoNkE4VFdSMERFMk1KWTRGRVRlZXotZW1TRDNUSnZ3TWlGc3IxV2pF0gFWQVVfeXFMTlJxX0RuNVRqeFpTbzVSY0VGSkZzZkpZWFk4TVRBdFZBbnRGS2RLTmdVRWExdXMwdE9CNmZvdDRZOEVuT0ZYaTR6Wk1OMXctOU5mUVVwa1E?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "10-31 03:47",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "10-31 03:47",
-   "msg": "Metrik diperbarui: views=417 avg7=1049"
-  },
-  {
-   "t": "10-31 03:47",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "10-31 16:42",
    "msg": "Cek API key: VALID"
@@ -151,14 +135,21 @@
   {
    "t": "11-02 21:18",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-03 05:00",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-03 05:00",
+   "msg": "Metrik diperbarui: views=1703 avg7=1097"
+  },
+  {
+   "t": "11-03 05:00",
+   "msg": "OK: tidak ada sinyal (senyap)"
   }
  ],
  "messages": [
-  {
-   "t": "10-28 03:41",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "10-28 17:48",
    "text": "METRIK TURUN: Video '🔴 LIVE Ninu & Raka PART 4 | Prediksi Update Steal ' hanya 586 views (baseline 1035). Turun -43.4%  Laporan sudah kukirim ke Discord.",
@@ -213,10 +204,15 @@
    "t": "11-02 21:18",
    "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "11-03 05:00",
+   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+   "kind": "aman"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": true
+  "trend": false
  }
 }
