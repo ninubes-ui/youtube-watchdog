@@ -1,6 +1,6 @@
 {
- "ts": 1793766806,
- "rendered": "2026-11-04 04:33:26",
+ "ts": 1793819727,
+ "rendered": "2026-11-04 19:15:27",
  "source": "github-actions",
  "state": "ISTIRAHAT",
  "stateid": "AMAN",
@@ -9,12 +9,12 @@
  "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-04 04:33 UTC",
+ "last_run": "2026-11-04 19:15 UTC",
  "metrics": {
   "last_title": "🔴 AVATAR ROBLOX KAMU DINILAI NINU! Komen Username, Siapa Bisa Pecahin ",
-  "last_views": 1890,
-  "avg7": 1240,
-  "delta_pct": "+53.8%"
+  "last_views": 1880,
+  "avg7": 1239,
+  "delta_pct": "+51.6%"
  },
  "discord": {
   "ok": null,
@@ -35,10 +35,6 @@
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91NzVmVGFCZHBIbU40NUk1NjVBd1JxaDExSk1WWm42UHNjWkpDT0k3VlhVa3padm81XzVVWC1WTFl1dWdvYlBVdFQ0SEppQU9xODVPc2JJYTNEOWYwSThZYUNIYmZGQkZNdHhpeXZSWTFwV2tKUXl1V3NR?oc=5"
   },
   {
-   "title": "Complete Steal A Brainrot 2026 Halloween Event Guide - Pro Game Guides",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGYwRXZONXE0X00tTkdXbHA5N2lhN2V0VURDcGl6dEtDaVJ5M2VxdExJWW5sTmx2anZESTZueHVvR19WRV9LR3RyUWwxN2lqZzdSZUVQQ2xRWF8xb0JFTW96UUoyMHlzT2ZKUDJXSkg1T2hKejBHcklvYjloWU1hbTlWaFhabkxxckRfUVhTRQ?oc=5"
-  },
-  {
    "title": "When is Taco Tuesday in Steal a Brainrot? (November 2, 2026) - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbGpoQk41U09wUDVoNEtJMXZIUnVtOWFOWnpqVHVOTzF1R0kwZ2tDTVQ0X09nSkQ3UlBBOTFMWW5yb2RiRUEyMm1KQ2g3Q0p6VEZwZFNnS21MeU1RVXpuSjh6VHNJQ21uQWNkaG5FRmF6OVRTTk5oQTdUVGNDZm1HZkpKRQ?oc=5"
   },
@@ -49,29 +45,9 @@
   {
    "title": "Taco Tuesday Steal a Brainrot time in India (November 3, 2026) - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY0JPaF9PbDQ4RXRRZjB5WEdNdm9zRGdsRDNyd3gzUmR6R0ZONDNmOHNRN2tEQktUYUx5clEwam5rb1NNT1JJakl0ZGZxRjNDU2lYdS1BNkRDaEpjYXFsVEtiM3hESGtHS1QzYUNhcGtLemN4WXMycFBxdDNraFNHd2VPNDhUVlhtd3N3?oc=5"
-  },
-  {
-   "title": "Split or Steal Brainrot Codes (November 2026) - Beebom",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vR21pYUtjZmg5RWJRNFFyNWFqNUVmaXhvZmo3YXU0dmVWcW1pMWpMYjRGN0FtMjF4U1VieERuZkhvcnlwYkNNcE5PMUFIMFBFMjFzOUQxUDJhMEM0QlHSAWNBVV95cUxQRGhjR1psTkJQVmNRQklCZ2NKVFBlOFdBejJuVjJNaFNjSUxBV1dKbzFVY3dOdDAwTF9sWWNFdS05elV2bVVMcW1fZjFLX3cxZXoxR3p3Z3BWQ09HTDZ1QkpuR0U?oc=5"
-  },
-  {
-   "title": "Be a Brainrot Codes (November 2026) - Beebom",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9zY2FRVzJnRWk4ME9fUTBMOUFhZDhmS2hsbFNrYm9oRThoNkE4VFdSMERFMk1KWTRGRVRlZXotZW1TRDNUSnZ3TWlGc3IxV2pF?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-01 17:31",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-01 17:31",
-   "msg": "Metrik diperbarui: views=418 avg7=1050"
-  },
-  {
-   "t": "11-01 17:31",
-   "msg": "5 tren baru terdeteksi"
-  },
   {
    "t": "11-01 17:31",
    "msg": "Discord: terkirim"
@@ -147,14 +123,21 @@
   {
    "t": "11-04 04:33",
    "msg": "OK: tidak ada sinyal (senyap)"
+  },
+  {
+   "t": "11-04 19:15",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-04 19:15",
+   "msg": "Metrik diperbarui: views=1880 avg7=1239"
+  },
+  {
+   "t": "11-04 19:15",
+   "msg": "OK: tidak ada sinyal (senyap)"
   }
  ],
  "messages": [
-  {
-   "t": "10-29 17:56",
-   "text": "METRIK TURUN: Video '🔴 LIVE Ninu & Raka PART 4 | Prediksi Update Steal ' hanya 590 views (baseline 1081). Turun -45.4%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-30 04:03",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -207,6 +190,11 @@
   },
   {
    "t": "11-04 04:33",
+   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+   "kind": "aman"
+  },
+  {
+   "t": "11-04 19:15",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
    "kind": "aman"
   }
