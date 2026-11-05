@@ -1,20 +1,20 @@
 {
- "ts": 1793854125,
- "rendered": "2026-11-05 04:48:45",
+ "ts": 1793906660,
+ "rendered": "2026-11-05 19:24:20",
  "source": "github-actions",
  "state": "BEKERJA",
  "stateid": "KERJA",
  "status_text": "Agen sedang bekerja",
- "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "task": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 4 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-05 04:48 UTC",
+ "last_run": "2026-11-05 19:24 UTC",
  "metrics": {
   "last_title": "🔴 AVATAR ROBLOX KAMU DINILAI NINU! Komen Username, Siapa Bisa Pecahin ",
-  "last_views": 1880,
-  "avg7": 1239,
-  "delta_pct": "+51.7%"
+  "last_views": 1883,
+  "avg7": 1240,
+  "delta_pct": "+52.0%"
  },
  "discord": {
   "ok": true,
@@ -22,6 +22,22 @@
   "detail": "HTTP 200"
  },
  "trends": [
+  {
+   "title": "Angry Birds comes to Roblox with new Tower Defense game ahead of December movie premiere - GamesBeat",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVkFuak1rRzl3Q1FKaUtSelNDSGF0UDRSSnlxampFWUx2SnRLbXVtdzB2TWctbDZEa1NGa2ZPY2tMd2V3TnlrTmhNY3A4V09iZ1VHS096SVU3QUJpTVpERTBQbVZ6WFYtTGthZ3dwb21tdHpucUFuSXNuT095WWZObU5SYWc?oc=5"
+  },
+  {
+   "title": "Angry Birds swoops into Roblox ahead of the third animated movie - Pocket Tactics",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SUmlzMFFQZGE2RzI5VGhFRmViT0YzcGdVRWhMUjJfZ0VqaUxxaU41WDhZOGxCNUd6Umd1Y1I0LS0zM1EweXg1anVIanUxaVJiU1JXUW5zb0tZaVZmeEZ3dzVGTEh1Y3NMNTFnYXVKdw?oc=5"
+  },
+  {
+   "title": "Angry Birds Launching on Roblox for Angry Birds Tower Defense - Gamers Heroes",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMkUzSzJrd1p4NTVUZ2FDc2hhRUJ0bE1zcnRtd1JRU3YzQmpabGpPRG9valB2V1FpeFdfamN0U2tlcDRhX2RTYkdaWXo3ckxuUVNnNHREazlnSG8tTEJyR01fTmhLWXY1WlV4d3RaRjNLOHp2c1lzMEUzVUU3YWsxSXhQOGEtaG4zbzNWUnBkSjJwbDZiejU4Y2xEYkJ1c2tGckhvYzhR?oc=5"
+  },
+  {
+   "title": "Angry Birds Tower Defense Launches on Roblox Ahead of The Angry Birds Movie 3 - OtakuKart",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVFZURGRUTG1LNGhTR0RXbG9rdUhPOXI3ZG8waU9qblpJd0sxVjM5aF9RWWxrei1Ca1p0NDVIUkJ0di1OOEQwaHVmNlY5VFNXQjhINS0tVThobDhmS25ZUVR4QXVuZmk0SzNpYnNCUXBsVUtNQkZsMFhqRjJJXzVlY1FoZThPb0c0RFZOWkV4Y0RZb0ZjTVppUFE1SWx5dVFONmc?oc=5"
+  },
   {
    "title": "Roblox Smiles Codes (November 2026) - Beebom",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9IX3BEQXBvdGg0YlU2b3dQNkM5TUpXMzdHM1ZpRGRfNFNhRS1EY0hUc0E0U0R3SmxnazZPczB0YnhwMUFoeGdZZHd4eWJNMzFB?oc=5"
@@ -31,43 +47,11 @@
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91NzVmVGFCZHBIbU40NUk1NjVBd1JxaDExSk1WWm42UHNjWkpDT0k3VlhVa3padm81XzVVWC1WTFl1dWdvYlBVdFQ0SEppQU9xODVPc2JJYTNEOWYwSThZYUNIYmZGQkZNdHhpeXZSWTFwV2tKUXl1V3NR?oc=5"
   },
   {
-   "title": "Grow a Garden 2 codes (November 2026): Full list of GaG 2 codes and how to redeem - Radio Times",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54a0c3MzItTVB1Vmx2SnlOdXRJakg4NkdqNEM1UjNpMjFUdERUci1TNUpmMUphY3p2aFdabWpocHpyM0xhWk9ZX1gtYVd3OUVZREk2SGR5U29UM3UxTnZCaU5aUng2OWI3VmN2QnBnQVZ1YUtxc21La1BHam1vT1E?oc=5"
-  },
-  {
-   "title": "What does Mothman do in Grow a Garden? - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iNkg1MjFzOFZxNHlvX2NZWld2Q3JPTGdYNW9tcDcyNmVyVURPN21IamRVNGRmSWJSbVJUZWlqRWpvTExMeWZKVTBmdUM1eHBMVGE3ZHpUY0YtZ0xweHlfNFZ3YWVuVzZmQlc0Zk5nWU93QQ?oc=5"
-  },
-  {
-   "title": "When is Taco Tuesday in Steal a Brainrot? (November 2, 2026) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbGpoQk41U09wUDVoNEtJMXZIUnVtOWFOWnpqVHVOTzF1R0kwZ2tDTVQ0X09nSkQ3UlBBOTFMWW5yb2RiRUEyMm1KQ2g3Q0p6VEZwZFNnS21MeU1RVXpuSjh6VHNJQ21uQWNkaG5FRmF6OVRTTk5oQTdUVGNDZm1HZkpKRQ?oc=5"
-  },
-  {
-   "title": "Grow a Garden Ghostwood guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HRHhYbjdwb1g5STZkNGFYNDJBVTJsZVEtWDZGQ053M25xc1QyMHFLbmgwMWFPMTBjU2ZzV01pT1BTSFgyTi0yNFM0VWhLb3l6cHFrVGdLTVQ1V0pRaldIcG9STmxyZGdFMUZLRVJPekpWRnA2NHc?oc=5"
-  },
-  {
-   "title": "Taco Tuesday Steal a Brainrot time in India (November 3, 2026) - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY0JPaF9PbDQ4RXRRZjB5WEdNdm9zRGdsRDNyd3gzUmR6R0ZONDNmOHNRN2tEQktUYUx5clEwam5rb1NNT1JJakl0ZGZxRjNDU2lYdS1BNkRDaEpjYXFsVEtiM3hESGtHS1QzYUNhcGtLemN4WXMycFBxdDNraFNHd2VPNDhUVlhtd3N3?oc=5"
+   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-02 03:59",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "11-02 21:18",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-02 21:18",
-   "msg": "Metrik diperbarui: views=1736 avg7=1102"
-  },
-  {
-   "t": "11-02 21:18",
-   "msg": "4 tren baru terdeteksi"
-  },
   {
    "t": "11-02 21:18",
    "msg": "Discord: terkirim"
@@ -139,14 +123,25 @@
   {
    "t": "11-05 04:48",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-05 19:24",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-05 19:24",
+   "msg": "Metrik diperbarui: views=1883 avg7=1240"
+  },
+  {
+   "t": "11-05 19:24",
+   "msg": "4 tren baru terdeteksi"
+  },
+  {
+   "t": "11-05 19:24",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-30 17:38",
-   "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 418 views (baseline 1038). Turun -59.7%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "10-31 03:47",
    "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1051). Turun -60.3%  Laporan sudah kukirim ke Discord.",
@@ -200,6 +195,11 @@
   {
    "t": "11-05 04:48",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
+  },
+  {
+   "t": "11-05 19:24",
+   "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
   }
  ],
