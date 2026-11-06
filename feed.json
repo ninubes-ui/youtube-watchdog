@@ -1,6 +1,6 @@
 {
- "ts": 1793940530,
- "rendered": "2026-11-06 04:48:50",
+ "ts": 1793990852,
+ "rendered": "2026-11-06 18:47:32",
  "source": "github-actions",
  "state": "BEKERJA",
  "stateid": "KERJA",
@@ -9,7 +9,7 @@
  "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-06 04:48 UTC",
+ "last_run": "2026-11-06 18:47 UTC",
  "metrics": {
   "last_title": "🔴 AVATAR ROBLOX KAMU DINILAI NINU! Komen Username, Siapa Bisa Pecahin ",
   "last_views": 1883,
@@ -39,35 +39,23 @@
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVFZURGRUTG1LNGhTR0RXbG9rdUhPOXI3ZG8waU9qblpJd0sxVjM5aF9RWWxrei1Ca1p0NDVIUkJ0di1OOEQwaHVmNlY5VFNXQjhINS0tVThobDhmS25ZUVR4QXVuZmk0SzNpYnNCUXBsVUtNQkZsMFhqRjJJXzVlY1FoZThPb0c0RFZOWkV4Y0RZb0ZjTVppUFE1SWx5dVFONmc?oc=5"
   },
   {
-   "title": "Roblox Smiles Codes (November 2026) - Beebom",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9IX3BEQXBvdGg0YlU2b3dQNkM5TUpXMzdHM1ZpRGRfNFNhRS1EY0hUc0E0U0R3SmxnazZPczB0YnhwMUFoeGdZZHd4eWJNMzFB?oc=5"
-  },
-  {
    "title": "Steal A Brainrot codes (November 2026) - Dexerto",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hbTF4cTRZbGtaZ1Bud3J1TmhzLUhyMEMwa1NxTFh3XzY4Rk1QSXl4d3ExS18xejhaUVpZc0NkNlhVSmdiX3o5bi1mOFkzMERDYUExaTdxMC1samxuanhEM1FuczJEY2dnVER0QURBaw?oc=5"
   },
   {
+   "title": "Grow a Garden plant tier list - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16cEYxU3U3Y2tPeFJmZU9ZZjdTeXBiZFJjVFhBTDFfZHJHTXRGUkZPLU9tMzNLQW1CTm9DS1QwbktYMHNUbEVoNFlmNnFFQTd3bkExZGQxNlk5MGtfdzZwQTJXRlhKSjZzRDZETzh0V2dMVUltVkRmUg?oc=5"
+  },
+  {
    "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
+  },
+  {
+   "title": "Grow a Garden codes (October 2026) - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1RmprSXhfUVJVT19tVW44cWpiR2l6R3A1cGJwa3hqTHJHeU96QW5paVBBM0hTdGdCcG9XNDREMHhzT29EUEM3MWFMSHhDVUNjVnpmR2wwY0xXVW9ISlF3Wk0xaENJSE5hb2Y4?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-03 18:57",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-03 18:57",
-   "msg": "Metrik diperbarui: views=1809 avg7=1229"
-  },
-  {
-   "t": "11-03 18:57",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "11-03 18:57",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-04 04:33",
    "msg": "Cek API key: VALID"
@@ -139,14 +127,25 @@
   {
    "t": "11-06 04:48",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-06 18:47",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-06 18:47",
+   "msg": "Metrik diperbarui: views=1883 avg7=1240"
+  },
+  {
+   "t": "11-06 18:47",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-06 18:47",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "10-31 16:42",
-   "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 417 views (baseline 1049). Turun -60.2%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "11-01 03:56",
    "text": "METRIK TURUN: Video '🔴 LIVE MONSTER HUNTER OUTLANDERS! 🔥 Berburu Monste' hanya 418 views (baseline 1049). Turun -60.2%  Laporan sudah kukirim ke Discord.",
@@ -199,6 +198,11 @@
   },
   {
    "t": "11-06 04:48",
+   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
+  },
+  {
+   "t": "11-06 18:47",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
   }
