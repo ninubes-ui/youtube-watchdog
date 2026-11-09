@@ -1,15 +1,15 @@
 {
- "ts": 1794159030,
- "rendered": "2026-11-08 17:30:30",
+ "ts": 1794197790,
+ "rendered": "2026-11-09 04:16:30",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 2 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "ISTIRAHAT",
+ "stateid": "AMAN",
+ "status_text": "Agen sedang istirahat",
+ "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+ "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-08 17:30 UTC",
+ "last_run": "2026-11-09 04:16 UTC",
  "metrics": {
   "last_title": "🔴 AVATAR ROBLOX KAMU DINILAI NINU! Komen Username, Siapa Bisa Pecahin ",
   "last_views": 1886,
@@ -17,9 +17,9 @@
   "delta_pct": "+52.0%"
  },
  "discord": {
-  "ok": true,
+  "ok": null,
   "channel": "#general",
-  "detail": "HTTP 200"
+  "detail": "-"
  },
  "trends": [
   {
@@ -40,18 +40,6 @@
   }
  ],
  "events": [
-  {
-   "t": "11-06 04:48",
-   "msg": "Metrik diperbarui: views=1883 avg7=1240"
-  },
-  {
-   "t": "11-06 04:48",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "11-06 04:48",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-06 18:47",
    "msg": "Cek API key: VALID"
@@ -127,14 +115,21 @@
   {
    "t": "11-08 17:30",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-09 04:16",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-09 04:16",
+   "msg": "Metrik diperbarui: views=1886 avg7=1241"
+  },
+  {
+   "t": "11-09 04:16",
+   "msg": "OK: tidak ada sinyal (senyap)"
   }
  ],
  "messages": [
-  {
-   "t": "11-03 05:00",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "11-03 18:57",
    "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -189,10 +184,15 @@
    "t": "11-08 17:30",
    "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "11-09 04:16",
+   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+   "kind": "aman"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": true
+  "trend": false
  }
 }
