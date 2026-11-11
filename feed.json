@@ -1,15 +1,15 @@
 {
- "ts": 1794370821,
- "rendered": "2026-11-11 04:20:21",
+ "ts": 1794424223,
+ "rendered": "2026-11-11 19:10:23",
  "source": "github-actions",
  "state": "BEKERJA",
  "stateid": "KERJA",
  "status_text": "Agen sedang bekerja",
- "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "task": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 2 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-11 04:20 UTC",
+ "last_run": "2026-11-11 19:10 UTC",
  "metrics": {
   "last_title": "🔴 AVATAR ROBLOX KAMU DINILAI NINU! Komen Username, Siapa Bisa Pecahin ",
   "last_views": 1886,
@@ -27,36 +27,32 @@
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlVkktOU5Pd0lBc05tQm1NVGN0RjBsSU03VVZua2tHYUZMRVpNaGJScWxwZmlXWHdmUmg1aTlnVjRrVjd4ZXZLekRhMndxU2pBM3VLaUxoeTIwQ0JiSDdoUzdmYlN5am02SHkwZnJyaE41VHA2RkdBWFBRcw?oc=5"
   },
   {
-   "title": "Grow a Garden Pharaoh's Eye guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IdjdxUWVBaEFqcTZ4bGJGbGtPeGdDSG1XS2lhU2FCUGt1T2t3MU9BUDdLTHphNWZYa3NrZG1MSVZTYzMtbmwxa0t4dS1VaFI4V0YxSHd4TUt6b1hGdERBLVlSczZfUGpjMW5uVUNuNlBxRVpyT1h2alBySQ?oc=5"
-  },
-  {
    "title": "Grow a Garden Ancient Sphinx pet guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaml5ZEN6Zk9pMVhVT1BLeDhJT0NLR3hKenhlNllxbmRlQ0JyS0ZkYzAzdzJsajdRTkJZWlJXR3VUb1RYNHVUWEJPNHR1RWNzeGFPSG9CNXNWdEZIb3RzNFozRU4zMUJ2d3dySzlqYy1HYlA0akRxb3hHQWxYZ2pYMGZR?oc=5"
   },
   {
+   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
+  },
+  {
+   "title": "Grow a Garden Pharaoh's Eye guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IdjdxUWVBaEFqcTZ4bGJGbGtPeGdDSG1XS2lhU2FCUGt1T2t3MU9BUDdLTHphNWZYa3NrZG1MSVZTYzMtbmwxa0t4dS1VaFI4V0YxSHd4TUt6b1hGdERBLVlSczZfUGpjMW5uVUNuNlBxRVpyT1h2alBySQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden codes (November 2026) - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1RmprSXhfUVJVT19tVW44cWpiR2l6R3A1cGJwa3hqTHJHeU96QW5paVBBM0hTdGdCcG9XNDREMHhzT29EUEM3MWFMSHhDVUNjVnpmR2wwY0xXVW9ISlF3Wk0xaENJSE5hb2Y4?oc=5"
+  },
+  {
    "title": "Grow a Garden Hiero Scorpion pet guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdUxnNmd2VWwzcUh3Y2tkRVFSZHBkOEw3TllFWUhxZ19vMnRCeTBIelhqaEE3MkpsZEpqS1RWLVNVWUtaVmdjbGYxcXpJdmlKUDJPVDZaN0s5OVBQM1RYZkh4ekJSdVJ3SG0yM3JjUjA0WDJhWE1hbTNLcjFZazFYd21B?oc=5"
+  },
+  {
+   "title": "Fortnite Steal the Brainrot codes (November 2026) - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmJ6S1BDOU9SMHh1TS0tdHJZb3UyLU5ueHZjQlpXTFF6WmI3clRPT3F6d3VlbHJhWkota0VlTXRVSFdvYjlnNVNlbHpuTTZPWmxITV9jdnBheF9mNGhMeF9nRWN4RHJjS2psdXVFT2NDeFMzMlFJblNzQlR2MHVnLQ?oc=5"
   }
  ],
  "events": [
   {
-   "t": "11-08 17:30",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-08 17:30",
-   "msg": "Metrik diperbarui: views=1886 avg7=1241"
-  },
-  {
-   "t": "11-08 17:30",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "11-08 17:30",
-   "msg": "Discord: terkirim"
-  },
-  {
    "t": "11-09 04:16",
    "msg": "Cek API key: VALID"
   },
@@ -126,15 +122,26 @@
   },
   {
    "t": "11-11 04:20",
+   "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-11 19:10",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-11 19:10",
+   "msg": "Metrik diperbarui: views=1886 avg7=1241"
+  },
+  {
+   "t": "11-11 19:10",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "11-11 19:10",
    "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-05 19:24",
-   "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-06 04:48",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -188,6 +195,11 @@
   {
    "t": "11-11 04:20",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
+  },
+  {
+   "t": "11-11 19:10",
+   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
   }
  ],
