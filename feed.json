@@ -1,6 +1,6 @@
 {
- "ts": 1794338012,
- "rendered": "2026-11-10 19:13:32",
+ "ts": 1794370821,
+ "rendered": "2026-11-11 04:20:21",
  "source": "github-actions",
  "state": "BEKERJA",
  "stateid": "KERJA",
@@ -9,7 +9,7 @@
  "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-10 19:13 UTC",
+ "last_run": "2026-11-11 04:20 UTC",
  "metrics": {
   "last_title": "🔴 AVATAR ROBLOX KAMU DINILAI NINU! Komen Username, Siapa Bisa Pecahin ",
   "last_views": 1886,
@@ -23,6 +23,10 @@
  },
  "trends": [
   {
+   "title": "King Legacy Trading Value List (November 2026) – Roblox - Pro Game Guides",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlVkktOU5Pd0lBc05tQm1NVGN0RjBsSU03VVZua2tHYUZMRVpNaGJScWxwZmlXWHdmUmg1aTlnVjRrVjd4ZXZLekRhMndxU2pBM3VLaUxoeTIwQ0JiSDdoUzdmYlN5am02SHkwZnJyaE41VHA2RkdBWFBRcw?oc=5"
+  },
+  {
    "title": "Grow a Garden Pharaoh's Eye guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IdjdxUWVBaEFqcTZ4bGJGbGtPeGdDSG1XS2lhU2FCUGt1T2t3MU9BUDdLTHphNWZYa3NrZG1MSVZTYzMtbmwxa0t4dS1VaFI4V0YxSHd4TUt6b1hGdERBLVlSczZfUGpjMW5uVUNuNlBxRVpyT1h2alBySQ?oc=5"
   },
@@ -33,30 +37,10 @@
   {
    "title": "Grow a Garden Hiero Scorpion pet guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdUxnNmd2VWwzcUh3Y2tkRVFSZHBkOEw3TllFWUhxZ19vMnRCeTBIelhqaEE3MkpsZEpqS1RWLVNVWUtaVmdjbGYxcXpJdmlKUDJPVDZaN0s5OVBQM1RYZkh4ekJSdVJ3SG0yM3JjUjA0WDJhWE1hbTNLcjFZazFYd21B?oc=5"
-  },
-  {
-   "title": "Grow a Garden Anubis Part 1 update patch notes - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjRKM3lDMFN2SERBX29ORkJyX1lIZ3pFa1U2Z3gyR2ZDX2xGQi1YOVpkZ2hMOXBndzE5S3ZDWVBXV0V3MVBkRWwxZ2dhVkRZOW9KQmhiMWhzaEh3NlZiRG4yZ205dVI3Q2hUQzRDRHZyTUxqVnFkRDhmR3ZKb0NZSG8yMjMzRzJyM1JoZw?oc=5"
   }
  ],
  "events": [
   {
-   "t": "11-08 03:59",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-08 03:59",
-   "msg": "Metrik diperbarui: views=1885 avg7=1241"
-  },
-  {
-   "t": "11-08 03:59",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "11-08 03:59",
-   "msg": "Discord: terkirim"
-  },
-  {
    "t": "11-08 17:30",
    "msg": "Cek API key: VALID"
   },
@@ -126,15 +110,26 @@
   },
   {
    "t": "11-10 19:13",
+   "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-11 04:20",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-11 04:20",
+   "msg": "Metrik diperbarui: views=1886 avg7=1241"
+  },
+  {
+   "t": "11-11 04:20",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-11 04:20",
    "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-05 04:48",
-   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-05 19:24",
    "text": "Ada 4 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -187,6 +182,11 @@
   },
   {
    "t": "11-10 19:13",
+   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
+  },
+  {
+   "t": "11-11 04:20",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
   }
