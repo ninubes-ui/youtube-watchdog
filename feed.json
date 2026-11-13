@@ -1,25 +1,25 @@
 {
- "ts": 1794511629,
- "rendered": "2026-11-12 19:27:09",
+ "ts": 1794545080,
+ "rendered": "2026-11-13 04:44:40",
  "source": "github-actions",
- "state": "ISTIRAHAT",
- "stateid": "AMAN",
- "status_text": "Agen sedang istirahat",
- "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
- "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
+ "state": "SIBUK",
+ "stateid": "ALERT",
+ "status_text": "Agen sedang sibuk",
+ "task": "METRIK TURUN: Video 'STOP! \"HP Kami Ada di Rumah Anda\" — Jangan Buka Pa' hanya 1498 views (baseline 4170). Turun -64.1%  Laporan sudah kukirim ke Discord.",
+ "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-12 19:27 UTC",
+ "last_run": "2026-11-13 04:44 UTC",
  "metrics": {
-  "last_title": "Ipin Meninggal Dunia? 😢 Ternyata Begini Faktanya…",
-  "last_views": 1522,
-  "avg7": 4170,
-  "delta_pct": "+48.1%"
+  "last_title": "STOP! \"HP Kami Ada di Rumah Anda\" — Jangan Buka Pagar! 😱 #modus #viral",
+  "last_views": 1498,
+  "avg7": 5156,
+  "delta_pct": "-64.1%"
  },
  "discord": {
-  "ok": null,
+  "ok": true,
   "channel": "#general",
-  "detail": "-"
+  "detail": "HTTP 200"
  },
  "trends": [
   {
@@ -31,43 +31,15 @@
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hbUJ6N0k2NkFaaUxsTktoOGVKV0g3Z1E2UVJzZmhXVEw4SG1kM1lXaUFQUmdfS1Z4UHdoeVY5bDZlSEJMNG82cjlkM2p1NE9sd3BoMWpMZEZkeS1uWW9OUWQ3bG5LYjhoVGUzcXE5ZkNVVUFGbWNBRDhLNnE?oc=5"
   },
   {
-   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
-  },
-  {
-   "title": "Grow a Garden Ancient Sphinx pet guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaml5ZEN6Zk9pMVhVT1BLeDhJT0NLR3hKenhlNllxbmRlQ0JyS0ZkYzAzdzJsajdRTkJZWlJXR3VUb1RYNHVUWEJPNHR1RWNzeGFPSG9CNXNWdEZIb3RzNFozRU4zMUJ2d3dySzlqYy1HYlA0akRxb3hHQWxYZ2pYMGZR?oc=5"
+   "title": "All Berry plants in Roblox’s Grow a Garden & how to get them - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSmJ5UW9aY2l5eUlIUlBuNXB0S0wtU0tMS2VCR0FSY3NWWnFzU2g2YTJaZFZzV0RKNzhMX053cGpiVWFWeHZaNVNlYmlvYmtDUlFCOE00N3RNa05scGlXb0YwLUdPbk0zLTZnVXB2cFdrTGNIeG14WmN3Z0l0OXdjbDlMeUV5TXVpTUNlYVNPZF9VOUtuVURfNU43cVB1Zw?oc=5"
   },
   {
    "title": "Grow a Garden Pharaoh's Eye guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IdjdxUWVBaEFqcTZ4bGJGbGtPeGdDSG1XS2lhU2FCUGt1T2t3MU9BUDdLTHphNWZYa3NrZG1MSVZTYzMtbmwxa0t4dS1VaFI4V0YxSHd4TUt6b1hGdERBLVlSczZfUGpjMW5uVUNuNlBxRVpyT1h2alBySQ?oc=5"
-  },
-  {
-   "title": "Fortnite Steal the Brainrot codes (November 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmJ6S1BDOU9SMHh1TS0tdHJZb3UyLU5ueHZjQlpXTFF6WmI3clRPT3F6d3VlbHJhWkota0VlTXRVSFdvYjlnNVNlbHpuTTZPWmxITV9jdnBheF9mNGhMeF9nRWN4RHJjS2psdXVFT2NDeFMzMlFJblNzQlR2MHVnLQ?oc=5"
-  },
-  {
-   "title": "Grow a Garden Hiero Scorpion pet guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdUxnNmd2VWwzcUh3Y2tkRVFSZHBkOEw3TllFWUhxZ19vMnRCeTBIelhqaEE3MkpsZEpqS1RWLVNVWUtaVmdjbGYxcXpJdmlKUDJPVDZaN0s5OVBQM1RYZkh4ekJSdVJ3SG0yM3JjUjA0WDJhWE1hbTNLcjFZazFYd21B?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-10 05:42",
-   "msg": "Metrik diperbarui: views=1886 avg7=1241"
-  },
-  {
-   "t": "11-10 05:42",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "11-10 05:42",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "11-10 19:13",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "11-10 19:13",
    "msg": "Metrik diperbarui: views=1886 avg7=1241"
@@ -139,14 +111,25 @@
   {
    "t": "11-12 19:27",
    "msg": "OK: tidak ada sinyal (senyap)"
+  },
+  {
+   "t": "11-13 04:44",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-13 04:44",
+   "msg": "Metrik diperbarui: views=1498 avg7=5156"
+  },
+  {
+   "t": "11-13 04:44",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-13 04:44",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-07 04:18",
-   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-07 17:19",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
@@ -201,10 +184,15 @@
    "t": "11-12 19:27",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
    "kind": "aman"
+  },
+  {
+   "t": "11-13 04:44",
+   "text": "METRIK TURUN: Video 'STOP! \"HP Kami Ada di Rumah Anda\" — Jangan Buka Pa' hanya 1498 views (baseline 4170). Turun -64.1%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
-  "metric": false,
-  "trend": false
+  "metric": true,
+  "trend": true
  }
 }
