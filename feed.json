@@ -1,20 +1,20 @@
 {
- "ts": 1794545080,
- "rendered": "2026-11-13 04:44:40",
+ "ts": 1794596780,
+ "rendered": "2026-11-13 19:06:20",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'STOP! \"HP Kami Ada di Rumah Anda\" — Jangan Buka Pa' hanya 1498 views (baseline 4170). Turun -64.1%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Gibran Mundur, Terus Gimana? Ini Aturannya!' hanya 680 views (baseline 5156). Turun -86.8%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-13 04:44 UTC",
+ "last_run": "2026-11-13 19:06 UTC",
  "metrics": {
-  "last_title": "STOP! \"HP Kami Ada di Rumah Anda\" — Jangan Buka Pagar! 😱 #modus #viral",
-  "last_views": 1498,
-  "avg7": 5156,
-  "delta_pct": "-64.1%"
+  "last_title": "Gibran Mundur, Terus Gimana? Ini Aturannya!",
+  "last_views": 680,
+  "avg7": 7132,
+  "delta_pct": "-86.8%"
  },
  "discord": {
   "ok": true,
@@ -35,27 +35,11 @@
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSmJ5UW9aY2l5eUlIUlBuNXB0S0wtU0tMS2VCR0FSY3NWWnFzU2g2YTJaZFZzV0RKNzhMX053cGpiVWFWeHZaNVNlYmlvYmtDUlFCOE00N3RNa05scGlXb0YwLUdPbk0zLTZnVXB2cFdrTGNIeG14WmN3Z0l0OXdjbDlMeUV5TXVpTUNlYVNPZF9VOUtuVURfNU43cVB1Zw?oc=5"
   },
   {
-   "title": "Grow a Garden Pharaoh's Eye guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IdjdxUWVBaEFqcTZ4bGJGbGtPeGdDSG1XS2lhU2FCUGt1T2t3MU9BUDdLTHphNWZYa3NrZG1MSVZTYzMtbmwxa0t4dS1VaFI4V0YxSHd4TUt6b1hGdERBLVlSczZfUGpjMW5uVUNuNlBxRVpyT1h2alBySQ?oc=5"
+   "title": "Steal the Brainrot Fortnite Codes (November 2026) - Beebom",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yb1E5REE1YlN1WHdPcTVFSjVCZHlUX2dGOVZPcmJSRDZsZThxLXRkbV8wUmZYLWR5cENBT1daOTVLbmVNckZfVkptR3R3emx5NVpRZEloNVRnOENucU5FZDc0OA?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-10 19:13",
-   "msg": "Metrik diperbarui: views=1886 avg7=1241"
-  },
-  {
-   "t": "11-10 19:13",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "11-10 19:13",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "11-11 04:20",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "11-11 04:20",
    "msg": "Metrik diperbarui: views=1886 avg7=1241"
@@ -127,14 +111,25 @@
   {
    "t": "11-13 04:44",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-13 19:06",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-13 19:06",
+   "msg": "Metrik diperbarui: views=680 avg7=7132"
+  },
+  {
+   "t": "11-13 19:06",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-13 19:06",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-07 17:19",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "11-08 03:59",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -188,6 +183,11 @@
   {
    "t": "11-13 04:44",
    "text": "METRIK TURUN: Video 'STOP! \"HP Kami Ada di Rumah Anda\" — Jangan Buka Pa' hanya 1498 views (baseline 4170). Turun -64.1%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "11-13 19:06",
+   "text": "METRIK TURUN: Video 'Gibran Mundur, Terus Gimana? Ini Aturannya!' hanya 680 views (baseline 5156). Turun -86.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
