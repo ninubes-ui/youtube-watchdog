@@ -1,44 +1,41 @@
 {
- "ts": 1794631222,
- "rendered": "2026-11-14 04:40:22",
+ "ts": 1794677734,
+ "rendered": "2026-11-14 17:35:34",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Gibran Mundur, Terus Gimana? Ini Aturannya!' hanya 688 views (baseline 7132). Turun -90.4%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Full video cek profil #animasi #plotwist' hanya 512 views (baseline 7626). Turun -93.3%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-14 04:40 UTC",
+ "last_run": "2026-11-14 17:35 UTC",
  "metrics": {
-  "last_title": "Gibran Mundur, Terus Gimana? Ini Aturannya!",
-  "last_views": 688,
-  "avg7": 7626,
-  "delta_pct": "-90.4%"
+  "last_title": "Full video cek profil #animasi #plotwist",
+  "last_views": 512,
+  "avg7": 5573,
+  "delta_pct": "-93.3%"
  },
  "discord": {
   "ok": true,
   "channel": "#general",
   "detail": "HTTP 200"
  },
- "trends": [],
+ "trends": [
+  {
+   "title": "The Game Awards 2026 Will Stream on Roblox for the First Time - Mezha.net",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oNUlKeDF1YTFueVAtNVR3SGpteFdRZm5pN3l2MTJnZXZXSVprUU03NjBxa25LaktYSmFwenY2VnhkLW5aME02ZERaZ0ozalJsYnB3cXlPSU1UendhcE5CdXE1VUxfOFgxekhhaEVYVkZqWlI0eXNvUElYSkZJMnM?oc=5"
+  },
+  {
+   "title": "Grow a Garden Anubis Bramble guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hbUJ6N0k2NkFaaUxsTktoOGVKV0g3Z1E2UVJzZmhXVEw4SG1kM1lXaUFQUmdfS1Z4UHdoeVY5bDZlSEJMNG82cjlkM2p1NE9sd3BoMWpMZEZkeS1uWW9OUWQ3bG5LYjhoVGUzcXE5ZkNVVUFGbWNBRDhLNnE?oc=5"
+  },
+  {
+   "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
+  }
+ ],
  "events": [
-  {
-   "t": "11-11 19:10",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-11 19:10",
-   "msg": "Metrik diperbarui: views=1886 avg7=1241"
-  },
-  {
-   "t": "11-11 19:10",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "11-11 19:10",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-12 05:28",
    "msg": "Cek API key: VALID"
@@ -110,14 +107,25 @@
   {
    "t": "11-14 04:40",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-14 17:35",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-14 17:35",
+   "msg": "Metrik diperbarui: views=512 avg7=5573"
+  },
+  {
+   "t": "11-14 17:35",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-14 17:35",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-08 17:30",
-   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-09 04:16",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
@@ -172,10 +180,15 @@
    "t": "11-14 04:40",
    "text": "METRIK TURUN: Video 'Gibran Mundur, Terus Gimana? Ini Aturannya!' hanya 688 views (baseline 7132). Turun -90.4%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "11-14 17:35",
+   "text": "METRIK TURUN: Video 'Full video cek profil #animasi #plotwist' hanya 512 views (baseline 7626). Turun -93.3%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": false
+  "trend": true
  }
 }
