@@ -1,20 +1,20 @@
 {
- "ts": 1794677734,
- "rendered": "2026-11-14 17:35:34",
+ "ts": 1794716967,
+ "rendered": "2026-11-15 04:29:27",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Full video cek profil #animasi #plotwist' hanya 512 views (baseline 7626). Turun -93.3%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Pernah Ngerasa Cuma Lo yang Beneran Hidup? 🥀' hanya 2017 views (baseline 5573). Turun -63.8%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-14 17:35 UTC",
+ "last_run": "2026-11-15 04:29 UTC",
  "metrics": {
-  "last_title": "Full video cek profil #animasi #plotwist",
-  "last_views": 512,
-  "avg7": 5573,
-  "delta_pct": "-93.3%"
+  "last_title": "Pernah Ngerasa Cuma Lo yang Beneran Hidup? 🥀",
+  "last_views": 2017,
+  "avg7": 3654,
+  "delta_pct": "-63.8%"
  },
  "discord": {
   "ok": true,
@@ -27,31 +27,11 @@
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oNUlKeDF1YTFueVAtNVR3SGpteFdRZm5pN3l2MTJnZXZXSVprUU03NjBxa25LaktYSmFwenY2VnhkLW5aME02ZERaZ0ozalJsYnB3cXlPSU1UendhcE5CdXE1VUxfOFgxekhhaEVYVkZqWlI0eXNvUElYSkZJMnM?oc=5"
   },
   {
-   "title": "Grow a Garden Anubis Bramble guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hbUJ6N0k2NkFaaUxsTktoOGVKV0g3Z1E2UVJzZmhXVEw4SG1kM1lXaUFQUmdfS1Z4UHdoeVY5bDZlSEJMNG82cjlkM2p1NE9sd3BoMWpMZEZkeS1uWW9OUWQ3bG5LYjhoVGUzcXE5ZkNVVUFGbWNBRDhLNnE?oc=5"
-  },
-  {
-   "title": "How to find Steal a Brainrot 67 & drop rate - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVlTajlIVmtQeDZfVExMcWpGeWk2RWJVMkpSaUdDZnJyLWdrYzhzakp0eGpuOWZVN04wbnI0TjlncUh2ZmtmakljXzZRM3lJVWhTWlctZTA0NFBSUmt5YlNlUDNsV3J6RmFUS0FpTE9TdGlrSmhwazRNV1R6TlJ5S0E0T2NyMmpE?oc=5"
+   "title": "Grow a Garden Anubis Part 2 update patch notes - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMDRFcHpOeWl5V2EwdTNSS21yYS1tMjVudlBQMFhBbVpiTkFJWENpeDBPaFNiWG9yMGR6UUw4QmNycEdvSXl5NDdKZWZVYVR2SjkxQjdMSm4wUmVQZkZfNGN6UUY1VTB2WXhDUzRKWG9VakU5QmVoSThzanZodnU3SV9qbUdGTXA0amEzSQ?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-12 05:28",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-12 05:28",
-   "msg": "Metrik diperbarui: views=0 avg7=1028"
-  },
-  {
-   "t": "11-12 05:28",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "11-12 05:28",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-12 19:27",
    "msg": "Cek API key: VALID"
@@ -123,14 +103,25 @@
   {
    "t": "11-14 17:35",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-15 04:29",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-15 04:29",
+   "msg": "Metrik diperbarui: views=2017 avg7=3654"
+  },
+  {
+   "t": "11-15 04:29",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-15 04:29",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-09 04:16",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "11-09 21:51",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
@@ -184,6 +175,11 @@
   {
    "t": "11-14 17:35",
    "text": "METRIK TURUN: Video 'Full video cek profil #animasi #plotwist' hanya 512 views (baseline 7626). Turun -93.3%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "11-15 04:29",
+   "text": "METRIK TURUN: Video 'Pernah Ngerasa Cuma Lo yang Beneran Hidup? 🥀' hanya 2017 views (baseline 5573). Turun -63.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
