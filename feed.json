@@ -1,53 +1,33 @@
 {
- "ts": 1794803195,
- "rendered": "2026-11-16 04:26:35",
+ "ts": 1794864776,
+ "rendered": "2026-11-16 21:32:56",
  "source": "github-actions",
- "state": "ISTIRAHAT",
- "stateid": "AMAN",
- "status_text": "Agen sedang istirahat",
- "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
- "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
+ "state": "SIBUK",
+ "stateid": "ALERT",
+ "status_text": "Agen sedang sibuk",
+ "task": "METRIK TURUN: Video 'Tulis déjà vu paling aneh yang pernah kamu alami 👇' hanya 1592 views (baseline 4411). Turun -63.9%  Laporan sudah kukirim ke Discord.",
+ "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-16 04:26 UTC",
+ "last_run": "2026-11-16 21:32 UTC",
  "metrics": {
-  "last_title": "Pernah Ngerasa Cuma Lo yang Beneran Hidup? 🥀",
-  "last_views": 3455,
-  "avg7": 4411,
-  "delta_pct": "-21.0%"
+  "last_title": "Tulis déjà vu paling aneh yang pernah kamu alami 👇",
+  "last_views": 1592,
+  "avg7": 3603,
+  "delta_pct": "-63.9%"
  },
  "discord": {
-  "ok": null,
+  "ok": true,
   "channel": "#general",
-  "detail": "-"
+  "detail": "HTTP 200"
  },
  "trends": [
   {
-   "title": "Grow a Garden Anubis Part 2 update patch notes - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMDRFcHpOeWl5V2EwdTNSS21yYS1tMjVudlBQMFhBbVpiTkFJWENpeDBPaFNiWG9yMGR6UUw4QmNycEdvSXl5NDdKZWZVYVR2SjkxQjdMSm4wUmVQZkZfNGN6UUY1VTB2WXhDUzRKWG9VakU5QmVoSThzanZodnU3SV9qbUdGTXA0amEzSQ?oc=5"
-  },
-  {
-   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
+   "title": "Survive a Psycho Codes in Roblox for November 2026 - games.gg",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMDJrYVBpa1lCQ0owbHd1V0ZoZHEyVHU4N3ZqdG5PUHhQcG9XS0RGN1Vmbk9vMjVqTlo2OXNlYjQ3cG5MQ19nM0hHQlBEcE0wMURDSm5GdEVRUGt3SndDUDBENGRwRGFNcG83dmhQckRyYWc1ZzI0QjhjUzJadWcycg?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-13 19:06",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-13 19:06",
-   "msg": "Metrik diperbarui: views=680 avg7=7132"
-  },
-  {
-   "t": "11-13 19:06",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "11-13 19:06",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-14 04:40",
    "msg": "Cek API key: VALID"
@@ -119,14 +99,25 @@
   {
    "t": "11-16 04:26",
    "msg": "OK: tidak ada sinyal (senyap)"
+  },
+  {
+   "t": "11-16 21:32",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-16 21:32",
+   "msg": "Metrik diperbarui: views=1592 avg7=3603"
+  },
+  {
+   "t": "11-16 21:32",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-16 21:32",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-10 19:13",
-   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-11 04:20",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -181,10 +172,15 @@
    "t": "11-16 04:26",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
    "kind": "aman"
+  },
+  {
+   "t": "11-16 21:32",
+   "text": "METRIK TURUN: Video 'Tulis déjà vu paling aneh yang pernah kamu alami 👇' hanya 1592 views (baseline 4411). Turun -63.9%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
-  "metric": false,
-  "trend": false
+  "metric": true,
+  "trend": true
  }
 }
