@@ -1,53 +1,37 @@
 {
- "ts": 1794767087,
- "rendered": "2026-11-15 18:24:47",
+ "ts": 1794803195,
+ "rendered": "2026-11-16 04:26:35",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "ISTIRAHAT",
+ "stateid": "AMAN",
+ "status_text": "Agen sedang istirahat",
+ "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+ "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-15 18:24 UTC",
+ "last_run": "2026-11-16 04:26 UTC",
  "metrics": {
   "last_title": "Pernah Ngerasa Cuma Lo yang Beneran Hidup? 🥀",
-  "last_views": 3327,
-  "avg7": 4373,
-  "delta_pct": "-8.9%"
+  "last_views": 3455,
+  "avg7": 4411,
+  "delta_pct": "-21.0%"
  },
  "discord": {
-  "ok": true,
+  "ok": null,
   "channel": "#general",
-  "detail": "HTTP 200"
+  "detail": "-"
  },
  "trends": [
   {
-   "title": "The Game Awards 2026 Will Stream on Roblox for the First Time - Mezha.net",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oNUlKeDF1YTFueVAtNVR3SGpteFdRZm5pN3l2MTJnZXZXSVprUU03NjBxa25LaktYSmFwenY2VnhkLW5aME02ZERaZ0ozalJsYnB3cXlPSU1UendhcE5CdXE1VUxfOFgxekhhaEVYVkZqWlI0eXNvUElYSkZJMnM?oc=5"
-  },
-  {
-   "title": "Food Wars Roblox codes (November 2026) - GGRecon",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84NjR4NDMwXzZKT3lZRW1xM0E5QVVqVXlkQnhJMkxrTmI5ZGtaVFc4djdfOHhRbUlFa1lQdXQ3Skh6b1BNQnoyUXdLQ2ZyanI3OWswWVo3dnJid09KSUg4ei1LRG9tRzNnQVBOSFJiS0hMamZJZzNMdW9UZkQxeWs?oc=5"
-  },
-  {
    "title": "Grow a Garden Anubis Part 2 update patch notes - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMDRFcHpOeWl5V2EwdTNSS21yYS1tMjVudlBQMFhBbVpiTkFJWENpeDBPaFNiWG9yMGR6UUw4QmNycEdvSXl5NDdKZWZVYVR2SjkxQjdMSm4wUmVQZkZfNGN6UUY1VTB2WXhDUzRKWG9VakU5QmVoSThzanZodnU3SV9qbUdGTXA0amEzSQ?oc=5"
+  },
+  {
+   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-13 04:44",
-   "msg": "Metrik diperbarui: views=1498 avg7=5156"
-  },
-  {
-   "t": "11-13 04:44",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "11-13 04:44",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-13 19:06",
    "msg": "Cek API key: VALID"
@@ -123,14 +107,21 @@
   {
    "t": "11-15 18:24",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-16 04:26",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-16 04:26",
+   "msg": "Metrik diperbarui: views=3455 avg7=4411"
+  },
+  {
+   "t": "11-16 04:26",
+   "msg": "OK: tidak ada sinyal (senyap)"
   }
  ],
  "messages": [
-  {
-   "t": "11-10 05:42",
-   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-10 19:13",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -185,10 +176,15 @@
    "t": "11-15 18:24",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "11-16 04:26",
+   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
+   "kind": "aman"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": true
+  "trend": false
  }
 }
