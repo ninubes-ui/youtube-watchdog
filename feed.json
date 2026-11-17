@@ -1,20 +1,20 @@
 {
- "ts": 1794864776,
- "rendered": "2026-11-16 21:32:56",
+ "ts": 1794895940,
+ "rendered": "2026-11-17 06:12:20",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Tulis déjà vu paling aneh yang pernah kamu alami 👇' hanya 1592 views (baseline 4411). Turun -63.9%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Tulis déjà vu paling aneh yang pernah kamu alami 👇' hanya 1593 views (baseline 3603). Turun -55.8%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-16 21:32 UTC",
+ "last_run": "2026-11-17 06:12 UTC",
  "metrics": {
   "last_title": "Tulis déjà vu paling aneh yang pernah kamu alami 👇",
-  "last_views": 1592,
-  "avg7": 3603,
-  "delta_pct": "-63.9%"
+  "last_views": 1593,
+  "avg7": 3605,
+  "delta_pct": "-55.8%"
  },
  "discord": {
   "ok": true,
@@ -25,25 +25,29 @@
   {
    "title": "Survive a Psycho Codes in Roblox for November 2026 - games.gg",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMDJrYVBpa1lCQ0owbHd1V0ZoZHEyVHU4N3ZqdG5PUHhQcG9XS0RGN1Vmbk9vMjVqTlo2OXNlYjQ3cG5MQ19nM0hHQlBEcE0wMURDSm5GdEVRUGt3SndDUDBENGRwRGFNcG83dmhQckRyYWc1ZzI0QjhjUzJadWcycg?oc=5"
+  },
+  {
+   "title": "Super Mario x Grow a Garden! - YouTube",
+   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBJUDlObDBnNHFwYlFaRVJSYkoxaWRBbnZ6Smt1LXkwZWRqVEFsaHFwVlVrXzZRQlBKSEV0dWEzQTlKUQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Akhekh pet guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uZTRfeHJ0dmVENnZtQlNOeW1PZEtrZDdrUngxTnM2ZC04SlQyQjFMckE4UWU3VE5vODJnM21mZUx6NkJzWU1jTkRhMjVicnJoN0U4MmFGUnpJWWo3MnBSTG8tUnNmSDRsYVVveFRFanZHQmQ0cXVr?oc=5"
+  },
+  {
+   "title": "Grow a Garden Sunstone Sapling guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84WE10QWYxbUhSckpRVVlRR1duN2tXRWlZS004ZHFFQ09HOEt3WEhnVGxGbi01ZWswTFdlNU1ONWZBYlhwTVZUZkE3TmZrQnJJVUZzMDRUQmNPZG5GY0NEdXlmbkR2RWdielBHSDRadmZVZ1Fud3pZQ0t0cjNNNTA?oc=5"
+  },
+  {
+   "title": "Grow a Garden Anubis Part 2 update patch notes - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMDRFcHpOeWl5V2EwdTNSS21yYS1tMjVudlBQMFhBbVpiTkFJWENpeDBPaFNiWG9yMGR6UUw4QmNycEdvSXl5NDdKZWZVYVR2SjkxQjdMSm4wUmVQZkZfNGN6UUY1VTB2WXhDUzRKWG9VakU5QmVoSThzanZodnU3SV9qbUdGTXA0amEzSQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Fruit tier list (November 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QZDJNaVUyOEttcmtWWHJ6c0FrNEtybFRyQ0dMeTUyeDF5cTZaa0l6VlVjcExIM1dKOFc5aVpEamJEZTFEVzdkNkxiTFFyRmQyZER2WG5kUjlQMTlCOXNiX050ZUFuM0Zqekw5LS1TZ0F6bzYtS2c?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-14 04:40",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-14 04:40",
-   "msg": "Metrik diperbarui: views=688 avg7=7626"
-  },
-  {
-   "t": "11-14 04:40",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "11-14 17:35",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "11-14 17:35",
    "msg": "Metrik diperbarui: views=512 avg7=5573"
@@ -115,14 +119,25 @@
   {
    "t": "11-16 21:32",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-17 06:12",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-17 06:12",
+   "msg": "Metrik diperbarui: views=1593 avg7=3605"
+  },
+  {
+   "t": "11-17 06:12",
+   "msg": "4 tren baru terdeteksi"
+  },
+  {
+   "t": "11-17 06:12",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-11 04:20",
-   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-11 19:10",
    "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -176,6 +191,11 @@
   {
    "t": "11-16 21:32",
    "text": "METRIK TURUN: Video 'Tulis déjà vu paling aneh yang pernah kamu alami 👇' hanya 1592 views (baseline 4411). Turun -63.9%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "11-17 06:12",
+   "text": "METRIK TURUN: Video 'Tulis déjà vu paling aneh yang pernah kamu alami 👇' hanya 1593 views (baseline 3603). Turun -55.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
