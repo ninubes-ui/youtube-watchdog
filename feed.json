@@ -1,44 +1,49 @@
 {
- "ts": 1794947014,
- "rendered": "2026-11-17 20:23:34",
+ "ts": 1794980381,
+ "rendered": "2026-11-18 05:39:41",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Pernah Mimpi ke Tempat yang Sama Berkali-kali? 🌙 M' hanya 1197 views (baseline 3605). Turun -66.8%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Mungkin AI bukan Dajal,tapi kalau sekarang aj kita' hanya 304 views (baseline 3197). Turun -90.5%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-17 20:23 UTC",
+ "last_run": "2026-11-18 05:39 UTC",
  "metrics": {
-  "last_title": "Pernah Mimpi ke Tempat yang Sama Berkali-kali? 🌙 Mungkin Itu Bukan Cum",
-  "last_views": 1197,
-  "avg7": 3197,
-  "delta_pct": "-66.8%"
+  "last_title": "Mungkin AI bukan Dajal,tapi kalau sekarang aj kita udah susah bedain y",
+  "last_views": 304,
+  "avg7": 1419,
+  "delta_pct": "-90.5%"
  },
  "discord": {
   "ok": true,
   "channel": "#general",
   "detail": "HTTP 200"
  },
- "trends": [],
+ "trends": [
+  {
+   "title": "Super Mario x Grow a Garden! - YouTube",
+   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBJUDlObDBnNHFwYlFaRVJSYkoxaWRBbnZ6Smt1LXkwZWRqVEFsaHFwVlVrXzZRQlBKSEV0dWEzQTlKUQ?oc=5"
+  },
+  {
+   "title": "Grow a Garden Akhekh pet guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uZTRfeHJ0dmVENnZtQlNOeW1PZEtrZDdrUngxTnM2ZC04SlQyQjFMckE4UWU3VE5vODJnM21mZUx6NkJzWU1jTkRhMjVicnJoN0U4MmFGUnpJWWo3MnBSTG8tUnNmSDRsYVVveFRFanZHQmQ0cXVr?oc=5"
+  },
+  {
+   "title": "Grow a Garden Sunstone Sapling guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84WE10QWYxbUhSckpRVVlRR1duN2tXRWlZS004ZHFFQ09HOEt3WEhnVGxGbi01ZWswTFdlNU1ONWZBYlhwTVZUZkE3TmZrQnJJVUZzMDRUQmNPZG5GY0NEdXlmbkR2RWdielBHSDRadmZVZ1Fud3pZQ0t0cjNNNTA?oc=5"
+  },
+  {
+   "title": "Best Roblox Phonk ID Codes (October 2026) - GameRant",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1BbFdlZXRiRVpfaG9UNVVqWVNuNXgta2ZIemkzRnJBa0U1Vms3QTZnR2J3a3VSTmhpblIyZW1ZRTJfWnVhcl9HVHhqR2Z5RXNmUTVTRHZXTkEyWjJL?oc=5"
+  },
+  {
+   "title": "Grow a Garden Fruit tier list (November 2026) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QZDJNaVUyOEttcmtWWHJ6c0FrNEtybFRyQ0dMeTUyeDF5cTZaa0l6VlVjcExIM1dKOFc5aVpEamJEZTFEVzdkNkxiTFFyRmQyZER2WG5kUjlQMTlCOXNiX050ZUFuM0Zqekw5LS1TZ0F6bzYtS2c?oc=5"
+  }
+ ],
  "events": [
-  {
-   "t": "11-15 04:29",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-15 04:29",
-   "msg": "Metrik diperbarui: views=2017 avg7=3654"
-  },
-  {
-   "t": "11-15 04:29",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "11-15 04:29",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-15 18:24",
    "msg": "Cek API key: VALID"
@@ -110,14 +115,25 @@
   {
    "t": "11-17 20:23",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-18 05:39",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-18 05:39",
+   "msg": "Metrik diperbarui: views=304 avg7=1419"
+  },
+  {
+   "t": "11-18 05:39",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-18 05:39",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-12 05:28",
-   "text": "METRIK TURUN: Video 'Wapres Gibran menyampaikan niat mundur kepada Pres' hanya 0 views (baseline 1241). Turun -100.0%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "11-12 19:27",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
@@ -172,10 +188,15 @@
    "t": "11-17 20:23",
    "text": "METRIK TURUN: Video 'Pernah Mimpi ke Tempat yang Sama Berkali-kali? 🌙 M' hanya 1197 views (baseline 3605). Turun -66.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "11-18 05:39",
+   "text": "METRIK TURUN: Video 'Mungkin AI bukan Dajal,tapi kalau sekarang aj kita' hanya 304 views (baseline 3197). Turun -90.5%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": false
+  "trend": true
  }
 }
