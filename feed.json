@@ -1,27 +1,31 @@
 {
- "ts": 1795117960,
- "rendered": "2026-11-19 19:52:40",
+ "ts": 1795152420,
+ "rendered": "2026-11-20 05:27:00",
  "source": "github-actions",
- "state": "ISTIRAHAT",
- "stateid": "AMAN",
- "status_text": "Agen sedang istirahat",
- "task": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
- "screen_text": "[ MONITORING TREN ]\n[ MENUNGGU SINYAL ]\n\n  STATUS: OK",
+ "state": "BEKERJA",
+ "stateid": "KERJA",
+ "status_text": "Agen sedang bekerja",
+ "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+ "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-19 19:52 UTC",
+ "last_run": "2026-11-20 05:26 UTC",
  "metrics": {
   "last_title": "Mungkin AI bukan Dajal,tapi kalau sekarang aj kita udah susah bedain y",
-  "last_views": 1457,
-  "avg7": 1927,
-  "delta_pct": "-18.9%"
+  "last_views": 1458,
+  "avg7": 1929,
+  "delta_pct": "-24.3%"
  },
  "discord": {
-  "ok": null,
+  "ok": true,
   "channel": "#general",
-  "detail": "-"
+  "detail": "HTTP 200"
  },
  "trends": [
+  {
+   "title": "“Roblox Is the Future of Media.” Versework Bets on Creator-Made Games to Become the Next Nintendo - 동아일보",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wVWlCWC1sVXZBRWpzcHhZMl9NOVhQS0RoS0JHY0lxREpnRlM3cFhtNExwWHljVFNQeFQyZVlPdE9NaFF4Z1BibXVSR3h4Ym9jT3JDQlBaLXZLTjBFTXN4QVppZmpNUQ?oc=5"
+  },
   {
    "title": "Roblox spotlights new games as Incubator and Jumpstart open doors to creators - Animation Xpress",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbXhzckp6X0wzSUtLM1FMUnZKWktzalh1Yno2MlNjWUlQSGRwdUV0T0c4LXJDdG1UaHZFcG8zclJrVnVhbkxVR2NoTjRDMjQyc3JkZERZcXlFM0RVOWotT2ROTjJtQnpMS0pzMnRBWUhKdm5WbXpoUDBjb2ZJVGpHTFdtdTl0UF9JQjYtdVg3Y2NrRWVCYTRmbWpuTHp1LUplVDhGazZQUDByUjlGU0lSQl9BWl9OcFFxSEY1NXFQc9IBxwFBVV95cUxPUnNDOE9mRjhPVER4QmkwUjd0OTljcUlxTk5ZQ2dOLTFYT1Y0R3U5ZzV5Nk51OE9QTXNuUWU0YjJWdGc2ZU1nSHd6UnZCRU1yODR0RVMxLVJZTkg4b2xVUGRlczl5S3RlMzBmT3JVUmNPMlhiTk9zbnhXNF9paUZlNUJpcDZIaDh5X1NWaFhBWUE5dFN3NHB6Y1hnRU1Tc1FWUW42ZVB6dXBIMXRNVGhBQlprRGg1bnJXLWN0WGJ1YmJJeFlUa0NZ?oc=5"
@@ -31,39 +35,11 @@
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcEkxM1QzQ0pvVnZhWllpb2hyTjQ2cHY2UEU1Wmt4YlhlYUhibHRFTzQ5eURQOHVHU0NHLVpvLWEtb2QwV0kwSkpNclZ6Wmc0UXhkcUJ6Z0hpbklod0dOMVV2U0txcjUtYW13bGo2S2gtR3o4N0VVRG5lbF93UllaRHk5c1FSVFdyVjdIcjdQLWFYQ2RmOE96LVg3ZXlYVVZFZUhtZTBONG1nRm_SAbgBQVVfeXFMT3ZGTHdQbVVWOFBUOTJkM1RRY1h6MHBVRlRpS0thRDY4MWlDSVdmUmxDVmxOQkxib09aVTJ0YVd5NVl3UzdlazF0NGRienBBTFZIcUJaVFFSellPQU9lb3BvMm9PcDVkb1RkMjMyVWdXV0k0d1ZPTHN5aEZEOWJId0NRN1JOU2ZXRzRKMnc3cGo0U0sySklWblJfZUxDSElta2x0TkxfOG9DMURnQjBVZUFmeHFmUGp1bg?oc=5"
   },
   {
-   "title": "Grow a Garden Akhekh pet guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uZTRfeHJ0dmVENnZtQlNOeW1PZEtrZDdrUngxTnM2ZC04SlQyQjFMckE4UWU3VE5vODJnM21mZUx6NkJzWU1jTkRhMjVicnJoN0U4MmFGUnpJWWo3MnBSTG8tUnNmSDRsYVVveFRFanZHQmQ0cXVr?oc=5"
-  },
-  {
    "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
-  },
-  {
-   "title": "Grow a Garden Sunstone Sapling guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84WE10QWYxbUhSckpRVVlRR1duN2tXRWlZS004ZHFFQ09HOEt3WEhnVGxGbi01ZWswTFdlNU1ONWZBYlhwTVZUZkE3TmZrQnJJVUZzMDRUQmNPZG5GY0NEdXlmbkR2RWdielBHSDRadmZVZ1Fud3pZQ0t0cjNNNTA?oc=5"
-  },
-  {
-   "title": "Fortnite Steal the Brainrot codes (November 2026) - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmJ6S1BDOU9SMHh1TS0tdHJZb3UyLU5ueHZjQlpXTFF6WmI3clRPT3F6d3VlbHJhWkota0VlTXRVSFdvYjlnNVNlbHpuTTZPWmxITV9jdnBheF9mNGhMeF9nRWN4RHJjS2psdXVFT2NDeFMzMlFJblNzQlR2MHVnLQ?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-17 06:12",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-17 06:12",
-   "msg": "Metrik diperbarui: views=1593 avg7=3605"
-  },
-  {
-   "t": "11-17 06:12",
-   "msg": "4 tren baru terdeteksi"
-  },
-  {
-   "t": "11-17 06:12",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-17 20:23",
    "msg": "Cek API key: VALID"
@@ -135,14 +111,25 @@
   {
    "t": "11-19 19:52",
    "msg": "OK: tidak ada sinyal (senyap)"
+  },
+  {
+   "t": "11-20 05:26",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-20 05:26",
+   "msg": "Metrik diperbarui: views=1458 avg7=1929"
+  },
+  {
+   "t": "11-20 05:26",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-20 05:26",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-14 04:40",
-   "text": "METRIK TURUN: Video 'Gibran Mundur, Terus Gimana? Ini Aturannya!' hanya 688 views (baseline 7132). Turun -90.4%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "11-14 17:35",
    "text": "METRIK TURUN: Video 'Full video cek profil #animasi #plotwist' hanya 512 views (baseline 7626). Turun -93.3%  Laporan sudah kukirim ke Discord.",
@@ -197,10 +184,15 @@
    "t": "11-19 19:52",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
    "kind": "aman"
+  },
+  {
+   "t": "11-20 05:26",
+   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
+   "kind": "kerja"
   }
  ],
  "alert": {
   "metric": false,
-  "trend": false
+  "trend": true
  }
 }
