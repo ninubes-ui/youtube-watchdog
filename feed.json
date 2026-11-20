@@ -1,57 +1,28 @@
 {
- "ts": 1795152420,
- "rendered": "2026-11-20 05:27:00",
+ "ts": 1795203152,
+ "rendered": "2026-11-20 19:32:32",
  "source": "github-actions",
- "state": "BEKERJA",
- "stateid": "KERJA",
- "status_text": "Agen sedang bekerja",
- "task": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
- "screen_text": "[ 1 TREN BARU ]\n[ RISET & IDE ]\n\n  STATUS: ANALISIS",
+ "state": "SIBUK",
+ "stateid": "ALERT",
+ "status_text": "Agen sedang sibuk",
+ "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1929). Turun -99.9%  Laporan sudah kukirim ke Discord.",
+ "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-20 05:26 UTC",
+ "last_run": "2026-11-20 19:32 UTC",
  "metrics": {
-  "last_title": "Mungkin AI bukan Dajal,tapi kalau sekarang aj kita udah susah bedain y",
-  "last_views": 1458,
-  "avg7": 1929,
-  "delta_pct": "-24.3%"
+  "last_title": "Motor Butut Sogol Dicuri, Malingnya Malah Nyesel | PASUKAN NNO Eps 1",
+  "last_views": 2,
+  "avg7": 1837,
+  "delta_pct": "-99.9%"
  },
  "discord": {
   "ok": true,
   "channel": "#general",
   "detail": "HTTP 200"
  },
- "trends": [
-  {
-   "title": "“Roblox Is the Future of Media.” Versework Bets on Creator-Made Games to Become the Next Nintendo - 동아일보",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wVWlCWC1sVXZBRWpzcHhZMl9NOVhQS0RoS0JHY0lxREpnRlM3cFhtNExwWHljVFNQeFQyZVlPdE9NaFF4Z1BibXVSR3h4Ym9jT3JDQlBaLXZLTjBFTXN4QVppZmpNUQ?oc=5"
-  },
-  {
-   "title": "Roblox spotlights new games as Incubator and Jumpstart open doors to creators - Animation Xpress",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbXhzckp6X0wzSUtLM1FMUnZKWktzalh1Yno2MlNjWUlQSGRwdUV0T0c4LXJDdG1UaHZFcG8zclJrVnVhbkxVR2NoTjRDMjQyc3JkZERZcXlFM0RVOWotT2ROTjJtQnpMS0pzMnRBWUhKdm5WbXpoUDBjb2ZJVGpHTFdtdTl0UF9JQjYtdVg3Y2NrRWVCYTRmbWpuTHp1LUplVDhGazZQUDByUjlGU0lSQl9BWl9OcFFxSEY1NXFQc9IBxwFBVV95cUxPUnNDOE9mRjhPVER4QmkwUjd0OTljcUlxTk5ZQ2dOLTFYT1Y0R3U5ZzV5Nk51OE9QTXNuUWU0YjJWdGc2ZU1nSHd6UnZCRU1yODR0RVMxLVJZTkg4b2xVUGRlczl5S3RlMzBmT3JVUmNPMlhiTk9zbnhXNF9paUZlNUJpcDZIaDh5X1NWaFhBWUE5dFN3NHB6Y1hnRU1Tc1FWUW42ZVB6dXBIMXRNVGhBQlprRGg1bnJXLWN0WGJ1YmJJeFlUa0NZ?oc=5"
-  },
-  {
-   "title": "Roblox Opens Applications for a Second Incubator Cohort | Outlook Respawn - Outlook Respawn",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcEkxM1QzQ0pvVnZhWllpb2hyTjQ2cHY2UEU1Wmt4YlhlYUhibHRFTzQ5eURQOHVHU0NHLVpvLWEtb2QwV0kwSkpNclZ6Wmc0UXhkcUJ6Z0hpbklod0dOMVV2U0txcjUtYW13bGo2S2gtR3o4N0VVRG5lbF93UllaRHk5c1FSVFdyVjdIcjdQLWFYQ2RmOE96LVg3ZXlYVVZFZUhtZTBONG1nRm_SAbgBQVVfeXFMT3ZGTHdQbVVWOFBUOTJkM1RRY1h6MHBVRlRpS0thRDY4MWlDSVdmUmxDVmxOQkxib09aVTJ0YVd5NVl3UzdlazF0NGRienBBTFZIcUJaVFFSellPQU9lb3BvMm9PcDVkb1RkMjMyVWdXV0k0d1ZPTHN5aEZEOWJId0NRN1JOU2ZXRzRKMnc3cGo0U0sySklWblJfZUxDSElta2x0TkxfOG9DMURnQjBVZUFmeHFmUGp1bg?oc=5"
-  },
-  {
-   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
-  }
- ],
+ "trends": [],
  "events": [
-  {
-   "t": "11-17 20:23",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-17 20:23",
-   "msg": "Metrik diperbarui: views=1197 avg7=3197"
-  },
-  {
-   "t": "11-17 20:23",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-18 05:39",
    "msg": "Cek API key: VALID"
@@ -127,14 +98,21 @@
   {
    "t": "11-20 05:26",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-20 19:32",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-20 19:32",
+   "msg": "Metrik diperbarui: views=2 avg7=1837"
+  },
+  {
+   "t": "11-20 19:32",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-14 17:35",
-   "text": "METRIK TURUN: Video 'Full video cek profil #animasi #plotwist' hanya 512 views (baseline 7626). Turun -93.3%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "11-15 04:29",
    "text": "METRIK TURUN: Video 'Pernah Ngerasa Cuma Lo yang Beneran Hidup? 🥀' hanya 2017 views (baseline 5573). Turun -63.8%  Laporan sudah kukirim ke Discord.",
@@ -189,10 +167,15 @@
    "t": "11-20 05:26",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
    "kind": "kerja"
+  },
+  {
+   "t": "11-20 19:32",
+   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1929). Turun -99.9%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
-  "metric": false,
-  "trend": true
+  "metric": true,
+  "trend": false
  }
 }
