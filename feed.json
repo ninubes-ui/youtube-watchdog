@@ -1,20 +1,20 @@
 {
- "ts": 1795238330,
- "rendered": "2026-11-21 05:18:50",
+ "ts": 1795286221,
+ "rendered": "2026-11-21 18:37:01",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1837). Turun -99.9%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 3 views (baseline 1838). Turun -99.8%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-21 05:18 UTC",
+ "last_run": "2026-11-21 18:36 UTC",
  "metrics": {
   "last_title": "Motor Butut Sogol Dicuri, Malingnya Malah Nyesel | PASUKAN NNO Eps 1",
-  "last_views": 2,
-  "avg7": 1838,
-  "delta_pct": "-99.9%"
+  "last_views": 3,
+  "avg7": 1843,
+  "delta_pct": "-99.8%"
  },
  "discord": {
   "ok": true,
@@ -22,6 +22,10 @@
   "detail": "HTTP 200"
  },
  "trends": [
+  {
+   "title": "Watch Roblox Child Safety Risks Clips - FOX One",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVkl5Q09HbU92dlBLd0x3NlZaU0dHNXZqc2twbXZKcDF1RzhLQW9CZW04MUZaTnJfRFdOSHo5LV9ZWnlHUXZENnl0X2FTR211dGFPSHJzNGFod2RheWV0dXF0WmJoRjgxTnJpR3dPMHhoR0M2SlFCRFhweDdhMnVOZGZfNmNFUXFv?oc=5"
+  },
   {
    "title": "“Roblox Is the Future of Media.” Versework Bets on Creator-Made Games to Become the Next Nintendo - 동아일보",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wVWlCWC1sVXZBRWpzcHhZMl9NOVhQS0RoS0JHY0lxREpnRlM3cFhtNExwWHljVFNQeFQyZVlPdE9NaFF4Z1BibXVSR3h4Ym9jT3JDQlBaLXZLTjBFTXN4QVppZmpNUQ?oc=5"
@@ -36,22 +40,6 @@
   }
  ],
  "events": [
-  {
-   "t": "11-18 19:52",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-18 19:52",
-   "msg": "Metrik diperbarui: views=1427 avg7=1774"
-  },
-  {
-   "t": "11-18 19:52",
-   "msg": "2 tren baru terdeteksi"
-  },
-  {
-   "t": "11-18 19:52",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-19 05:38",
    "msg": "Cek API key: VALID"
@@ -123,14 +111,25 @@
   {
    "t": "11-21 05:18",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-21 18:36",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-21 18:36",
+   "msg": "Metrik diperbarui: views=3 avg7=1843"
+  },
+  {
+   "t": "11-21 18:36",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-21 18:36",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-15 18:24",
-   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-16 04:26",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
@@ -184,6 +183,11 @@
   {
    "t": "11-21 05:18",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1837). Turun -99.9%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "11-21 18:36",
+   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 3 views (baseline 1838). Turun -99.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
