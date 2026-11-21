@@ -1,19 +1,19 @@
 {
- "ts": 1795203152,
- "rendered": "2026-11-20 19:32:32",
+ "ts": 1795238330,
+ "rendered": "2026-11-21 05:18:50",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1929). Turun -99.9%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1837). Turun -99.9%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-20 19:32 UTC",
+ "last_run": "2026-11-21 05:18 UTC",
  "metrics": {
   "last_title": "Motor Butut Sogol Dicuri, Malingnya Malah Nyesel | PASUKAN NNO Eps 1",
   "last_views": 2,
-  "avg7": 1837,
+  "avg7": 1838,
   "delta_pct": "-99.9%"
  },
  "discord": {
@@ -21,24 +21,21 @@
   "channel": "#general",
   "detail": "HTTP 200"
  },
- "trends": [],
+ "trends": [
+  {
+   "title": "“Roblox Is the Future of Media.” Versework Bets on Creator-Made Games to Become the Next Nintendo - 동아일보",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wVWlCWC1sVXZBRWpzcHhZMl9NOVhQS0RoS0JHY0lxREpnRlM3cFhtNExwWHljVFNQeFQyZVlPdE9NaFF4Z1BibXVSR3h4Ym9jT3JDQlBaLXZLTjBFTXN4QVppZmpNUQ?oc=5"
+  },
+  {
+   "title": "When is the next Grow a Garden update? (Anubis Part 3 update) - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TaHZpTmdLeTRDWHVwYWZFdnpIVjBwVkpRSlh5RVNxU2lmd3pFWVRnVmtSWXNkeFJvYkFuNHQ0eFhSNWl4UFhEQy1PRDd3Q18zQ19TWUVwamlVbmVtM3pFWFE3SXFiQWxTQUtQbWgwTzdPVTNLRDRJ?oc=5"
+  },
+  {
+   "title": "All Events in Grow a Garden (November 2026) Full List & Rewards - Propel RC",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BYkQ0UF8tcVI0MGFsVUJzbHBUTWdmZzdGTzM5SUx6eDM4ei1DRzhELXFsTmI2Y3NjQXpDcFBfNGE2VzlVb1BNUzg4M2tOcVpJSFJpV1RRVFdRc0xna2JWWGs5RQ?oc=5"
+  }
+ ],
  "events": [
-  {
-   "t": "11-18 05:39",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-18 05:39",
-   "msg": "Metrik diperbarui: views=304 avg7=1419"
-  },
-  {
-   "t": "11-18 05:39",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "11-18 05:39",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-18 19:52",
    "msg": "Cek API key: VALID"
@@ -110,14 +107,25 @@
   {
    "t": "11-20 19:32",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-21 05:18",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-21 05:18",
+   "msg": "Metrik diperbarui: views=2 avg7=1838"
+  },
+  {
+   "t": "11-21 05:18",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "11-21 05:18",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-15 04:29",
-   "text": "METRIK TURUN: Video 'Pernah Ngerasa Cuma Lo yang Beneran Hidup? 🥀' hanya 2017 views (baseline 5573). Turun -63.8%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "11-15 18:24",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -172,10 +180,15 @@
    "t": "11-20 19:32",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1929). Turun -99.9%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "11-21 05:18",
+   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1837). Turun -99.9%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": false
+  "trend": true
  }
 }
