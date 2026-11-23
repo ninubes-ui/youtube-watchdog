@@ -1,18 +1,18 @@
 {
- "ts": 1795373845,
- "rendered": "2026-11-22 18:57:25",
+ "ts": 1795411399,
+ "rendered": "2026-11-23 05:23:19",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 3 views (baseline 1844). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1844). Turun -99.8%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-22 18:57 UTC",
+ "last_run": "2026-11-23 05:23 UTC",
  "metrics": {
   "last_title": "Motor Butut Sogol Dicuri, Malingnya Malah Nyesel | PASUKAN NNO Eps 1",
-  "last_views": 3,
+  "last_views": 4,
   "avg7": 1844,
   "delta_pct": "-99.8%"
  },
@@ -23,31 +23,15 @@
  },
  "trends": [
   {
+   "title": "Grow a Garden 2 codes November 2026 - Pocket Tactics",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XYmMtYnZMbi1SemJaX3ZkNFNZSjdNUk1hY2VHczdKU1oxd29FeE1zbl83VWJ0X0pWdFFQTEVhUUFMaE5xUmo3ekZsWDBtZFJHN3pfNzQ5NjRaa1U1OVZYZg?oc=5"
+  },
+  {
    "title": "When is the next Grow a Garden update? (Anubis Part 3 update) - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TaHZpTmdLeTRDWHVwYWZFdnpIVjBwVkpRSlh5RVNxU2lmd3pFWVRnVmtSWXNkeFJvYkFuNHQ0eFhSNWl4UFhEQy1PRDd3Q18zQ19TWUVwamlVbmVtM3pFWFE3SXFiQWxTQUtQbWgwTzdPVTNLRDRJ?oc=5"
-  },
-  {
-   "title": "Best Brainrots in Steal a Brainrot - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yVDRNUGhSYVpqZWxJSGZZMmhNVnNBa0VnbVE4RkZ5b1A1Y1NyRWZ3aU51THA1aVJud0taeWJqTUlyZ3VFenItazc4UDQyR09XRmY0dXM2c09aRmdURXo0YlV0djMwcjhLMmIwWEZRMDJkemktc0gtRjhZMA?oc=5"
-  },
-  {
-   "title": "All Events in Grow a Garden (November 2026) Full List & Rewards - Propel RC",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BYkQ0UF8tcVI0MGFsVUJzbHBUTWdmZzdGTzM5SUx6eDM4ei1DRzhELXFsTmI2Y3NjQXpDcFBfNGE2VzlVb1BNUzg4M2tOcVpJSFJpV1RRVFdRc0xna2JWWGs5RQ?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-19 19:52",
-   "msg": "OK: tidak ada sinyal (senyap)"
-  },
-  {
-   "t": "11-20 05:26",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-20 05:26",
-   "msg": "Metrik diperbarui: views=1458 avg7=1929"
-  },
   {
    "t": "11-20 05:26",
    "msg": "1 tren baru terdeteksi"
@@ -123,14 +107,21 @@
   {
    "t": "11-22 18:57",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-23 05:23",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-23 05:23",
+   "msg": "Metrik diperbarui: views=4 avg7=1844"
+  },
+  {
+   "t": "11-23 05:23",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-17 06:12",
-   "text": "METRIK TURUN: Video 'Tulis déjà vu paling aneh yang pernah kamu alami 👇' hanya 1593 views (baseline 3603). Turun -55.8%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "11-17 20:23",
    "text": "METRIK TURUN: Video 'Pernah Mimpi ke Tempat yang Sama Berkali-kali? 🌙 M' hanya 1197 views (baseline 3605). Turun -66.8%  Laporan sudah kukirim ke Discord.",
@@ -184,6 +175,11 @@
   {
    "t": "11-22 18:57",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 3 views (baseline 1844). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "11-23 05:23",
+   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1844). Turun -99.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
