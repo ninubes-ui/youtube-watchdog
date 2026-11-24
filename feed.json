@@ -1,6 +1,6 @@
 {
- "ts": 1795507303,
- "rendered": "2026-11-24 08:01:43",
+ "ts": 1795557074,
+ "rendered": "2026-11-24 21:51:14",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
@@ -9,11 +9,11 @@
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-24 08:01 UTC",
+ "last_run": "2026-11-24 21:51 UTC",
  "metrics": {
   "last_title": "Motor Butut Sogol Dicuri, Malingnya Malah Nyesel | PASUKAN NNO Eps 1",
   "last_views": 4,
-  "avg7": 1845,
+  "avg7": 1846,
   "delta_pct": "-99.8%"
  },
  "discord": {
@@ -48,18 +48,6 @@
   }
  ],
  "events": [
-  {
-   "t": "11-21 05:18",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "11-21 18:36",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-21 18:36",
-   "msg": "Metrik diperbarui: views=3 avg7=1843"
-  },
   {
    "t": "11-21 18:36",
    "msg": "1 tren baru terdeteksi"
@@ -135,14 +123,21 @@
   {
    "t": "11-24 08:01",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-24 21:51",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-24 21:51",
+   "msg": "Metrik diperbarui: views=4 avg7=1846"
+  },
+  {
+   "t": "11-24 21:51",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-18 19:52",
-   "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-19 05:38",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -197,10 +192,15 @@
    "t": "11-24 08:01",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1845). Turun -99.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "11-24 21:51",
+   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1845). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": true
+  "trend": false
  }
 }
