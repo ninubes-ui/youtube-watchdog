@@ -1,15 +1,15 @@
 {
- "ts": 1795475772,
- "rendered": "2026-11-23 23:16:12",
+ "ts": 1795507303,
+ "rendered": "2026-11-24 08:01:43",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1844). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1845). Turun -99.8%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-23 23:16 UTC",
+ "last_run": "2026-11-24 08:01 UTC",
  "metrics": {
   "last_title": "Motor Butut Sogol Dicuri, Malingnya Malah Nyesel | PASUKAN NNO Eps 1",
   "last_views": 4,
@@ -24,7 +24,15 @@
  "trends": [
   {
    "title": "ITV Studios’ Metavision to adapt “Thunderbirds” for Roblox - Señal News - Senal News",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYkZuX25SU051RE5kY09YZU1yejZCM2VueTZWSzRUVVo5OG4wbXlhcVBtZTFBMWZiZDlpWXVLRG1BWXlWbWZOWVZUUGtRZ0ptM3BFUGYxclRocmNBdXA5Vll6R2N6Uy0tWFh6aWk3V2FuQXc2eS1JOXpJZ25QaGZhaWR4Tm9FRlNnZU1kS1FPTTJFcExLWk5hZ9IBmAFBVV95cUxOYkZuX25SU051RE5kY09YZU1yejZCM2VueTZWSzRUVVo5OG4wbXlhcVBtZTFBMWZiZDlpWXVLRG1BWXlWbWZOWVZUUGtRZ0ptM3BFUGYxclRocmNBdXA5Vll6R2N6Uy0tWFh6aWk3V2FuQXc2eS1JOXpJZ25QaGZhaWR4Tm9FRlNnZU1kS1FPTTJFcExLWk5hZw?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ09YT19yaXVTaHJ2b1BVa1hGTEk0NzJNbVlPZUlpNHZqRUgzb2d0V2pkb2E2WHZFS0tRYmQ4RWhVa3RVZnVPYU5HekZ3SV90b2l3UHQ0V1lwWG1Vamp6dUZnSlItNkhnbmhiYnNBaUtlY1VLa0pNdjZwdUUwc3BYZTF1VjVuMUVmMFExWi0zSm5wdjTSAZgBQVVfeXFMTmJGbl9uUlNOdUROZGNPWGVNcno2QjNlbnk2Vks0VFVaOThuMG15YXFQbWUxQTFmYmQ5aVl1S0RtQVl5Vm1mTllWVFBrUWdKbTNwRVBmMXJUaHJjQXVwOVZZekdjelMtLVhYemlpN1dhbkF3NnktSTl6SWduUGhmYWlkeE5vRUZTZ2VNZEtRT00yRXBMS1pOYWc?oc=5"
+  },
+  {
+   "title": "Grow a Garden Turkey guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE01a1VUNHhvZGVCMlQwUmJ5emlFbXVOdHJ3VEVlNG5kM2NGWnFtSllRV2hPT3pFLXVHU3lCZlFMUzBIalFibXQ1YWhjUVpfNDBDbFVxNEt0MmpuWUM2QjNpUG9HcGYxczRTa0dJTUJIakI0Zw?oc=5"
+  },
+  {
+   "title": "Grow a Garden Feathercrest guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oV2d2MldZMlB6dEtDWVZITHhVZzFhQTBaR3pZTWlyeVVyZDU1bkExSVpaMFZNZFkza2xMdWNhM0NtY0ZjV1JsQjZvc0VwbV96dVJtSDNGdTNpNVEyRENnMFE4aC1KTXU4VDEtY0VrTHRnMjhoRG15RmZ3?oc=5"
   },
   {
    "title": "Grow a Garden Khepri pet guide - Sportskeeda",
@@ -40,22 +48,6 @@
   }
  ],
  "events": [
-  {
-   "t": "11-20 19:32",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "11-21 05:18",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-21 05:18",
-   "msg": "Metrik diperbarui: views=2 avg7=1838"
-  },
-  {
-   "t": "11-21 05:18",
-   "msg": "2 tren baru terdeteksi"
-  },
   {
    "t": "11-21 05:18",
    "msg": "Discord: terkirim"
@@ -127,14 +119,25 @@
   {
    "t": "11-23 23:16",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-24 08:01",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-24 08:01",
+   "msg": "Metrik diperbarui: views=4 avg7=1845"
+  },
+  {
+   "t": "11-24 08:01",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "11-24 08:01",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-18 05:39",
-   "text": "METRIK TURUN: Video 'Mungkin AI bukan Dajal,tapi kalau sekarang aj kita' hanya 304 views (baseline 3197). Turun -90.5%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "11-18 19:52",
    "text": "Ada 2 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -188,6 +191,11 @@
   {
    "t": "11-23 23:16",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1844). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "11-24 08:01",
+   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1845). Turun -99.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
