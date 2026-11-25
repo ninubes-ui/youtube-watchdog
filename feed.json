@@ -1,15 +1,15 @@
 {
- "ts": 1795557074,
- "rendered": "2026-11-24 21:51:14",
+ "ts": 1795588862,
+ "rendered": "2026-11-25 06:41:02",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1845). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1846). Turun -99.8%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-24 21:51 UTC",
+ "last_run": "2026-11-25 06:41 UTC",
  "metrics": {
   "last_title": "Motor Butut Sogol Dicuri, Malingnya Malah Nyesel | PASUKAN NNO Eps 1",
   "last_views": 4,
@@ -35,31 +35,23 @@
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oV2d2MldZMlB6dEtDWVZITHhVZzFhQTBaR3pZTWlyeVVyZDU1bkExSVpaMFZNZFkza2xMdWNhM0NtY0ZjV1JsQjZvc0VwbV96dVJtSDNGdTNpNVEyRENnMFE4aC1KTXU4VDEtY0VrTHRnMjhoRG15RmZ3?oc=5"
   },
   {
+   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
+  },
+  {
    "title": "Grow a Garden Khepri pet guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHT19RTnBZQVZOLVY1S1RpSG1Na1hwU2VhbkxmeTJMLW1iWExsdFpCbXc1QTJPTS1Rc0xUb3pPdktLcm5nZUk4aC1nVkFvT1gxTDFnVjJ4S3RLQzdkSFdUYzJ2SXl0RXRzOWxqdTFTMWRteEc2WURv?oc=5"
   },
   {
-   "title": "Grow a Garden Sokar pet guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fTXdQSER0WVFmbkxhQ0pTdVd0QTc4UFVZQjFmeC14TElhRjlVa0xuNkFGempuWnA1VG5ONXNaeUJDazJFWFVtTGFJSkxrNHREbnoxYi1fTERyd09wN1F0azExb0JjS2p2dVVpckpFUmxwanozNnc?oc=5"
-  },
-  {
    "title": "Grow a Garden Apep's Jewel guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEbUxPNXk0SG1YY1N1VlJxSERWU0ZLOVlEX1hIYldoT2xYY24tZHlXZXhQc0RzaWhxWG1fZkdVbmU4T1NWdFkwRUtKdE81TExRMmhZUTd2TTFqVl9qMGVtN0F3c3NLRV84ZTRIQnhNaUR1bG9Nd1U4ZUZn?oc=5"
+  },
+  {
+   "title": "Grow a Garden Sokar pet guide - Sportskeeda",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fTXdQSER0WVFmbkxhQ0pTdVd0QTc4UFVZQjFmeC14TElhRjlVa0xuNkFGempuWnA1VG5ONXNaeUJDazJFWFVtTGFJSkxrNHREbnoxYi1fTERyd09wN1F0azExb0JjS2p2dVVpckpFUmxwanozNnc?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-21 18:36",
-   "msg": "1 tren baru terdeteksi"
-  },
-  {
-   "t": "11-21 18:36",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "11-22 04:44",
-   "msg": "Cek API key: VALID"
-  },
   {
    "t": "11-22 04:44",
    "msg": "Metrik diperbarui: views=3 avg7=1844"
@@ -135,14 +127,21 @@
   {
    "t": "11-24 21:51",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-25 06:41",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-25 06:41",
+   "msg": "Metrik diperbarui: views=4 avg7=1846"
+  },
+  {
+   "t": "11-25 06:41",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-19 05:38",
-   "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
-   "kind": "kerja"
-  },
   {
    "t": "11-19 19:52",
    "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
@@ -196,6 +195,11 @@
   {
    "t": "11-24 21:51",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1845). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "11-25 06:41",
+   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1846). Turun -99.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
