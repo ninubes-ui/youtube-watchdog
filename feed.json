@@ -1,6 +1,6 @@
 {
- "ts": 1795588862,
- "rendered": "2026-11-25 06:41:02",
+ "ts": 1795640286,
+ "rendered": "2026-11-25 20:58:06",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
@@ -9,11 +9,11 @@
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-25 06:41 UTC",
+ "last_run": "2026-11-25 20:58 UTC",
  "metrics": {
   "last_title": "Motor Butut Sogol Dicuri, Malingnya Malah Nyesel | PASUKAN NNO Eps 1",
   "last_views": 4,
-  "avg7": 1846,
+  "avg7": 1847,
   "delta_pct": "-99.8%"
  },
  "discord": {
@@ -23,8 +23,12 @@
  },
  "trends": [
   {
-   "title": "ITV Studios’ Metavision to adapt “Thunderbirds” for Roblox - Señal News - Senal News",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ09YT19yaXVTaHJ2b1BVa1hGTEk0NzJNbVlPZUlpNHZqRUgzb2d0V2pkb2E2WHZFS0tRYmQ4RWhVa3RVZnVPYU5HekZ3SV90b2l3UHQ0V1lwWG1Vamp6dUZnSlItNkhnbmhiYnNBaUtlY1VLa0pNdjZwdUUwc3BYZTF1VjVuMUVmMFExWi0zSm5wdjTSAZgBQVVfeXFMTmJGbl9uUlNOdUROZGNPWGVNcno2QjNlbnk2Vks0VFVaOThuMG15YXFQbWUxQTFmYmQ5aVl1S0RtQVl5Vm1mTllWVFBrUWdKbTNwRVBmMXJUaHJjQXVwOVZZekdjelMtLVhYemlpN1dhbkF3NnktSTl6SWduUGhmYWlkeE5vRUZTZ2VNZEtRT00yRXBMS1pOYWc?oc=5"
+   "title": "ITV Studios’ Metavision to bring Thunderbirds IP to Roblox - PocketGamer.biz",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd3hJLW9LcFdEeWNzTkxJOHYzMFp1dFpfWUtqZTVwem1BaDNUTEE2SjFNbXhjR19lMWFDaE1rSmp5LXpGd211WTRPZmRKWHpNSXlBVW83TUlabnV1TzE3UEVEVVlPaHRfcVVEREJDbDF2MnNfUUljYWpqcGVncXhVZTc3ZnlWQmFOXzU5bVRsRQ?oc=5"
+  },
+  {
+   "title": "Steal a Brainrot Traits Guide: How to Get Them and Boost Your Income - Goomba Stomp Magazine",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMWQ1WVoyZW9Wa01RYUJaVWl4SlFqdkd0QWxmQnlDb0F2T093czhKZk9MT0ZnLUNYMEx5UEdHeUt4LUF2RlZiQ0VwNW5pY0J0eXRLa0hTSGVRanlKZnR1ZWhqeldRSlhMYWdvYkRBMGdmc0Eta3J4d0thOG44U2pnTndNOFZ3cERWaWpsSEVsaW1pSVlNUFR3?oc=5"
   },
   {
    "title": "Grow a Garden Turkey guide - Sportskeeda",
@@ -33,10 +37,6 @@
   {
    "title": "Grow a Garden Feathercrest guide - Sportskeeda",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oV2d2MldZMlB6dEtDWVZITHhVZzFhQTBaR3pZTWlyeVVyZDU1bkExSVpaMFZNZFkza2xMdWNhM0NtY0ZjV1JsQjZvc0VwbV96dVJtSDNGdTNpNVEyRENnMFE4aC1KTXU4VDEtY0VrTHRnMjhoRG15RmZ3?oc=5"
-  },
-  {
-   "title": "What time is Taco Tuesday in Steal a Brainrot? - Dexerto",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15dGlIX1c4cGNUWHF4TnVoWXEwZTBnRTEtSXlpb3ljbUtpd21OSnczQ3pxZEQ3dWdPT0FQZ25JUy1BQ0hYa3JSWElUYWw4NkVuSDVFRHBYTkpXWGc2MnM5SDE4TlpfWHdqUkNjcVBua0N0N0NzbVVMcw?oc=5"
   },
   {
    "title": "Grow a Garden Khepri pet guide - Sportskeeda",
@@ -52,22 +52,6 @@
   }
  ],
  "events": [
-  {
-   "t": "11-22 04:44",
-   "msg": "Metrik diperbarui: views=3 avg7=1844"
-  },
-  {
-   "t": "11-22 04:44",
-   "msg": "Discord: terkirim"
-  },
-  {
-   "t": "11-22 18:57",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-22 18:57",
-   "msg": "Metrik diperbarui: views=3 avg7=1844"
-  },
   {
    "t": "11-22 18:57",
    "msg": "Discord: terkirim"
@@ -139,14 +123,25 @@
   {
    "t": "11-25 06:41",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-25 20:58",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-25 20:58",
+   "msg": "Metrik diperbarui: views=4 avg7=1847"
+  },
+  {
+   "t": "11-25 20:58",
+   "msg": "2 tren baru terdeteksi"
+  },
+  {
+   "t": "11-25 20:58",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-19 19:52",
-   "text": "Pemeriksaan rutin selesai. Semua aman, tidak ada sinyal.",
-   "kind": "aman"
-  },
   {
    "t": "11-20 05:26",
    "text": "Ada 1 tren baru relevan. Ringkasannya sudah kukirim ke Discord.",
@@ -201,10 +196,15 @@
    "t": "11-25 06:41",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1846). Turun -99.8%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "11-25 20:58",
+   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1846). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": false
+  "trend": true
  }
 }
