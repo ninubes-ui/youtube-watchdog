@@ -1,20 +1,20 @@
 {
- "ts": 1795674734,
- "rendered": "2026-11-26 06:32:14",
+ "ts": 1795726263,
+ "rendered": "2026-11-26 20:51:03",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1847). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 6 views (baseline 1848). Turun -99.7%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-26 06:32 UTC",
+ "last_run": "2026-11-26 20:51 UTC",
  "metrics": {
   "last_title": "Motor Butut Sogol Dicuri, Malingnya Malah Nyesel | PASUKAN NNO Eps 1",
-  "last_views": 4,
+  "last_views": 6,
   "avg7": 1848,
-  "delta_pct": "-99.8%"
+  "delta_pct": "-99.7%"
  },
  "discord": {
   "ok": true,
@@ -23,12 +23,8 @@
  },
  "trends": [
   {
-   "title": "Roblox Studio - R15 Bodytracking + client replication - YouTube",
-   "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNY0kyOXZUN01NdlNhNmhZU3VZTE9YZ081anBhZzVQZWRJd1hGdHUzZ2dBcENhVlcwVDlRdWhvcFFJTXJUb1pHSWxOMnB4eVJLckNpd3diV09xUk4tMkpxaXpiTjQyeXNlMVF6eGt0Q3prNWs2ZHNyeEcxM0QwNzZpcFhCZnV6X2dFTEdQRXhKRjdXVFpmc1RydmpiZkIyVHpjd2F3T2JncFFoYzc4TnI2dUl1MjIyZkpFSTZCel9NOGQ4YjNkOXBwM3lvUGs1dS1VVWdnVjFTUnNGYkhLdDg3am5yaXRsanc5N3c2amE1THV1QzVwcWNvWGt4eWJGeEtFX3hMQTN5bnY3VDRqQVczSUR4Qm5fTEJtVjNFTS1BSktFUXJDQXZoTk5ldV9CdGpnZUViV0ZHMDdOS2RNdVFkcDM2dWM3V3VzYThDTWhSaktlMDBMZ1BJNg?oc=5"
-  },
-  {
-   "title": "ITV Studios’ Metavision to bring Thunderbirds IP to Roblox - PocketGamer.biz",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd3hJLW9LcFdEeWNzTkxJOHYzMFp1dFpfWUtqZTVwem1BaDNUTEE2SjFNbXhjR19lMWFDaE1rSmp5LXpGd211WTRPZmRKWHpNSXlBVW83TUlabnV1TzE3UEVEVVlPaHRfcVVEREJDbDF2MnNfUUljYWpqcGVncXhVZTc3ZnlWQmFOXzU5bVRsRQ?oc=5"
+   "title": "CHU~CHU~CHU | ROBLOX MEME ANIMATION - YouTube",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zRDRwSDRRY1pyQTJDbGN5bS00dmhYeTlfTFZjNGU3NVRmbVI2U0dGLWFHT1JsaXlIbktOSzJfSXItdHJFZHJxZ20ycFdXWkpMZTd1OTdiN1BvVHZf?oc=5"
   },
   {
    "title": "Steal a Brainrot Traits Guide: How to Get Them and Boost Your Income - Goomba Stomp Magazine",
@@ -43,35 +39,11 @@
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oV2d2MldZMlB6dEtDWVZITHhVZzFhQTBaR3pZTWlyeVVyZDU1bkExSVpaMFZNZFkza2xMdWNhM0NtY0ZjV1JsQjZvc0VwbV96dVJtSDNGdTNpNVEyRENnMFE4aC1KTXU4VDEtY0VrTHRnMjhoRG15RmZ3?oc=5"
   },
   {
-   "title": "Grow a Garden Khepri pet guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHT19RTnBZQVZOLVY1S1RpSG1Na1hwU2VhbkxmeTJMLW1iWExsdFpCbXc1QTJPTS1Rc0xUb3pPdktLcm5nZUk4aC1nVkFvT1gxTDFnVjJ4S3RLQzdkSFdUYzJ2SXl0RXRzOWxqdTFTMWRteEc2WURv?oc=5"
-  },
-  {
-   "title": "Grow a Garden Apep's Jewel guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEbUxPNXk0SG1YY1N1VlJxSERWU0ZLOVlEX1hIYldoT2xYY24tZHlXZXhQc0RzaWhxWG1fZkdVbmU4T1NWdFkwRUtKdE81TExRMmhZUTd2TTFqVl9qMGVtN0F3c3NLRV84ZTRIQnhNaUR1bG9Nd1U4ZUZn?oc=5"
-  },
-  {
-   "title": "Grow a Garden Sokar pet guide - Sportskeeda",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fTXdQSER0WVFmbkxhQ0pTdVd0QTc4UFVZQjFmeC14TElhRjlVa0xuNkFGempuWnA1VG5ONXNaeUJDazJFWFVtTGFJSkxrNHREbnoxYi1fTERyd09wN1F0azExb0JjS2p2dVVpckpFUmxwanozNnc?oc=5"
+   "title": "Fortnite Steal the Brainrot codes (November 2026) - Dexerto",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmJ6S1BDOU9SMHh1TS0tdHJZb3UyLU5ueHZjQlpXTFF6WmI3clRPT3F6d3VlbHJhWkota0VlTXRVSFdvYjlnNVNlbHpuTTZPWmxITV9jdnBheF9mNGhMeF9nRWN4RHJjS2psdXVFT2NDeFMzMlFJblNzQlR2MHVnLQ?oc=5"
   }
  ],
  "events": [
-  {
-   "t": "11-23 23:16",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-23 23:16",
-   "msg": "Metrik diperbarui: views=4 avg7=1845"
-  },
-  {
-   "t": "11-23 23:16",
-   "msg": "4 tren baru terdeteksi"
-  },
-  {
-   "t": "11-23 23:16",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-24 08:01",
    "msg": "Cek API key: VALID"
@@ -143,14 +115,25 @@
   {
    "t": "11-26 06:32",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-26 20:51",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-26 20:51",
+   "msg": "Metrik diperbarui: views=6 avg7=1848"
+  },
+  {
+   "t": "11-26 20:51",
+   "msg": "1 tren baru terdeteksi"
+  },
+  {
+   "t": "11-26 20:51",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-20 19:32",
-   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1929). Turun -99.9%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "11-21 05:18",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 2 views (baseline 1837). Turun -99.9%  Laporan sudah kukirim ke Discord.",
@@ -204,6 +187,11 @@
   {
    "t": "11-26 06:32",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 4 views (baseline 1847). Turun -99.8%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
+  },
+  {
+   "t": "11-26 20:51",
+   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 6 views (baseline 1848). Turun -99.7%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
   }
  ],
