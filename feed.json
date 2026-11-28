@@ -1,15 +1,15 @@
 {
- "ts": 1795811765,
- "rendered": "2026-11-27 20:36:05",
+ "ts": 1795845522,
+ "rendered": "2026-11-28 05:58:42",
  "source": "github-actions",
  "state": "SIBUK",
  "stateid": "ALERT",
  "status_text": "Agen sedang sibuk",
- "task": "METRIK TURUN: Video 'Live roblox new game' hanya 36 views (baseline 1850). Turun -98.1%  Laporan sudah kukirim ke Discord.",
+ "task": "METRIK TURUN: Video 'Live roblox new game' hanya 36 views (baseline 1851). Turun -98.1%  Laporan sudah kukirim ke Discord.",
  "screen_text": "[ !! METRIK TURUN !! ]\n[ MENYUSUN LAPORAN ]\n\n  >> ALERT <<",
  "api_key_ok": true,
  "channel_id": "UCTo4AAkP9bPT9ux40oWmqvg",
- "last_run": "2026-11-27 20:36 UTC",
+ "last_run": "2026-11-28 05:58 UTC",
  "metrics": {
   "last_title": "Live roblox new game",
   "last_views": 36,
@@ -32,18 +32,6 @@
   }
  ],
  "events": [
-  {
-   "t": "11-25 06:41",
-   "msg": "Cek API key: VALID"
-  },
-  {
-   "t": "11-25 06:41",
-   "msg": "Metrik diperbarui: views=4 avg7=1846"
-  },
-  {
-   "t": "11-25 06:41",
-   "msg": "Discord: terkirim"
-  },
   {
    "t": "11-25 20:58",
    "msg": "Cek API key: VALID"
@@ -119,14 +107,21 @@
   {
    "t": "11-27 20:36",
    "msg": "Discord: terkirim"
+  },
+  {
+   "t": "11-28 05:58",
+   "msg": "Cek API key: VALID"
+  },
+  {
+   "t": "11-28 05:58",
+   "msg": "Metrik diperbarui: views=36 avg7=1851"
+  },
+  {
+   "t": "11-28 05:58",
+   "msg": "Discord: terkirim"
   }
  ],
  "messages": [
-  {
-   "t": "11-22 04:44",
-   "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 3 views (baseline 1843). Turun -99.8%  Laporan sudah kukirim ke Discord.",
-   "kind": "alert"
-  },
   {
    "t": "11-22 18:57",
    "text": "METRIK TURUN: Video 'Motor Butut Sogol Dicuri, Malingnya Malah Nyesel |' hanya 3 views (baseline 1844). Turun -99.8%  Laporan sudah kukirim ke Discord.",
@@ -181,10 +176,15 @@
    "t": "11-27 20:36",
    "text": "METRIK TURUN: Video 'Live roblox new game' hanya 36 views (baseline 1850). Turun -98.1%  Laporan sudah kukirim ke Discord.",
    "kind": "alert"
+  },
+  {
+   "t": "11-28 05:58",
+   "text": "METRIK TURUN: Video 'Live roblox new game' hanya 36 views (baseline 1851). Turun -98.1%  Laporan sudah kukirim ke Discord.",
+   "kind": "alert"
   }
  ],
  "alert": {
   "metric": true,
-  "trend": true
+  "trend": false
  }
 }
